@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 25, 2025 at 3:30 AM PDT",
+  "last_updated": "June 25, 2025 at 4:23 AM PDT",
   "board": [
     {
       "username": "abot8",
@@ -42,6 +42,16 @@
       "joinStamp": 1750808321,
       "lastActivity": 1750823225,
       "delta": 21
+    },
+    {
+      "username": "sumimyangel",
+      "displayName": "stephenJoester",
+      "racesPlayed": 21608,
+      "role": "member",
+      "title": "Spring Speedster",
+      "joinStamp": 1748965989,
+      "lastActivity": 1750848420,
+      "delta": 20
     },
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
@@ -141,16 +151,6 @@
       "title": "The Force",
       "joinStamp": 1750605347,
       "lastActivity": 1750606496,
-      "delta": 0
-    },
-    {
-      "username": "sumimyangel",
-      "displayName": "stephenJoester",
-      "racesPlayed": 21588,
-      "role": "member",
-      "title": "Spring Speedster",
-      "joinStamp": 1748965989,
-      "lastActivity": 1749219089,
       "delta": 0
     },
     {
