@@ -1,22 +1,22 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 24, 2025 at 10:06 PM PDT",
+  "last_updated": "June 24, 2025 at 10:28 PM PDT",
   "board": [
+    {
+      "username": "abot8",
+      "displayName": "1400dglooo",
+      "delta": 124
+    },
     {
       "username": "neiletsky",
       "displayName": "NoLimit",
       "delta": 122
     },
     {
-      "username": "abot8",
-      "displayName": "1400dglooo",
-      "delta": 100
-    },
-    {
       "username": "aiy_infection",
       "displayName": "icarus - 10k soon",
-      "delta": 82
+      "delta": 106
     },
     {
       "username": "tryhardwillwork",
