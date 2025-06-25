@@ -71,6 +71,7 @@
         const roleClasses = {
           officer: 'border-2 border-blue-400 text-blue-400 bg-transparent',
           captain: 'border-2 border-purple-400 text-purple-400 bg-transparent',
+          vicecaptain: 'border-2 border-green-400 text-green-400 bg-transparent'
           member:  'text-gray-400'
         };
 
@@ -114,7 +115,7 @@
 
           const tr = document.createElement('tr');
           tr.setAttribute('onclick', `location.href='https://www.nitrotype.com/racer/${it.username}'`);
-          tr.setAttribute('title', 'View profile');
+          tr.setAttribute('title', 'View Nitro Type profile');
           tr.className = rowClass;
           tr.innerHTML = `
             <td class="px-4 py-3" dangerouslySetInnerHTML='{ __html: rankDisplay }'>${rankDisplay}</td>
