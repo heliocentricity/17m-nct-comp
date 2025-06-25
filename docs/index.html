@@ -6,14 +6,27 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-slate-900 text-gray-200 min-h-screen p-8">
-  <h1 class="text-4xl font-extrabold mb-4 text-yellow-400">HELIOS Team Leaderboard</h1>
+  <h1 class="text-4xl font-extrabold mb-2 text-yellow-400">HELIOS Team Leaderboard</h1>
   <p class="text-sm italic text-gray-400 mb-6">
-    Last updated: <span id="updated-at">Loading…</span>
+    Last updated: <span id="updated-at" class="font-mono">Loading…</span>
   </p>
 
   <div class="flex space-x-6">
-    <!-- Leaderboard: 75% width -->
-    <div class="w-3/4">
+    <!-- Description: 1/3 width on left -->
+    <div class="w-1/3 bg-slate-800 border-2 border-yellow-400 rounded-lg p-4">
+      <h2 class="text-lg font-semibold text-yellow-300 mb-2">Description</h2>
+      <p class="text-sm text-gray-300">
+        This leaderboard shows each HELIOS member’s races since June 24, 2025.
+        It updates automatically on the hour (PST/PDT).
+      </p>
+    </div>
+
+    <!-- Main content: 2/3 width -->
+    <div class="w-2/3">
+      <!-- Podium for top 3 -->
+      <div id="podium" class="mb-8"></div>
+
+      <!-- Leaderboard table -->
       <div class="overflow-x-auto">
         <table class="min-w-full bg-slate-800 border-2 border-yellow-400 rounded-lg overflow-hidden">
           <thead class="bg-slate-700">
@@ -24,19 +37,10 @@
             </tr>
           </thead>
           <tbody id="leaderboard" class="divide-y divide-slate-700">
-            <!-- JS will insert rows -->
+            <!-- rows go here -->
           </tbody>
         </table>
       </div>
-    </div>
-
-    <!-- Description box: 25% width -->
-    <div class="w-1/4 bg-slate-800 border-2 border-yellow-400 rounded-lg p-4">
-      <h2 class="text-lg font-semibold text-yellow-300 mb-2">Description</h2>
-      <p class="text-sm text-gray-300">
-        <!-- Your team description here -->
-        This leaderboard tracks each HELIOS member’s races since June 24, 2025. Updated hourly on the hour in Pacific Time.
-      </p>
     </div>
   </div>
 
@@ -44,20 +48,63 @@
     fetch('data.json')
       .then(r => r.json())
       .then(data => {
-        // show timestamp
-        document.getElementById('updated-at').textContent = data.last_updated;
+        // 1) timestamp
+        const ua = document.getElementById('updated-at');
+        ua.textContent = data.last_updated || 'Unknown';
 
+        const board = Array.isArray(data.board) ? data.board : [];
+
+        // 2) podium
+        const pod = document.getElementById('podium');
+        if (board.length >= 3) {
+          const [first, second, third] = board;
+          pod.innerHTML = `
+            <div class="flex items-end justify-center space-x-6">
+              <!-- 2nd place -->
+              <div class="flex flex-col items-center">
+                <div class="bg-yellow-500 text-slate-900 font-bold text-sm text-center rounded-t-lg px-4 py-2 h-24 w-24 flex items-end justify-center">
+                  <a href="https://www.nitrotype.com/racer/${second.username}"
+                     target="_blank" class="block hover:underline">
+                    ${second.displayName}<br>${second.delta}
+                  </a>
+                </div>
+                <span class="text-gray-400 mt-2 uppercase">2nd</span>
+              </div>
+              <!-- 1st place -->
+              <div class="flex flex-col items-center">
+                <div class="bg-yellow-300 text-slate-900 font-bold text-lg text-center rounded-t-lg px-4 py-2 h-32 w-24 flex items-end justify-center">
+                  <a href="https://www.nitrotype.com/racer/${first.username}"
+                     target="_blank" class="block hover:underline">
+                    ${first.displayName}<br>${first.delta}
+                  </a>
+                </div>
+                <span class="text-gray-400 mt-2 uppercase">1st</span>
+              </div>
+              <!-- 3rd place -->
+              <div class="flex flex-col items-center">
+                <div class="bg-yellow-500 text-slate-900 font-bold text-sm text-center rounded-t-lg px-4 py-2 h-20 w-24 flex items-end justify-center">
+                  <a href="https://www.nitrotype.com/racer/${third.username}"
+                     target="_blank" class="block hover:underline">
+                    ${third.displayName}<br>${third.delta}
+                  </a>
+                </div>
+                <span class="text-gray-400 mt-2 uppercase">3rd</span>
+              </div>
+            </div>
+          `;
+        }
+
+        // 3) full table below
         const tbody = document.getElementById('leaderboard');
-        (data.board || []).forEach((item, idx) => {
+        board.forEach((item, idx) => {
           const races = Number.isFinite(item.delta) ? item.delta : 0;
           const name  = item.displayName || item.username;
-          const url   = `https://www.nitrotype.com/racer/${item.username}`;
-
           const tr = document.createElement('tr');
           tr.innerHTML = `
             <td class="px-4 py-3">${idx + 1}</td>
             <td class="px-4 py-3 font-semibold">
-              <a href="${url}" target="_blank" rel="noopener noreferrer"
+              <a href="https://www.nitrotype.com/racer/${item.username}"
+                 target="_blank"
                  class="text-yellow-300 hover:underline">
                 ${name}
               </a>
