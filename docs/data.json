@@ -3,19 +3,24 @@
   "START_DATE": "2025-06-24",
   "board": [
     {
-      "username": "tryhardwillwork",
-      "displayName": "Chronos",
-      "delta": 11
-    },
-    {
       "username": "neiletsky",
       "displayName": "NoLimit",
-      "delta": 10
+      "delta": 20
+    },
+    {
+      "username": "tryhardwillwork",
+      "displayName": "Chronos",
+      "delta": 20
     },
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "delta": 7
+      "delta": 16
+    },
+    {
+      "username": "persionde",
+      "displayName": "persionde",
+      "delta": 1
     },
     {
       "username": "rc0913",
@@ -75,11 +80,6 @@
     {
       "username": "dianac128",
       "displayName": "ryiichu",
-      "delta": 0
-    },
-    {
-      "username": "persionde",
-      "displayName": "persionde",
       "delta": 0
     },
     {
