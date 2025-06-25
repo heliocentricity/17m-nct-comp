@@ -26,7 +26,6 @@
           </tr>
         </thead>
         <tbody id="leaderboard" class="divide-y divide-slate-700">
-          <!-- JS populates rows -->
         </tbody>
       </table>
     </div>
@@ -56,59 +55,83 @@
   </div>
 
   <script>
-    // Days left
+    // Days left until July 17, 2025 PST
     (function(){
       const end = new Date('2025-07-17T00:00:00-07:00');
       const diff = end - new Date();
-      document.getElementById('days-left').textContent = diff>0 ? Math.ceil(diff/86400000) : 0;
+      document.getElementById('days-left').textContent = diff > 0 ? Math.ceil(diff / 86400000) : 0;
     })();
 
     fetch('data.json')
-      .then(r=>r.json())
-      .then(data=>{
+      .then(r => r.json())
+      .then(data => {
         document.getElementById('updated-at').textContent = data.last_updated || 'Unknown';
         const board = data.board || [];
+
         const roleClasses = {
           officer: 'border-2 border-blue-400 text-blue-400 bg-transparent',
           captain: 'border-2 border-purple-400 text-purple-400 bg-transparent',
           member:  'text-gray-400'
         };
+
         const tbody = document.getElementById('leaderboard');
         let lastDelta = null, lastRank = 0;
-        board.forEach((it, i) => {
-          // handle ties
-          const rank = (it.delta !== lastDelta) ? i + 1 : lastRank;
+
+        board.forEach((it, idx) => {
+          // rank with ties
+          const rank = (it.delta !== lastDelta) ? idx + 1 : lastRank;
           lastDelta = it.delta;
           lastRank = rank;
-          // row highlighting for top 3
-          let rowClass = 'cursor-pointer hover:bg-yellow-500/20';
-          if (i === 0) rowClass += ' bg-yellow-600/30';
-          else if (i === 1) rowClass += ' bg-yellow-500/30';
-          else if (i === 2) rowClass += ' bg-yellow-400/30';
+
+          // styling for top 3
+          let baseClass = '';
+          let hoverClass = '';
+          if (idx === 0) {
+            baseClass   = 'bg-yellow-400/30 ';
+            hoverClass  = 'hover:bg-yellow-400/20 ';
+          } else if (idx === 1) {
+            baseClass   = 'bg-yellow-500/30 ';
+            hoverClass  = 'hover:bg-yellow-500/20 ';
+          } else if (idx === 2) {
+            baseClass   = 'bg-yellow-600/30 ';
+            hoverClass  = 'hover:bg-yellow-600/20 ';
+          } else {
+            hoverClass  = 'hover:bg-slate-700 ';
+          }
+          const rowClass = `cursor-pointer ${baseClass}${hoverClass}align-middle`;
 
           const races = Number.isFinite(it.delta) ? it.delta : 0;
-          const joinDate = it.joinStamp ? new Date(it.joinStamp*1000).toLocaleDateString() : 'N/A';
-          const lastDate = it.lastActivity ? new Date(it.lastActivity*1000).toLocaleDateString() : 'N/A';
+          const joinDate = it.joinStamp
+            ? new Date(it.joinStamp * 1000).toLocaleDateString()
+            : 'N/A';
+          const lastDate = it.lastActivity
+            ? new Date(it.lastActivity * 1000).toLocaleDateString()
+            : 'N/A';
+
           const badgeClass = roleClasses[it.role] || roleClasses.member;
-          const titleHtml = it.title ? `<div class="text-xs text-gray-400 mt-1">${it.title}</div>` : '';
+          const titleClass = idx < 3 ? 'text-yellow-200' : 'text-gray-400';
+          const titleHtml = it.title
+            ? `<div class="text-xs ${titleClass} mt-1">${it.title}</div>`
+            : '';
 
           const tr = document.createElement('tr');
           tr.setAttribute('onclick', `location.href='https://www.nitrotype.com/racer/${it.username}'`);
-          tr.className = rowClass + ' align-middle';
+          tr.setAttribute('title', 'View profile');
+          tr.className = rowClass;
           tr.innerHTML = `
-            <td class="px-4 py-3 align-middle">${rank}</td>
-            <td class="px-4 py-3 align-middle text-yellow-300 font-semibold">
-              <span title="View profile">${it.displayName}</span>
+            <td class="px-4 py-3">${rank}</td>
+            <td class="px-4 py-3 text-yellow-300 font-semibold">
+              ${it.displayName}
               ${titleHtml}
             </td>
-            <td class="px-4 py-3 align-middle">
+            <td class="px-4 py-3">
               <span class="px-2 py-0.5 rounded ${badgeClass} text-xs font-medium">
                 ${it.role.charAt(0).toUpperCase() + it.role.slice(1)}
               </span>
             </td>
-            <td class="px-4 py-3 align-middle">${joinDate}</td>
-            <td class="px-4 py-3 align-middle">${lastDate}</td>
-            <td class="px-4 py-3 align-middle text-right">${races}</td>
+            <td class="px-4 py-3">${joinDate}</td>
+            <td class="px-4 py-3">${lastDate}</td>
+            <td class="px-4 py-3 text-right">${races}</td>
           `;
           tbody.appendChild(tr);
         });
