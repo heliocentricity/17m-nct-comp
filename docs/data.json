@@ -1,17 +1,47 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 25, 2025 at 8:42 AM PDT",
+  "last_updated": "June 25, 2025 at 9:10 AM PDT",
   "board": [
+    {
+      "username": "aiy_infection",
+      "displayName": "icarus - 10k soon",
+      "racesPlayed": 10025,
+      "role": "captain",
+      "title": "Happy Vibes :)",
+      "joinStamp": 1742486554,
+      "lastActivity": 1750867779,
+      "delta": 15
+    },
     {
       "username": "conquerer11k",
       "displayName": "SpunkyTurquoiseApe",
-      "racesPlayed": 13610,
+      "racesPlayed": 13613,
       "role": "member",
       "title": "Spring-a-round",
       "joinStamp": 1749752209,
-      "lastActivity": 1750865985,
-      "delta": 9
+      "lastActivity": 1750866569,
+      "delta": 12
+    },
+    {
+      "username": "vioiynx",
+      "displayName": "vioiynx",
+      "racesPlayed": 3160,
+      "role": "vicecaptain",
+      "title": "Oh Em Gee!",
+      "joinStamp": 1742509283,
+      "lastActivity": 1750867182,
+      "delta": 11
+    },
+    {
+      "username": "persionde",
+      "displayName": "persionde",
+      "racesPlayed": 4001,
+      "role": "member",
+      "title": ":D",
+      "joinStamp": 1750643616,
+      "lastActivity": 1750866595,
+      "delta": 2
     },
     {
       "username": "rc0913",
@@ -144,16 +174,6 @@
       "delta": 0
     },
     {
-      "username": "persionde",
-      "displayName": "persionde",
-      "racesPlayed": 3999,
-      "role": "member",
-      "title": ":D",
-      "joinStamp": 1750643616,
-      "lastActivity": 1750822975,
-      "delta": 0
-    },
-    {
       "username": "b2cbc9dfc2058f59bdaf062719776245",
       "displayName": "Hypersound",
       "racesPlayed": 1056,
@@ -231,16 +251,6 @@
       "title": "Legendary Lapper",
       "joinStamp": 1747355208,
       "lastActivity": 1750348878,
-      "delta": 0
-    },
-    {
-      "username": "aiy_infection",
-      "displayName": "icarus - 10k soon",
-      "racesPlayed": 10010,
-      "role": "captain",
-      "title": "Happy Vibes :)",
-      "joinStamp": 1742486554,
-      "lastActivity": 1750865127,
       "delta": 0
     },
     {
@@ -341,16 +351,6 @@
       "title": "First Trimester",
       "joinStamp": 1743005762,
       "lastActivity": 1750567130,
-      "delta": 0
-    },
-    {
-      "username": "vioiynx",
-      "displayName": "vioiynx",
-      "racesPlayed": 3149,
-      "role": "vicecaptain",
-      "title": "Oh Em Gee!",
-      "joinStamp": 1742509283,
-      "lastActivity": 1750865069,
       "delta": 0
     },
     {
