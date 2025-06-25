@@ -17,21 +17,21 @@
       <table class="min-w-full bg-slate-800 border-2 border-yellow-400 rounded-lg overflow-hidden">
         <thead class="bg-slate-700">
           <tr>
-            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">#</th>
-            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Name &amp; Title</th>
-            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Role</th>
-            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Member Since</th>
-            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Last Race</th>
+            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300 align-middle">#</th>
+            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300 align-middle">Name &amp; Title</th>
+            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300 align-middle">Role</th>
+            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300 align-middle">Member Since</th>
+            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300 align-middle">Last Race</th>
             <th class="px-4 py-3 text-right text-sm font-medium text-gray-300">Races</th>
           </tr>
         </thead>
         <tbody id="leaderboard" class="divide-y divide-slate-700">
-          <!-- JS will populate rows with clickable hover -->
+          <!-- JS populates rows -->
         </tbody>
       </table>
     </div>
 
-    <!-- Info boxes (1/4 width, on right) -->
+    <!-- Info boxes (1/4 width, right side) -->
     <div class="w-1/4 space-y-6">
       <!-- Days Left -->
       <div class="bg-slate-800 border-2 border-yellow-400 rounded-lg p-4 text-center">
@@ -74,31 +74,41 @@
           member:  'text-gray-400'
         };
         const tbody = document.getElementById('leaderboard');
-        board.forEach((it,i)=>{
-          const rank = i+1;
-          const races = Number.isFinite(it.delta)?it.delta:0;
-          const joinDate = it.joinStamp?new Date(it.joinStamp*1000).toLocaleDateString():'N/A';
-          const lastDate = it.lastActivity?new Date(it.lastActivity*1000).toLocaleDateString():'N/A';
+        let lastDelta = null, lastRank = 0;
+        board.forEach((it, i) => {
+          // handle ties
+          const rank = (it.delta !== lastDelta) ? i + 1 : lastRank;
+          lastDelta = it.delta;
+          lastRank = rank;
+          // row highlighting for top 3
+          let rowClass = 'cursor-pointer hover:bg-yellow-500/20';
+          if (i === 0) rowClass += ' bg-yellow-600/30';
+          else if (i === 1) rowClass += ' bg-yellow-500/30';
+          else if (i === 2) rowClass += ' bg-yellow-400/30';
+
+          const races = Number.isFinite(it.delta) ? it.delta : 0;
+          const joinDate = it.joinStamp ? new Date(it.joinStamp*1000).toLocaleDateString() : 'N/A';
+          const lastDate = it.lastActivity ? new Date(it.lastActivity*1000).toLocaleDateString() : 'N/A';
           const badgeClass = roleClasses[it.role] || roleClasses.member;
-          const titleHtml = it.title?`<div class="text-xs text-gray-400 mt-1">${it.title}</div>`:'';
+          const titleHtml = it.title ? `<div class="text-xs text-gray-400 mt-1">${it.title}</div>` : '';
 
           const tr = document.createElement('tr');
           tr.setAttribute('onclick', `location.href='https://www.nitrotype.com/racer/${it.username}'`);
-          tr.className = 'cursor-pointer hover:bg-slate-700';
+          tr.className = rowClass + ' align-middle';
           tr.innerHTML = `
-            <td class="px-4 py-3">${rank}</td>
-            <td class="px-4 py-3 text-yellow-300 font-semibold hover:underline">
-              ${it.displayName}
+            <td class="px-4 py-3 align-middle">${rank}</td>
+            <td class="px-4 py-3 align-middle text-yellow-300 font-semibold">
+              <span title="View profile">${it.displayName}</span>
               ${titleHtml}
             </td>
-            <td class="px-4 py-3">
-              <span class="px-2 py-0.5 rounded ${badgeClass}">
-                ${it.role.charAt(0).toUpperCase()+it.role.slice(1)}
+            <td class="px-4 py-3 align-middle">
+              <span class="px-2 py-0.5 rounded ${badgeClass} text-xs font-medium">
+                ${it.role.charAt(0).toUpperCase() + it.role.slice(1)}
               </span>
             </td>
-            <td class="px-4 py-3">${joinDate}</td>
-            <td class="px-4 py-3">${lastDate}</td>
-            <td class="px-4 py-3 text-right">${races}</td>
+            <td class="px-4 py-3 align-middle">${joinDate}</td>
+            <td class="px-4 py-3 align-middle">${lastDate}</td>
+            <td class="px-4 py-3 align-middle text-right">${races}</td>
           `;
           tbody.appendChild(tr);
         });
