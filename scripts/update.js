@@ -1,30 +1,77 @@
---- scripts/update.js
-+++ scripts/update.js
-@@ top
-- const fs      = require('fs');
-+ require('dotenv').config();       // optional locally, but harmless in Actions
-+ const fs      = require('fs');
-   const path    = require('path');
-   const axios   = require('axios');
-   const cheerio = require('cheerio');
-@@ async function fetchLeaderboard() {
--  const proxyUrl  = `http://api.scraperapi.com?api_key=${process.env.SCRAPERAPI_KEY}`
--                  + `&url=${encodeURIComponent(targetUrl)}`;
--  const html = (await axios.get(proxyUrl)).data;
-+  const proxyUrl = `http://api.scraperapi.com`
-+                 + `?api_key=${process.env.SCRAPERAPI_KEY}`
-+                 + `&url=${encodeURIComponent(targetUrl)}`;
-+  const res = await axios.get(proxyUrl);
-+  const html = res.data;
-+
-+  // ----- DEBUG LOGGING -----
-+  if (!html || !html.includes('__NEXT_DATA__')) {
-+    // dump the first 200 chars so you can inspect in the Action log
-+    console.error('⚠️  fetchLeaderboard got back unexpected HTML:');
-+    console.error(html.slice(0, 200).replace(/\n/g, ' '), '\n');
-+    throw new Error('Did not find __NEXT_DATA__ in fetched HTML');
-+  }
-+  // -------------------------
- 
-   const $    = cheerio.load(html);
-   const raw  = $('#__NEXT_DATA__').html() || '';
+// scripts/update.js
+
+// If you ever test locally, dotenv will load your SCRAPERAPI_KEY from a .env file
+require('dotenv').config();
+
+const fs      = require('fs');
+const path    = require('path');
+const axios   = require('axios');
+const cheerio = require('cheerio');
+
+const CONFIG_PATH = path.join(__dirname, '..', 'baseline.json');
+const DATA_PATH   = path.join(__dirname, '..', 'docs', 'data.json');
+
+// Load or initialize your config
+const config = JSON.parse(fs.readFileSync(CONFIG_PATH, 'utf8'));
+const { TEAM_NAME, START_DATE } = config;
+
+// Fetch the full team page through ScraperAPI
+async function fetchLeaderboard() {
+  const targetUrl = `https://www.nitrotype.com/team/${TEAM_NAME}`;
+  const proxyUrl  = `http://api.scraperapi.com`
+                  + `?api_key=${process.env.SCRAPERAPI_KEY}`
+                  + `&url=${encodeURIComponent(targetUrl)}`;
+
+  // Hit the proxy
+  const res  = await axios.get(proxyUrl);
+  const html = res.data;
+
+  // DEBUG: if you ever get an empty or wrong page, this will log the first 200 chars
+  if (!html || !html.includes('__NEXT_DATA__')) {
+    console.error('⚠️  fetchLeaderboard got back unexpected HTML:');
+    console.error(html.slice(0, 200).replace(/\n/g, ' '), '\n');
+    throw new Error('Did not find __NEXT_DATA__ in fetched HTML');
+  }
+
+  // Parse out the embedded JSON blob
+  const $    = cheerio.load(html);
+  const raw  = $('#__NEXT_DATA__').html();
+  const json = JSON.parse(raw);
+  return json.props.pageProps.team.leaderboard.map(entry => ({
+    user:  entry.racer.racerName,
+    races: entry.racer.races
+  }));
+}
+
+async function main() {
+  const board = await fetchLeaderboard();
+
+  // 1) Record any missing baselines
+  config.baseline = config.baseline || {};
+  for (let { user, races } of board) {
+    if (!Number.isInteger(config.baseline[user])) {
+      config.baseline[user] = races;
+      console.log(`Baseline[${user}] = ${races}`);
+    }
+  }
+  fs.writeFileSync(CONFIG_PATH, JSON.stringify(config, null, 2));
+
+  // 2) Compute deltas
+  const delta = {};
+  for (let { user, races } of board) {
+    delta[user] = races - config.baseline[user];
+    console.log(`Delta[${user}] = ${delta[user]}`);
+  }
+
+  // 3) Write out the data your page will fetch
+  fs.writeFileSync(DATA_PATH, JSON.stringify({
+    TEAM_NAME,
+    START_DATE,
+    delta
+  }, null, 2));
+}
+
+main().catch(err => {
+  console.error(err);
+  process.exit(1);
+});
