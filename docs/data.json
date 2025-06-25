@@ -3,6 +3,21 @@
   "START_DATE": "2025-06-24",
   "board": [
     {
+      "username": "tryhardwillwork",
+      "displayName": "Chronos",
+      "delta": 11
+    },
+    {
+      "username": "neiletsky",
+      "displayName": "NoLimit",
+      "delta": 10
+    },
+    {
+      "username": "abot8",
+      "displayName": "1400dglooo",
+      "delta": 7
+    },
+    {
       "username": "rc0913",
       "displayName": "RicSuave",
       "delta": 0
@@ -20,11 +35,6 @@
     {
       "username": "7071702",
       "displayName": "woaahh",
-      "delta": 0
-    },
-    {
-      "username": "neiletsky",
-      "displayName": "NoLimit",
       "delta": 0
     },
     {
@@ -68,11 +78,6 @@
       "delta": 0
     },
     {
-      "username": "abot8",
-      "displayName": "1400dglooo",
-      "delta": 0
-    },
-    {
       "username": "persionde",
       "displayName": "persionde",
       "delta": 0
@@ -85,11 +90,6 @@
     {
       "username": "ryan_po",
       "displayName": "RainbowPig38",
-      "delta": 0
-    },
-    {
-      "username": "tryhardwillwork",
-      "displayName": "Chronos",
       "delta": 0
     },
     {
