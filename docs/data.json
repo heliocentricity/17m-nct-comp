@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 25, 2025 at 3:26 PM PDT",
+  "last_updated": "June 25, 2025 at 4:25 PM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 33147,
+      "racesPlayed": 33214,
       "role": "member",
       "title": "Dragon Tamer",
       "joinStamp": 1750805902,
-      "lastActivity": 1750889985,
-      "delta": 278
+      "lastActivity": 1750893416,
+      "delta": 345
     },
     {
       "username": "aiy_infection",
@@ -30,7 +30,7 @@
       "role": "member",
       "title": "Trailblazer",
       "joinStamp": 1750808321,
-      "lastActivity": 1750881033,
+      "lastActivity": 1750890296,
       "delta": 80
     },
     {
@@ -64,6 +64,16 @@
       "delta": 53
     },
     {
+      "username": "gw2iscoollol",
+      "displayName": "Leqlerc",
+      "racesPlayed": 6246,
+      "role": "member",
+      "title": "Nitro Burnout",
+      "joinStamp": 1750448154,
+      "lastActivity": 1750892238,
+      "delta": 41
+    },
+    {
       "username": "7dc66a8c355d489769587db8476a03e2",
       "displayName": "Understanding ooooo",
       "racesPlayed": 21833,
@@ -76,22 +86,12 @@
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
-      "racesPlayed": 221,
+      "racesPlayed": 223,
       "role": "member",
       "title": "Millionaire",
       "joinStamp": 1750712571,
-      "lastActivity": 1750889946,
-      "delta": 20
-    },
-    {
-      "username": "gw2iscoollol",
-      "displayName": "Leqlerc",
-      "racesPlayed": 6223,
-      "role": "member",
-      "title": "Nitro Burnout",
-      "joinStamp": 1750448154,
-      "lastActivity": 1750889986,
-      "delta": 18
+      "lastActivity": 1750890501,
+      "delta": 22
     },
     {
       "username": "conquerer11k",
@@ -104,6 +104,16 @@
       "delta": 16
     },
     {
+      "username": "soccer791",
+      "displayName": "Airborne",
+      "racesPlayed": 13543,
+      "role": "member",
+      "title": "Acute Tinselitis",
+      "joinStamp": 1750457551,
+      "lastActivity": 1750892840,
+      "delta": 6
+    },
+    {
       "username": "5fff3c41947a5b24ed13ddb1c73b1e55",
       "displayName": "ApricotIvoryFlea",
       "racesPlayed": 1267,
@@ -112,16 +122,6 @@
       "joinStamp": 1750794927,
       "lastActivity": 1750878193,
       "delta": 6
-    },
-    {
-      "username": "soccer791",
-      "displayName": "Airborne",
-      "racesPlayed": 13539,
-      "role": "member",
-      "title": "Acute Tinselitis",
-      "joinStamp": 1750457551,
-      "lastActivity": 1750830671,
-      "delta": 2
     },
     {
       "username": "rc0913",
