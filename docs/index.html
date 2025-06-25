@@ -6,50 +6,46 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-slate-900 text-gray-200 min-h-screen p-8">
+
   <h1 class="text-4xl font-extrabold mb-2 text-yellow-400">HELIOS Team Leaderboard</h1>
   <p class="text-sm italic text-gray-400 mb-6">
     Last updated: <span id="updated-at" class="font-mono">Loading…</span>
   </p>
 
   <div class="flex space-x-6">
-    <!-- Left column: three stacked boxes -->
-    <div class="w-1/3 flex flex-col space-y-4">
-      <!-- Box 1: Days Left -->
-      <div class="bg-slate-800 border-2 border-yellow-400 rounded-lg p-4 flex flex-col items-center">
-        <div id="days-left" class="text-5xl font-extrabold text-yellow-300 mb-2"></div>
-        <div class="text-sm text-gray-400 text-center">days left<br>in tournament</div>
+    <!-- Left column: Days / Prizes / Description -->
+    <div class="w-1/3 space-y-6">
+      <!-- Days Left -->
+      <div class="bg-slate-800 border-2 border-yellow-400 rounded-lg p-4 text-center">
+        <div id="days-left" class="text-5xl font-extrabold text-yellow-300 mb-1"></div>
+        <div class="text-sm text-gray-400">days left in tournament</div>
       </div>
-      <!-- Box 2: Prizes -->
-      <div class="bg-slate-800 border-2 border-yellow-400 rounded-lg p-4 flex flex-col items-center">
+
+      <!-- Prizes Box (empty for now) -->
+      <div class="bg-slate-800 border-2 border-yellow-400 rounded-lg p-4">
         <h2 class="text-lg font-semibold text-yellow-300 mb-2">Prizes</h2>
-        <p class="text-sm text-gray-300 text-center">
-          Top 3 podium finishers will earn exclusive team badges and Nitro subscriptions:<br>
-          <strong>1st:</strong> Gold Badge + 1-month Nitro<br>
-          <strong>2nd:</strong> Silver Badge<br>
-          <strong>3rd:</strong> Bronze Badge
-        </p>
+        <p class="text-sm text-gray-300">Gold, badges, and glory await the top finishers!</p>
       </div>
-      <!-- Box 3: Description -->
-      <div class="bg-slate-800 border-2 border-yellow-400 rounded-lg p-4 flex flex-col items-center">
-        <div class="text-sm text-gray-300 text-center mb-2">
-          This leaderboard shows each HELIOS member’s races since June 24, 2025.<br>It updates hourly on the hour (PST/PDT).
-        </div>
+
+      <!-- Description Box -->
+      <div class="bg-slate-800 border-2 border-yellow-400 rounded-lg p-4">
+        <h2 class="text-lg font-semibold text-yellow-300 mb-2">Description</h2>
+        <p class="text-sm text-gray-300">
+          This leaderboard tracks each HELIOS member’s races since June 24, 2025.
+          Updated hourly on the hour (PST/PDT).
+        </p>
       </div>
     </div>
 
-    <!-- Main content: Podium + Table -->
+    <!-- Right column: Podium + Table -->
     <div class="w-2/3">
-      <!-- Podium for top 3 -->
-      <div id="podium" class="mb-8 flex items-end justify-center space-x-12"></div>
-
-      <!-- Leaderboard table (#4+) -->
+      <div id="podium" class="mb-8 flex items-end justify-center space-x-8"></div>
       <div class="overflow-x-auto">
         <table class="min-w-full bg-slate-800 border-2 border-yellow-400 rounded-lg overflow-hidden">
           <thead class="bg-slate-700">
             <tr>
               <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">#</th>
               <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Name</th>
-              <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Title</th>
               <th class="px-4 py-3 text-right text-sm font-medium text-gray-300">Races</th>
             </tr>
           </thead>
@@ -60,72 +56,87 @@
   </div>
 
   <script>
-    // Compute days left until July 17, 2025 (PDT)
-    (function() {
-      const end   = new Date('2025-07-17T00:00:00-07:00');
-      const now   = new Date();
-      const days  = Math.max(0, Math.ceil((end - now) / (1000*60*60*24)));
-      document.getElementById('days-left').textContent = days;
+    // days left
+    (function(){
+      const end = new Date('2025-07-17T00:00:00-07:00');
+      const diff = end - new Date();
+      document.getElementById('days-left').textContent =
+        diff>0 ? Math.ceil(diff/(1000*60*60*24)) : 0;
     })();
 
     fetch('data.json')
-      .then(r => r.json())
-      .then(data => {
-        // Last updated timestamp
-        document.getElementById('updated-at').textContent = data.last_updated || 'Unknown';
+      .then(r=>r.json())
+      .then(data=>{
+        document.getElementById('updated-at').textContent = data.last_updated;
 
-        const board = Array.isArray(data.board) ? data.board : [];
+        const board = data.board || [];
 
-        // Build podium
+        // helper to map role→badge classes
+        const roleClasses = {
+          officer: 'text-green-300 border-green-300',
+          captain: 'text-red-300   border-red-300'
+        };
+
+        // Podium
         const pod = document.getElementById('podium');
-        if (board.length >= 3) {
-          const [first, second, third] = board;
-          const makeStep = (place, info, hClass) => `
+        if (board.length>=3){
+          const [first,second,third] = board;
+          const makeStep = (place,info,hClass) => {
+            const badge = (info.role!=='member')
+              ? `<span class="ml-2 inline-block text-xs font-medium px-2 py-0.5 rounded ${roleClasses[info.role]||'text-yellow-300 border-yellow-400'} border">${place}</span>`
+              : `<span class="ml-2 inline-block text-xs font-medium px-2 py-0.5 text-gray-400">Member</span>`;
+
+            return `
             <div class="flex flex-col items-center">
-              <div class="relative ${hClass} w-40 bg-slate-800 border-4 border-yellow-400 rounded-b-lg flex flex-col items-center justify-end p-2">
+              <div class="relative ${hClass} w-48 bg-slate-800 border-4 border-yellow-400 rounded-b-lg flex flex-col items-center justify-end p-3">
                 <a href="https://www.nitrotype.com/racer/${info.username}"
                    target="_blank"
                    class="text-yellow-300 font-bold text-center hover:underline">
-                  ${info.displayName}
+                  ${info.displayName}${badge}
                 </a>
-                <div class="absolute -bottom-6 bg-yellow-300 border-2 border-yellow-400 rounded-full w-14 h-14 flex items-center justify-center font-bold text-slate-900">
+                <div class="absolute -bottom-7 bg-yellow-300 border-2 border-yellow-400 rounded-full w-16 h-16 flex items-center justify-center font-bold text-slate-900">
                   ${info.delta}
                 </div>
               </div>
-              <span class="mt-10 text-gray-400 uppercase">${place}</span>
-            </div>
-          `;
+              <span class="mt-12 text-gray-400 uppercase">${place}</span>
+            </div>`;
+          };
+
           pod.innerHTML = `
-            ${makeStep('2nd', second, 'h-44')}
-            ${makeStep('1st',  first,  'h-56')}
-            ${makeStep('3rd', third,  'h-36')}
+            ${makeStep('2nd', second,'h-48')}
+            ${makeStep('1st',  first, 'h-64')}
+            ${makeStep('3rd', third, 'h-40')}
           `;
         }
 
-        // Fill table starting at #4
+        // Table #4+
         const tbody = document.getElementById('leaderboard');
-        board.slice(3).forEach((item, i) => {
-          const rank = i + 4;
-          const races = Number.isFinite(item.delta) ? item.delta : 0;
-          const name  = item.displayName || item.username;
-          // Role badge
-          let badge = '';
-          if (item.role === 'officer') {
-            badge = `<span class="ml-2 px-2 py-0.5 rounded text-xs text-slate-900 bg-blue-400">Officer</span>`;
-          } else if (item.role === 'captain' || item.username === 'aiy_infection') {
-            badge = `<span class="ml-2 px-2 py-0.5 rounded text-xs text-slate-900 bg-purple-400">Captain</span>`;
-          }
+        board.slice(3).forEach((item,i)=>{
+          const rank = i+4;
+          const races = item.delta || 0;
+          const join  = item.joinStamp
+            ? new Date(item.joinStamp*1000).toLocaleDateString()
+            : 'N/A';
+          const last  = item.lastActivity
+            ? new Date(item.lastActivity*1000).toLocaleDateString()
+            : 'N/A';
+          const badge = (item.role!=='member')
+            ? `<span class="ml-2 inline-block text-xs font-medium px-2 py-0.5 rounded ${roleClasses[item.role]||'text-yellow-300 border-yellow-400'} border">${item.role.charAt(0).toUpperCase()+item.role.slice(1)}</span>`
+            : '';
+
           const tr = document.createElement('tr');
           tr.innerHTML = `
             <td class="px-4 py-3">${rank}</td>
-            <td class="px-4 py-3 font-semibold">
+            <td class="px-4 py-3">
               <a href="https://www.nitrotype.com/racer/${item.username}"
-                 target="_blank" class="text-yellow-300 hover:underline">
-                ${name}
+                 target="_blank" class="text-yellow-300 font-semibold hover:underline">
+                ${item.displayName}${badge}
               </a>
-              ${badge}
+              <div class="text-xs text-gray-400 mt-1">
+                Member since: ${join} <br>
+                Last race:     ${last}
+              </div>
             </td>
-            <td class="px-4 py-3">${item.title || ''}</td>
             <td class="px-4 py-3 text-right">${races}</td>
           `;
           tbody.appendChild(tr);
