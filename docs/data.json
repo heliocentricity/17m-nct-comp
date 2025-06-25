@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 25, 2025 at 1:30 PM PDT",
+  "last_updated": "June 25, 2025 at 2:25 PM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 33021,
+      "racesPlayed": 33077,
       "role": "member",
       "title": "Dragon Tamer",
       "joinStamp": 1750805902,
-      "lastActivity": 1750883271,
-      "delta": 152
+      "lastActivity": 1750886347,
+      "delta": 208
     },
     {
       "username": "aiy_infection",
@@ -46,12 +46,22 @@
     {
       "username": "neiletsky",
       "displayName": "NoLimit",
-      "racesPlayed": 10547,
+      "racesPlayed": 10555,
       "role": "vicecaptain",
       "title": "Speed Demon",
       "joinStamp": 1744741826,
-      "lastActivity": 1750883385,
-      "delta": 57
+      "lastActivity": 1750883760,
+      "delta": 65
+    },
+    {
+      "username": "persionde",
+      "displayName": "persionde",
+      "racesPlayed": 4043,
+      "role": "member",
+      "title": ":D",
+      "joinStamp": 1750643616,
+      "lastActivity": 1750886313,
+      "delta": 44
     },
     {
       "username": "7dc66a8c355d489769587db8476a03e2",
@@ -64,16 +74,6 @@
       "delta": 24
     },
     {
-      "username": "persionde",
-      "displayName": "persionde",
-      "racesPlayed": 4020,
-      "role": "member",
-      "title": ":D",
-      "joinStamp": 1750643616,
-      "lastActivity": 1750883375,
-      "delta": 21
-    },
-    {
       "username": "conquerer11k",
       "displayName": "ResilientRedDonkey",
       "racesPlayed": 13617,
@@ -84,6 +84,16 @@
       "delta": 16
     },
     {
+      "username": "4978dd1c73bd50b93b895f4299eed6b8",
+      "displayName": "Mystic",
+      "racesPlayed": 214,
+      "role": "member",
+      "title": "Millionaire",
+      "joinStamp": 1750712571,
+      "lastActivity": 1750885417,
+      "delta": 13
+    },
+    {
       "username": "5fff3c41947a5b24ed13ddb1c73b1e55",
       "displayName": "ApricotIvoryFlea",
       "racesPlayed": 1267,
@@ -92,16 +102,6 @@
       "joinStamp": 1750794927,
       "lastActivity": 1750878193,
       "delta": 6
-    },
-    {
-      "username": "4978dd1c73bd50b93b895f4299eed6b8",
-      "displayName": "Mystic",
-      "racesPlayed": 202,
-      "role": "member",
-      "title": "Millionaire",
-      "joinStamp": 1750712571,
-      "lastActivity": 1750877110,
-      "delta": 1
     },
     {
       "username": "rc0913",
