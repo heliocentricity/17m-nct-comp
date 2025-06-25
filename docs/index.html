@@ -27,7 +27,7 @@
         <thead class="bg-slate-700">
           <tr>
             <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">#</th>
-            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Name & Title</th>
+            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Name &amp; Title</th>
             <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Role</th>
             <th id="th-join"   class="px-4 py-3 text-left text-sm font-medium text-gray-300 sortable">
               Member Since <span>▼</span>
@@ -47,10 +47,10 @@
     <!-- Info boxes -->
     <div class="w-1/4 space-y-6">
       <div class="bg-slate-800 border-2 border-yellow-400 rounded-lg p-4 text-center">
-        <div id="countdown" class="text-4xl font-extrabold text-yellow-300 mb-1"></div>
-        <div class="text-sm text-gray-400 mb-2">days left in tournament</div>
+        <div id="countdown" class="text-4xl font-extrabold text-yellow-400 mb-1"></div>
+        <div class="text-sm text-yellow-400 mb-2">days left in tournament</div>
         <button id="toggle-countdown"
-                class="px-2 py-0.5 bg-gray-700 text-xs rounded">
+                class="px-2 py-0.5 bg-gray-700 text-xs rounded mt-1">
           Show days only
         </button>
         <div class="text-xs text-gray-400 mt-2">
@@ -58,23 +58,23 @@
         </div>
       </div>
       <div class="bg-slate-800 border-2 border-yellow-400 rounded-lg p-4">
-        <h2 class="text-lg font-semibold text-yellow-300 mb-2">Prizes</h2>
+        <h2 class="text-lg font-semibold text-yellow-400 mb-2">Prizes</h2>
         <p class="text-sm">
-          <span class="text-yellow-300 font-bold">1st</span> – 
+          <span class="text-yellow-400 font-bold">1st</span> – 
           <span class="text-green-400 font-semibold">$10,000,000 NITRO CASH</span><br>
-          <span class="text-yellow-300 font-bold">2nd</span> – 
+          <span class="text-yellow-400 font-bold">2nd</span> – 
           <span class="text-green-400 font-semibold">$5,000,000 NITRO CASH</span><br>
-          <span class="text-yellow-300 font-bold">3rd</span> – 
+          <span class="text-yellow-400 font-bold">3rd</span> – 
           <span class="text-green-400 font-semibold">$2,000,000 NITRO CASH</span>
         </p>
       </div>
       <div class="bg-slate-800 border-2 border-yellow-400 rounded-lg p-4">
-        <h2 class="text-lg font-semibold text-yellow-300 mb-2">Description</h2>
+        <h2 class="text-lg font-semibold text-yellow-400 mb-2">Description</h2>
         <p class="text-sm text-gray-300 mb-2">
           Tracks each member’s races since June 25, 2025. Updated hourly (PST/PDT).
         </p>
         <p class="text-xs text-gray-400 mb-0">
-          We reserve the right to disqualify you from the tournament if we have good reason to believe that you have cheated (e.g. botting). 
+          We reserve the right to disqualify you from the tournament if we have good reason to believe that you have cheated (e.g. botting).
           Please make sure you are adhering to
           <a href="https://www.nitrotype.com/support/tos/" target="_blank"
              class="underline text-blue-300">
@@ -83,7 +83,7 @@
         </p>
       </div>
       <div class="bg-slate-800 border-2 border-yellow-400 rounded-lg p-4">
-        <h2 class="text-lg font-semibold text-yellow-300 mb-2">Links</h2>
+        <h2 class="text-lg font-semibold text-yellow-400 mb-2">Links</h2>
         <ul class="text-sm space-y-1">
           <li>
             <a href="https://www.nitrotype.com/team/HELIOS" target="_blank" class="underline">
@@ -100,7 +100,7 @@
         </ul>
       </div>
       <div class="bg-slate-800 border-2 border-yellow-400 rounded-lg p-4">
-        <h2 class="text-lg font-semibold text-yellow-300 mb-2">Credits</h2>
+        <h2 class="text-lg font-semibold text-yellow-400 mb-2">Credits</h2>
         <p class="text-sm text-gray-300 mb-1">Website created by vioiynx.</p>
         <p class="text-sm text-gray-300">
           Medal icons by
@@ -118,42 +118,40 @@
     const cdEl = document.getElementById('countdown');
     const btn  = document.getElementById('toggle-countdown');
     let exact = true;
-
     function updateCd() {
       const end = new Date('2025-07-23T08:00:00-07:00');
-      let d = end - new Date();
-      if(d<0) d=0;
-      const days  = Math.floor(d/86400000),
-            hrs   = Math.floor(d%86400000/3600000),
-            mins  = Math.floor(d%3600000/60000),
-            secs  = Math.floor(d%60000/1000);
+      let d = end - new Date(); if(d<0) d=0;
+      const days = Math.floor(d/86400000),
+            hrs  = Math.floor(d%86400000/3600000),
+            mins = Math.floor(d%3600000/60000),
+            secs = Math.floor(d%60000/1000);
       cdEl.textContent = exact
         ? `${String(days).padStart(2,'0')}:${String(hrs).padStart(2,'0')}:`
           +`${String(mins).padStart(2,'0')}:${String(secs).padStart(2,'0')}`
         : days;
     }
-    btn.addEventListener('click', () => {
+    btn.addEventListener('click', ()=>{
       exact = !exact;
       btn.textContent = exact ? 'Show days only' : 'Show exact countdown';
       updateCd();
     });
-    setInterval(updateCd, 1000);
+    setInterval(updateCd,1000);
     updateCd();
 
     // Sorting
     const sortStates={join:false,last:false,races:false};
     let rows=[];
-
     function clearArrows(){
       ['join','last','races'].forEach(k=>{
-        document.getElementById(`th-${k}`).querySelector('span').textContent='▼';
+        document.getElementById(`th-${k}`)
+                .querySelector('span').textContent='▼';
       });
     }
     function sortBy(key){
       sortStates[key]=!sortStates[key];
       clearArrows();
       document.getElementById(`th-${key}`)
-        .querySelector('span').textContent=sortStates[key]?'▲':'▼';
+              .querySelector('span').textContent = sortStates[key]?'▲':'▼';
       const dir = sortStates[key]?1:-1;
       rows.sort((a,b)=>{
         if(key==='races') return dir*(a.delta-b.delta);
@@ -164,22 +162,19 @@
     document.addEventListener('DOMContentLoaded',()=>{
       ['join','last','races'].forEach(k=>{
         document.getElementById(`th-${k}`)
-          .addEventListener('click',()=>sortBy(k));
+                .addEventListener('click',()=>sortBy(k));
       });
-      fetch('data.json')
-        .then(r=>r.json())
-        .then(data=>{
-          document.getElementById('updated-at').textContent=data.last_updated||'Unknown';
-          let lastDelta=null,lastRank=0;
-          rows = data.board.map((it,idx)=>{
-            const rank = (it.delta!==lastDelta)?idx+1:lastRank;
-            lastDelta=it.delta; lastRank=rank;
-            return {...it,rank,join:it.joinStamp||0,last:it.lastActivity||0};
-          });
-          render();
+      fetch('data.json').then(r=>r.json()).then(data=>{
+        document.getElementById('updated-at').textContent = data.last_updated||'Unknown';
+        let lastDelta=null,lastRank=0;
+        rows = data.board.map((it,idx)=>{
+          const rank=(it.delta!==lastDelta)?idx+1:lastRank;
+          lastDelta=it.delta; lastRank=rank;
+          return {...it,rank,join:it.joinStamp||0,last:it.lastActivity||0};
         });
+        render();
+      });
     });
-
     function render(){
       const tb=document.getElementById('leaderboard');
       tb.innerHTML='';
@@ -189,22 +184,24 @@
         else if(it.rank===2){base='bg-yellow-500/20';hover='hover:bg-yellow-500/10';}
         else if(it.rank===3){base='bg-yellow-600/20';hover='hover:bg-yellow-600/10';}
         const cls=`cursor-pointer ${base} ${hover}`;
-        let ord=it.rank;
+        let ord=`${it.rank}`;
         if(it.rank===1) ord=`<img src="assets/1st.png" alt="1st" class="h-6 inline"/>`;
         if(it.rank===2) ord=`<img src="assets/2nd.png" alt="2nd" class="h-6 inline"/>`;
         if(it.rank===3) ord=`<img src="assets/3rd.png" alt="3rd" class="h-6 inline"/>`;
-        const rk=it.role.toLowerCase().replace(/\s+/g,'');
-        const rc={officer:'border-2 border-blue-400 text-blue-400 bg-transparent',
-                  captain:'border-2 border-purple-400 text-purple-400 bg-transparent',
-                  vicecaptain:'border-2 border-green-400 text-green-400 bg-transparent',
-                  member:'text-gray-400'};
-        const bc=rc[rk]||rc.member;
-        let rl=it.role.charAt(0).toUpperCase()+it.role.slice(1);
-        if(rk==='vicecaptain')rl='Vice Captain';
-        const jd=it.join?new Date(it.join*1000).toLocaleDateString():'N/A';
-        const ld=it.last?new Date(it.last*1000).toLocaleDateString():'N/A';
-        const tc=it.rank<=3?'text-yellow-300/70':'text-gray-400';
-        const th=it.title?`<div class="text-xs ${tc} mt-1">${it.title}</div>`:'';
+        const rk = it.role.toLowerCase().replace(/\s+/g,'');
+        const rc = {
+          officer:     'border-2 border-blue-400 text-blue-400 bg-transparent',
+          captain:     'border-2 border-purple-400 text-purple-400 bg-transparent',
+          vicecaptain: 'border-2 border-green-400 text-green-400 bg-transparent',
+          member:      'text-gray-400'
+        };
+        const bc = rc[rk]||rc.member;
+        let rl = it.role.charAt(0).toUpperCase()+it.role.slice(1);
+        if(rk==='vicecaptain') rl='Vice Captain';
+        const jd = it.join?new Date(it.join*1000).toLocaleDateString():'N/A';
+        const ld = it.last?new Date(it.last*1000).toLocaleDateString():'N/A';
+        const tc = it.rank<=3?'text-yellow-400/70':'text-gray-400';
+        const th = it.title?`<div class="text-xs ${tc} mt-1">${it.title}</div>`:'';
         const tr=document.createElement('tr');
         tr.className=`${cls} align-middle`;
         tr.onclick=()=>window.open(`https://www.nitrotype.com/racer/${it.username}`,'_blank');
@@ -215,9 +212,7 @@
             ${it.displayName}${th}
           </td>
           <td class="px-4 py-3">
-            <span class="px-2 py-0.5 rounded ${bc} text-xs font-medium">
-              ${rl}
-            </span>
+            <span class="px-2 py-0.5 rounded ${bc} text-xs font-medium">${rl}</span>
           </td>
           <td class="px-4 py-3">${jd}</td>
           <td class="px-4 py-3">${ld}</td>
