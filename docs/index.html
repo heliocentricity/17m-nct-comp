@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HELIOS NitroType Tracker</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-10">
+  <h1 class="text-3xl font-bold mb-6">HELIOS Team Races</h1>
+  <div id="cards" class="flex flex-wrap"></div>
+  <script>
+    fetch('data.json')
+      .then(r => r.json())
+      .then(({ START_DATE, delta }) => {
+        const cards = Object.entries(delta).map(
+          ([user, d]) => `
+            <div class="bg-white shadow-lg rounded-2xl p-6 m-2 text-center">
+              <h2 class="text-xl font-semibold">🏎️ ${user}</h2>
+              <p class="mt-2">${d} races since ${START_DATE}</p>
+            </div>`
+        ).join('');
+        document.getElementById('cards').innerHTML = cards;
+      })
+      .catch(console.error);
+  </script>
+</body>
+</html>
