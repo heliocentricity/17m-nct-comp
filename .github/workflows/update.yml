@@ -6,37 +6,58 @@ permissions:
 
 on:
   schedule:
-    - cron: '0 * * * *'    # every hour
-  workflow_dispatch:      # manual trigger
+    - cron: '0 * * * *'     # every hour at minute 0
+  workflow_dispatch:       # manual trigger
 
 jobs:
   update:
     runs-on: ubuntu-latest
 
     steps:
+      # 1) check cutoff date/time
+      - name: Check cutoff date
+        id: cutoff
+        run: |
+          # now (seconds since epoch) in UTC
+          NOW=$(date -u +%s)
+          # cutoff: 2025-07-23 15:00:00 UTC
+          CUT=$(date -d '2025-07-23T15:00:00Z' +%s)
+          if [ "$NOW" -le "$CUT" ]; then
+            echo "continue=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "continue=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      # 2) all following steps only run if continue==true
       - name: Checkout repository
+        if: steps.cutoff.outputs.continue == 'true'
         uses: actions/checkout@v3
         with:
-          # this tells the action to configure `origin` with GITHUB_TOKEN
           persist-credentials: true
 
       - name: Setup Node.js
+        if: steps.cutoff.outputs.continue == 'true'
         uses: actions/setup-node@v3
         with:
           node-version: '18'
 
       - name: Install dependencies
+        if: steps.cutoff.outputs.continue == 'true'
         run: npm install axios
 
       - name: Run scraper
+        if: steps.cutoff.outputs.continue == 'true'
         env:
           SCRAPERAPI_KEY: ${{ secrets.SCRAPERAPI_KEY }}
         run: node scripts/update.js
 
       - name: Commit & push changes
+        if: steps.cutoff.outputs.continue == 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add baseline.json docs/data.json
           git diff --quiet || git commit -m "ci: update NitroType data"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
