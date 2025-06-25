@@ -1,8 +1,18 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 25, 2025 at 7:59 AM PDT",
+  "last_updated": "June 25, 2025 at 8:12 AM PDT",
   "board": [
+    {
+      "username": "aiy_infection",
+      "displayName": "icarus - 10k soon",
+      "racesPlayed": 10003,
+      "role": "captain",
+      "title": "Happy Vibes :)",
+      "joinStamp": 1742486554,
+      "lastActivity": 1750864194,
+      "delta": 3
+    },
     {
       "username": "rc0913",
       "displayName": "RicSuave",
@@ -231,16 +241,6 @@
       "title": "Legendary Lapper",
       "joinStamp": 1747355208,
       "lastActivity": 1750348878,
-      "delta": 0
-    },
-    {
-      "username": "aiy_infection",
-      "displayName": "icarus - 10k soon",
-      "racesPlayed": 10000,
-      "role": "captain",
-      "title": "Happy Vibes :)",
-      "joinStamp": 1742486554,
-      "lastActivity": 1750862972,
       "delta": 0
     },
     {
