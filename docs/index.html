@@ -4,6 +4,12 @@
   <meta charset="UTF-8" />
   <title>HELIOS NitroType Leaderboard</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"/>
+  <style>
+    .font-lato { font-family: 'Lato', sans-serif; }
+  </style>
 </head>
 <body class="bg-slate-900 text-gray-200 min-h-screen p-8 font-sans">
   <h1 class="text-4xl font-extrabold mb-2 text-yellow-400">HELIOS Team Leaderboard</h1>
@@ -67,13 +73,13 @@
         <ul class="text-sm space-y-1">
           <li>
             <a href="https://www.nitrotype.com/team/HELIOS" target="_blank"
-               class="text-yellow-300 hover:underline">
+               class="text-blue-300 hover:underline">
               [HELIOS] on Nitro Type
             </a>
           </li>
           <li>
             <a href="https://padlet.com/icarus_/HELIOS" target="_blank"
-               class="text-yellow-300 hover:underline">
+               class="text-blue-300 hover:underline">
               Padlet
             </a>
           </li>
@@ -108,32 +114,25 @@
         let lastDelta = null, lastRank = 0;
 
         board.forEach((it, idx) => {
-          // tie-aware rank
           const rank = (it.delta !== lastDelta) ? idx + 1 : lastRank;
           lastDelta = it.delta; lastRank = rank;
 
-          // top-3 background & hover
           let base = '', hover = 'hover:bg-slate-700';
           if (rank === 1) { base='bg-yellow-400/30'; hover='hover:bg-yellow-400/20'; }
           else if (rank === 2) { base='bg-yellow-500/30'; hover='hover:bg-yellow-500/20'; }
           else if (rank === 3) { base='bg-yellow-600/30'; hover='hover:bg-yellow-600/20'; }
           const rowClass = `cursor-pointer ${base} ${hover}`;
 
-          // ordinal with sans-serif superscript
-          let ord = rank;
-          if (rank === 1) ord = `<span class="font-sans text-2xl text-yellow-300">1<sup class="align-super">st</sup></span>`;
-          if (rank === 2) ord = `<span class="font-sans text-2xl text-yellow-300">2<sup class="align-super">nd</sup></span>`;
-          if (rank === 3) ord = `<span class="font-sans text-2xl text-yellow-300">3<sup class="align-super">rd</sup></span>`;
+          let ord = `${rank}th`;
+          if (rank === 1) ord = `<span class="font-lato text-2xl text-yellow-300">1st</span>`;
+          if (rank === 2) ord = `<span class="font-lato text-2xl text-yellow-300">2nd</span>`;
+          if (rank === 3) ord = `<span class="font-lato text-2xl text-yellow-300">3rd</span>`;
 
-          // role badge
           const key = (it.role||'').toLowerCase().replace(/\s+/g,'');
           const badgeClass = roleClasses[key] || roleClasses.member;
-          const roleLabel = it.role
-            .split(/[\s_]+/)
-            .map(w=>w[0].toUpperCase()+w.slice(1))
-            .join(' ');
+          let roleLabel = it.role;
+          if (key === 'vicecaptain') roleLabel = 'Vice Captain';
 
-          // dates
           const joinDate = it.joinStamp
             ? new Date(it.joinStamp*1000).toLocaleDateString()
             : 'N/A';
@@ -141,10 +140,7 @@
             ? new Date(it.lastActivity*1000).toLocaleDateString()
             : 'N/A';
 
-          // title color: gold for top3, grey otherwise
-          const titleColor = rank <= 3
-            ? 'text-yellow-300'
-            : 'text-gray-400';
+          const titleColor = rank <= 3 ? `text-yellow-400` : `text-gray-400`;
           const titleHtml = it.title
             ? `<div class="text-xs ${titleColor} mt-1">${it.title}</div>`
             : '';
