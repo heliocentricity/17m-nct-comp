@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"/>
   <style>
     .font-lato { font-family: 'Lato', sans-serif; }
+    th.sortable { cursor: pointer; user-select: none; }
   </style>
 </head>
 <body class="bg-slate-900 text-gray-200 min-h-screen p-8 font-sans">
@@ -24,16 +25,16 @@
         <thead class="bg-slate-700">
           <tr>
             <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">#</th>
-            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Name &amp; Title</th>
+            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Name & Title</th>
             <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Role</th>
-            <th id="th-join" class="px-4 py-3 text-left text-sm font-medium text-gray-300 cursor-pointer">
-              Member Since <span id="icon-join"></span>
+            <th id="th-join"   class="px-4 py-3 text-left text-sm font-medium text-gray-300 sortable">
+              Member Since <span>▼</span>
             </th>
-            <th id="th-last" class="px-4 py-3 text-left text-sm font-medium text-gray-300 cursor-pointer">
-              Last Race <span id="icon-last"></span>
+            <th id="th-last"   class="px-4 py-3 text-left text-sm font-medium text-gray-300 sortable">
+              Last Race    <span>▼</span>
             </th>
-            <th id="th-races" class="px-4 py-3 text-right text-sm font-medium text-gray-300 cursor-pointer">
-              Races <span id="icon-races"></span>
+            <th id="th-races" class="px-4 py-3 text-right text-sm font-medium text-gray-300 sortable">
+              Races        <span>▼</span>
             </th>
           </tr>
         </thead>
@@ -56,11 +57,11 @@
         <h2 class="text-lg font-semibold text-yellow-300 mb-2">Prizes</h2>
         <p class="text-sm">
           <span class="text-yellow-300 font-bold">1st</span> – 
-          <span class="text-green-400 font-semibold">$10,000,000 NITRO CASH</span><br>
+            <span class="text-green-400 font-semibold">$10,000,000 NITRO CASH</span><br>
           <span class="text-yellow-300 font-bold">2nd</span> – 
-          <span class="text-green-400 font-semibold">$5,000,000 NITRO CASH</span><br>
+            <span class="text-green-400 font-semibold">$5,000,000 NITRO CASH</span><br>
           <span class="text-yellow-300 font-bold">3rd</span> – 
-          <span class="text-green-400 font-semibold">$2,000,000 NITRO CASH</span>
+            <span class="text-green-400 font-semibold">$2,000,000 NITRO CASH</span>
         </p>
       </div>
       <!-- Description -->
@@ -94,123 +95,144 @@
       <div class="bg-slate-800 border-2 border-yellow-400 rounded-lg p-4">
         <h2 class="text-lg font-semibold text-yellow-300 mb-2">Credits</h2>
         <p class="text-sm text-gray-300">
-          Created by vioiynx<br>
-          Medal icons from 
+          Website created by vioiynx. Medal icons by
           <a href="https://www.vecteezy.com/free-vector/1st-2nd-3rd-place" target="_blank"
              class="underline text-blue-300">
             1st 2nd 3rd Place Vectors by Vecteezy
-          </a>
+          </a>.
         </p>
       </div>
     </div>
   </div>
 
   <script>
-    // days left
-    (()=>{
-      const end=new Date('2025-07-23T08:00:00-07:00'),
-            diff=end-new Date();
-      document.getElementById('days-left').textContent=
-        diff>0?Math.ceil(diff/86400000):0;
+    // Days left
+    (function(){
+      const end = new Date('2025-07-23T08:00:00-07:00');
+      const diff = end - new Date();
+      document.getElementById('days-left').textContent =
+        diff > 0 ? Math.ceil(diff / (1000*60*60*24)) : 0;
     })();
 
-    fetch('data.json')
-      .then(r=>r.json())
-      .then(data=>{
-        document.getElementById('updated-at').textContent=
-          data.last_updated||'Unknown';
-        let board=data.board||[];
+    const sortStates = { join: false, last: false, races: false };
+    let rowsData = [];
 
-        // track sort directions
-        const sortDir={ join:true, last:true, races:true };
+    function clearArrows() {
+      ['th-join','th-last','th-races'].forEach(id => {
+        document.getElementById(id).querySelector('span').textContent = '▼';
+      });
+    }
 
-        const roleClasses={
-          officer:     'border-2 border-blue-400 text-blue-400',
-          captain:     'border-2 border-purple-400 text-purple-400',
-          vicecaptain: 'border-2 border-green-400 text-green-400',
-          member:      'text-gray-400'
-        };
+    function sortBy(key) {
+      const map = { join: 'th-join', last: 'th-last', races: 'th-races' };
+      sortStates[key] = !sortStates[key];
+      clearArrows();
+      const arrow = document.getElementById(map[key]).querySelector('span');
+      arrow.textContent = sortStates[key] ? '▲' : '▼';
 
-        // render table
-        function render(){
-          const tbody=document.getElementById('leaderboard');
-          tbody.innerHTML='';
-          let lastDelta=null, lastRank=0;
-          board.forEach((it,idx)=>{
-            const rank=(it.delta!==lastDelta?idx+1:lastRank);
-            lastDelta=it.delta; lastRank=rank;
-            let base='',hover='hover:bg-slate-700';
-            if(rank===1){ base='bg-yellow-400/20'; hover='hover:bg-yellow-400/10'; }
-            else if(rank===2){ base='bg-yellow-500/20'; hover='hover:bg-yellow-500/10'; }
-            else if(rank===3){ base='bg-yellow-600/20'; hover='hover:bg-yellow-600/10'; }
-            const rowClass=`cursor-pointer ${base} ${hover}`;
+      rowsData.sort((a, b) => {
+        const dir = sortStates[key] ? 1 : -1;
+        if (key === 'races') return dir * (a.delta - b.delta);
+        return dir * (a[key] - b[key]);
+      });
+      renderRows();
+    }
 
-            let ordHtml=`${rank}`;
-            if(rank<=3) ordHtml=
-              `<img src="assets/${rank}st.png" alt="${rank}st" class="h-6 inline"/>`;
+    document.addEventListener('DOMContentLoaded', () => {
+      ['join','last','races'].forEach(k => {
+        document.getElementById(`th-${k}`)
+          .addEventListener('click', () => sortBy(k));
+      });
 
-            const key=it.role.toLowerCase().replace(/\s+/g,''),
-                  badgeClass=roleClasses[key]||roleClasses.member,
-                  roleLabel=key==='vicecaptain'?'Vice Captain':
-                             it.role.charAt(0).toUpperCase()+it.role.slice(1);
+      fetch('data.json')
+        .then(r => r.json())
+        .then(data => {
+          document.getElementById('updated-at').textContent = data.last_updated || 'Unknown';
+          const board = data.board || [];
 
-            const joinDate=it.joinStamp?new Date(it.joinStamp*1000).toLocaleDateString():'N/A',
-                  lastDate=it.lastActivity?new Date(it.lastActivity*1000).toLocaleDateString():'N/A';
-
-            const titleColor= rank<=3?'text-yellow-300/70':'text-gray-400',
-                  titleHtml=it.title?`<div class="text-xs ${titleColor} mt-1">${it.title}</div>`:'';
-
-            const tr=document.createElement('tr');
-            tr.className=`${rowClass} align-middle`;
-            tr.onclick=()=>window.location=`https://www.nitrotype.com/racer/${it.username}`;
-            tr.title='View Nitro Type profile';
-            tr.innerHTML=`
-              <td class="px-4 py-3">${ordHtml}</td>
-              <td class="px-4 py-3 text-yellow-300 font-semibold">
-                ${it.displayName}${titleHtml}
-              </td>
-              <td class="px-4 py-3">
-                <span class="px-2 py-0.5 rounded ${badgeClass} bg-transparent text-xs font-medium">
-                  ${roleLabel}
-                </span>
-              </td>
-              <td class="px-4 py-3">${joinDate}</td>
-              <td class="px-4 py-3">${lastDate}</td>
-              <td class="px-4 py-3 text-right">${it.delta||0}</td>
-            `;
-            tbody.appendChild(tr);
+          // build rowsData with static rank
+          let lastDelta = null, lastRank = 0;
+          rowsData = board.map((it, idx) => {
+            const rank = (it.delta !== lastDelta) ? idx + 1 : lastRank;
+            lastDelta = it.delta; lastRank = rank;
+            return {
+              rank,
+              ...it,
+              joinStamp:    it.joinStamp || 0,
+              lastActivity: it.lastActivity || 0
+            };
           });
-        }
+          renderRows();
+        })
+        .catch(console.error);
+    });
 
-        // sort handlers
-        document.getElementById('th-join').onclick=()=>{
-          board.sort((a,b)=> sortDir.join
-            ? a.joinStamp - b.joinStamp
-            : b.joinStamp - a.joinStamp
-          );
-          sortDir.join=!sortDir.join;
-          render();
-        };
-        document.getElementById('th-last').onclick=()=>{
-          board.sort((a,b)=> sortDir.last
-            ? a.lastActivity - b.lastActivity
-            : b.lastActivity - a.lastActivity
-          );
-          sortDir.last=!sortDir.last;
-          render();
-        };
-        document.getElementById('th-races').onclick=()=>{
-          board.sort((a,b)=> sortDir.races
-            ? a.delta - b.delta
-            : b.delta - a.delta
-          );
-          sortDir.races=!sortDir.races;
-          render();
-        };
+    function renderRows() {
+      const tbody = document.getElementById('leaderboard');
+      tbody.innerHTML = '';
+      rowsData.forEach(it => {
+        // highlight top 3
+        let base = '', hover = 'hover:bg-slate-700';
+        if (it.rank === 1) { base='bg-yellow-400/20'; hover='hover:bg-yellow-400/10'; }
+        else if (it.rank === 2) { base='bg-yellow-500/20'; hover='hover:bg-yellow-500/10'; }
+        else if (it.rank === 3) { base='bg-yellow-600/20'; hover='hover:bg-yellow-600/10'; }
+        const rowClass = `cursor-pointer ${base} ${hover}`;
 
-        render();
-      })
-      .catch(console.error);
+        // ordinal PNG or fallback
+        let ordHtml = `${it.rank}`;
+        if (it.rank === 1) ordHtml = `<img src="assets/1st.png" alt="1st" class="h-6 inline" />`;
+        if (it.rank === 2) ordHtml = `<img src="assets/2nd.png" alt="2nd" class="h-6 inline" />`;
+        if (it.rank === 3) ordHtml = `<img src="assets/3rd.png" alt="3rd" class="h-6 inline" />`;
+
+        // role badge
+        const roleKey = it.role.toLowerCase().replace(/\s+/g,'');
+        const roleClasses = {
+          officer:      'border-2 border-blue-400 text-blue-400 bg-transparent',
+          captain:      'border-2 border-purple-400 text-purple-400 bg-transparent',
+          vicecaptain:  'border-2 border-green-400 text-green-400 bg-transparent',
+          member:       'text-gray-400'
+        };
+        const badgeClass = roleClasses[roleKey] || roleClasses.member;
+        let roleLabel = it.role.charAt(0).toUpperCase()+it.role.slice(1);
+        if (roleKey === 'vicecaptain') roleLabel = 'Vice Captain';
+
+        // dates
+        const joinDate = it.joinStamp
+          ? new Date(it.joinStamp*1000).toLocaleDateString()
+          : 'N/A';
+        const lastDate = it.lastActivity
+          ? new Date(it.lastActivity*1000).toLocaleDateString()
+          : 'N/A';
+
+        // title color
+        const titleColor = it.rank <= 3 ? 'text-yellow-300/70' : 'text-gray-400';
+        const titleHtml = it.title
+          ? `<div class="text-xs ${titleColor} mt-1">${it.title}</div>`
+          : '';
+
+        const tr = document.createElement('tr');
+        tr.className = `${rowClass} align-middle`;
+        tr.setAttribute('onclick',
+          `location.href='https://www.nitrotype.com/racer/${it.username}'`);
+        tr.setAttribute('title','View Nitro Type profile');
+        tr.innerHTML = `
+          <td class="px-4 py-3">${ordHtml}</td>
+          <td class="px-4 py-3 text-yellow-300 font-semibold">
+            ${it.displayName}
+            ${titleHtml}
+          </td>
+          <td class="px-4 py-3">
+            <span class="px-2 py-0.5 rounded ${badgeClass} text-xs font-medium">
+              ${roleLabel}
+            </span>
+          </td>
+          <td class="px-4 py-3">${joinDate}</td>
+          <td class="px-4 py-3">${lastDate}</td>
+          <td class="px-4 py-3 text-right">${it.delta||0}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
   </script>
 </body>
 </html>
