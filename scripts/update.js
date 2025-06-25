@@ -77,14 +77,12 @@ async function updateData() {
     console.log(`Delta[${item.username}] = ${item.delta}`)
   );
 
-  // write out to docs/data.json
-  fs.writeFileSync(DATA_PATH,
-    JSON.stringify({
-      TEAM_NAME,
-      START_DATE,
-      board: results
-    }, null, 2)
-  );
+  // after sorting and computing `results = [{ displayName, delta, … }, …]`
+  fs.writeFileSync(DATA_PATH, JSON.stringify({
+    TEAM_NAME,
+    START_DATE,
+    board: results
+  }, null, 2));
 }
 
 // 4) drive it
