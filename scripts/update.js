@@ -11,7 +11,7 @@ const DATA_PATH   = path.join(__dirname, '..', 'docs',     'data.json');
 const config = JSON.parse(fs.readFileSync(CONFIG_PATH, 'utf8'));
 const { TEAM_NAME, START_DATE } = config;
 
-// Fetch team via NitroType’s JSON API (proxied)
+// fetch via NitroType’s API + ScraperAPI proxy
 async function fetchLeaderboard() {
   const targetUrl = `https://www.nitrotype.com/api/v2/teams/${TEAM_NAME}`;
   const proxyUrl  = `http://api.scraperapi.com`
@@ -21,73 +21,66 @@ async function fetchLeaderboard() {
   const body = res.data;
 
   if (body.status !== 'OK' || !body.results || !Array.isArray(body.results.members)) {
-    console.error('⚠️  Unexpected JSON from team API:', JSON.stringify(body).slice(0,200));
+    console.error('⚠️  Unexpected JSON:', JSON.stringify(body).slice(0,200));
     throw new Error('Invalid team JSON');
   }
 
-  // extract what we need
   return body.results.members.map(m => ({
-    username:    m.username,
-    displayName: m.displayName || m.racerName || m.username,
-    racesPlayed: m.racesPlayed
+    username:      m.username,
+    displayName:   m.displayName || m.username,
+    racesPlayed:   m.racesPlayed,
+    role:          m.role,          // officer, captain, member
+    joinStamp:     m.joinStamp,     // epoch seconds
+    lastActivity:  m.lastActivity   // epoch seconds or null
   }));
 }
 
-// Record any missing baselines
 async function ensureBaseline() {
   const board = await fetchLeaderboard();
   config.baseline = config.baseline || {};
-  for (let { username, racesPlayed } of board) {
+  board.forEach(({ username, racesPlayed }) => {
     if (!Number.isInteger(config.baseline[username])) {
       config.baseline[username] = racesPlayed;
       console.log(`Baseline[${username}] = ${racesPlayed}`);
     }
-  }
+  });
   fs.writeFileSync(CONFIG_PATH, JSON.stringify(config, null, 2));
 }
 
-// Compute deltas, sort, and write out data.json
 async function updateData() {
-  const board = await fetchLeaderboard();
+  const board  = await fetchLeaderboard();
   const results = board
-    .map(({ username, displayName, racesPlayed }) => ({
-      username,
-      displayName,
-      delta: racesPlayed - config.baseline[username]
+    .map(u => ({
+      ...u,
+      delta: u.racesPlayed - config.baseline[u.username]
     }))
-    .sort((a, b) => b.delta - a.delta);
+    .sort((a,b) => b.delta - a.delta);
 
   results.forEach(r => console.log(`Delta[${r.username}] = ${r.delta}`));
 
-  // compute a Pacific-time timestamp
+  // PST timestamp
   const now = new Date();
-  const lastUpdated = now.toLocaleString('en-US', {
-    timeZone: 'America/Los_Angeles',
-    month: 'long',
-    day:   'numeric',
-    year:  'numeric',
-    hour:        'numeric',
-    minute:      '2-digit',
-    timeZoneName:'short'
+  const last_updated = now.toLocaleString('en-US',{
+    timeZone:       'America/Los_Angeles',
+    month:          'long',
+    day:            'numeric',
+    year:           'numeric',
+    hour:           'numeric',
+    minute:        '2-digit',
+    timeZoneName:  'short'
   });
 
   fs.writeFileSync(
     DATA_PATH,
     JSON.stringify(
-      {
-        TEAM_NAME,
-        START_DATE,
-        last_updated: lastUpdated,
-        board: results
-      },
+      { TEAM_NAME, START_DATE, last_updated, board: results },
       null,
       2
     )
   );
 }
 
-// run it
-;(async () => {
+(async () => {
   try {
     await ensureBaseline();
     await updateData();
