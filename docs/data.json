@@ -1,44 +1,196 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "delta": {
-    "7071702": null,
-    "rc0913": null,
-    "superdavidj": null,
-    "giovani95": null,
-    "neiletsky": null,
-    "soccer791": null,
-    "conquerer11k": null,
-    "hotttbit": null,
-    "disfunction": null,
-    "sumimyangel": null,
-    "5fff3c41947a5b24ed13ddb1c73b1e55": null,
-    "opsy07": null,
-    "dianac128": null,
-    "abot8": null,
-    "persionde": null,
-    "b2cbc9dfc2058f59bdaf062719776245": null,
-    "ryan_po": null,
-    "tryhardwillwork": null,
-    "f49de7389426a7d9dfa859467b8bb877": null,
-    "gw2iscoollol": null,
-    "2525de6c193656755826c3b612fe4f5c": null,
-    "f0dca54e9b8d6f1aa97d5bb4c608a50a": null,
-    "viper_shot": null,
-    "aiy_infection": null,
-    "vdgyertikopzefrgh": null,
-    "efac1d20fd1dbd3ed0b4f03e90bc7b96": null,
-    "richman11111": null,
-    "slow_typer4ubest": null,
-    "c160d3791fc9b027da843b2df727d345": null,
-    "01dda282fb97c0a298a6a18e8eac8d8d": null,
-    "4978dd1c73bd50b93b895f4299eed6b8": null,
-    "1400dgloo": null,
-    "4399e7a571cf827be64b714c30c899ef": null,
-    "timmytimmy213": null,
-    "vioiynx": null,
-    "cyconoxyls": null,
-    "catman223s": null,
-    "kudism": null
-  }
+  "board": [
+    {
+      "username": "rc0913",
+      "displayName": "RicSuave",
+      "delta": 0
+    },
+    {
+      "username": "superdavidj",
+      "displayName": "FIood",
+      "delta": 0
+    },
+    {
+      "username": "giovani95",
+      "displayName": "Giovani_13",
+      "delta": 0
+    },
+    {
+      "username": "7071702",
+      "displayName": "woaahh",
+      "delta": 0
+    },
+    {
+      "username": "neiletsky",
+      "displayName": "NoLimit",
+      "delta": 0
+    },
+    {
+      "username": "soccer791",
+      "displayName": "Airborne",
+      "delta": 0
+    },
+    {
+      "username": "conquerer11k",
+      "displayName": "SpunkyTurquoiseApe",
+      "delta": 0
+    },
+    {
+      "username": "hotttbit",
+      "displayName": "4060TI",
+      "delta": 0
+    },
+    {
+      "username": "disfunction",
+      "displayName": "TealCoralSole",
+      "delta": 0
+    },
+    {
+      "username": "sumimyangel",
+      "displayName": "stephenJoester",
+      "delta": 0
+    },
+    {
+      "username": "5fff3c41947a5b24ed13ddb1c73b1e55",
+      "displayName": "HarryPotterMeMes",
+      "delta": 0
+    },
+    {
+      "username": "opsy07",
+      "displayName": "2fingertypist",
+      "delta": 0
+    },
+    {
+      "username": "dianac128",
+      "displayName": "ryiichu",
+      "delta": 0
+    },
+    {
+      "username": "abot8",
+      "displayName": "1400dglooo",
+      "delta": 0
+    },
+    {
+      "username": "persionde",
+      "displayName": "persionde",
+      "delta": 0
+    },
+    {
+      "username": "b2cbc9dfc2058f59bdaf062719776245",
+      "displayName": "Hypersound",
+      "delta": 0
+    },
+    {
+      "username": "ryan_po",
+      "displayName": "RainbowPig38",
+      "delta": 0
+    },
+    {
+      "username": "tryhardwillwork",
+      "displayName": "Chronos",
+      "delta": 0
+    },
+    {
+      "username": "f49de7389426a7d9dfa859467b8bb877",
+      "displayName": "AlyviaB",
+      "delta": 0
+    },
+    {
+      "username": "gw2iscoollol",
+      "displayName": "Leqlerc",
+      "delta": 0
+    },
+    {
+      "username": "2525de6c193656755826c3b612fe4f5c",
+      "displayName": "Kenritz",
+      "delta": 0
+    },
+    {
+      "username": "f0dca54e9b8d6f1aa97d5bb4c608a50a",
+      "displayName": "Vintagium",
+      "delta": 0
+    },
+    {
+      "username": "viper_shot",
+      "displayName": "v1per_sh0t",
+      "delta": 0
+    },
+    {
+      "username": "aiy_infection",
+      "displayName": "icarus - 10k soon",
+      "delta": 0
+    },
+    {
+      "username": "vdgyertikopzefrgh",
+      "displayName": "vdgyertikopzefrgh",
+      "delta": 0
+    },
+    {
+      "username": "efac1d20fd1dbd3ed0b4f03e90bc7b96",
+      "displayName": "chatgpt typing this",
+      "delta": 0
+    },
+    {
+      "username": "richman11111",
+      "displayName": "richman11111",
+      "delta": 0
+    },
+    {
+      "username": "slow_typer4ubest",
+      "displayName": "veryslowtypist",
+      "delta": 0
+    },
+    {
+      "username": "c160d3791fc9b027da843b2df727d345",
+      "displayName": "DarkAchromaticCamel",
+      "delta": 0
+    },
+    {
+      "username": "01dda282fb97c0a298a6a18e8eac8d8d",
+      "displayName": "Juris Doctor",
+      "delta": 0
+    },
+    {
+      "username": "4978dd1c73bd50b93b895f4299eed6b8",
+      "displayName": "Mystic",
+      "delta": 0
+    },
+    {
+      "username": "1400dgloo",
+      "displayName": "1400dgloo",
+      "delta": 0
+    },
+    {
+      "username": "4399e7a571cf827be64b714c30c899ef",
+      "displayName": "FuchsiaAzureCougar",
+      "delta": 0
+    },
+    {
+      "username": "timmytimmy213",
+      "displayName": "timmytimmy213",
+      "delta": 0
+    },
+    {
+      "username": "vioiynx",
+      "displayName": "vioiynx",
+      "delta": 0
+    },
+    {
+      "username": "cyconoxyls",
+      "displayName": "cyconoxyls",
+      "delta": 0
+    },
+    {
+      "username": "catman223s",
+      "displayName": "catman223s",
+      "delta": 0
+    },
+    {
+      "username": "kudism",
+      "displayName": "avalon",
+      "delta": 0
+    }
+  ]
 }
