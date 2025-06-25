@@ -1,37 +1,37 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 25, 2025 at 9:35 AM PDT",
+  "last_updated": "June 25, 2025 at 10:26 AM PDT",
   "board": [
     {
       "username": "aiy_infection",
       "displayName": "icarus - 10k soon",
-      "racesPlayed": 10061,
+      "racesPlayed": 10120,
       "role": "captain",
       "title": "Happy Vibes :)",
       "joinStamp": 1742486554,
-      "lastActivity": 1750868972,
-      "delta": 51
-    },
-    {
-      "username": "conquerer11k",
-      "displayName": "SpunkyTurquoiseApe",
-      "racesPlayed": 13613,
-      "role": "member",
-      "title": "Spring-a-round",
-      "joinStamp": 1749752209,
-      "lastActivity": 1750866569,
-      "delta": 12
+      "lastActivity": 1750871709,
+      "delta": 110
     },
     {
       "username": "vioiynx",
       "displayName": "vioiynx",
-      "racesPlayed": 3160,
+      "racesPlayed": 3170,
       "role": "vicecaptain",
       "title": "Oh Em Gee!",
       "joinStamp": 1742509283,
-      "lastActivity": 1750867182,
-      "delta": 11
+      "lastActivity": 1750871973,
+      "delta": 21
+    },
+    {
+      "username": "conquerer11k",
+      "displayName": "ResilientRedDonkey",
+      "racesPlayed": 13617,
+      "role": "member",
+      "title": "Spring-a-round",
+      "joinStamp": 1749752209,
+      "lastActivity": 1750870806,
+      "delta": 16
     },
     {
       "username": "persionde",
