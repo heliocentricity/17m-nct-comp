@@ -28,7 +28,7 @@ async function fetchLeaderboard() {
   return body.results.members.map(m => {
   let role = m.role;
   if (m.username === 'aiy_infection') role = 'captain';
-  if (m.username === 'vioiynx' || m.username === 'neiletsky') role = 'vice captain';
+  if (m.username === 'vioiynx' || m.username === 'neiletsky') role = 'vicecaptain';
   return {
     username:     m.username,
     displayName:  m.displayName,
