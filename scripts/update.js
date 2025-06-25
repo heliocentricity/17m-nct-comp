@@ -15,9 +15,11 @@ const { TEAM_NAME, START_DATE } = config;
 // Fetch the team page via ScraperAPI proxy
 async function fetchLeaderboard() {
   const targetUrl = `https://www.nitrotype.com/team/${TEAM_NAME}`;
+    // ask ScraperAPI to render JS so __NEXT_DATA__ is present
   const proxyUrl  = `http://api.scraperapi.com`
                   + `?api_key=${process.env.SCRAPERAPI_KEY}`
-                  + `&url=${encodeURIComponent(targetUrl)}`;
+                  + `&url=${encodeURIComponent(targetUrl)}`
+                  + `&render=true`;
 
   const res  = await axios.get(proxyUrl);
   const html = res.data;
