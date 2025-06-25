@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 25, 2025 at 11:38 AM PDT",
+  "last_updated": "June 25, 2025 at 11:58 AM PDT",
   "board": [
     {
       "username": "aiy_infection",
@@ -26,12 +26,22 @@
     {
       "username": "tryhardwillwork",
       "displayName": "Chronos",
-      "racesPlayed": 28801,
+      "racesPlayed": 28819,
       "role": "member",
       "title": "Trailblazer",
       "joinStamp": 1750808321,
-      "lastActivity": 1750876132,
-      "delta": 26
+      "lastActivity": 1750877360,
+      "delta": 44
+    },
+    {
+      "username": "abot8",
+      "displayName": "1400dglooo",
+      "racesPlayed": 32899,
+      "role": "member",
+      "title": "Dragon Tamer",
+      "joinStamp": 1750805902,
+      "lastActivity": 1750877378,
+      "delta": 30
     },
     {
       "username": "conquerer11k",
@@ -44,16 +54,6 @@
       "delta": 16
     },
     {
-      "username": "abot8",
-      "displayName": "1400dglooo",
-      "racesPlayed": 32871,
-      "role": "member",
-      "title": "Dragon Tamer",
-      "joinStamp": 1750805902,
-      "lastActivity": 1750839893,
-      "delta": 2
-    },
-    {
       "username": "persionde",
       "displayName": "persionde",
       "racesPlayed": 4001,
@@ -62,6 +62,16 @@
       "joinStamp": 1750643616,
       "lastActivity": 1750866595,
       "delta": 2
+    },
+    {
+      "username": "4978dd1c73bd50b93b895f4299eed6b8",
+      "displayName": "Mystic",
+      "racesPlayed": 202,
+      "role": "member",
+      "title": "Millionaire",
+      "joinStamp": 1750712571,
+      "lastActivity": 1750877110,
+      "delta": 1
     },
     {
       "username": "rc0913",
@@ -314,16 +324,6 @@
       "delta": 0
     },
     {
-      "username": "4978dd1c73bd50b93b895f4299eed6b8",
-      "displayName": "Mystic",
-      "racesPlayed": 201,
-      "role": "member",
-      "title": "Millionaire",
-      "joinStamp": 1750712571,
-      "lastActivity": 1750826049,
-      "delta": 0
-    },
-    {
       "username": "1400dgloo",
       "displayName": "1400dgloo",
       "racesPlayed": 606,
@@ -341,6 +341,16 @@
       "title": "Flora Fury",
       "joinStamp": 1748723201,
       "lastActivity": 1750408445,
+      "delta": 0
+    },
+    {
+      "username": "7dc66a8c355d489769587db8476a03e2",
+      "displayName": "Understanding ooooo",
+      "racesPlayed": 21809,
+      "role": "member",
+      "title": "Mystery Man",
+      "joinStamp": 1750877271,
+      "lastActivity": 1750877348,
       "delta": 0
     },
     {
