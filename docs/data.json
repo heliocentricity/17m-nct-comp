@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 25, 2025 at 1:03 PM PDT",
+  "last_updated": "June 25, 2025 at 1:30 PM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 32990,
+      "racesPlayed": 33021,
       "role": "member",
       "title": "Dragon Tamer",
       "joinStamp": 1750805902,
-      "lastActivity": 1750881589,
-      "delta": 121
+      "lastActivity": 1750883271,
+      "delta": 152
     },
     {
       "username": "aiy_infection",
@@ -46,21 +46,31 @@
     {
       "username": "neiletsky",
       "displayName": "NoLimit",
-      "racesPlayed": 10514,
+      "racesPlayed": 10547,
       "role": "vicecaptain",
       "title": "Speed Demon",
       "joinStamp": 1744741826,
-      "lastActivity": 1750881562,
-      "delta": 24
+      "lastActivity": 1750883385,
+      "delta": 57
     },
     {
       "username": "7dc66a8c355d489769587db8476a03e2",
       "displayName": "Understanding ooooo",
-      "racesPlayed": 21830,
+      "racesPlayed": 21833,
       "role": "member",
       "title": "Mystery Man",
       "joinStamp": 1750877271,
-      "lastActivity": 1750881565,
+      "lastActivity": 1750882579,
+      "delta": 24
+    },
+    {
+      "username": "persionde",
+      "displayName": "persionde",
+      "racesPlayed": 4020,
+      "role": "member",
+      "title": ":D",
+      "joinStamp": 1750643616,
+      "lastActivity": 1750883375,
       "delta": 21
     },
     {
@@ -82,16 +92,6 @@
       "joinStamp": 1750794927,
       "lastActivity": 1750878193,
       "delta": 6
-    },
-    {
-      "username": "persionde",
-      "displayName": "persionde",
-      "racesPlayed": 4001,
-      "role": "member",
-      "title": ":D",
-      "joinStamp": 1750643616,
-      "lastActivity": 1750866595,
-      "delta": 2
     },
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
