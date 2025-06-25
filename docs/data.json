@@ -1,27 +1,27 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 24, 2025 at 11:07 PM PDT",
+  "last_updated": "June 24, 2025 at 11:39 PM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 32692,
+      "racesPlayed": 32736,
       "role": "member",
       "title": "Dragon Tamer",
       "joinStamp": 1750805902,
-      "lastActivity": 1750831182,
-      "delta": 171
+      "lastActivity": 1750832984,
+      "delta": 215
     },
     {
       "username": "neiletsky",
       "displayName": "NoLimit",
-      "racesPlayed": 10475,
+      "racesPlayed": 10477,
       "role": "officer",
       "title": "Speed Demon",
       "joinStamp": 1744741826,
-      "lastActivity": 1750827861,
-      "delta": 122
+      "lastActivity": 1750832618,
+      "delta": 124
     },
     {
       "username": "aiy_infection",
