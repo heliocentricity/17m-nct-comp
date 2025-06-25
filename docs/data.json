@@ -1,12 +1,12 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 24, 2025 at 10:28 PM PDT",
+  "last_updated": "June 24, 2025 at 10:44 PM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "delta": 124
+      "delta": 143
     },
     {
       "username": "neiletsky",
@@ -16,7 +16,7 @@
     {
       "username": "aiy_infection",
       "displayName": "icarus - 10k soon",
-      "delta": 106
+      "delta": 107
     },
     {
       "username": "tryhardwillwork",
@@ -27,6 +27,11 @@
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
       "delta": 3
+    },
+    {
+      "username": "soccer791",
+      "displayName": "Airborne",
+      "delta": 1
     },
     {
       "username": "persionde",
@@ -51,11 +56,6 @@
     {
       "username": "7071702",
       "displayName": "woaahh",
-      "delta": 0
-    },
-    {
-      "username": "soccer791",
-      "displayName": "Airborne",
       "delta": 0
     },
     {
