@@ -1,8 +1,5 @@
 // scripts/update.js
 
-// If you ever test locally, dotenv will load your SCRAPERAPI_KEY from a .env file
-require('dotenv').config();
-
 const fs      = require('fs');
 const path    = require('path');
 const axios   = require('axios');
@@ -11,29 +8,26 @@ const cheerio = require('cheerio');
 const CONFIG_PATH = path.join(__dirname, '..', 'baseline.json');
 const DATA_PATH   = path.join(__dirname, '..', 'docs', 'data.json');
 
-// Load or initialize your config
+// Load your config
 const config = JSON.parse(fs.readFileSync(CONFIG_PATH, 'utf8'));
 const { TEAM_NAME, START_DATE } = config;
 
-// Fetch the full team page through ScraperAPI
+// Fetch the team page via ScraperAPI proxy
 async function fetchLeaderboard() {
   const targetUrl = `https://www.nitrotype.com/team/${TEAM_NAME}`;
   const proxyUrl  = `http://api.scraperapi.com`
                   + `?api_key=${process.env.SCRAPERAPI_KEY}`
                   + `&url=${encodeURIComponent(targetUrl)}`;
 
-  // Hit the proxy
   const res  = await axios.get(proxyUrl);
   const html = res.data;
 
-  // DEBUG: if you ever get an empty or wrong page, this will log the first 200 chars
   if (!html || !html.includes('__NEXT_DATA__')) {
     console.error('⚠️  fetchLeaderboard got back unexpected HTML:');
     console.error(html.slice(0, 200).replace(/\n/g, ' '), '\n');
     throw new Error('Did not find __NEXT_DATA__ in fetched HTML');
   }
 
-  // Parse out the embedded JSON blob
   const $    = cheerio.load(html);
   const raw  = $('#__NEXT_DATA__').html();
   const json = JSON.parse(raw);
@@ -46,7 +40,7 @@ async function fetchLeaderboard() {
 async function main() {
   const board = await fetchLeaderboard();
 
-  // 1) Record any missing baselines
+  // 1) Populate any missing baselines
   config.baseline = config.baseline || {};
   for (let { user, races } of board) {
     if (!Number.isInteger(config.baseline[user])) {
@@ -63,7 +57,7 @@ async function main() {
     console.log(`Delta[${user}] = ${delta[user]}`);
   }
 
-  // 3) Write out the data your page will fetch
+  // 3) Write data.json
   fs.writeFileSync(DATA_PATH, JSON.stringify({
     TEAM_NAME,
     START_DATE,
