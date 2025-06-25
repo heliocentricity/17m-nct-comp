@@ -12,14 +12,13 @@
     fetch('data.json')
       .then(r => r.json())
       .then(({ START_DATE, delta }) => {
-        const cards = Object.entries(delta).map(
-          ([user, d]) => `
-            <div class="bg-white shadow-lg rounded-2xl p-6 m-2 text-center">
-              <h2 class="text-xl font-semibold">🏎️ ${user}</h2>
-              <p class="mt-2">${d} races since ${START_DATE}</p>
-            </div>`
-        ).join('');
-        document.getElementById('cards').innerHTML = cards;
+        const html = Object.entries(delta).map(([u, d]) => `
+          <div class="bg-white shadow-lg rounded-2xl p-6 m-2 text-center">
+            <h2 class="text-xl font-semibold">🏎️ ${u}</h2>
+            <p class="mt-2">${d} races since ${START_DATE}</p>
+          </div>
+        `).join('');
+        document.getElementById('cards').innerHTML = html;
       })
       .catch(console.error);
   </script>
