@@ -11,13 +11,14 @@ const DATA_PATH   = path.join(__dirname, '..', 'docs',     'data.json');
 const config = JSON.parse(fs.readFileSync(CONFIG_PATH, 'utf8'));
 const { TEAM_NAME, START_DATE } = config;
 
-// fetch team via NitroType’s API (proxied)
+// fetch via NitroType’s API + ScraperAPI proxy
 async function fetchLeaderboard() {
   const targetUrl = `https://www.nitrotype.com/api/v2/teams/${TEAM_NAME}`;
   const proxyUrl  = `http://api.scraperapi.com`
                   + `?api_key=${process.env.SCRAPERAPI_KEY}`
                   + `&url=${encodeURIComponent(targetUrl)}`;
-  const { data: body } = await axios.get(proxyUrl);
+  const res  = await axios.get(proxyUrl);
+  const body = res.data;
 
   if (body.status !== 'OK' || !body.results || !Array.isArray(body.results.members)) {
     console.error('⚠️  Unexpected JSON:', JSON.stringify(body).slice(0,200));
@@ -25,21 +26,18 @@ async function fetchLeaderboard() {
   }
 
   return body.results.members.map(m => {
-    // override specific vice captains
-    let role = m.role;
-    if (m.username === 'vioiynx' || m.username === 'neiletsky') {
-      role = 'vicecaptain';
-    }
-    return {
-      username:      m.username,
-      displayName:   m.displayName || m.username,
-      racesPlayed:   m.racesPlayed,
-      role,                    // officer|captain|vicecaptain|member
-      title:         m.title,  // text under name
-      joinStamp:     m.joinStamp,
-      lastActivity:  m.lastActivity
-    };
-  });
+  let role = m.role;
+  if (m.username === 'aiy_infection') role = 'captain';
+  return {
+    username:     m.username,
+    displayName:  m.displayName,
+    racesPlayed:  m.racesPlayed,
+    role,                    // officer|captain|member
+    title:         m.title,  // title under name
+    joinStamp:     m.joinStamp,
+    lastActivity:  m.lastActivity
+  };
+});
 }
 
 async function ensureBaseline() {
@@ -55,19 +53,19 @@ async function ensureBaseline() {
 }
 
 async function updateData() {
-  const board = await fetchLeaderboard();
+  const board  = await fetchLeaderboard();
   const results = board
     .map(u => ({
       ...u,
       delta: u.racesPlayed - config.baseline[u.username]
     }))
-    .sort((a, b) => b.delta - a.delta);
+    .sort((a,b) => b.delta - a.delta);
 
   results.forEach(r => console.log(`Delta[${r.username}] = ${r.delta}`));
 
   // PST timestamp
   const now = new Date();
-  const last_updated = now.toLocaleString('en-US', {
+  const last_updated = now.toLocaleString('en-US',{
     timeZone:       'America/Los_Angeles',
     month:          'long',
     day:            'numeric',
@@ -87,7 +85,7 @@ async function updateData() {
   );
 }
 
-;(async () => {
+(async () => {
   try {
     await ensureBaseline();
     await updateData();
