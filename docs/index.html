@@ -13,15 +13,13 @@
   </style>
 </head>
 <body class="bg-slate-900 text-gray-200 min-h-screen p-8 font-sans">
-  <h1 class="text-4xl font-extrabold mb-2 text-yellow-400">
-    [HELIOS] $17 Million NTC Competition Leaderboard
-  </h1>
+  <h1 class="text-4xl font-extrabold mb-2 text-yellow-400">[HELIOS] $17 Million NTC Competition Leaderboard</h1>
   <p class="text-sm italic text-gray-400 mb-6">
     Last updated: <span id="updated-at" class="font-mono">Loading…</span>
   </p>
 
   <div class="flex space-x-6">
-    <!-- Main table (3/4) -->
+    <!-- Main table -->
     <div class="w-3/4 overflow-x-auto">
       <table class="min-w-full bg-slate-800 border-2 border-yellow-400 rounded-lg overflow-hidden">
         <thead class="bg-slate-700">
@@ -44,17 +42,17 @@
       </table>
     </div>
 
-    <!-- Info boxes (1/4) -->
+    <!-- Info boxes (right) -->
     <div class="w-1/4 space-y-6">
       <!-- Days Left -->
       <div class="bg-slate-800 border-2 border-yellow-400 rounded-lg p-4 text-center">
-        <div id="days-left" class="text-5xl font-extrabold text-yellow-300 mb-1"></div>
-        <button id="toggle-countdown"
-                class="mb-2 px-2 py-1 bg-yellow-400 text-slate-900 rounded">
-          Show HH:MM:SS
-        </button>
+        <div id="days-left" class="text-5xl font-extrabold text-yellow-300 mb-1">Loading…</div>
         <div class="text-sm text-gray-400 mb-2">days left in tournament</div>
-        <div class="text-xs text-gray-400">
+        <button id="countdown-btn"
+                class="text-xs text-gray-400 bg-slate-700 px-2 py-1 rounded">
+          Show exact countdown
+        </button>
+        <div class="text-xs text-gray-400 mt-2">
           June 25th 8 AM (PST/PDT) – July 23rd 8 AM (PST/PDT)
         </div>
       </div>
@@ -76,13 +74,13 @@
         <p class="text-sm text-gray-300 mb-2">
           Tracks each member’s races since June 25, 2025. Updated hourly (PST/PDT).
         </p>
-        <p class="text-xs text-gray-400 mb-2">
-          We reserve the right to disqualify you from the tournament if we have good reason to believe that you have cheated (e.g. botting).  
-          Please make sure you are adhering to
+        <p class="text-xs text-gray-400 mb-1">
+          We reserve the right to disqualify you from the tournament if we have good reason to believe that you have cheated (e.g. botting).
+        </p>
+        <p class="text-xs text-gray-400">
+          Please make sure you are adhering to 
           <a href="https://www.nitrotype.com/support/tos/" target="_blank"
-             class="underline text-blue-300">
-            Nitro Type's TOS.
-          </a> Thank you!
+             class="underline text-blue-300">Nitro Type's TOS.</a> Thank you!
         </p>
       </div>
       <!-- Links -->
@@ -96,7 +94,7 @@
             </a>
           </li>
           <li>
-            <a href="https://padlet.com/icarus_/HELIOS" target="_blank"
+            <a href="https://padlet.com/icarus_/HELIOS" target="_blank" 
                class="underline text-blue-300">
               Padlet
             </a>
@@ -104,12 +102,12 @@
         </ul>
       </div>
       <!-- Credits -->
-      <div class="bg-slate-800 border-2 border-yellow-400 rounded-lg p-4 text-sm text-gray-300">
-        <p>Website created by vioiynx.</p>
-        <p>
-          Medal icons by
-          <a href="https://www.vecteezy.com/free-vector/1st-2nd-3rd-place" target="_blank"
-             class="underline text-blue-300">
+      <div class="bg-slate-800 border-2 border-yellow-400 rounded-lg p-4">
+        <h2 class="text-lg font-semibold text-yellow-300 mb-2">Credits</h2>
+        <p class="text-sm text-gray-300 mb-1">Website created by vioiynx.</p>
+        <p class="text-sm text-gray-300">
+          Medal icons by <a href="https://www.vecteezy.com/free-vector/1st-2nd-3rd-place" 
+                            target="_blank" class="underline text-blue-300">
             1st 2nd 3rd Place Vectors by Vecteezy.
           </a>
         </p>
@@ -118,144 +116,123 @@
   </div>
 
   <script>
-    // initial days-only display
+    // countdown setup
     const endTime = new Date('2025-07-23T08:00:00-07:00').getTime();
-    let countdownInterval, showingCountdown = false;
-
-    function updateDays() {
+    function computeCountdown() {
       const now = Date.now();
       const diff = endTime - now;
-      document.getElementById('days-left').textContent =
-        diff > 0 ? Math.ceil(diff / (1000*60*60*24)) : 0;
+      if (diff <= 0) return '0:00:00:00';
+      let days = Math.floor(diff / 86400000); 
+      let hrs  = Math.floor((diff % 86400000) / 3600000);
+      let mins = Math.floor((diff % 3600000) / 60000);
+      let secs = Math.floor((diff % 60000) / 1000);
+      return `${days}:${hrs.toString().padStart(2,'0')}:` +
+             `${mins.toString().padStart(2,'0')}:` +
+             `${secs.toString().padStart(2,'0')}`;
     }
-
-    function updateFull() {
-      const now = Date.now();
-      let diff = endTime - now;
-      if (diff < 0) diff = 0;
-      const days = Math.floor(diff / (1000*60*60*24));
-      diff %= (1000*60*60*24);
-      const hrs = String(Math.floor(diff/(1000*60*60))).padStart(2,'0');
-      diff %= (1000*60*60);
-      const mins = String(Math.floor(diff/(1000*60))).padStart(2,'0');
-      diff %= (1000*60);
-      const secs = String(Math.floor(diff/1000)).padStart(2,'0');
-      document.getElementById('days-left').textContent =
-        `${days}:${hrs}:${mins}:${secs}`;
-    }
-
-    document.getElementById('toggle-countdown').addEventListener('click', () => {
-      showingCountdown = !showingCountdown;
-      clearInterval(countdownInterval);
-      if (showingCountdown) {
-        updateFull();
-        countdownInterval = setInterval(updateFull, 1000);
-        document.getElementById('toggle-countdown').textContent = 'Show Days Only';
-      } else {
-        updateDays();
-        document.getElementById('toggle-countdown').textContent = 'Show HH:MM:SS';
-      }
-    });
-
-    document.addEventListener('DOMContentLoaded', () => {
-      updateDays();
-      // sorting
-      const sortStates = { join: false, last: false, races: false };
-      let rowsData = [];
-
-      function clearArrows() {
-        ['th-join','th-last','th-races'].forEach(id => {
-          document.getElementById(id).querySelector('span').textContent = '▼';
-        });
-      }
-
-      function renderRows() {
-        const tbody = document.getElementById('leaderboard');
-        tbody.innerHTML = '';
-        rowsData.forEach(it => {
-          let base='', hover='hover:bg-slate-700';
-          if (it.rank === 1) { base='bg-yellow-400/20'; hover='hover:bg-yellow-400/10'; }
-          else if (it.rank === 2) { base='bg-yellow-500/20'; hover='hover:bg-yellow-500/10'; }
-          else if (it.rank === 3) { base='bg-yellow-600/20'; hover='hover:bg-yellow-600/10'; }
-          const rowClass = `cursor-pointer ${base} ${hover}`;
-
-          let ordHtml = `${it.rank}`;
-          if (it.rank===1) ordHtml = `<img src="assets/1st.png" alt="1st" class="h-6 inline" />`;
-          if (it.rank===2) ordHtml = `<img src="assets/2nd.png" alt="2nd" class="h-6 inline" />`;
-          if (it.rank===3) ordHtml = `<img src="assets/3rd.png" alt="3rd" class="h-6 inline" />`;
-
-          const roleKey = it.role.toLowerCase().replace(/\s+/g,'');
-          const roleClasses = {
-            officer:     'border-2 border-blue-400 text-blue-400 bg-transparent',
-            captain:     'border-2 border-purple-400 text-purple-400 bg-transparent',
-            vicecaptain: 'border-2 border-green-400 text-green-400 bg-transparent',
-            member:      'text-gray-400'
-          };
-          const badgeClass = roleClasses[roleKey] || roleClasses.member;
-          let roleLabel = it.role.charAt(0).toUpperCase()+it.role.slice(1);
-          if (roleKey==='vicecaptain') roleLabel='Vice Captain';
-
-          const joinDate = it.joinStamp ? new Date(it.joinStamp*1000).toLocaleDateString() : 'N/A';
-          const lastDate = it.lastActivity ? new Date(it.lastActivity*1000).toLocaleDateString() : 'N/A';
-
-          const titleColor = it.rank<=3 ? 'text-yellow-300/70' : 'text-gray-400';
-          const titleHtml = it.title ? `<div class="text-xs ${titleColor} mt-1">${it.title}</div>` : '';
-
-          const tr = document.createElement('tr');
-          tr.className = `${rowClass} align-middle`;
-          tr.setAttribute('onclick', `location.href='https://www.nitrotype.com/racer/${it.username}'`);
-          tr.setAttribute('title','View Nitro Type profile');
-          tr.innerHTML = `
-            <td class="px-4 py-3">${ordHtml}</td>
-            <td class="px-4 py-3 text-yellow-300 font-semibold">
-              ${it.displayName}
-              ${titleHtml}
-            </td>
-            <td class="px-4 py-3">
-              <span class="px-2 py-0.5 rounded ${badgeClass} text-xs font-medium">
-                ${roleLabel}
-              </span>
-            </td>
-            <td class="px-4 py-3">${joinDate}</td>
-            <td class="px-4 py-3">${lastDate}</td>
-            <td class="px-4 py-3 text-right">${it.delta||0}</td>
-          `;
-          tbody.appendChild(tr);
-        });
-      }
-
-      function sortBy(key) {
-        const map = { join: 'th-join', last: 'th-last', races: 'th-races' };
-        sortStates[key] = !sortStates[key];
-        clearArrows();
-        document.getElementById(map[key]).querySelector('span').textContent = sortStates[key] ? '▲' : '▼';
-
-        rowsData.sort((a,b)=>{
-          const dir = sortStates[key] ? 1 : -1;
-          if(key==='races') return dir*(a.delta - b.delta);
-          return dir*((key==='join'?a.joinStamp:a.lastActivity) - (key==='join'?b.joinStamp:b.lastActivity));
-        });
-        renderRows();
-      }
-
-      ['join','last','races'].forEach(k=>{
-        document.getElementById(`th-${k}`).addEventListener('click', ()=>sortBy(k));
+    document.getElementById('countdown-btn')
+      .addEventListener('click', function(){
+        const dl = document.getElementById('days-left');
+        dl.classList.replace('text-5xl','text-4xl');
+        dl.textContent = computeCountdown();
+        // update every second
+        setInterval(() => { dl.textContent = computeCountdown(); }, 1000);
       });
 
+    // sorting logic
+    const sortStates = { join:false, last:false, races:false };
+    let rowsData = [];
+    function clearArrows(){
+      ['join','last','races'].forEach(k=>{
+        document.querySelector(`#th-${k} span`).textContent='▼';
+      });
+    }
+    function sortBy(key){
+      sortStates[key] = !sortStates[key];
+      clearArrows();
+      document.querySelector(`#th-${key} span`)
+              .textContent = sortStates[key] ? '▲' : '▼';
+      rowsData.sort((a,b)=>{
+        const dir = sortStates[key]?1:-1;
+        return (a[key] - b[key]) * dir;
+      });
+      renderRows();
+    }
+    document.addEventListener('DOMContentLoaded', ()=>{
+      ['join','last','races'].forEach(k=>{
+        document.getElementById(`th-${k}`)
+                .addEventListener('click',()=>sortBy(k));
+      });
       fetch('data.json')
         .then(r=>r.json())
         .then(data=>{
-          document.getElementById('updated-at').textContent = data.last_updated||'Unknown';
-          const board = data.board||[];
+          document.getElementById('updated-at')
+                  .textContent = data.last_updated || 'Unknown';
+          const board = data.board || [];
           let lastDelta=null, lastRank=0;
           rowsData = board.map((it,idx)=>{
-            const rank = (it.delta!==lastDelta)? idx+1 : lastRank;
+            const rank = (it.delta!==lastDelta)?idx+1:lastRank;
             lastDelta=it.delta; lastRank=rank;
-            return { rank, ...it };
+            return {
+              rank,
+              ...it,
+              join: it.joinStamp||0,
+              last: it.lastActivity||0,
+              races: it.delta||0
+            };
           });
           renderRows();
         });
     });
+    function renderRows(){
+      const tbody = document.getElementById('leaderboard');
+      tbody.innerHTML='';
+      rowsData.forEach(it=>{
+        let base='', hover='hover:bg-slate-700';
+        if(it.rank===1){ base='bg-yellow-400/20'; hover='hover:bg-yellow-400/10'; }
+        else if(it.rank===2){ base='bg-yellow-500/20'; hover='hover:bg-yellow-500/10'; }
+        else if(it.rank===3){ base='bg-yellow-600/20'; hover='hover:bg-yellow-600/10'; }
+        const rowClass=`cursor-pointer ${base} ${hover}`;
+        let ord=`${it.rank}`;
+        if(it.rank<=3){
+          ord=`<img src="assets/${it.rank}st.png" alt="${it.rank}st" class="h-6 inline" />`;
+        }
+        const key=it.role.toLowerCase().replace(/\s+/g,'');
+        const roleClasses={
+          officer:'border-2 border-blue-400 text-blue-400 bg-transparent',
+          captain:'border-2 border-purple-400 text-purple-400 bg-transparent',
+          vicecaptain:'border-2 border-green-400 text-green-400 bg-transparent',
+          member:'text-gray-400'
+        };
+        const badgeClass=roleClasses[key]||roleClasses.member;
+        let roleLabel = it.role.charAt(0).toUpperCase()+it.role.slice(1);
+        if(key==='vicecaptain') roleLabel='Vice Captain';
+        const joinDate = it.join?new Date(it.join*1000).toLocaleDateString():'N/A';
+        const lastDate = it.last?new Date(it.last*1000).toLocaleDateString():'N/A';
+        const titleColor = it.rank<=3 ? 'text-yellow-300/70':'text-gray-400';
+        const titleHtml = it.title?`<div class="text-xs ${titleColor} mt-1">${it.title}</div>`:'';
+        const tr = document.createElement('tr');
+        tr.className=`${rowClass} align-middle`;
+        tr.setAttribute('onclick',
+          `location.href='https://www.nitrotype.com/racer/${it.username}'`);
+        tr.setAttribute('title','View Nitro Type profile');
+        tr.innerHTML=`
+          <td class="px-4 py-3">${ord}</td>
+          <td class="px-4 py-3 text-yellow-300 font-semibold">
+            ${it.displayName}${titleHtml}
+          </td>
+          <td class="px-4 py-3">
+            <span class="px-2 py-0.5 rounded ${badgeClass} text-xs font-medium">
+              ${roleLabel}
+            </span>
+          </td>
+          <td class="px-4 py-3">${joinDate}</td>
+          <td class="px-4 py-3">${lastDate}</td>
+          <td class="px-4 py-3 text-right">${it.races}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
   </script>
 </body>
 </html>
