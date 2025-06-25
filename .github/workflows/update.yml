@@ -1,40 +1,38 @@
 name: Hourly NitroType Update
 
+# ensure the GITHUB_TOKEN has write access to repo contents
+permissions:
+  contents: write
+
 on:
   schedule:
-    # Runs at the top of every hour
-    - cron: '0 * * * *'
-  # Allow manual trigger
-  workflow_dispatch:
+    - cron: '0 * * * *'    # every hour
+  workflow_dispatch:      # manual trigger
 
 jobs:
   update:
     runs-on: ubuntu-latest
 
     steps:
-      # 1) Check out the repo so we can read/write files
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
+          # this tells the action to configure `origin` with GITHUB_TOKEN
           persist-credentials: true
 
-      # 2) Set up Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '18'
 
-      # 3) Install only the HTTP client
       - name: Install dependencies
         run: npm install axios
 
-      # 4) Run the scraper (proxying through ScraperAPI)
       - name: Run scraper
         env:
           SCRAPERAPI_KEY: ${{ secrets.SCRAPERAPI_KEY }}
         run: node scripts/update.js
 
-      # 5) Commit & push any updated JSON files
       - name: Commit & push changes
         run: |
           git config user.name  "github-actions[bot]"
