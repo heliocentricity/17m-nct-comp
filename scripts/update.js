@@ -1,46 +1,44 @@
 // scripts/update.js
 
-const fs        = require('fs');
-const path      = require('path');
-const puppeteer = require('puppeteer');
+const fs      = require('fs');
+const path    = require('path');
+const axios   = require('axios');
 
+// ─── config paths ──────────────────────────────────────────────────────────
 const CONFIG_PATH = path.join(__dirname, '..', 'baseline.json');
-const DATA_PATH   = path.join(__dirname, '..', 'docs', 'data.json');
+const DATA_PATH   = path.join(__dirname, '..', 'docs',     'data.json');
 
-// load config
+// ─── load or initialize your config ────────────────────────────────────────
 const config = JSON.parse(fs.readFileSync(CONFIG_PATH, 'utf8'));
 const { TEAM_NAME, START_DATE } = config;
 
+// ─── 1) Fetch the team’s JSON via ScraperAPI ────────────────────────────────
 async function fetchLeaderboard() {
-  const url = `https://www.nitrotype.com/team/${TEAM_NAME}`;
+  const targetUrl = `https://www.nitrotype.com/api/v2/teams/${TEAM_NAME}`;
+  const proxyUrl  = `http://api.scraperapi.com`
+                  + `?api_key=${process.env.SCRAPERAPI_KEY}`
+                  + `&url=${encodeURIComponent(targetUrl)}`;
 
-  // launch headless Chrome
-  const browser = await puppeteer.launch({
-    args: ['--no-sandbox','--disable-setuid-sandbox']
-  });
-  const page = await browser.newPage();
+  const res  = await axios.get(proxyUrl);
+  const body = res.data;
 
-  // go to the team page and wait for it to fully render
-  await page.goto(url, { waitUntil: 'networkidle0' });
+  // sanity check
+  if (!body.data || !Array.isArray(body.data.members)) {
+    console.error('⚠️  Unexpected JSON from team API:', JSON.stringify(body).slice(0,200), '\n');
+    throw new Error('Invalid team JSON');
+  }
 
-  // pull the JSON out of the Next.js data blob
-  const raw = await page.$eval(
-    '#__NEXT_DATA__',
-    el => el.textContent
-  );
-  await browser.close();
-
-  const json = JSON.parse(raw);
-  return json.props.pageProps.team.leaderboard.map(entry => ({
-    user:  entry.racer.racerName,
-    races: entry.racer.races
+  // map to an array of { user, races }
+  // each member object has an alltime_races field with their total races
+  return body.data.members.map(m => ({
+    user:  m.racerName || m.username,
+    races: m.alltime_races
   }));
 }
 
-async function main() {
+// ─── 2) On first-ever run: record each member’s baseline ────────────────────
+async function ensureBaseline() {
   const board = await fetchLeaderboard();
-
-  // 1) initialize any missing baselines
   config.baseline = config.baseline || {};
   for (let { user, races } of board) {
     if (!Number.isInteger(config.baseline[user])) {
@@ -49,15 +47,16 @@ async function main() {
     }
   }
   fs.writeFileSync(CONFIG_PATH, JSON.stringify(config, null, 2));
+}
 
-  // 2) compute deltas
+// ─── 3) On every run: compute delta = current – baseline ───────────────────
+async function updateDelta() {
+  const board = await fetchLeaderboard();
   const delta = {};
   for (let { user, races } of board) {
     delta[user] = races - config.baseline[user];
     console.log(`Delta[${user}] = ${delta[user]}`);
   }
-
-  // 3) write out the JSON your static page consumes
   fs.writeFileSync(DATA_PATH, JSON.stringify({
     TEAM_NAME,
     START_DATE,
@@ -65,7 +64,13 @@ async function main() {
   }, null, 2));
 }
 
-main().catch(err => {
-  console.error(err);
-  process.exit(1);
-});
+// ─── 4) Kick it off ────────────────────────────────────────────────────────
+(async () => {
+  try {
+    await ensureBaseline();
+    await updateDelta();
+  } catch (err) {
+    console.error(err);
+    process.exit(1);
+  }
+})();
