@@ -25,14 +25,19 @@ async function fetchLeaderboard() {
     throw new Error('Invalid team JSON');
   }
 
-  return body.results.members.map(m => ({
-    username:      m.username,
-    displayName:   m.displayName || m.username,
-    racesPlayed:   m.racesPlayed,
-    role:          m.role,          // officer, captain, member
-    joinStamp:     m.joinStamp,     // epoch seconds
-    lastActivity:  m.lastActivity   // epoch seconds or null
-  }));
+  return body.results.members.map(m => {
+  let role = m.role;
+  if (m.username === 'aiy_infection') role = 'captain';
+  return {
+    username:     m.username,
+    displayName:  m.displayName,
+    racesPlayed:  m.racesPlayed,
+    role,                    // officer|captain|member
+    title:         m.title,  // title under name
+    joinStamp:     m.joinStamp,
+    lastActivity:  m.lastActivity
+  };
+});
 }
 
 async function ensureBaseline() {
