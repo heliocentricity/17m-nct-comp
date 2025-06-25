@@ -12,13 +12,13 @@
   </p>
 
   <div class="flex space-x-6">
-    <!-- Main table -->
+    <!-- Main table (3/4 width) -->
     <div class="w-3/4 overflow-x-auto">
       <table class="min-w-full bg-slate-800 border-2 border-yellow-400 rounded-lg overflow-hidden">
         <thead class="bg-slate-700">
           <tr>
             <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">#</th>
-            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Name & Title</th>
+            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Name &amp; Title</th>
             <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Role</th>
             <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Member Since</th>
             <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Last Race</th>
@@ -29,30 +29,47 @@
       </table>
     </div>
 
-    <!-- Info boxes -->
+    <!-- Info boxes (1/4 width, right side) -->
     <div class="w-1/4 space-y-6">
+      <!-- Days Left -->
       <div class="bg-slate-800 border-2 border-yellow-400 rounded-lg p-4 text-center">
         <div id="days-left" class="text-5xl font-extrabold text-yellow-300 mb-1"></div>
-        <div class="text-sm text-gray-400">days left in tournament</div>
+        <div class="text-sm text-gray-400 mb-2">days left in tournament</div>
+        <div class="text-xs text-gray-400">
+          June 25th 8 AM (PST/PDT) – July 23rd 8 AM (PST/PDT)
+        </div>
       </div>
+      <!-- Prizes -->
       <div class="bg-slate-800 border-2 border-yellow-400 rounded-lg p-4">
         <h2 class="text-lg font-semibold text-yellow-300 mb-2">Prizes</h2>
-        <p class="text-sm text-gray-300">Top 3 finishers receive exclusive badges and Nitro subscriptions.</p>
+        <p class="text-sm">
+          <span class="text-yellow-300 font-bold">1st</span> – 
+          <span class="text-green-400 font-semibold">$10,000,000 NITRO CASH</span><br>
+          <span class="text-yellow-300 font-bold">2nd</span> – 
+          <span class="text-green-400 font-semibold">$5,000,000 NITRO CASH</span><br>
+          <span class="text-yellow-300 font-bold">3rd</span> – 
+          <span class="text-green-400 font-semibold">$2,000,000 NITRO CASH</span>
+        </p>
       </div>
+      <!-- Description -->
       <div class="bg-slate-800 border-2 border-yellow-400 rounded-lg p-4">
         <h2 class="text-lg font-semibold text-yellow-300 mb-2">Description</h2>
-        <p class="text-sm text-gray-300">
-          Tracks each member’s races since June 24, 2025. Auto-updated hourly (PST/PDT).
+        <p class="text-sm text-gray-300 mb-2">
+          Tracks each member’s races since June 25, 2025. Updated hourly on the hour (PST/PDT).
+        </p>
+        <p class="text-xs text-gray-400">
+          We reserve the right to disqualify you from the tournament if we have good reason to believe that you have cheated (e.g. botting).
         </p>
       </div>
     </div>
   </div>
 
   <script>
-    // Days left calculation
+    // Days left until July 23, 2025 PST
     (function(){
-      const end = new Date('2025-07-17T00:00:00-07:00');
-      const diff = end - new Date();
+      const end = new Date('2025-07-23T08:00:00-07:00');
+      const now = new Date();
+      const diff = end - now;
       document.getElementById('days-left').textContent =
         diff > 0 ? Math.ceil(diff / (1000*60*60*24)) : 0;
     })();
@@ -63,7 +80,7 @@
         document.getElementById('updated-at').textContent = data.last_updated || 'Unknown';
         const board = data.board || [];
 
-        // badge styles for each role key (no spaces, lowercase)
+        // badge styles for each role key (normalized to no spaces, lowercase)
         const roleClasses = {
           officer:       'border-2 border-blue-400 text-blue-400 bg-transparent',
           captain:       'border-2 border-purple-400 text-purple-400 bg-transparent',
@@ -75,33 +92,33 @@
         let lastDelta = null, lastRank = 0;
 
         board.forEach((it, idx) => {
-          // tie-aware rank
+          // tie-aware ranking
           const rank = (it.delta !== lastDelta) ? idx + 1 : lastRank;
           lastDelta = it.delta; lastRank = rank;
 
-          // top3 highlighting
-          let baseClass = '', hoverClass = 'hover:bg-slate-700';
+          // top3 highlighting with graduated gold, custom hover per row
+          let base = '', hover = 'hover:bg-slate-700';
           if (rank === 1) {
-            baseClass  = 'bg-yellow-400/30'; hoverClass = 'hover:bg-yellow-400/20';
+            base  = 'bg-yellow-400/30'; hover = 'hover:bg-yellow-400/20';
           } else if (rank === 2) {
-            baseClass  = 'bg-yellow-500/30'; hoverClass = 'hover:bg-yellow-500/20';
+            base  = 'bg-yellow-500/30'; hover = 'hover:bg-yellow-500/20';
           } else if (rank === 3) {
-            baseClass  = 'bg-yellow-600/30'; hoverClass = 'hover:bg-yellow-600/20';
+            base  = 'bg-yellow-600/30'; hover = 'hover:bg-yellow-600/20';
           }
-          const rowClass = `cursor-pointer ${baseClass} ${hoverClass}`;
+          const rowClass = `cursor-pointer ${base} ${hover}`;
 
-          // formatted ordinal
+          // ordinal with a sans-serif font
           let ord = `${rank}`;
-          if (rank === 1) ord = `<span class="font-serif text-xl">1st</span>`;
-          if (rank === 2) ord = `<span class="font-serif text-xl">2nd</span>`;
-          if (rank === 3) ord = `<span class="font-serif text-xl">3rd</span>`;
+          if (rank === 1) ord = `<span class="font-mono text-2xl text-yellow-300">1st</span>`;
+          if (rank === 2) ord = `<span class="font-mono text-2xl text-yellow-300">2nd</span>`;
+          if (rank === 3) ord = `<span class="font-mono text-2xl text-yellow-300">3rd</span>`;
 
           // normalize role key
           const key = (it.role||'').toLowerCase().replace(/\s+/g,'');
           const badgeClass = roleClasses[key] || roleClasses.member;
           const roleLabel  = it.role
             .split(/[\s_]+/)
-            .map(w=>w[0].toUpperCase()+w.slice(1))
+            .map(w => w[0].toUpperCase() + w.slice(1))
             .join(' ');
 
           // dates
@@ -112,16 +129,16 @@
             ? new Date(it.lastActivity*1000).toLocaleDateString()
             : 'N/A';
 
-          // title beneath name
+          // title under name
           const titleHtml = it.title
-            ? `<div class="text-xs text-gray-400 mt-1">${it.title}</div>`
+            ? `<div class="text-xs text-gray-200 mt-1">${it.title}</div>`
             : '';
 
           const tr = document.createElement('tr');
-          tr.className = rowClass + ' align-middle';
+          tr.className = `${rowClass} align-middle`;
           tr.setAttribute('onclick',
             `location.href='https://www.nitrotype.com/racer/${it.username}'`);
-          tr.setAttribute('title','View profile');
+          tr.setAttribute('title','View Nitro Type profile');
           tr.innerHTML = `
             <td class="px-4 py-3">${ord}</td>
             <td class="px-4 py-3 text-yellow-300 font-semibold">
