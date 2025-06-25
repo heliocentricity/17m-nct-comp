@@ -23,19 +23,17 @@
       <div class="bg-slate-800 border-2 border-yellow-400 rounded-lg p-4 flex flex-col items-center">
         <h2 class="text-lg font-semibold text-yellow-300 mb-2">Prizes</h2>
         <p class="text-sm text-gray-300 text-center">
-          Top 3 podium finishers will earn exclusive team badges and Nitro subscriptions:
-          <br><strong>1st:</strong> Gold Badge + 1-month Nitro<br>
+          Top 3 podium finishers will earn exclusive team badges and Nitro subscriptions:<br>
+          <strong>1st:</strong> Gold Badge + 1-month Nitro<br>
           <strong>2nd:</strong> Silver Badge<br>
           <strong>3rd:</strong> Bronze Badge
         </p>
       </div>
       <!-- Box 3: Description -->
       <div class="bg-slate-800 border-2 border-yellow-400 rounded-lg p-4 flex flex-col items-center">
-        <h2 class="text-lg font-semibold text-yellow-300 mb-2">Description</h2>
-        <p class="text-sm text-gray-300 text-center">
-          This leaderboard shows each HELIOS member’s races since June 24, 2025.
-          It updates hourly on the hour (PST/PDT).
-        </p>
+        <div class="text-sm text-gray-300 text-center mb-2">
+          This leaderboard shows each HELIOS member’s races since June 24, 2025.<br>It updates hourly on the hour (PST/PDT).
+        </div>
       </div>
     </div>
 
@@ -51,6 +49,7 @@
             <tr>
               <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">#</th>
               <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Name</th>
+              <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Title</th>
               <th class="px-4 py-3 text-right text-sm font-medium text-gray-300">Races</th>
             </tr>
           </thead>
@@ -109,6 +108,13 @@
           const rank = i + 4;
           const races = Number.isFinite(item.delta) ? item.delta : 0;
           const name  = item.displayName || item.username;
+          // Role badge
+          let badge = '';
+          if (item.role === 'officer') {
+            badge = `<span class="ml-2 px-2 py-0.5 rounded text-xs text-slate-900 bg-blue-400">Officer</span>`;
+          } else if (item.role === 'captain' || item.username === 'aiy_infection') {
+            badge = `<span class="ml-2 px-2 py-0.5 rounded text-xs text-slate-900 bg-purple-400">Captain</span>`;
+          }
           const tr = document.createElement('tr');
           tr.innerHTML = `
             <td class="px-4 py-3">${rank}</td>
@@ -117,7 +123,9 @@
                  target="_blank" class="text-yellow-300 hover:underline">
                 ${name}
               </a>
+              ${badge}
             </td>
+            <td class="px-4 py-3">${item.title || ''}</td>
             <td class="px-4 py-3 text-right">${races}</td>
           `;
           tbody.appendChild(tr);
