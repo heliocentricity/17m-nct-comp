@@ -21,13 +21,20 @@
   </p>
 
   <div class="flex space-x-6">
-    <!-- Main table -->
-    <div class="w-3/4 overflow-x-auto">
-      <table class="min-w-full bg-slate-800 border-2 border-yellow-400 rounded-lg overflow-hidden">
+    <!-- Main table with suns.png background -->
+    <div
+      class="w-3/4 relative overflow-x-auto rounded-lg"
+      style="
+        background-image: url('assets/suns.png');
+        background-size: cover;
+        background-position: center;
+      "
+    >
+      <table class="min-w-full bg-slate-800/70 border-2 border-yellow-400 rounded-lg overflow-hidden">
         <thead class="bg-slate-700">
           <tr>
             <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">#</th>
-            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Name &amp; Title</th>
+            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Name & Title</th>
             <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Role</th>
             <th id="th-join"   class="px-4 py-3 text-left text-sm font-medium text-gray-300 sortable">
               Member Since <span>▼</span>
@@ -77,15 +84,15 @@
           We reserve the right to disqualify you from the tournament if we have good reason to believe that you have cheated (e.g. botting).
           Please make sure you are adhering to
           <a href="https://www.nitrotype.com/support/tos/" target="_blank"
-             class="underline text-blue-300">
-            Nitro Type's TOS</a>.Thank you!
+             class="underline text-blue-300">Nitro Type's TOS</a>.Thank you!
         </p>
       </div>
       <div class="bg-slate-800 border-2 border-yellow-400 rounded-lg p-4">
         <h2 class="text-lg font-semibold text-yellow-400 mb-2">Links</h2>
         <ul class="text-sm space-y-1">
           <li>
-            <a href="https://www.nitrotype.com/team/HELIOS" target="_blank" class="underline">
+            <a href="https://www.nitrotype.com/team/HELIOS" target="_blank"
+               class="underline">
               <span class="text-yellow-300">[HELIOS]</span>
               <span class="text-blue-300"> on Nitro Type</span>
             </a>
@@ -104,8 +111,7 @@
         <p class="text-sm text-gray-300">
           Medal icons by
           <a href="https://www.vecteezy.com/free-vector/1st-2nd-3rd-place" target="_blank"
-             class="underline text-blue-300">
-            1st 2nd 3rd Place Vectors by Vecteezy</a>.
+             class="underline text-blue-300">1st 2nd 3rd Place Vectors by Vecteezy</a>.
         </p>
       </div>
     </div>
@@ -118,7 +124,7 @@
     let exact = true;
     function updateCd() {
       const end = new Date('2025-07-23T08:00:00-07:00');
-      let d = end - new Date(); if(d<0) d=0;
+      let d = end - new Date(); if (d < 0) d = 0;
       const days = Math.floor(d/86400000),
             hrs  = Math.floor(d%86400000/3600000),
             mins = Math.floor(d%3600000/60000),
@@ -128,64 +134,66 @@
           +`${String(mins).padStart(2,'0')}:${String(secs).padStart(2,'0')}`
         : days;
     }
-    btn.addEventListener('click', ()=>{
+    btn.addEventListener('click', () => {
       exact = !exact;
       btn.textContent = exact ? 'Show days only' : 'Show exact countdown';
       updateCd();
     });
-    setInterval(updateCd,1000);
+    setInterval(updateCd, 1000);
     updateCd();
 
     // Sorting
-    const sortStates={join:false,last:false,races:false};
-    let rows=[];
-    function clearArrows(){
-      ['join','last','races'].forEach(k=>{
+    const sortStates = { join:false, last:false, races:false };
+    let rows = [];
+    function clearArrows() {
+      ['join','last','races'].forEach(k => {
         document.getElementById(`th-${k}`)
-                .querySelector('span').textContent='▼';
+          .querySelector('span').textContent='▼';
       });
     }
-    function sortBy(key){
-      sortStates[key]=!sortStates[key];
+    function sortBy(key) {
+      sortStates[key] = !sortStates[key];
       clearArrows();
       document.getElementById(`th-${key}`)
-              .querySelector('span').textContent = sortStates[key]?'▲':'▼';
-      const dir = sortStates[key]?1:-1;
-      rows.sort((a,b)=>{
-        if(key==='races') return dir*(a.delta-b.delta);
-        return dir*(a[key]-b[key]);
+        .querySelector('span').textContent = sortStates[key] ? '▲' : '▼';
+      const dir = sortStates[key] ? 1 : -1;
+      rows.sort((a,b) => {
+        if (key==='races') return dir*(a.delta - b.delta);
+        return dir*(a[key] - b[key]);
       });
       render();
     }
-    document.addEventListener('DOMContentLoaded',()=>{
-      ['join','last','races'].forEach(k=>{
+    document.addEventListener('DOMContentLoaded', () => {
+      ['join','last','races'].forEach(k => {
         document.getElementById(`th-${k}`)
-                .addEventListener('click',()=>sortBy(k));
+          .addEventListener('click', () => sortBy(k));
       });
-      fetch('data.json').then(r=>r.json()).then(data=>{
-        document.getElementById('updated-at').textContent = data.last_updated||'Unknown';
-        let lastDelta=null,lastRank=0;
-        rows = data.board.map((it,idx)=>{
-          const rank=(it.delta!==lastDelta)?idx+1:lastRank;
-          lastDelta=it.delta; lastRank=rank;
-          return {...it,rank,join:it.joinStamp||0,last:it.lastActivity||0};
+      fetch('data.json')
+        .then(r => r.json())
+        .then(data => {
+          document.getElementById('updated-at').textContent = data.last_updated || 'Unknown';
+          let ld=null, lr=0;
+          rows = data.board.map((it, idx) => {
+            const rank = (it.delta !== ld) ? idx + 1 : lr;
+            ld = it.delta; lr = rank;
+            return { ...it, rank, join:it.joinStamp||0, last:it.lastActivity||0 };
+          });
+          render();
         });
-        render();
-      });
     });
-    function render(){
-      const tb=document.getElementById('leaderboard');
-      tb.innerHTML='';
-      rows.forEach(it=>{
-        let base='',hover='hover:bg-slate-700';
-        if(it.rank===1){base='bg-yellow-400/20';hover='hover:bg-yellow-400/10';}
-        else if(it.rank===2){base='bg-yellow-500/20';hover='hover:bg-yellow-500/10';}
-        else if(it.rank===3){base='bg-yellow-600/20';hover='hover:bg-yellow-600/10';}
-        const cls=`cursor-pointer ${base} ${hover}`;
-        let ord=`${it.rank}`;
-        if(it.rank===1) ord=`<img src="assets/1st.png" alt="1st" class="h-6 inline"/>`;
-        if(it.rank===2) ord=`<img src="assets/2nd.png" alt="2nd" class="h-6 inline"/>`;
-        if(it.rank===3) ord=`<img src="assets/3rd.png" alt="3rd" class="h-6 inline"/>`;
+    function render() {
+      const tb = document.getElementById('leaderboard');
+      tb.innerHTML = '';
+      rows.forEach(it => {
+        let base='', hover='hover:bg-slate-700';
+        if (it.rank===1) { base='bg-yellow-400/20'; hover='hover:bg-yellow-400/10'; }
+        else if (it.rank===2){ base='bg-yellow-500/20'; hover='hover:bg-yellow-500/10'; }
+        else if (it.rank===3){ base='bg-yellow-600/20'; hover='hover:bg-yellow-600/10'; }
+        const cls = `cursor-pointer ${base} ${hover}`;
+        let ord = `${it.rank}`;
+        if (it.rank===1) ord = `<img src="assets/1st.png" alt="1st" class="h-6 inline"/>`;
+        if (it.rank===2) ord = `<img src="assets/2nd.png" alt="2nd" class="h-6 inline"/>`;
+        if (it.rank===3) ord = `<img src="assets/3rd.png" alt="3rd" class="h-6 inline"/>`;
         const rk = it.role.toLowerCase().replace(/\s+/g,'');
         const rc = {
           officer:     'border-2 border-blue-400 text-blue-400 bg-transparent',
@@ -195,25 +203,27 @@
         };
         const bc = rc[rk]||rc.member;
         let rl = it.role.charAt(0).toUpperCase()+it.role.slice(1);
-        if(rk==='vicecaptain') rl='Vice Captain';
-        const jd = it.join?new Date(it.join*1000).toLocaleDateString():'N/A';
-        const ld = it.last?new Date(it.last*1000).toLocaleDateString():'N/A';
+        if (rk==='vicecaptain') rl='Vice Captain';
+        const jd = it.join ? new Date(it.join*1000).toLocaleDateString() : 'N/A';
+        const ld2= it.last ? new Date(it.last*1000).toLocaleDateString() : 'N/A';
         const tc = it.rank<=3?'text-yellow-400/70':'text-gray-400';
-        const th = it.title?`<div class="text-xs ${tc} mt-1">${it.title}</div>`:'';
-        const tr=document.createElement('tr');
-        tr.className=`${cls} align-middle`;
-        tr.onclick=()=>window.open(`https://www.nitrotype.com/racer/${it.username}`,'_blank');
-        tr.title='View Nitro Type profile';
-        tr.innerHTML=`
+        const th = it.title ? `<div class="text-xs ${tc} mt-1">${it.title}</div>` : '';
+        const tr = document.createElement('tr');
+        tr.className = `${cls} align-middle`;
+        tr.onclick  = () => window.open(`https://www.nitrotype.com/racer/${it.username}`, '_blank');
+        tr.title    = 'View Nitro Type profile';
+        tr.innerHTML= `
           <td class="px-4 py-3">${ord}</td>
           <td class="px-4 py-3 text-yellow-300 font-semibold">
             ${it.displayName}${th}
           </td>
           <td class="px-4 py-3">
-            <span class="px-2 py-0.5 rounded ${bc} text-xs font-medium">${rl}</span>
+            <span class="px-2 py-0.5 rounded ${bc} text-xs font-medium">
+              ${rl}
+            </span>
           </td>
           <td class="px-4 py-3">${jd}</td>
-          <td class="px-4 py-3">${ld}</td>
+          <td class="px-4 py-3">${ld2}</td>
           <td class="px-4 py-3 text-right">${it.delta||0}</td>
         `;
         tb.appendChild(tr);
