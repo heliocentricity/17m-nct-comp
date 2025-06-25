@@ -4,20 +4,6 @@
   <meta charset="UTF-8" />
   <title>HELIOS NitroType Leaderboard</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    /* top3 backgrounds and hovers */
-    .bg-first  { background-color: rgba(212,175,55,0.3); }
-    .bg-first:hover  { background-color: rgba(212,175,55,0.5); }
-    .bg-second { background-color: rgba(212,175,55,0.2); }
-    .bg-second:hover { background-color: rgba(212,175,55,0.4); }
-    .bg-third  { background-color: rgba(212,175,55,0.1); }
-    .bg-third:hover  { background-color: rgba(212,175,55,0.3); }
-    /* non-top3 hover */
-    .hover-gold:hover { background-color: rgba(212,175,55,0.15); }
-
-    /* rank font */
-    .rank-font { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas; }
-  </style>
 </head>
 <body class="bg-slate-900 text-gray-200 min-h-screen p-8">
   <h1 class="text-4xl font-extrabold mb-2 text-yellow-400">HELIOS Team Leaderboard</h1>
@@ -26,115 +12,124 @@
   </p>
 
   <div class="flex space-x-6">
-    <!-- LEFT: main table -->
-    <div class="w-3/4">
-      <div class="overflow-x-auto">
-        <table class="min-w-full bg-slate-800 border-2 border-yellow-400 rounded-lg overflow-hidden">
-          <thead class="bg-slate-700">
-            <tr>
-              <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">#</th>
-              <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Name</th>
-              <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Title</th>
-              <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Role</th>
-              <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Member&nbsp;Since</th>
-              <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Last&nbsp;Race</th>
-              <th class="px-4 py-3 text-right text-sm font-medium text-gray-300">Races</th>
-            </tr>
-          </thead>
-          <tbody id="leaderboard" class="divide-y divide-slate-700"></tbody>
-        </table>
-      </div>
+    <!-- Main table (3/4 width) -->
+    <div class="w-3/4 overflow-x-auto">
+      <table class="min-w-full bg-slate-800 border-2 border-yellow-400 rounded-lg overflow-hidden">
+        <thead class="bg-slate-700">
+          <tr>
+            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300 align-middle">#</th>
+            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300 align-middle">Name &amp; Title</th>
+            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300 align-middle">Role</th>
+            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300 align-middle">Member Since</th>
+            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300 align-middle">Last Race</th>
+            <th class="px-4 py-3 text-right text-sm font-medium text-gray-300">Races</th>
+          </tr>
+        </thead>
+        <tbody id="leaderboard" class="divide-y divide-slate-700">
+        </tbody>
+      </table>
     </div>
 
-    <!-- RIGHT: info boxes -->
+    <!-- Info boxes (1/4 width, right side) -->
     <div class="w-1/4 space-y-6">
+      <!-- Days Left -->
       <div class="bg-slate-800 border-2 border-yellow-400 rounded-lg p-4 text-center">
         <div id="days-left" class="text-5xl font-extrabold text-yellow-300 mb-1"></div>
         <div class="text-sm text-gray-400">days left in tournament</div>
       </div>
+      <!-- Prizes -->
       <div class="bg-slate-800 border-2 border-yellow-400 rounded-lg p-4">
         <h2 class="text-lg font-semibold text-yellow-300 mb-2">Prizes</h2>
-        <p class="text-sm text-gray-300">Gold, badges, and glory for the top racers!</p>
+        <p class="text-sm text-gray-300">
+          Top 3 finishers receive exclusive badges and Nitro subscriptions.
+        </p>
       </div>
+      <!-- Description -->
       <div class="bg-slate-800 border-2 border-yellow-400 rounded-lg p-4">
         <h2 class="text-lg font-semibold text-yellow-300 mb-2">Description</h2>
         <p class="text-sm text-gray-300">
-          Tracks each member’s races since June 24, 2025.<br>
-          Updated hourly (PST/PDT).
+          Tracks each member’s races since June 24, 2025. Auto-updated hourly (PST/PDT).
         </p>
       </div>
     </div>
   </div>
 
   <script>
-    // days left
-    ;(function(){
+    // Days left until July 17, 2025 PST
+    (function(){
       const end = new Date('2025-07-17T00:00:00-07:00');
       const diff = end - new Date();
-      document.getElementById('days-left').textContent =
-        diff>0 ? Math.ceil(diff/(1000*60*60*24)) : 0;
+      document.getElementById('days-left').textContent = diff > 0 ? Math.ceil(diff / 86400000) : 0;
     })();
 
     fetch('data.json')
       .then(r => r.json())
       .then(data => {
-        document.getElementById('updated-at').textContent = data.last_updated;
+        document.getElementById('updated-at').textContent = data.last_updated || 'Unknown';
         const board = data.board || [];
 
-        // build table with tie-aware ranks
-        let prevDelta = null, rank = 0, displayRank = 0;
+        const roleClasses = {
+          officer: 'border-2 border-blue-400 text-blue-400 bg-transparent',
+          captain: 'border-2 border-purple-400 text-purple-400 bg-transparent',
+          member:  'text-gray-400'
+        };
+
         const tbody = document.getElementById('leaderboard');
+        let lastDelta = null, lastRank = 0;
 
-        board.forEach((item, i) => {
-          rank++;
-          if (item.delta !== prevDelta) {
-            displayRank = rank;
-            prevDelta = item.delta;
+        board.forEach((it, idx) => {
+          // rank with ties
+          const rank = (it.delta !== lastDelta) ? idx + 1 : lastRank;
+          lastDelta = it.delta;
+          lastRank = rank;
+
+          // highlight top3 with faded gold, hover lighter
+          let baseClass = '';
+          let hoverClass = 'hover:bg-slate-700 ';
+          if (idx === 0) {
+            baseClass  = 'bg-yellow-400/30 ';
+            hoverClass = 'hover:bg-yellow-400/20 ';
+          } else if (idx === 1) {
+            baseClass  = 'bg-yellow-500/30 ';
+            hoverClass = 'hover:bg-yellow-500/20 ';
+          } else if (idx === 2) {
+            baseClass  = 'bg-yellow-600/30 ';
+            hoverClass = 'hover:bg-yellow-600/20 ';
           }
-          // suffix
-          let suffix = 'th';
-          if (displayRank === 1) suffix = 'st';
-          else if (displayRank === 2) suffix = 'nd';
-          else if (displayRank === 3) suffix = 'rd';
 
-          // row classes
-          let rowClass = 'cursor-pointer align-middle ';
-          if (displayRank === 1)       rowClass += 'bg-first ';
-          else if (displayRank === 2)  rowClass += 'bg-second ';
-          else if (displayRank === 3)  rowClass += 'bg-third ';
-          else                          rowClass += 'hover-gold ';
+          const rowClass = `cursor-pointer ${baseClass}${hoverClass}align-middle`;
 
-          // role badge
-          const roleColors = {
-            officer:     'text-green-300 border-green-300',
-            captain:     'text-red-300   border-red-300',
-            vicecaptain: 'text-indigo-300 border-indigo-300'
-          };
-          const badgeColor = roleColors[item.role] || 'text-gray-400 border-gray-400';
-          const roleBadge = `<span class="inline-block text-xs font-medium px-2 py-0.5 rounded border ${badgeColor} align-middle">${item.role.replace(/([A-Z])/g,' $1').trim()}</span>`;
+          const races = Number.isFinite(it.delta) ? it.delta : 0;
+          const joinDate = it.joinStamp ? new Date(it.joinStamp * 1000).toLocaleDateString() : 'N/A';
+          const lastDate = it.lastActivity ? new Date(it.lastActivity * 1000).toLocaleDateString() : 'N/A';
 
-          // dates
-          const join = item.joinStamp
-            ? new Date(item.joinStamp*1000).toLocaleDateString('en-US',{timeZone:'America/Los_Angeles'})
-            : 'N/A';
-          const last = item.lastActivity
-            ? new Date(item.lastActivity*1000).toLocaleDateString('en-US',{timeZone:'America/Los_Angeles'})
-            : 'N/A';
+          const badgeClass = roleClasses[it.role] || roleClasses.member;
+          const titleHtml = it.title ? `<div class="text-xs text-gray-400 mt-1">${it.title}</div>` : '';
+
+          // formatted rank with st/nd/rd and font
+          let rankDisplay = `${rank}`;
+          if (rank === 1) rankDisplay = `<span class="font-serif text-xl">1st</span>`;
+          else if (rank === 2) rankDisplay = `<span class="font-serif text-xl">2nd</span>`;
+          else if (rank === 3) rankDisplay = `<span class="font-serif text-xl">3rd</span>`;
 
           const tr = document.createElement('tr');
-          tr.setAttribute('class', rowClass);
-          tr.setAttribute('title', 'View Nitro Type profile');
-          tr.setAttribute('onclick', `window.open('https://www.nitrotype.com/racer/${item.username}','_blank')`);
+          tr.setAttribute('onclick', `location.href='https://www.nitrotype.com/racer/${it.username}'`);
+          tr.setAttribute('title', 'View profile');
+          tr.className = rowClass;
           tr.innerHTML = `
-            <td class="px-4 py-3 rank-font">${displayRank}${suffix}</td>
-            <td class="px-4 py-3">
-              ${item.displayName}
-              <div class="text-xs text-gray-400">${item.title}</div>
+            <td class="px-4 py-3" dangerouslySetInnerHTML='{ __html: rankDisplay }'>${rankDisplay}</td>
+            <td class="px-4 py-3 text-yellow-300 font-semibold">
+              <span>${it.displayName}</span>
+            ${titleHtml}
             </td>
-            <td class="px-4 py-3">${roleBadge}</td>
-            <td class="px-4 py-3">${join}</td>
-            <td class="px-4 py-3">${last}</td>
-            <td class="px-4 py-3 text-right">${item.delta}</td>
+            <td class="px-4 py-3">
+              <span class="px-2 py-0.5 rounded ${badgeClass} text-xs font-medium">
+                ${it.role.charAt(0).toUpperCase() + it.role.slice(1)}
+              </span>
+            </td>
+            <td class="px-4 py-3">${joinDate}</td>
+            <td class="px-4 py-3">${lastDate}</td>
+            <td class="px-4 py-3 text-right">${races}</td>
           `;
           tbody.appendChild(tr);
         });
