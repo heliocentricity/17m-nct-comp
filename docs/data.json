@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 25, 2025 at 1:36 AM PDT",
+  "last_updated": "June 25, 2025 at 2:31 AM PDT",
   "board": [
     {
       "username": "abot8",
@@ -16,12 +16,12 @@
     {
       "username": "neiletsky",
       "displayName": "NoLimit",
-      "racesPlayed": 10477,
+      "racesPlayed": 10490,
       "role": "vicecaptain",
       "title": "Speed Demon",
       "joinStamp": 1744741826,
-      "lastActivity": 1750832618,
-      "delta": 124
+      "lastActivity": 1750843184,
+      "delta": 137
     },
     {
       "username": "aiy_infection",
