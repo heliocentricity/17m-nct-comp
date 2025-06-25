@@ -1,21 +1,32 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
+  "last_updated": "June 24, 2025 at 9:36 PM PDT",
   "board": [
     {
       "username": "neiletsky",
       "displayName": "NoLimit",
-      "delta": 30
+      "delta": 92
     },
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "delta": 26
+      "delta": 77
+    },
+    {
+      "username": "aiy_infection",
+      "displayName": "icarus - 10k soon",
+      "delta": 51
     },
     {
       "username": "tryhardwillwork",
       "displayName": "Chronos",
       "delta": 21
+    },
+    {
+      "username": "4978dd1c73bd50b93b895f4299eed6b8",
+      "displayName": "Mystic",
+      "delta": 3
     },
     {
       "username": "persionde",
@@ -118,11 +129,6 @@
       "delta": 0
     },
     {
-      "username": "aiy_infection",
-      "displayName": "icarus - 10k soon",
-      "delta": 0
-    },
-    {
       "username": "vdgyertikopzefrgh",
       "displayName": "vdgyertikopzefrgh",
       "delta": 0
@@ -150,11 +156,6 @@
     {
       "username": "01dda282fb97c0a298a6a18e8eac8d8d",
       "displayName": "Juris Doctor",
-      "delta": 0
-    },
-    {
-      "username": "4978dd1c73bd50b93b895f4299eed6b8",
-      "displayName": "Mystic",
       "delta": 0
     },
     {
