@@ -5,44 +5,64 @@
   <title>HELIOS NitroType Leaderboard</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 p-10">
-  <h1 class="text-3xl font-bold mb-6">HELIOS Team Leaderboard</h1>
-  <div class="overflow-x-auto">
-    <table class="min-w-full bg-white shadow overflow-hidden rounded-lg">
-      <thead class="bg-gray-200">
-        <tr>
-          <th class="px-6 py-3 text-left text-sm font-medium text-gray-700">#</th>
-          <th class="px-6 py-3 text-left text-sm font-medium text-gray-700">Name</th>
-          <th class="px-6 py-3 text-right text-sm font-medium text-gray-700">Races</th>
-        </tr>
-      </thead>
-      <tbody id="leaderboard" class="divide-y divide-gray-200">
-        <!-- JS will populate rows here -->
-      </tbody>
-    </table>
+<body class="bg-slate-900 text-gray-200 min-h-screen p-8">
+  <h1 class="text-4xl font-extrabold mb-4 text-yellow-400">HELIOS Team Leaderboard</h1>
+  <p class="text-sm italic text-gray-400 mb-6">
+    Last updated: <span id="updated-at">Loading…</span>
+  </p>
+
+  <div class="flex space-x-6">
+    <!-- Leaderboard: 75% width -->
+    <div class="w-3/4">
+      <div class="overflow-x-auto">
+        <table class="min-w-full bg-slate-800 border-2 border-yellow-400 rounded-lg overflow-hidden">
+          <thead class="bg-slate-700">
+            <tr>
+              <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">#</th>
+              <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Name</th>
+              <th class="px-4 py-3 text-right text-sm font-medium text-gray-300">Races</th>
+            </tr>
+          </thead>
+          <tbody id="leaderboard" class="divide-y divide-slate-700">
+            <!-- JS will insert rows -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Description box: 25% width -->
+    <div class="w-1/4 bg-slate-800 border-2 border-yellow-400 rounded-lg p-4">
+      <h2 class="text-lg font-semibold text-yellow-300 mb-2">Description</h2>
+      <p class="text-sm text-gray-300">
+        <!-- Your team description here -->
+        This leaderboard tracks each HELIOS member’s races since June 24, 2025. Updated hourly on the hour in Pacific Time.
+      </p>
+    </div>
   </div>
 
   <script>
     fetch('data.json')
-      .then(res => res.json())
+      .then(r => r.json())
       .then(data => {
-        const board = Array.isArray(data.board) ? data.board : [];
-        const tbody = document.getElementById('leaderboard');
+        // show timestamp
+        document.getElementById('updated-at').textContent = data.last_updated;
 
-        board.forEach((item, idx) => {
+        const tbody = document.getElementById('leaderboard');
+        (data.board || []).forEach((item, idx) => {
           const races = Number.isFinite(item.delta) ? item.delta : 0;
           const name  = item.displayName || item.username;
           const url   = `https://www.nitrotype.com/racer/${item.username}`;
 
           const tr = document.createElement('tr');
           tr.innerHTML = `
-            <td class="px-6 py-4 whitespace-nowrap">${idx + 1}</td>
-            <td class="px-6 py-4 whitespace-nowrap font-semibold">
-              <a href="${url}" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">
+            <td class="px-4 py-3">${idx + 1}</td>
+            <td class="px-4 py-3 font-semibold">
+              <a href="${url}" target="_blank" rel="noopener noreferrer"
+                 class="text-yellow-300 hover:underline">
                 ${name}
               </a>
             </td>
-            <td class="px-6 py-4 whitespace-nowrap text-right">${races}</td>
+            <td class="px-4 py-3 text-right">${races}</td>
           `;
           tbody.appendChild(tr);
         });
