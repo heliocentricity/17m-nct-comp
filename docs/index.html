@@ -12,16 +12,16 @@
   </p>
 
   <div class="flex space-x-6">
-    <!-- Main table (3/4 width) -->
+    <!-- Main table -->
     <div class="w-3/4 overflow-x-auto">
       <table class="min-w-full bg-slate-800 border-2 border-yellow-400 rounded-lg overflow-hidden">
         <thead class="bg-slate-700">
           <tr>
-            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300 align-middle">#</th>
-            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300 align-middle">Name &amp; Title</th>
-            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300 align-middle">Role</th>
-            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300 align-middle">Member Since</th>
-            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300 align-middle">Last Race</th>
+            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">#</th>
+            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Name & Title</th>
+            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Role</th>
+            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Member Since</th>
+            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Last Race</th>
             <th class="px-4 py-3 text-right text-sm font-medium text-gray-300">Races</th>
           </tr>
         </thead>
@@ -29,21 +29,16 @@
       </table>
     </div>
 
-    <!-- Info boxes (1/4 width, right side) -->
+    <!-- Info boxes -->
     <div class="w-1/4 space-y-6">
-      <!-- Days Left -->
       <div class="bg-slate-800 border-2 border-yellow-400 rounded-lg p-4 text-center">
         <div id="days-left" class="text-5xl font-extrabold text-yellow-300 mb-1"></div>
         <div class="text-sm text-gray-400">days left in tournament</div>
       </div>
-      <!-- Prizes -->
       <div class="bg-slate-800 border-2 border-yellow-400 rounded-lg p-4">
         <h2 class="text-lg font-semibold text-yellow-300 mb-2">Prizes</h2>
-        <p class="text-sm text-gray-300">
-          Top 3 finishers receive exclusive badges and Nitro subscriptions.
-        </p>
+        <p class="text-sm text-gray-300">Top 3 finishers receive exclusive badges and Nitro subscriptions.</p>
       </div>
-      <!-- Description -->
       <div class="bg-slate-800 border-2 border-yellow-400 rounded-lg p-4">
         <h2 class="text-lg font-semibold text-yellow-300 mb-2">Description</h2>
         <p class="text-sm text-gray-300">
@@ -54,11 +49,10 @@
   </div>
 
   <script>
-    // Days left until July 17, 2025 PST
+    // Days left calculation
     (function(){
-      const end  = new Date('2025-07-17T00:00:00-07:00');
-      const now  = new Date();
-      const diff = end - now;
+      const end = new Date('2025-07-17T00:00:00-07:00');
+      const diff = end - new Date();
       document.getElementById('days-left').textContent =
         diff > 0 ? Math.ceil(diff / (1000*60*60*24)) : 0;
     })();
@@ -69,43 +63,46 @@
         document.getElementById('updated-at').textContent = data.last_updated || 'Unknown';
         const board = data.board || [];
 
-        // Define badge styles for each role
+        // badge styles for each role key (no spaces, lowercase)
         const roleClasses = {
-          officer:      'border-2 border-blue-400 text-blue-400 bg-transparent',
-          captain:      'border-2 border-purple-400 text-purple-400 bg-transparent',
-          'vice captain':'border-2 border-green-400 text-green-400 bg-transparent',
-          member:       'text-gray-400'
+          officer:       'border-2 border-blue-400 text-blue-400 bg-transparent',
+          captain:       'border-2 border-purple-400 text-purple-400 bg-transparent',
+          vicecaptain:   'border-2 border-green-400 text-green-400 bg-transparent',
+          member:        'text-gray-400'
         };
 
         const tbody = document.getElementById('leaderboard');
         let lastDelta = null, lastRank = 0;
 
         board.forEach((it, idx) => {
-          // tie-aware ranking
+          // tie-aware rank
           const rank = (it.delta !== lastDelta) ? idx + 1 : lastRank;
-          lastDelta = it.delta;
-          lastRank = rank;
+          lastDelta = it.delta; lastRank = rank;
 
-          // top-3 highlight + custom hover shades
+          // top3 highlighting
           let baseClass = '', hoverClass = 'hover:bg-slate-700';
           if (rank === 1) {
-            baseClass  = 'bg-yellow-400/30';
-            hoverClass = 'hover:bg-yellow-400/20';
+            baseClass  = 'bg-yellow-400/30'; hoverClass = 'hover:bg-yellow-400/20';
           } else if (rank === 2) {
-            baseClass  = 'bg-yellow-500/30';
-            hoverClass = 'hover:bg-yellow-500/20';
+            baseClass  = 'bg-yellow-500/30'; hoverClass = 'hover:bg-yellow-500/20';
           } else if (rank === 3) {
-            baseClass  = 'bg-yellow-600/30';
-            hoverClass = 'hover:bg-yellow-600/20';
+            baseClass  = 'bg-yellow-600/30'; hoverClass = 'hover:bg-yellow-600/20';
           }
-
           const rowClass = `cursor-pointer ${baseClass} ${hoverClass}`;
 
-          // formatted rank with st/nd/rd
-          let rankDisplay = `${rank}`;
-          if (rank === 1) rankDisplay = `<span class="font-serif text-xl">1st</span>`;
-          if (rank === 2) rankDisplay = `<span class="font-serif text-xl">2nd</span>`;
-          if (rank === 3) rankDisplay = `<span class="font-serif text-xl">3rd</span>`;
+          // formatted ordinal
+          let ord = `${rank}`;
+          if (rank === 1) ord = `<span class="font-serif text-xl">1st</span>`;
+          if (rank === 2) ord = `<span class="font-serif text-xl">2nd</span>`;
+          if (rank === 3) ord = `<span class="font-serif text-xl">3rd</span>`;
+
+          // normalize role key
+          const key = (it.role||'').toLowerCase().replace(/\s+/g,'');
+          const badgeClass = roleClasses[key] || roleClasses.member;
+          const roleLabel  = it.role
+            .split(/[\s_]+/)
+            .map(w=>w[0].toUpperCase()+w.slice(1))
+            .join(' ');
 
           // dates
           const joinDate = it.joinStamp
@@ -115,33 +112,25 @@
             ? new Date(it.lastActivity*1000).toLocaleDateString()
             : 'N/A';
 
-          // badge
-          const badgeClass = roleClasses[it.role] || roleClasses.member;
-          const roleDisplay = it.role
-            .split(' ')
-            .map(w => w.charAt(0).toUpperCase()+w.slice(1))
-            .join(' ');
-
-          // title under name
+          // title beneath name
           const titleHtml = it.title
             ? `<div class="text-xs text-gray-400 mt-1">${it.title}</div>`
             : '';
 
-          // build row
           const tr = document.createElement('tr');
           tr.className = rowClass + ' align-middle';
           tr.setAttribute('onclick',
             `location.href='https://www.nitrotype.com/racer/${it.username}'`);
           tr.setAttribute('title','View profile');
           tr.innerHTML = `
-            <td class="px-4 py-3">${rankDisplay}</td>
+            <td class="px-4 py-3">${ord}</td>
             <td class="px-4 py-3 text-yellow-300 font-semibold">
               ${it.displayName}
               ${titleHtml}
             </td>
             <td class="px-4 py-3">
               <span class="px-2 py-0.5 rounded ${badgeClass} text-xs font-medium">
-                ${roleDisplay}
+                ${roleLabel}
               </span>
             </td>
             <td class="px-4 py-3">${joinDate}</td>
