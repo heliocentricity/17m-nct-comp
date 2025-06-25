@@ -1,63 +1,51 @@
 name: Hourly NitroType Update
 
-# ensure the GITHUB_TOKEN has write access to repo contents
 permissions:
   contents: write
 
 on:
   schedule:
-    - cron: '0 * * * *'     # every hour at minute 0
-  workflow_dispatch:       # manual trigger
+    - cron: '0 * * * *'    # every hour on the hour
+  workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
 
     steps:
-      # 1) check cutoff date/time
-      - name: Check cutoff date
-        id: cutoff
-        run: |
-          # now (seconds since epoch) in UTC
-          NOW=$(date -u +%s)
-          # cutoff: 2025-07-23 15:00:00 UTC
-          CUT=$(date -d '2025-07-23T15:00:00Z' +%s)
-          if [ "$NOW" -le "$CUT" ]; then
-            echo "continue=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "continue=false" >> "$GITHUB_OUTPUT"
-          fi
-
-      # 2) all following steps only run if continue==true
       - name: Checkout repository
-        if: steps.cutoff.outputs.continue == 'true'
         uses: actions/checkout@v3
         with:
           persist-credentials: true
+          fetch-depth: 0        # get full history so pull/rebase works
 
       - name: Setup Node.js
-        if: steps.cutoff.outputs.continue == 'true'
         uses: actions/setup-node@v3
         with:
           node-version: '18'
 
       - name: Install dependencies
-        if: steps.cutoff.outputs.continue == 'true'
         run: npm install axios
 
       - name: Run scraper
-        if: steps.cutoff.outputs.continue == 'true'
         env:
           SCRAPERAPI_KEY: ${{ secrets.SCRAPERAPI_KEY }}
         run: node scripts/update.js
 
-      - name: Commit & push changes
-        if: steps.cutoff.outputs.continue == 'true'
+      - name: Commit, rebase & push changes
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
           git add baseline.json docs/data.json
-          git diff --quiet || git commit -m "ci: update NitroType data"
-          git push
+          # only commit if there are changes:
+          if ! git diff --quiet; then
+            git commit -m "ci: update NitroType data"
+            # pull any new remote commits, replay ours on top
+            git pull --rebase origin main
+            git push origin main
+          else
+            echo "No changes to commit."
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
