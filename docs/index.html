@@ -5,7 +5,7 @@
   <title>HELIOS NitroType Leaderboard</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-slate-900 text-gray-200 min-h-screen p-8">
+<body class="bg-slate-900 text-gray-200 min-h-screen p-8 font-sans">
   <h1 class="text-4xl font-extrabold mb-2 text-yellow-400">HELIOS Team Leaderboard</h1>
   <p class="text-sm italic text-gray-400 mb-6">
     Last updated: <span id="updated-at" class="font-mono">Loading…</span>
@@ -61,15 +61,32 @@
           We reserve the right to disqualify you from the tournament if we have good reason to believe that you have cheated (e.g. botting).
         </p>
       </div>
+      <!-- Links -->
+      <div class="bg-slate-800 border-2 border-yellow-400 rounded-lg p-4">
+        <h2 class="text-lg font-semibold text-yellow-300 mb-2">Links</h2>
+        <ul class="text-sm space-y-1">
+          <li>
+            <a href="https://www.nitrotype.com/team/HELIOS" target="_blank"
+               class="text-yellow-300 hover:underline">
+              [HELIOS] on Nitro Type
+            </a>
+          </li>
+          <li>
+            <a href="https://padlet.com/icarus_/HELIOS" target="_blank"
+               class="text-yellow-300 hover:underline">
+              Padlet
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 
   <script>
-    // Days left until July 23, 2025 PST
+    // Days left calculation
     (function(){
       const end = new Date('2025-07-23T08:00:00-07:00');
-      const now = new Date();
-      const diff = end - now;
+      const diff = end - new Date();
       document.getElementById('days-left').textContent =
         diff > 0 ? Math.ceil(diff / (1000*60*60*24)) : 0;
     })();
@@ -80,45 +97,40 @@
         document.getElementById('updated-at').textContent = data.last_updated || 'Unknown';
         const board = data.board || [];
 
-        // badge styles for each role key (normalized to no spaces, lowercase)
         const roleClasses = {
-          officer:       'border-2 border-blue-400 text-blue-400 bg-transparent',
-          captain:       'border-2 border-purple-400 text-purple-400 bg-transparent',
-          vicecaptain:   'border-2 border-green-400 text-green-400 bg-transparent',
-          member:        'text-gray-400'
+          officer:      'border-2 border-blue-400 text-blue-400 bg-transparent',
+          captain:      'border-2 border-purple-400 text-purple-400 bg-transparent',
+          vicecaptain:  'border-2 border-green-400 text-green-400 bg-transparent',
+          member:       'text-gray-400'
         };
 
         const tbody = document.getElementById('leaderboard');
         let lastDelta = null, lastRank = 0;
 
         board.forEach((it, idx) => {
-          // tie-aware ranking
+          // tie-aware rank
           const rank = (it.delta !== lastDelta) ? idx + 1 : lastRank;
           lastDelta = it.delta; lastRank = rank;
 
-          // top3 highlighting with graduated gold, custom hover per row
+          // top-3 background & hover
           let base = '', hover = 'hover:bg-slate-700';
-          if (rank === 1) {
-            base  = 'bg-yellow-400/30'; hover = 'hover:bg-yellow-400/20';
-          } else if (rank === 2) {
-            base  = 'bg-yellow-500/30'; hover = 'hover:bg-yellow-500/20';
-          } else if (rank === 3) {
-            base  = 'bg-yellow-600/30'; hover = 'hover:bg-yellow-600/20';
-          }
+          if (rank === 1) { base='bg-yellow-400/30'; hover='hover:bg-yellow-400/20'; }
+          else if (rank === 2) { base='bg-yellow-500/30'; hover='hover:bg-yellow-500/20'; }
+          else if (rank === 3) { base='bg-yellow-600/30'; hover='hover:bg-yellow-600/20'; }
           const rowClass = `cursor-pointer ${base} ${hover}`;
 
-          // ordinal with a sans-serif font
-          let ord = `${rank}`;
-          if (rank === 1) ord = `<span class="font-mono text-2xl text-yellow-300">1st</span>`;
-          if (rank === 2) ord = `<span class="font-mono text-2xl text-yellow-300">2nd</span>`;
-          if (rank === 3) ord = `<span class="font-mono text-2xl text-yellow-300">3rd</span>`;
+          // ordinal with sans-serif superscript
+          let ord = rank;
+          if (rank === 1) ord = `<span class="font-sans text-2xl text-yellow-300">1<sup class="align-super">st</sup></span>`;
+          if (rank === 2) ord = `<span class="font-sans text-2xl text-yellow-300">2<sup class="align-super">nd</sup></span>`;
+          if (rank === 3) ord = `<span class="font-sans text-2xl text-yellow-300">3<sup class="align-super">rd</sup></span>`;
 
-          // normalize role key
+          // role badge
           const key = (it.role||'').toLowerCase().replace(/\s+/g,'');
           const badgeClass = roleClasses[key] || roleClasses.member;
-          const roleLabel  = it.role
+          const roleLabel = it.role
             .split(/[\s_]+/)
-            .map(w => w[0].toUpperCase() + w.slice(1))
+            .map(w=>w[0].toUpperCase()+w.slice(1))
             .join(' ');
 
           // dates
@@ -129,9 +141,12 @@
             ? new Date(it.lastActivity*1000).toLocaleDateString()
             : 'N/A';
 
-          // title under name
+          // title color: gold for top3, grey otherwise
+          const titleColor = rank <= 3
+            ? 'text-yellow-300'
+            : 'text-gray-400';
           const titleHtml = it.title
-            ? `<div class="text-xs text-gray-200 mt-1">${it.title}</div>`
+            ? `<div class="text-xs ${titleColor} mt-1">${it.title}</div>`
             : '';
 
           const tr = document.createElement('tr');
