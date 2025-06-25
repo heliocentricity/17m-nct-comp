@@ -22,19 +22,25 @@ async function fetchLeaderboard() {
   const res  = await axios.get(proxyUrl);
   const body = res.data;
 
-  // sanity check
-  if (!body.data || !Array.isArray(body.data.members)) {
-    console.error('⚠️  Unexpected JSON from team API:', JSON.stringify(body).slice(0,200), '\n');
+  // sanity check against the actual JSON structure
+  if (body.status !== 'OK' 
+    || !body.results 
+    || !Array.isArray(body.results.members)
+  ) {
+    console.error(
+      '⚠️  Unexpected JSON from team API:', 
+      JSON.stringify(body).slice(0,200), '\n'
+    );
     throw new Error('Invalid team JSON');
   }
 
-  // map to an array of { user, races }
-  // each member object has an alltime_races field with their total races
-  return body.data.members.map(m => ({
+  // map to { user, races } using the alltime_races field
+  return body.results.members.map(m => ({
     user:  m.racerName || m.username,
     races: m.alltime_races
   }));
 }
+
 
 // ─── 2) On first-ever run: record each member’s baseline ────────────────────
 async function ensureBaseline() {
