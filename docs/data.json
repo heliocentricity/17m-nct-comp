@@ -1,22 +1,24 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 24, 2025 at 10:55 PM PDT",
+  "last_updated": "June 24, 2025 at 11:07 PM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 32679,
+      "racesPlayed": 32692,
       "role": "member",
+      "title": "Dragon Tamer",
       "joinStamp": 1750805902,
-      "lastActivity": 1750830570,
-      "delta": 158
+      "lastActivity": 1750831182,
+      "delta": 171
     },
     {
       "username": "neiletsky",
       "displayName": "NoLimit",
       "racesPlayed": 10475,
       "role": "officer",
+      "title": "Speed Demon",
       "joinStamp": 1744741826,
       "lastActivity": 1750827861,
       "delta": 122
@@ -25,7 +27,8 @@
       "username": "aiy_infection",
       "displayName": "icarus - 10k soon",
       "racesPlayed": 9948,
-      "role": "officer",
+      "role": "captain",
+      "title": "Happy Vibes :)",
       "joinStamp": 1742486554,
       "lastActivity": 1750829283,
       "delta": 107
@@ -35,6 +38,7 @@
       "displayName": "Chronos",
       "racesPlayed": 28775,
       "role": "member",
+      "title": "Trailblazer",
       "joinStamp": 1750808321,
       "lastActivity": 1750823225,
       "delta": 21
@@ -44,6 +48,7 @@
       "displayName": "Mystic",
       "racesPlayed": 201,
       "role": "member",
+      "title": "Millionaire",
       "joinStamp": 1750712571,
       "lastActivity": 1750826049,
       "delta": 3
@@ -53,8 +58,9 @@
       "displayName": "Airborne",
       "racesPlayed": 13537,
       "role": "member",
+      "title": "Acute Tinselitis",
       "joinStamp": 1750457551,
-      "lastActivity": 1750829580,
+      "lastActivity": 1750830671,
       "delta": 2
     },
     {
@@ -62,6 +68,7 @@
       "displayName": "persionde",
       "racesPlayed": 3999,
       "role": "member",
+      "title": ":D",
       "joinStamp": 1750643616,
       "lastActivity": 1750822975,
       "delta": 1
@@ -71,6 +78,7 @@
       "displayName": "RicSuave",
       "racesPlayed": 4424,
       "role": "member",
+      "title": "Spring Speedster",
       "joinStamp": 1748494232,
       "lastActivity": 1750748631,
       "delta": 0
@@ -80,6 +88,7 @@
       "displayName": "FIood",
       "racesPlayed": 10539,
       "role": "member",
+      "title": "Spring Speedster",
       "joinStamp": 1745202493,
       "lastActivity": 1748398483,
       "delta": 0
@@ -89,6 +98,7 @@
       "displayName": "Giovani_13",
       "racesPlayed": 6157,
       "role": "member",
+      "title": "In the Spirit",
       "joinStamp": 1750604772,
       "lastActivity": 1750604987,
       "delta": 0
@@ -98,6 +108,7 @@
       "displayName": "woaahh",
       "racesPlayed": 3032,
       "role": "member",
+      "title": "Novice Navigator",
       "joinStamp": 1750451759,
       "lastActivity": 1750568232,
       "delta": 0
@@ -107,6 +118,7 @@
       "displayName": "SpunkyTurquoiseApe",
       "racesPlayed": 13598,
       "role": "member",
+      "title": "Spring-a-round",
       "joinStamp": 1749752209,
       "lastActivity": 1750795173,
       "delta": 0
@@ -116,6 +128,7 @@
       "displayName": "4060TI",
       "racesPlayed": 180,
       "role": "member",
+      "title": "Flora Fury",
       "joinStamp": 1749574435,
       "lastActivity": 1750749473,
       "delta": 0
@@ -125,6 +138,7 @@
       "displayName": "TealCoralSole",
       "racesPlayed": 11281,
       "role": "member",
+      "title": "The Force",
       "joinStamp": 1750605347,
       "lastActivity": 1750606496,
       "delta": 0
@@ -134,6 +148,7 @@
       "displayName": "stephenJoester",
       "racesPlayed": 21588,
       "role": "member",
+      "title": "Spring Speedster",
       "joinStamp": 1748965989,
       "lastActivity": 1749219089,
       "delta": 0
@@ -143,6 +158,7 @@
       "displayName": "HarryPotterMeMes",
       "racesPlayed": 1261,
       "role": "member",
+      "title": "Comeback Kid",
       "joinStamp": 1750794927,
       "lastActivity": 1750795177,
       "delta": 0
@@ -152,6 +168,7 @@
       "displayName": "2fingertypist",
       "racesPlayed": 2632,
       "role": "member",
+      "title": "Green Streak",
       "joinStamp": 1744382527,
       "lastActivity": 1749863144,
       "delta": 0
@@ -161,6 +178,7 @@
       "displayName": "ryiichu",
       "racesPlayed": 1770,
       "role": "member",
+      "title": "Expert Extraordinaire",
       "joinStamp": 1750468101,
       "lastActivity": 1750789206,
       "delta": 0
@@ -170,6 +188,7 @@
       "displayName": "Hypersound",
       "racesPlayed": 1056,
       "role": "member",
+      "title": "Eternal Spring",
       "joinStamp": 1745209661,
       "lastActivity": 1750738904,
       "delta": 0
@@ -179,6 +198,7 @@
       "displayName": "RainbowPig38",
       "racesPlayed": 2611,
       "role": "member",
+      "title": ":D",
       "joinStamp": 1748724077,
       "lastActivity": 1750132651,
       "delta": 0
@@ -188,6 +208,7 @@
       "displayName": "AlyviaB",
       "racesPlayed": 156,
       "role": "member",
+      "title": "Wampus Thwamper",
       "joinStamp": 1750042840,
       "lastActivity": 1750692293,
       "delta": 0
@@ -197,6 +218,7 @@
       "displayName": "Leqlerc",
       "racesPlayed": 6205,
       "role": "member",
+      "title": "Nitro Burnout",
       "joinStamp": 1750448154,
       "lastActivity": 1750809107,
       "delta": 0
@@ -206,6 +228,7 @@
       "displayName": "Kenritz",
       "racesPlayed": 1855,
       "role": "member",
+      "title": "Olde School",
       "joinStamp": 1750461776,
       "lastActivity": 1750461970,
       "delta": 0
@@ -215,6 +238,7 @@
       "displayName": "Vintagium",
       "racesPlayed": 1660,
       "role": "member",
+      "title": "Green Streak",
       "joinStamp": 1743434481,
       "lastActivity": 1747658119,
       "delta": 0
@@ -224,6 +248,7 @@
       "displayName": "v1per_sh0t",
       "racesPlayed": 5612,
       "role": "officer",
+      "title": "Legendary Lapper",
       "joinStamp": 1747355208,
       "lastActivity": 1750348878,
       "delta": 0
@@ -233,6 +258,7 @@
       "displayName": "vdgyertikopzefrgh",
       "racesPlayed": 10632,
       "role": "member",
+      "title": ":D",
       "joinStamp": 1742927144,
       "lastActivity": 1750593165,
       "delta": 0
@@ -242,6 +268,7 @@
       "displayName": "chatgpt typing this",
       "racesPlayed": 1239,
       "role": "member",
+      "title": "Catty Wampus",
       "joinStamp": 1747943046,
       "lastActivity": 1750374208,
       "delta": 0
@@ -251,6 +278,7 @@
       "displayName": "richman11111",
       "racesPlayed": 341,
       "role": "member",
+      "title": "Original Gangster",
       "joinStamp": 1749829959,
       "lastActivity": 1750429183,
       "delta": 0
@@ -260,6 +288,7 @@
       "displayName": "veryslowtypist",
       "racesPlayed": 505,
       "role": "member",
+      "title": "Raw Racing Recruit",
       "joinStamp": 1749411163,
       "lastActivity": 1749668841,
       "delta": 0
@@ -269,6 +298,7 @@
       "displayName": "DarkAchromaticCamel",
       "racesPlayed": 368,
       "role": "member",
+      "title": "Spring Speedster",
       "joinStamp": 1747432192,
       "lastActivity": 1747778837,
       "delta": 0
@@ -278,6 +308,7 @@
       "displayName": "Juris Doctor",
       "racesPlayed": 3643,
       "role": "officer",
+      "title": "Eggsecutive",
       "joinStamp": 1744391071,
       "lastActivity": 1750168426,
       "delta": 0
@@ -287,6 +318,7 @@
       "displayName": "1400dgloo",
       "racesPlayed": 606,
       "role": "member",
+      "title": "Pro Pacer",
       "joinStamp": 1750796497,
       "lastActivity": 1750805289,
       "delta": 0
@@ -296,6 +328,7 @@
       "displayName": "FuchsiaAzureCougar",
       "racesPlayed": 382,
       "role": "member",
+      "title": "Flora Fury",
       "joinStamp": 1748723201,
       "lastActivity": 1750408445,
       "delta": 0
@@ -305,6 +338,7 @@
       "displayName": "timmytimmy213",
       "racesPlayed": 4212,
       "role": "officer",
+      "title": "First Trimester",
       "joinStamp": 1743005762,
       "lastActivity": 1750567130,
       "delta": 0
@@ -314,6 +348,7 @@
       "displayName": "vioiynx",
       "racesPlayed": 3147,
       "role": "officer",
+      "title": "Oh Em Gee!",
       "joinStamp": 1742509283,
       "lastActivity": 1750728301,
       "delta": 0
@@ -323,6 +358,7 @@
       "displayName": "cyconoxyls",
       "racesPlayed": 1290,
       "role": "member",
+      "title": "[SKIPWRD]",
       "joinStamp": 1743512395,
       "lastActivity": 1743598629,
       "delta": 0
@@ -332,6 +368,7 @@
       "displayName": "catman223s",
       "racesPlayed": 780,
       "role": "member",
+      "title": "Millionaire",
       "joinStamp": 1747978481,
       "lastActivity": 1750423100,
       "delta": 0
@@ -341,6 +378,7 @@
       "displayName": "avalon",
       "racesPlayed": 1540,
       "role": "member",
+      "title": "Eternal Spring",
       "joinStamp": 1750606113,
       "lastActivity": 1750733607,
       "delta": 0
