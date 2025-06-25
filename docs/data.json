@@ -1,196 +1,348 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 24, 2025 at 10:44 PM PDT",
+  "last_updated": "June 24, 2025 at 10:55 PM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "delta": 143
+      "racesPlayed": 32679,
+      "role": "member",
+      "joinStamp": 1750805902,
+      "lastActivity": 1750830570,
+      "delta": 158
     },
     {
       "username": "neiletsky",
       "displayName": "NoLimit",
+      "racesPlayed": 10475,
+      "role": "officer",
+      "joinStamp": 1744741826,
+      "lastActivity": 1750827861,
       "delta": 122
     },
     {
       "username": "aiy_infection",
       "displayName": "icarus - 10k soon",
+      "racesPlayed": 9948,
+      "role": "officer",
+      "joinStamp": 1742486554,
+      "lastActivity": 1750829283,
       "delta": 107
     },
     {
       "username": "tryhardwillwork",
       "displayName": "Chronos",
+      "racesPlayed": 28775,
+      "role": "member",
+      "joinStamp": 1750808321,
+      "lastActivity": 1750823225,
       "delta": 21
     },
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
+      "racesPlayed": 201,
+      "role": "member",
+      "joinStamp": 1750712571,
+      "lastActivity": 1750826049,
       "delta": 3
     },
     {
       "username": "soccer791",
       "displayName": "Airborne",
-      "delta": 1
+      "racesPlayed": 13537,
+      "role": "member",
+      "joinStamp": 1750457551,
+      "lastActivity": 1750829580,
+      "delta": 2
     },
     {
       "username": "persionde",
       "displayName": "persionde",
+      "racesPlayed": 3999,
+      "role": "member",
+      "joinStamp": 1750643616,
+      "lastActivity": 1750822975,
       "delta": 1
     },
     {
       "username": "rc0913",
       "displayName": "RicSuave",
+      "racesPlayed": 4424,
+      "role": "member",
+      "joinStamp": 1748494232,
+      "lastActivity": 1750748631,
       "delta": 0
     },
     {
       "username": "superdavidj",
       "displayName": "FIood",
+      "racesPlayed": 10539,
+      "role": "member",
+      "joinStamp": 1745202493,
+      "lastActivity": 1748398483,
       "delta": 0
     },
     {
       "username": "giovani95",
       "displayName": "Giovani_13",
+      "racesPlayed": 6157,
+      "role": "member",
+      "joinStamp": 1750604772,
+      "lastActivity": 1750604987,
       "delta": 0
     },
     {
       "username": "7071702",
       "displayName": "woaahh",
+      "racesPlayed": 3032,
+      "role": "member",
+      "joinStamp": 1750451759,
+      "lastActivity": 1750568232,
       "delta": 0
     },
     {
       "username": "conquerer11k",
       "displayName": "SpunkyTurquoiseApe",
+      "racesPlayed": 13598,
+      "role": "member",
+      "joinStamp": 1749752209,
+      "lastActivity": 1750795173,
       "delta": 0
     },
     {
       "username": "hotttbit",
       "displayName": "4060TI",
+      "racesPlayed": 180,
+      "role": "member",
+      "joinStamp": 1749574435,
+      "lastActivity": 1750749473,
       "delta": 0
     },
     {
       "username": "disfunction",
       "displayName": "TealCoralSole",
+      "racesPlayed": 11281,
+      "role": "member",
+      "joinStamp": 1750605347,
+      "lastActivity": 1750606496,
       "delta": 0
     },
     {
       "username": "sumimyangel",
       "displayName": "stephenJoester",
+      "racesPlayed": 21588,
+      "role": "member",
+      "joinStamp": 1748965989,
+      "lastActivity": 1749219089,
       "delta": 0
     },
     {
       "username": "5fff3c41947a5b24ed13ddb1c73b1e55",
       "displayName": "HarryPotterMeMes",
+      "racesPlayed": 1261,
+      "role": "member",
+      "joinStamp": 1750794927,
+      "lastActivity": 1750795177,
       "delta": 0
     },
     {
       "username": "opsy07",
       "displayName": "2fingertypist",
+      "racesPlayed": 2632,
+      "role": "member",
+      "joinStamp": 1744382527,
+      "lastActivity": 1749863144,
       "delta": 0
     },
     {
       "username": "dianac128",
       "displayName": "ryiichu",
+      "racesPlayed": 1770,
+      "role": "member",
+      "joinStamp": 1750468101,
+      "lastActivity": 1750789206,
       "delta": 0
     },
     {
       "username": "b2cbc9dfc2058f59bdaf062719776245",
       "displayName": "Hypersound",
+      "racesPlayed": 1056,
+      "role": "member",
+      "joinStamp": 1745209661,
+      "lastActivity": 1750738904,
       "delta": 0
     },
     {
       "username": "ryan_po",
       "displayName": "RainbowPig38",
+      "racesPlayed": 2611,
+      "role": "member",
+      "joinStamp": 1748724077,
+      "lastActivity": 1750132651,
       "delta": 0
     },
     {
       "username": "f49de7389426a7d9dfa859467b8bb877",
       "displayName": "AlyviaB",
+      "racesPlayed": 156,
+      "role": "member",
+      "joinStamp": 1750042840,
+      "lastActivity": 1750692293,
       "delta": 0
     },
     {
       "username": "gw2iscoollol",
       "displayName": "Leqlerc",
+      "racesPlayed": 6205,
+      "role": "member",
+      "joinStamp": 1750448154,
+      "lastActivity": 1750809107,
       "delta": 0
     },
     {
       "username": "2525de6c193656755826c3b612fe4f5c",
       "displayName": "Kenritz",
+      "racesPlayed": 1855,
+      "role": "member",
+      "joinStamp": 1750461776,
+      "lastActivity": 1750461970,
       "delta": 0
     },
     {
       "username": "f0dca54e9b8d6f1aa97d5bb4c608a50a",
       "displayName": "Vintagium",
+      "racesPlayed": 1660,
+      "role": "member",
+      "joinStamp": 1743434481,
+      "lastActivity": 1747658119,
       "delta": 0
     },
     {
       "username": "viper_shot",
       "displayName": "v1per_sh0t",
+      "racesPlayed": 5612,
+      "role": "officer",
+      "joinStamp": 1747355208,
+      "lastActivity": 1750348878,
       "delta": 0
     },
     {
       "username": "vdgyertikopzefrgh",
       "displayName": "vdgyertikopzefrgh",
+      "racesPlayed": 10632,
+      "role": "member",
+      "joinStamp": 1742927144,
+      "lastActivity": 1750593165,
       "delta": 0
     },
     {
       "username": "efac1d20fd1dbd3ed0b4f03e90bc7b96",
       "displayName": "chatgpt typing this",
+      "racesPlayed": 1239,
+      "role": "member",
+      "joinStamp": 1747943046,
+      "lastActivity": 1750374208,
       "delta": 0
     },
     {
       "username": "richman11111",
       "displayName": "richman11111",
+      "racesPlayed": 341,
+      "role": "member",
+      "joinStamp": 1749829959,
+      "lastActivity": 1750429183,
       "delta": 0
     },
     {
       "username": "slow_typer4ubest",
       "displayName": "veryslowtypist",
+      "racesPlayed": 505,
+      "role": "member",
+      "joinStamp": 1749411163,
+      "lastActivity": 1749668841,
       "delta": 0
     },
     {
       "username": "c160d3791fc9b027da843b2df727d345",
       "displayName": "DarkAchromaticCamel",
+      "racesPlayed": 368,
+      "role": "member",
+      "joinStamp": 1747432192,
+      "lastActivity": 1747778837,
       "delta": 0
     },
     {
       "username": "01dda282fb97c0a298a6a18e8eac8d8d",
       "displayName": "Juris Doctor",
+      "racesPlayed": 3643,
+      "role": "officer",
+      "joinStamp": 1744391071,
+      "lastActivity": 1750168426,
       "delta": 0
     },
     {
       "username": "1400dgloo",
       "displayName": "1400dgloo",
+      "racesPlayed": 606,
+      "role": "member",
+      "joinStamp": 1750796497,
+      "lastActivity": 1750805289,
       "delta": 0
     },
     {
       "username": "4399e7a571cf827be64b714c30c899ef",
       "displayName": "FuchsiaAzureCougar",
+      "racesPlayed": 382,
+      "role": "member",
+      "joinStamp": 1748723201,
+      "lastActivity": 1750408445,
       "delta": 0
     },
     {
       "username": "timmytimmy213",
       "displayName": "timmytimmy213",
+      "racesPlayed": 4212,
+      "role": "officer",
+      "joinStamp": 1743005762,
+      "lastActivity": 1750567130,
       "delta": 0
     },
     {
       "username": "vioiynx",
       "displayName": "vioiynx",
+      "racesPlayed": 3147,
+      "role": "officer",
+      "joinStamp": 1742509283,
+      "lastActivity": 1750728301,
       "delta": 0
     },
     {
       "username": "cyconoxyls",
       "displayName": "cyconoxyls",
+      "racesPlayed": 1290,
+      "role": "member",
+      "joinStamp": 1743512395,
+      "lastActivity": 1743598629,
       "delta": 0
     },
     {
       "username": "catman223s",
       "displayName": "catman223s",
+      "racesPlayed": 780,
+      "role": "member",
+      "joinStamp": 1747978481,
+      "lastActivity": 1750423100,
       "delta": 0
     },
     {
       "username": "kudism",
       "displayName": "avalon",
+      "racesPlayed": 1540,
+      "role": "member",
+      "joinStamp": 1750606113,
+      "lastActivity": 1750733607,
       "delta": 0
     }
   ]
