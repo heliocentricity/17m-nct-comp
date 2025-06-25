@@ -8,8 +8,31 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"/>
   <style>
-    .font-lato { font-family: 'Lato', sans-serif; }
+    /* overlay suns.png above row backgrounds but beneath cell contents */
+    .table-with-suns {
+      position: relative;
+      overflow: hidden;
+    }
+    .table-with-suns::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: url('assets/suns.png') center/cover no-repeat;
+      opacity: 0.1;
+      pointer-events: none;
+      z-index: 1;
+    }
+    .table-with-suns tr {
+      position: relative;
+      z-index: 0;
+    }
+    .table-with-suns th,
+    .table-with-suns td {
+      position: relative;
+      z-index: 2;
+    }
     th.sortable { cursor: pointer; user-select: none; }
+    .font-lato { font-family: 'Lato', sans-serif; }
   </style>
 </head>
 <body class="bg-slate-900 text-gray-200 min-h-screen p-8 font-sans">
@@ -20,37 +43,28 @@
     Last updated: <span id="updated-at" class="font-mono">Loading…</span>
   </p>
 
-    <!-- Main table with faint, cropped suns overlay above all row-backgrounds -->
-    <div class="w-3/4 relative overflow-hidden rounded-lg">
-      <!-- 5% opaque overlay, absolutely positioned above the table rows -->
-      <img
-        src="assets/suns.png"
-        class="absolute inset-0 w-full h-full object-cover opacity-5 pointer-events-none"
-        style="object-position: center;"
-      />
-
-      <!-- keep the horizontal-scroll wrapper if you need it: -->
-      <div class="overflow-x-auto">
-        <table class="relative z-10 min-w-full bg-slate-800/70 border-2 border-yellow-400 rounded-lg">
-          <thead class="bg-slate-700">
-            <tr>
-              <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">#</th>
-              <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Name &amp; Title</th>
-              <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Role</th>
-              <th id="th-join" class="px-4 py-3 text-left text-sm font-medium text-gray-300 sortable">
-                Member Since <span>▼</span>
-              </th>
-              <th id="th-last" class="px-4 py-3 text-left text-sm font-medium text-gray-300 sortable">
-                Last Race <span>▼</span>
-              </th>
-              <th id="th-races" class="px-4 py-3 text-right text-sm font-medium text-gray-300 sortable">
-                Races <span>▼</span>
-              </th>
-            </tr>
-          </thead>
-          <tbody id="leaderboard" class="divide-y divide-slate-700"></tbody>
-        </table>
-      </div>
+  <div class="flex space-x-6">
+    <!-- Main table -->
+    <div class="w-3/4 overflow-x-auto rounded-lg">
+      <table class="min-w-full table-with-suns bg-slate-800/70 border-2 border-yellow-400 rounded-lg">
+        <thead class="bg-slate-700">
+          <tr>
+            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">#</th>
+            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Name &amp; Title</th>
+            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Role</th>
+            <th id="th-join"   class="px-4 py-3 text-left text-sm font-medium text-gray-300 sortable">
+              Member Since <span>▼</span>
+            </th>
+            <th id="th-last"   class="px-4 py-3 text-left text-sm font-medium text-gray-300 sortable">
+              Last Race <span>▼</span>
+            </th>
+            <th id="th-races" class="px-4 py-3 text-right text-sm font-medium text-gray-300 sortable">
+              Races <span>▼</span>
+            </th>
+          </tr>
+        </thead>
+        <tbody id="leaderboard" class="divide-y divide-slate-700"></tbody>
+      </table>
     </div>
 
     <!-- Info boxes -->
@@ -86,17 +100,15 @@
           We reserve the right to disqualify you from the tournament if we have good reason to believe that you have cheated (e.g. botting).
           Please make sure you are adhering to
           <a href="https://www.nitrotype.com/support/tos/" target="_blank"
-             class="underline text-blue-300">Nitro Type's TOS</a>. Thank you!
+             class="underline text-blue-300">Nitro Type's&nbsp;TOS</a>. Thank you!
         </p>
       </div>
       <div class="bg-slate-800 border-2 border-yellow-400 rounded-lg p-4">
         <h2 class="text-lg font-semibold text-yellow-400 mb-2">Links</h2>
         <ul class="text-sm space-y-1">
           <li>
-            <a href="https://www.nitrotype.com/team/HELIOS" target="_blank"
-               class="underline">
-              <span class="text-yellow-300">[HELIOS]</span>
-              <span class="text-blue-300"> on Nitro Type</span>
+            <a href="https://www.nitrotype.com/team/HELIOS" target="_blank" class="underline">
+              <span class="text-yellow-300">[HELIOS]</span><span class="text-blue-300"> on Nitro Type</span>
             </a>
           </li>
           <li>
@@ -113,20 +125,20 @@
         <p class="text-sm text-gray-300">
           Medal icons by
           <a href="https://www.vecteezy.com/free-vector/1st-2nd-3rd-place" target="_blank"
-             class="underline text-blue-300">1st 2nd 3rd Place Vectors by Vecteezy</a>.
+             class="underline text-blue-300">1st&nbsp;2nd&nbsp;3rd&nbsp;Place&nbsp;Vectors&nbsp;by&nbsp;Vecteezy</a>.
         </p>
       </div>
     </div>
   </div>
 
   <script>
-    // Countdown
+    // Countdown logic...
     const cdEl = document.getElementById('countdown');
     const btn  = document.getElementById('toggle-countdown');
     let exact = true;
     function updateCd() {
       const end = new Date('2025-07-23T08:00:00-07:00');
-      let d = end - new Date(); if (d < 0) d = 0;
+      let d = end - new Date(); if (d<0) d=0;
       const days = Math.floor(d/86400000),
             hrs  = Math.floor(d%86400000/3600000),
             mins = Math.floor(d%3600000/60000),
@@ -144,58 +156,55 @@
     setInterval(updateCd, 1000);
     updateCd();
 
-    // Sorting
+    // Sorting & render code unchanged...
     const sortStates = { join:false, last:false, races:false };
     let rows = [];
-    function clearArrows() {
-      ['join','last','races'].forEach(k => {
-        document.getElementById(`th-${k}`)
-          .querySelector('span').textContent='▼';
+    function clearArrows(){
+      ['join','last','races'].forEach(k=>{
+        document.getElementById(`th-${k}`).querySelector('span').textContent='▼';
       });
     }
-    function sortBy(key) {
-      sortStates[key] = !sortStates[key];
+    function sortBy(key){
+      sortStates[key]=!sortStates[key];
       clearArrows();
       document.getElementById(`th-${key}`)
-        .querySelector('span').textContent = sortStates[key] ? '▲' : '▼';
-      const dir = sortStates[key] ? 1 : -1;
-      rows.sort((a,b) => {
-        if (key==='races') return dir*(a.delta - b.delta);
-        return dir*(a[key] - b[key]);
+              .querySelector('span').textContent = sortStates[key]?'▲':'▼';
+      const dir = sortStates[key]?1:-1;
+      rows.sort((a,b)=>{
+        if(key==='races') return dir*(a.delta-b.delta);
+        return dir*(a[key]-b[key]);
       });
       render();
     }
-    document.addEventListener('DOMContentLoaded', () => {
-      ['join','last','races'].forEach(k => {
+    document.addEventListener('DOMContentLoaded',()=>{
+      ['join','last','races'].forEach(k=>{
         document.getElementById(`th-${k}`)
-          .addEventListener('click', () => sortBy(k));
+          .addEventListener('click',()=>sortBy(k));
       });
-      fetch('data.json')
-        .then(r => r.json())
-        .then(data => {
-          document.getElementById('updated-at').textContent = data.last_updated || 'Unknown';
-          let ld=null, lr=0;
-          rows = data.board.map((it, idx) => {
-            const rank = (it.delta !== ld) ? idx + 1 : lr;
-            ld = it.delta; lr = rank;
-            return { ...it, rank, join:it.joinStamp||0, last:it.lastActivity||0 };
-          });
-          render();
+      fetch('data.json').then(r=>r.json()).then(data=>{
+        document.getElementById('updated-at').textContent=data.last_updated||'Unknown';
+        let ld=null, lr=0;
+        rows = data.board.map((it, idx)=>{
+          const rank=(it.delta!==ld)?idx+1:lr;
+          ld=it.delta; lr=rank;
+          return {...it,rank,join:it.joinStamp||0,last:it.lastActivity||0};
         });
+        render();
+      });
     });
-    function render() {
-      const tb = document.getElementById('leaderboard');
-      tb.innerHTML = '';
-      rows.forEach(it => {
+    function render(){
+      const tb=document.getElementById('leaderboard');
+      tb.innerHTML='';
+      rows.forEach(it=>{
         let base='', hover='hover:bg-slate-700';
-        if (it.rank===1) { base='bg-yellow-400/20'; hover='hover:bg-yellow-400/10'; }
-        else if (it.rank===2){ base='bg-yellow-500/20'; hover='hover:bg-yellow-500/10'; }
-        else if (it.rank===3){ base='bg-yellow-600/20'; hover='hover:bg-yellow-600/10'; }
-        const cls = `cursor-pointer ${base} ${hover}`;
-        let ord = `${it.rank}`;
-        if (it.rank===1) ord = `<img src="assets/1st.png" alt="1st" class="h-6 inline"/>`;
-        if (it.rank===2) ord = `<img src="assets/2nd.png" alt="2nd" class="h-6 inline"/>`;
-        if (it.rank===3) ord = `<img src="assets/3rd.png" alt="3rd" class="h-6 inline"/>`;
+        if(it.rank===1){ base='bg-yellow-400/20'; hover='hover:bg-yellow-400/10'; }
+        else if(it.rank===2){ base='bg-yellow-500/20'; hover='hover:bg-yellow-500/10'; }
+        else if(it.rank===3){ base='bg-yellow-600/20'; hover='hover:bg-yellow-600/10'; }
+        const cls=`cursor-pointer ${base} ${hover}`;
+        let ord=`${it.rank}`;
+        if(it.rank===1) ord=`<img src="assets/1st.png" alt="1st" class="h-6 inline"/>`;
+        if(it.rank===2) ord=`<img src="assets/2nd.png" alt="2nd" class="h-6 inline"/>`;
+        if(it.rank===3) ord=`<img src="assets/3rd.png" alt="3rd" class="h-6 inline"/>`;
         const rk = it.role.toLowerCase().replace(/\s+/g,'');
         const rc = {
           officer:     'border-2 border-blue-400 text-blue-400 bg-transparent',
@@ -205,24 +214,22 @@
         };
         const bc = rc[rk]||rc.member;
         let rl = it.role.charAt(0).toUpperCase()+it.role.slice(1);
-        if (rk==='vicecaptain') rl='Vice Captain';
-        const jd = it.join ? new Date(it.join*1000).toLocaleDateString() : 'N/A';
-        const ld2= it.last ? new Date(it.last*1000).toLocaleDateString() : 'N/A';
+        if(rk==='vicecaptain') rl='Vice Captain';
+        const jd = it.join?new Date(it.join*1000).toLocaleDateString():'N/A';
+        const ld2= it.last?new Date(it.last*1000).toLocaleDateString():'N/A';
         const tc = it.rank<=3?'text-yellow-400/70':'text-gray-400';
-        const th = it.title ? `<div class="text-xs ${tc} mt-1">${it.title}</div>` : '';
-        const tr = document.createElement('tr');
-        tr.className = `${cls} align-middle`;
-        tr.onclick  = () => window.open(`https://www.nitrotype.com/racer/${it.username}`, '_blank');
-        tr.title    = 'View Nitro Type profile';
-        tr.innerHTML= `
+        const th = it.title?`<div class="text-xs ${tc} mt-1">${it.title}</div>`:'';
+        const tr=document.createElement('tr');
+        tr.className=`${cls} align-middle`;
+        tr.onclick=()=>window.open(`https://www.nitrotype.com/racer/${it.username}`,'_blank');
+        tr.title='View Nitro Type profile';
+        tr.innerHTML=`
           <td class="px-4 py-3">${ord}</td>
           <td class="px-4 py-3 text-yellow-300 font-semibold">
             ${it.displayName}${th}
           </td>
           <td class="px-4 py-3">
-            <span class="px-2 py-0.5 rounded ${bc} text-xs font-medium">
-              ${rl}
-            </span>
+            <span class="px-2 py-0.5 rounded ${bc} text-xs font-medium">${rl}</span>
           </td>
           <td class="px-4 py-3">${jd}</td>
           <td class="px-4 py-3">${ld2}</td>
