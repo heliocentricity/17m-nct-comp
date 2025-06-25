@@ -1,17 +1,27 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 25, 2025 at 8:12 AM PDT",
+  "last_updated": "June 25, 2025 at 8:25 AM PDT",
   "board": [
     {
       "username": "aiy_infection",
       "displayName": "icarus - 10k soon",
-      "racesPlayed": 10003,
+      "racesPlayed": 10010,
       "role": "captain",
       "title": "Happy Vibes :)",
       "joinStamp": 1742486554,
-      "lastActivity": 1750864194,
-      "delta": 3
+      "lastActivity": 1750864359,
+      "delta": 10
+    },
+    {
+      "username": "vioiynx",
+      "displayName": "vioiynx",
+      "racesPlayed": 3149,
+      "role": "vicecaptain",
+      "title": "Oh Em Gee!",
+      "joinStamp": 1742509283,
+      "lastActivity": 1750854686,
+      "delta": 1
     },
     {
       "username": "rc0913",
@@ -341,16 +351,6 @@
       "title": "First Trimester",
       "joinStamp": 1743005762,
       "lastActivity": 1750567130,
-      "delta": 0
-    },
-    {
-      "username": "vioiynx",
-      "displayName": "vioiynx",
-      "racesPlayed": 3148,
-      "role": "vicecaptain",
-      "title": "Oh Em Gee!",
-      "joinStamp": 1742509283,
-      "lastActivity": 1750854686,
       "delta": 0
     },
     {
