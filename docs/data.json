@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 25, 2025 at 11:01 AM PDT",
+  "last_updated": "June 25, 2025 at 11:38 AM PDT",
   "board": [
     {
       "username": "aiy_infection",
@@ -24,6 +24,16 @@
       "delta": 67
     },
     {
+      "username": "tryhardwillwork",
+      "displayName": "Chronos",
+      "racesPlayed": 28801,
+      "role": "member",
+      "title": "Trailblazer",
+      "joinStamp": 1750808321,
+      "lastActivity": 1750876132,
+      "delta": 26
+    },
+    {
       "username": "conquerer11k",
       "displayName": "ResilientRedDonkey",
       "racesPlayed": 13617,
@@ -32,6 +42,16 @@
       "joinStamp": 1749752209,
       "lastActivity": 1750870806,
       "delta": 16
+    },
+    {
+      "username": "abot8",
+      "displayName": "1400dglooo",
+      "racesPlayed": 32871,
+      "role": "member",
+      "title": "Dragon Tamer",
+      "joinStamp": 1750805902,
+      "lastActivity": 1750839893,
+      "delta": 2
     },
     {
       "username": "persionde",
@@ -164,16 +184,6 @@
       "delta": 0
     },
     {
-      "username": "abot8",
-      "displayName": "1400dglooo",
-      "racesPlayed": 32869,
-      "role": "member",
-      "title": "Dragon Tamer",
-      "joinStamp": 1750805902,
-      "lastActivity": 1750839893,
-      "delta": 0
-    },
-    {
       "username": "b2cbc9dfc2058f59bdaf062719776245",
       "displayName": "Hypersound",
       "racesPlayed": 1056,
@@ -191,16 +201,6 @@
       "title": ":D",
       "joinStamp": 1748724077,
       "lastActivity": 1750132651,
-      "delta": 0
-    },
-    {
-      "username": "tryhardwillwork",
-      "displayName": "Chronos",
-      "racesPlayed": 28775,
-      "role": "member",
-      "title": "Trailblazer",
-      "joinStamp": 1750808321,
-      "lastActivity": 1750823225,
       "delta": 0
     },
     {
