@@ -24,18 +24,12 @@
       <table class="min-w-full bg-slate-800 border-2 border-yellow-400 rounded-lg overflow-hidden">
         <thead class="bg-slate-700">
           <tr>
-            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">#</th>
-            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Name & Title</th>
-            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Role</th>
-            <th id="th-join"   class="px-4 py-3 text-left text-sm font-medium text-gray-300 sortable">
-              Member Since <span>▼</span>
-            </th>
-            <th id="th-last"   class="px-4 py-3 text-left text-sm font-medium text-gray-300 sortable">
-              Last Race    <span>▼</span>
-            </th>
-            <th id="th-races" class="px-4 py-3 text-right text-sm font-medium text-gray-300 sortable">
-              Races        <span>▼</span>
-            </th>
+            <th>#</th>
+            <th>Name & Title</th>
+            <th>Role</th>
+            <th id="th-join"   class="sortable">Member Since <span>▼</span></th>
+            <th id="th-last"   class="sortable">Last Race    <span>▼</span></th>
+            <th id="th-races"  class="sortable text-right">Races        <span>▼</span></th>
           </tr>
         </thead>
         <tbody id="leaderboard" class="divide-y divide-slate-700"></tbody>
@@ -57,26 +51,31 @@
         <h2 class="text-lg font-semibold text-yellow-300 mb-2">Prizes</h2>
         <p class="text-sm">
           <span class="text-yellow-300 font-bold">1st</span> – 
-            <span class="text-green-400 font-semibold">$10,000,000 NITRO CASH</span><br>
+          <span class="text-green-400 font-semibold">$10,000,000 NITRO CASH</span><br>
           <span class="text-yellow-300 font-bold">2nd</span> – 
-            <span class="text-green-400 font-semibold">$5,000,000 NITRO CASH</span><br>
+          <span class="text-green-400 font-semibold">$5,000,000 NITRO CASH</span><br>
           <span class="text-yellow-300 font-bold">3rd</span> – 
-            <span class="text-green-400 font-semibold">$2,000,000 NITRO CASH</span>
+          <span class="text-green-400 font-semibold">$2,000,000 NITRO CASH</span>
         </p>
       </div>
       <!-- Description -->
-      <div class="bg-slate-800 border-2 border-yellow-400 rounded-lg p-4">
-        <h2 class="text-lg font-semibold text-yellow-300 mb-2">Description</h2>
-        <p class="text-sm text-gray-300 mb-2">
+      <div class="bg-slate-800 border-2 border-yellow-400 rounded-lg p-4 space-y-2">
+        <h2 class="text-lg font-semibold text-yellow-300">Description</h2>
+        <p class="text-sm text-gray-300">
           Tracks each member’s races since June 25, 2025. Updated hourly (PST/PDT).
         </p>
         <p class="text-xs text-gray-400">
           We reserve the right to disqualify you from the tournament if we have good reason to believe that you have cheated (e.g. botting).
+          Please make sure you’re adhering to 
+          <a href="https://www.nitrotype.com/support/tos/" target="_blank"
+             class="underline text-blue-300">
+            Nitro Type’s TOS
+          </a>!
         </p>
       </div>
       <!-- Links -->
       <div class="bg-slate-800 border-2 border-yellow-400 rounded-lg p-4">
-        <h2 class="text-lg font-semibold text-yellow-300 mb-2">Links</h2>
+        <h2 class="text-lg font-semibold text-yellow-300">Links</h2>
         <ul class="text-sm space-y-1">
           <li>
             <a href="https://www.nitrotype.com/team/HELIOS" target="_blank" class="underline">
@@ -85,21 +84,23 @@
             </a>
           </li>
           <li>
-            <a href="https://padlet.com/icarus_/HELIOS" target="_blank" class="underline text-blue-300">
+            <a href="https://padlet.com/icarus_/HELIOS" target="_blank"
+               class="underline text-blue-300">
               Padlet
             </a>
           </li>
         </ul>
       </div>
       <!-- Credits -->
-      <div class="bg-slate-800 border-2 border-yellow-400 rounded-lg p-4">
-        <h2 class="text-lg font-semibold text-yellow-300 mb-2">Credits</h2>
+      <div class="bg-slate-800 border-2 border-yellow-400 rounded-lg p-4 space-y-1">
+        <h2 class="text-lg font-semibold text-yellow-300">Credits</h2>
+        <p class="text-sm text-gray-300">Website created by vioiynx</p>
         <p class="text-sm text-gray-300">
-          Website created by vioiynx. Medal icons by
+          Medal icons by 
           <a href="https://www.vecteezy.com/free-vector/1st-2nd-3rd-place" target="_blank"
              class="underline text-blue-300">
             1st 2nd 3rd Place Vectors by Vecteezy
-          </a>.
+          </a>
         </p>
       </div>
     </div>
@@ -108,33 +109,35 @@
   <script>
     // Days left
     (function(){
-      const end = new Date('2025-07-23T08:00:00-07:00');
+      const end  = new Date('2025-07-23T08:00:00-07:00');
       const diff = end - new Date();
       document.getElementById('days-left').textContent =
-        diff > 0 ? Math.ceil(diff / (1000*60*60*24)) : 0;
+        diff > 0 ? Math.ceil(diff/(1000*60*60*24)) : 0;
     })();
 
+    // sort state & data
     const sortStates = { join: false, last: false, races: false };
     let rowsData = [];
 
+    // clear all arrows to ▼
     function clearArrows() {
       ['th-join','th-last','th-races'].forEach(id => {
         document.getElementById(id).querySelector('span').textContent = '▼';
       });
     }
 
+    // property map
+    const propMap = { join: 'joinStamp', last: 'lastActivity', races: 'delta' };
+
     function sortBy(key) {
-      const map = { join: 'th-join', last: 'th-last', races: 'th-races' };
       sortStates[key] = !sortStates[key];
       clearArrows();
-      const arrow = document.getElementById(map[key]).querySelector('span');
+      const arrow = document.getElementById(`th-${key}`).querySelector('span');
       arrow.textContent = sortStates[key] ? '▲' : '▼';
 
-      rowsData.sort((a, b) => {
-        const dir = sortStates[key] ? 1 : -1;
-        if (key === 'races') return dir * (a.delta - b.delta);
-        return dir * (a[key] - b[key]);
-      });
+      const prop = propMap[key];
+      const dir  = sortStates[key] ? 1 : -1;
+      rowsData.sort((a,b) => dir * ( (a[prop]||0) - (b[prop]||0) ));
       renderRows();
     }
 
@@ -149,15 +152,13 @@
         .then(data => {
           document.getElementById('updated-at').textContent = data.last_updated || 'Unknown';
           const board = data.board || [];
-
-          // build rowsData with static rank
           let lastDelta = null, lastRank = 0;
-          rowsData = board.map((it, idx) => {
+          rowsData = board.map((it,idx) => {
             const rank = (it.delta !== lastDelta) ? idx + 1 : lastRank;
             lastDelta = it.delta; lastRank = rank;
             return {
-              rank,
               ...it,
+              rank,
               joinStamp:    it.joinStamp || 0,
               lastActivity: it.lastActivity || 0
             };
@@ -171,30 +172,30 @@
       const tbody = document.getElementById('leaderboard');
       tbody.innerHTML = '';
       rowsData.forEach(it => {
-        // highlight top 3
-        let base = '', hover = 'hover:bg-slate-700';
-        if (it.rank === 1) { base='bg-yellow-400/20'; hover='hover:bg-yellow-400/10'; }
-        else if (it.rank === 2) { base='bg-yellow-500/20'; hover='hover:bg-yellow-500/10'; }
-        else if (it.rank === 3) { base='bg-yellow-600/20'; hover='hover:bg-yellow-600/10'; }
+        // highlight top3
+        let base='', hover='hover:bg-slate-700';
+        if(it.rank===1){ base='bg-yellow-400/20'; hover='hover:bg-yellow-400/10'; }
+        else if(it.rank===2){ base='bg-yellow-500/20'; hover='hover:bg-yellow-500/10'; }
+        else if(it.rank===3){ base='bg-yellow-600/20'; hover='hover:bg-yellow-600/10'; }
         const rowClass = `cursor-pointer ${base} ${hover}`;
 
-        // ordinal PNG or fallback
-        let ordHtml = `${it.rank}`;
-        if (it.rank === 1) ordHtml = `<img src="assets/1st.png" alt="1st" class="h-6 inline" />`;
-        if (it.rank === 2) ordHtml = `<img src="assets/2nd.png" alt="2nd" class="h-6 inline" />`;
-        if (it.rank === 3) ordHtml = `<img src="assets/3rd.png" alt="3rd" class="h-6 inline" />`;
+        // PNG ordinals
+        let ord=`${it.rank}`;
+        if(it.rank===1) ord=`<img src="assets/1st.png" alt="1st" class="h-6 inline" />`;
+        if(it.rank===2) ord=`<img src="assets/2nd.png" alt="2nd" class="h-6 inline" />`;
+        if(it.rank===3) ord=`<img src="assets/3rd.png" alt="3rd" class="h-6 inline" />`;
 
         // role badge
-        const roleKey = it.role.toLowerCase().replace(/\s+/g,'');
+        const key = it.role.toLowerCase().replace(/\s+/g,'');
         const roleClasses = {
           officer:      'border-2 border-blue-400 text-blue-400 bg-transparent',
           captain:      'border-2 border-purple-400 text-purple-400 bg-transparent',
           vicecaptain:  'border-2 border-green-400 text-green-400 bg-transparent',
           member:       'text-gray-400'
         };
-        const badgeClass = roleClasses[roleKey] || roleClasses.member;
+        const badgeClass = roleClasses[key] || roleClasses.member;
         let roleLabel = it.role.charAt(0).toUpperCase()+it.role.slice(1);
-        if (roleKey === 'vicecaptain') roleLabel = 'Vice Captain';
+        if(key==='vicecaptain') roleLabel='Vice Captain';
 
         // dates
         const joinDate = it.joinStamp
@@ -205,7 +206,7 @@
           : 'N/A';
 
         // title color
-        const titleColor = it.rank <= 3 ? 'text-yellow-300/70' : 'text-gray-400';
+        const titleColor = it.rank<=3 ? 'text-yellow-300/70' : 'text-gray-400';
         const titleHtml = it.title
           ? `<div class="text-xs ${titleColor} mt-1">${it.title}</div>`
           : '';
@@ -216,7 +217,7 @@
           `location.href='https://www.nitrotype.com/racer/${it.username}'`);
         tr.setAttribute('title','View Nitro Type profile');
         tr.innerHTML = `
-          <td class="px-4 py-3">${ordHtml}</td>
+          <td class="px-4 py-3">${ord}</td>
           <td class="px-4 py-3 text-yellow-300 font-semibold">
             ${it.displayName}
             ${titleHtml}
