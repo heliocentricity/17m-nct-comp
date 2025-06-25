@@ -60,29 +60,27 @@ async function ensureBaseline() {
 async function updateData() {
   const board = await fetchLeaderboard();
 
-  // compute delta for each member
-  const results = board.map(({ username, displayName, racesPlayed }) => {
-    const baseline = config.baseline[username];
-    return {
+  // compute delta and sort descending
+  const results = board
+    .map(({ username, displayName, racesPlayed }) => ({
       username,
       displayName,
-      delta: racesPlayed - baseline
-    };
-  })
-  // sort descending by delta
-  .sort((a, b) => b.delta - a.delta);
+      delta: racesPlayed - config.baseline[username]
+    }))
+    .sort((a, b) => b.delta - a.delta);
 
-  // log for debugging
-  results.forEach(item =>
-    console.log(`Delta[${item.username}] = ${item.delta}`)
+  // log for sanity
+  results.forEach(r => console.log(`Delta[${r.username}] = ${r.delta}`));
+
+  // **write the `board` array** into data.json
+  fs.writeFileSync(
+    DATA_PATH,
+    JSON.stringify(
+      { TEAM_NAME, START_DATE, board: results },
+      null,
+      2
+    )
   );
-
-  // after sorting and computing `results = [{ displayName, delta, … }, …]`
-  fs.writeFileSync(DATA_PATH, JSON.stringify({
-    TEAM_NAME,
-    START_DATE,
-    board: results
-  }, null, 2));
 }
 
 // 4) drive it
