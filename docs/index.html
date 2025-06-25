@@ -6,7 +6,6 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-slate-900 text-gray-200 min-h-screen p-8">
-
   <h1 class="text-4xl font-extrabold mb-2 text-yellow-400">HELIOS Team Leaderboard</h1>
   <p class="text-sm italic text-gray-400 mb-6">
     Last updated: <span id="updated-at" class="font-mono">Loading…</span>
@@ -20,24 +19,23 @@
         <div id="days-left" class="text-5xl font-extrabold text-yellow-300 mb-1"></div>
         <div class="text-sm text-gray-400">days left in tournament</div>
       </div>
-
-      <!-- Prizes Box (empty for now) -->
+      <!-- Prizes -->
       <div class="bg-slate-800 border-2 border-yellow-400 rounded-lg p-4">
         <h2 class="text-lg font-semibold text-yellow-300 mb-2">Prizes</h2>
-        <p class="text-sm text-gray-300">Gold, badges, and glory await the top finishers!</p>
+        <p class="text-sm text-gray-300">
+          Top 3 podium finishers receive exclusive badges and Nitro subscriptions.
+        </p>
       </div>
-
-      <!-- Description Box -->
+      <!-- Description -->
       <div class="bg-slate-800 border-2 border-yellow-400 rounded-lg p-4">
         <h2 class="text-lg font-semibold text-yellow-300 mb-2">Description</h2>
         <p class="text-sm text-gray-300">
-          This leaderboard tracks each HELIOS member’s races since June 24, 2025.
-          Updated hourly on the hour (PST/PDT).
+          Shows each HELIOS member’s races since June 24, 2025. Updated hourly (PST/PDT).
         </p>
       </div>
     </div>
 
-    <!-- Right column: Podium + Table -->
+    <!-- Main content: Podium + Table -->
     <div class="w-2/3">
       <div id="podium" class="mb-8 flex items-end justify-center space-x-8"></div>
       <div class="overflow-x-auto">
@@ -45,7 +43,9 @@
           <thead class="bg-slate-700">
             <tr>
               <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">#</th>
-              <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Name</th>
+              <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Name &amp; Title</th>
+              <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Member Since</th>
+              <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Last Race</th>
               <th class="px-4 py-3 text-right text-sm font-medium text-gray-300">Races</th>
             </tr>
           </thead>
@@ -56,87 +56,61 @@
   </div>
 
   <script>
-    // days left
+    // Days left
     (function(){
       const end = new Date('2025-07-17T00:00:00-07:00');
       const diff = end - new Date();
-      document.getElementById('days-left').textContent =
-        diff>0 ? Math.ceil(diff/(1000*60*60*24)) : 0;
+      document.getElementById('days-left').textContent = diff>0 ? Math.ceil(diff/86400000) : 0;
     })();
 
     fetch('data.json')
       .then(r=>r.json())
       .then(data=>{
-        document.getElementById('updated-at').textContent = data.last_updated;
+        document.getElementById('updated-at').textContent = data.last_updated || 'Unknown';
 
         const board = data.board || [];
-
-        // helper to map role→badge classes
-        const roleClasses = {
-          officer: 'text-green-300 border-green-300',
-          captain: 'text-red-300   border-red-300'
-        };
-
+        const roleClasses = { officer:'bg-blue-400 text-slate-900', captain:'bg-purple-400 text-slate-900' };
         // Podium
         const pod = document.getElementById('podium');
-        if (board.length>=3){
-          const [first,second,third] = board;
-          const makeStep = (place,info,hClass) => {
-            const badge = (info.role!=='member')
-              ? `<span class="ml-2 inline-block text-xs font-medium px-2 py-0.5 rounded ${roleClasses[info.role]||'text-yellow-300 border-yellow-400'} border">${place}</span>`
-              : `<span class="ml-2 inline-block text-xs font-medium px-2 py-0.5 text-gray-400">Member</span>`;
-
-            return `
+        if(board.length>=3){
+          const [first,second,third]=board;
+          const makeStep=(place,info,h)=>`
             <div class="flex flex-col items-center">
-              <div class="relative ${hClass} w-48 bg-slate-800 border-4 border-yellow-400 rounded-b-lg flex flex-col items-center justify-end p-3">
-                <a href="https://www.nitrotype.com/racer/${info.username}"
-                   target="_blank"
-                   class="text-yellow-300 font-bold text-center hover:underline">
-                  ${info.displayName}${badge}
+              <div class="relative ${h} w-56 bg-slate-800 border-4 border-yellow-400 rounded-b-lg flex flex-col items-center justify-end p-4">
+                <a href="https://www.nitrotype.com/racer/${info.username}" target="_blank" class="text-yellow-300 font-bold text-center hover:underline">
+                  ${info.displayName}
                 </a>
-                <div class="absolute -bottom-7 bg-yellow-300 border-2 border-yellow-400 rounded-full w-16 h-16 flex items-center justify-center font-bold text-slate-900">
+                <div class="absolute -bottom-8 bg-yellow-300 border-2 border-yellow-400 rounded-full w-16 h-16 flex items-center justify-center font-bold text-slate-900">
                   ${info.delta}
                 </div>
               </div>
               <span class="mt-12 text-gray-400 uppercase">${place}</span>
             </div>`;
-          };
-
-          pod.innerHTML = `
-            ${makeStep('2nd', second,'h-48')}
-            ${makeStep('1st',  first, 'h-64')}
-            ${makeStep('3rd', third, 'h-40')}
-          `;
+          pod.innerHTML=`
+            ${makeStep('2nd',second,'h-48')}
+            ${makeStep('1st',first,'h-64')}
+            ${makeStep('3rd',third,'h-36')}`;
         }
-
-        // Table #4+
-        const tbody = document.getElementById('leaderboard');
-        board.slice(3).forEach((item,i)=>{
-          const rank = i+4;
-          const races = item.delta || 0;
-          const join  = item.joinStamp
-            ? new Date(item.joinStamp*1000).toLocaleDateString()
-            : 'N/A';
-          const last  = item.lastActivity
-            ? new Date(item.lastActivity*1000).toLocaleDateString()
-            : 'N/A';
-          const badge = (item.role!=='member')
-            ? `<span class="ml-2 inline-block text-xs font-medium px-2 py-0.5 rounded ${roleClasses[item.role]||'text-yellow-300 border-yellow-400'} border">${item.role.charAt(0).toUpperCase()+item.role.slice(1)}</span>`
-            : '';
-
-          const tr = document.createElement('tr');
-          tr.innerHTML = `
+        // Table rows #4+
+        const tbody=document.getElementById('leaderboard');
+        board.slice(3).forEach((it,i)=>{
+          const rank=i+4;
+          const races=it.delta||0;
+          const join=it.joinStamp?new Date(it.joinStamp*1e3).toLocaleDateString():'N/A';
+          const last=it.lastActivity?new Date(it.lastActivity*1e3).toLocaleDateString():'N/A';
+          const badge=it.role!=='member'?`<span class="ml-2 px-2 py-0.5 rounded text-xs font-medium ${roleClasses[it.role]||'bg-yellow-300 text-slate-900'}">${it.role.charAt(0).toUpperCase()+it.role.slice(1)}</span>`:'';
+          const title=it.title?`<div class="text-xs text-gray-400 mt-1">${it.title}</div>`:'';
+          const tr=document.createElement('tr');
+          tr.innerHTML=`
             <td class="px-4 py-3">${rank}</td>
             <td class="px-4 py-3">
-              <a href="https://www.nitrotype.com/racer/${item.username}"
-                 target="_blank" class="text-yellow-300 font-semibold hover:underline">
-                ${item.displayName}${badge}
+              <a href="https://www.nitrotype.com/racer/${it.username}" target="_blank" class="text-yellow-300 font-semibold hover:underline">
+                ${it.displayName}${badge}
               </a>
-              <div class="text-xs text-gray-400 mt-1">
-                Member since: ${join} <br>
-                Last race:     ${last}
-              </div>
+              ${title}
             </td>
+            <td class="px-4 py-3">${join}</td>
+            <td class="px-4 py-3">${last}</td>
             <td class="px-4 py-3 text-right">${races}</td>
           `;
           tbody.appendChild(tr);
