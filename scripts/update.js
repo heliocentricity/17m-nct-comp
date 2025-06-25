@@ -1,18 +1,17 @@
 // scripts/update.js
 
-const fs      = require('fs');
-const path    = require('path');
-const axios   = require('axios');
+const fs    = require('fs');
+const path  = require('path');
+const axios = require('axios');
 
-// ─── config paths ──────────────────────────────────────────────────────────
 const CONFIG_PATH = path.join(__dirname, '..', 'baseline.json');
 const DATA_PATH   = path.join(__dirname, '..', 'docs',     'data.json');
 
-// ─── load or initialize your config ────────────────────────────────────────
+// load your existing config
 const config = JSON.parse(fs.readFileSync(CONFIG_PATH, 'utf8'));
 const { TEAM_NAME, START_DATE } = config;
 
-// ─── 1) Fetch the team’s JSON via ScraperAPI ────────────────────────────────
+// 1) fetch every member via the v2 JSON API (proxied)
 async function fetchLeaderboard() {
   const targetUrl = `https://www.nitrotype.com/api/v2/teams/${TEAM_NAME}`;
   const proxyUrl  = `http://api.scraperapi.com`
@@ -22,59 +21,77 @@ async function fetchLeaderboard() {
   const res  = await axios.get(proxyUrl);
   const body = res.data;
 
-  // sanity check against the actual JSON structure
-  if (body.status !== 'OK' 
-    || !body.results 
+  if (body.status !== 'OK'
+    || !body.results
     || !Array.isArray(body.results.members)
   ) {
     console.error(
-      '⚠️  Unexpected JSON from team API:', 
-      JSON.stringify(body).slice(0,200), '\n'
+      '⚠️  Unexpected JSON from team API:',
+      JSON.stringify(body).slice(0,200),
+      '\n'
     );
     throw new Error('Invalid team JSON');
   }
 
-  // map to { user, races } using the alltime_races field
+  // extract exactly what we need
   return body.results.members.map(m => ({
-    user:  m.racerName || m.username,
-    races: m.alltime_races
+    username:    m.username,
+    displayName: m.displayName || m.racerName || m.username,
+    racesPlayed: m.racesPlayed
   }));
 }
 
-
-// ─── 2) On first-ever run: record each member’s baseline ────────────────────
+// 2) on first-ever run, record baseline for each username
 async function ensureBaseline() {
   const board = await fetchLeaderboard();
   config.baseline = config.baseline || {};
-  for (let { user, races } of board) {
-    if (!Number.isInteger(config.baseline[user])) {
-      config.baseline[user] = races;
-      console.log(`Baseline[${user}] = ${races}`);
+
+  board.forEach(({ username, racesPlayed }) => {
+    if (!Number.isInteger(config.baseline[username])) {
+      config.baseline[username] = racesPlayed;
+      console.log(`Baseline[${username}] = ${racesPlayed}`);
     }
-  }
+  });
+
   fs.writeFileSync(CONFIG_PATH, JSON.stringify(config, null, 2));
 }
 
-// ─── 3) On every run: compute delta = current – baseline ───────────────────
-async function updateDelta() {
+// 3) on every run, compute delta and write a sorted `board` array
+async function updateData() {
   const board = await fetchLeaderboard();
-  const delta = {};
-  for (let { user, races } of board) {
-    delta[user] = races - config.baseline[user];
-    console.log(`Delta[${user}] = ${delta[user]}`);
-  }
-  fs.writeFileSync(DATA_PATH, JSON.stringify({
-    TEAM_NAME,
-    START_DATE,
-    delta
-  }, null, 2));
+
+  // compute delta for each member
+  const results = board.map(({ username, displayName, racesPlayed }) => {
+    const baseline = config.baseline[username];
+    return {
+      username,
+      displayName,
+      delta: racesPlayed - baseline
+    };
+  })
+  // sort descending by delta
+  .sort((a, b) => b.delta - a.delta);
+
+  // log for debugging
+  results.forEach(item =>
+    console.log(`Delta[${item.username}] = ${item.delta}`)
+  );
+
+  // write out to docs/data.json
+  fs.writeFileSync(DATA_PATH,
+    JSON.stringify({
+      TEAM_NAME,
+      START_DATE,
+      board: results
+    }, null, 2)
+  );
 }
 
-// ─── 4) Kick it off ────────────────────────────────────────────────────────
-(async () => {
+// 4) drive it
+;(async () => {
   try {
     await ensureBaseline();
-    await updateDelta();
+    await updateData();
   } catch (err) {
     console.error(err);
     process.exit(1);
