@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 25, 2025 at 11:58 AM PDT",
+  "last_updated": "June 25, 2025 at 12:19 PM PDT",
   "board": [
     {
       "username": "aiy_infection",
@@ -26,22 +26,22 @@
     {
       "username": "tryhardwillwork",
       "displayName": "Chronos",
-      "racesPlayed": 28819,
+      "racesPlayed": 28835,
       "role": "member",
       "title": "Trailblazer",
       "joinStamp": 1750808321,
-      "lastActivity": 1750877360,
-      "delta": 44
+      "lastActivity": 1750878583,
+      "delta": 60
     },
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 32899,
+      "racesPlayed": 32927,
       "role": "member",
       "title": "Dragon Tamer",
       "joinStamp": 1750805902,
-      "lastActivity": 1750877378,
-      "delta": 30
+      "lastActivity": 1750878577,
+      "delta": 58
     },
     {
       "username": "conquerer11k",
@@ -52,6 +52,26 @@
       "joinStamp": 1749752209,
       "lastActivity": 1750870806,
       "delta": 16
+    },
+    {
+      "username": "7dc66a8c355d489769587db8476a03e2",
+      "displayName": "Understanding ooooo",
+      "racesPlayed": 21820,
+      "role": "member",
+      "title": "Mystery Man",
+      "joinStamp": 1750877271,
+      "lastActivity": 1750878282,
+      "delta": 11
+    },
+    {
+      "username": "5fff3c41947a5b24ed13ddb1c73b1e55",
+      "displayName": "ApricotIvoryFlea",
+      "racesPlayed": 1267,
+      "role": "member",
+      "title": "Comeback Kid",
+      "joinStamp": 1750794927,
+      "lastActivity": 1750878193,
+      "delta": 6
     },
     {
       "username": "persionde",
@@ -161,16 +181,6 @@
       "title": "Spring Speedster",
       "joinStamp": 1748965989,
       "lastActivity": 1750848420,
-      "delta": 0
-    },
-    {
-      "username": "5fff3c41947a5b24ed13ddb1c73b1e55",
-      "displayName": "HarryPotterMeMes",
-      "racesPlayed": 1261,
-      "role": "member",
-      "title": "Comeback Kid",
-      "joinStamp": 1750794927,
-      "lastActivity": 1750795177,
       "delta": 0
     },
     {
@@ -341,16 +351,6 @@
       "title": "Flora Fury",
       "joinStamp": 1748723201,
       "lastActivity": 1750408445,
-      "delta": 0
-    },
-    {
-      "username": "7dc66a8c355d489769587db8476a03e2",
-      "displayName": "Understanding ooooo",
-      "racesPlayed": 21809,
-      "role": "member",
-      "title": "Mystery Man",
-      "joinStamp": 1750877271,
-      "lastActivity": 1750877348,
       "delta": 0
     },
     {
