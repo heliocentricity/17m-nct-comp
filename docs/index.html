@@ -20,35 +20,37 @@
     Last updated: <span id="updated-at" class="font-mono">Loading…</span>
   </p>
 
-  <div class="flex space-x-6">
-    <!-- Main table with suns.png background -->
-    <div
-      class="w-3/4 relative overflow-x-auto rounded-lg"
-      style="
-        background-image: url('assets/suns.png');
-        background-size: cover;
-        background-position: center;
-      "
-    >
-      <table class="min-w-full bg-slate-800/70 border-2 border-yellow-400 rounded-lg overflow-hidden">
-        <thead class="bg-slate-700">
-          <tr>
-            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">#</th>
-            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Name & Title</th>
-            <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Role</th>
-            <th id="th-join"   class="px-4 py-3 text-left text-sm font-medium text-gray-300 sortable">
-              Member Since <span>▼</span>
-            </th>
-            <th id="th-last"   class="px-4 py-3 text-left text-sm font-medium text-gray-300 sortable">
-              Last Race <span>▼</span>
-            </th>
-            <th id="th-races" class="px-4 py-3 text-right text-sm font-medium text-gray-300 sortable">
-              Races <span>▼</span>
-            </th>
-          </tr>
-        </thead>
-        <tbody id="leaderboard" class="divide-y divide-slate-700"></tbody>
-      </table>
+    <!-- Main table with faint, cropped suns overlay above all row-backgrounds -->
+    <div class="w-3/4 relative overflow-hidden rounded-lg">
+      <!-- 5% opaque overlay, absolutely positioned above the table rows -->
+      <img
+        src="assets/suns.png"
+        class="absolute inset-0 w-full h-full object-cover opacity-5 pointer-events-none"
+        style="object-position: center;"
+      />
+
+      <!-- keep the horizontal-scroll wrapper if you need it: -->
+      <div class="overflow-x-auto">
+        <table class="relative z-10 min-w-full bg-slate-800/70 border-2 border-yellow-400 rounded-lg">
+          <thead class="bg-slate-700">
+            <tr>
+              <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">#</th>
+              <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Name &amp; Title</th>
+              <th class="px-4 py-3 text-left text-sm font-medium text-gray-300">Role</th>
+              <th id="th-join" class="px-4 py-3 text-left text-sm font-medium text-gray-300 sortable">
+                Member Since <span>▼</span>
+              </th>
+              <th id="th-last" class="px-4 py-3 text-left text-sm font-medium text-gray-300 sortable">
+                Last Race <span>▼</span>
+              </th>
+              <th id="th-races" class="px-4 py-3 text-right text-sm font-medium text-gray-300 sortable">
+                Races <span>▼</span>
+              </th>
+            </tr>
+          </thead>
+          <tbody id="leaderboard" class="divide-y divide-slate-700"></tbody>
+        </table>
+      </div>
     </div>
 
     <!-- Info boxes -->
@@ -84,7 +86,7 @@
           We reserve the right to disqualify you from the tournament if we have good reason to believe that you have cheated (e.g. botting).
           Please make sure you are adhering to
           <a href="https://www.nitrotype.com/support/tos/" target="_blank"
-             class="underline text-blue-300">Nitro Type's TOS</a>.Thank you!
+             class="underline text-blue-300">Nitro Type's TOS</a>. Thank you!
         </p>
       </div>
       <div class="bg-slate-800 border-2 border-yellow-400 rounded-lg p-4">
