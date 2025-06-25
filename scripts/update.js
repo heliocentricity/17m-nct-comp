@@ -1,37 +1,35 @@
 // scripts/update.js
 
-const fs      = require('fs');
-const path    = require('path');
-const axios   = require('axios');
-const cheerio = require('cheerio');
+const fs        = require('fs');
+const path      = require('path');
+const puppeteer = require('puppeteer');
 
 const CONFIG_PATH = path.join(__dirname, '..', 'baseline.json');
 const DATA_PATH   = path.join(__dirname, '..', 'docs', 'data.json');
 
-// Load your config
+// load config
 const config = JSON.parse(fs.readFileSync(CONFIG_PATH, 'utf8'));
 const { TEAM_NAME, START_DATE } = config;
 
-// Fetch the team page via ScraperAPI proxy
 async function fetchLeaderboard() {
-  const targetUrl = `https://www.nitrotype.com/team/${TEAM_NAME}`;
-    // ask ScraperAPI to render JS so __NEXT_DATA__ is present
-  const proxyUrl  = `http://api.scraperapi.com`
-                  + `?api_key=${process.env.SCRAPERAPI_KEY}`
-                  + `&url=${encodeURIComponent(targetUrl)}`
-                  + `&render=true`;
+  const url = `https://www.nitrotype.com/team/${TEAM_NAME}`;
 
-  const res  = await axios.get(proxyUrl);
-  const html = res.data;
+  // launch headless Chrome
+  const browser = await puppeteer.launch({
+    args: ['--no-sandbox','--disable-setuid-sandbox']
+  });
+  const page = await browser.newPage();
 
-  if (!html || !html.includes('__NEXT_DATA__')) {
-    console.error('⚠️  fetchLeaderboard got back unexpected HTML:');
-    console.error(html.slice(0, 200).replace(/\n/g, ' '), '\n');
-    throw new Error('Did not find __NEXT_DATA__ in fetched HTML');
-  }
+  // go to the team page and wait for it to fully render
+  await page.goto(url, { waitUntil: 'networkidle0' });
 
-  const $    = cheerio.load(html);
-  const raw  = $('#__NEXT_DATA__').html();
+  // pull the JSON out of the Next.js data blob
+  const raw = await page.$eval(
+    '#__NEXT_DATA__',
+    el => el.textContent
+  );
+  await browser.close();
+
   const json = JSON.parse(raw);
   return json.props.pageProps.team.leaderboard.map(entry => ({
     user:  entry.racer.racerName,
@@ -42,7 +40,7 @@ async function fetchLeaderboard() {
 async function main() {
   const board = await fetchLeaderboard();
 
-  // 1) Populate any missing baselines
+  // 1) initialize any missing baselines
   config.baseline = config.baseline || {};
   for (let { user, races } of board) {
     if (!Number.isInteger(config.baseline[user])) {
@@ -52,14 +50,14 @@ async function main() {
   }
   fs.writeFileSync(CONFIG_PATH, JSON.stringify(config, null, 2));
 
-  // 2) Compute deltas
+  // 2) compute deltas
   const delta = {};
   for (let { user, races } of board) {
     delta[user] = races - config.baseline[user];
     console.log(`Delta[${user}] = ${delta[user]}`);
   }
 
-  // 3) Write data.json
+  // 3) write out the JSON your static page consumes
   fs.writeFileSync(DATA_PATH, JSON.stringify({
     TEAM_NAME,
     START_DATE,
