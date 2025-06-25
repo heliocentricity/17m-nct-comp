@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 25, 2025 at 12:26 AM PDT",
+  "last_updated": "June 25, 2025 at 1:36 AM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 32788,
+      "racesPlayed": 32869,
       "role": "member",
       "title": "Dragon Tamer",
       "joinStamp": 1750805902,
-      "lastActivity": 1750835962,
-      "delta": 267
+      "lastActivity": 1750839893,
+      "delta": 348
     },
     {
       "username": "neiletsky",
