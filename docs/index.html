@@ -83,46 +83,44 @@
           lastDelta = it.delta;
           lastRank = rank;
 
-          // styling for top 3
+          // highlight top3 with faded gold, hover lighter
           let baseClass = '';
-          let hoverClass = '';
+          let hoverClass = 'hover:bg-slate-700 ';
           if (idx === 0) {
-            baseClass   = 'bg-yellow-400/30 ';
-            hoverClass  = 'hover:bg-yellow-400/20 ';
+            baseClass  = 'bg-yellow-400/30 ';
+            hoverClass = 'hover:bg-yellow-400/20 ';
           } else if (idx === 1) {
-            baseClass   = 'bg-yellow-500/30 ';
-            hoverClass  = 'hover:bg-yellow-500/20 ';
+            baseClass  = 'bg-yellow-500/30 ';
+            hoverClass = 'hover:bg-yellow-500/20 ';
           } else if (idx === 2) {
-            baseClass   = 'bg-yellow-600/30 ';
-            hoverClass  = 'hover:bg-yellow-600/20 ';
-          } else {
-            hoverClass  = 'hover:bg-slate-700 ';
+            baseClass  = 'bg-yellow-600/30 ';
+            hoverClass = 'hover:bg-yellow-600/20 ';
           }
+
           const rowClass = `cursor-pointer ${baseClass}${hoverClass}align-middle`;
 
           const races = Number.isFinite(it.delta) ? it.delta : 0;
-          const joinDate = it.joinStamp
-            ? new Date(it.joinStamp * 1000).toLocaleDateString()
-            : 'N/A';
-          const lastDate = it.lastActivity
-            ? new Date(it.lastActivity * 1000).toLocaleDateString()
-            : 'N/A';
+          const joinDate = it.joinStamp ? new Date(it.joinStamp * 1000).toLocaleDateString() : 'N/A';
+          const lastDate = it.lastActivity ? new Date(it.lastActivity * 1000).toLocaleDateString() : 'N/A';
 
           const badgeClass = roleClasses[it.role] || roleClasses.member;
-          const titleClass = idx < 3 ? 'text-yellow-200' : 'text-gray-400';
-          const titleHtml = it.title
-            ? `<div class="text-xs ${titleClass} mt-1">${it.title}</div>`
-            : '';
+          const titleHtml = it.title ? `<div class="text-xs text-gray-400 mt-1">${it.title}</div>` : '';
+
+          // formatted rank with st/nd/rd and font
+          let rankDisplay = `${rank}`;
+          if (rank === 1) rankDisplay = `<span class="font-serif text-xl">1st</span>`;
+          else if (rank === 2) rankDisplay = `<span class="font-serif text-xl">2nd</span>`;
+          else if (rank === 3) rankDisplay = `<span class="font-serif text-xl">3rd</span>`;
 
           const tr = document.createElement('tr');
           tr.setAttribute('onclick', `location.href='https://www.nitrotype.com/racer/${it.username}'`);
           tr.setAttribute('title', 'View profile');
           tr.className = rowClass;
           tr.innerHTML = `
-            <td class="px-4 py-3">${rank}</td>
+            <td class="px-4 py-3" dangerouslySetInnerHTML='{ __html: rankDisplay }'>${rankDisplay}</td>
             <td class="px-4 py-3 text-yellow-300 font-semibold">
-              ${it.displayName}
-              ${titleHtml}
+              <span>${it.displayName}</span>
+            ${titleHtml}
             </td>
             <td class="px-4 py-3">
               <span class="px-2 py-0.5 rounded ${badgeClass} text-xs font-medium">
