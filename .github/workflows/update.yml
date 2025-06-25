@@ -1,31 +1,30 @@
-name: “Hourly NitroType Update”
+name: Hourly NitroType Update
 on:
   schedule:
-    - cron: '0 * * * *'     # top of every hour
-  workflow_dispatch:       # allow manual runs too
+    - cron: '0 * * * *'     # every hour
+  workflow_dispatch:
 
 jobs:
-  build:
+  update:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Check out repo
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
         with:
-          persist-credentials: true  # so we can push
+          persist-credentials: true
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
+      - uses: actions/setup-node@v3
         with:
           node-version: '18'
 
       - name: Install dependencies
         run: npm install axios cheerio
 
-      - name: Run scraper & update data
+      - name: Run scraper
+        env:
+          SCRAPERAPI_KEY: ${{ secrets.SCRAPERAPI_KEY }}
         run: node scripts/update.js
 
-      - name: Commit & push results
+      - name: Commit & push
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
