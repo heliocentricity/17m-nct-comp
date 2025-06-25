@@ -1,27 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 25, 2025 at 8:25 AM PDT",
+  "last_updated": "June 25, 2025 at 8:42 AM PDT",
   "board": [
     {
-      "username": "aiy_infection",
-      "displayName": "icarus - 10k soon",
-      "racesPlayed": 10010,
-      "role": "captain",
-      "title": "Happy Vibes :)",
-      "joinStamp": 1742486554,
-      "lastActivity": 1750864359,
-      "delta": 10
-    },
-    {
-      "username": "vioiynx",
-      "displayName": "vioiynx",
-      "racesPlayed": 3149,
-      "role": "vicecaptain",
-      "title": "Oh Em Gee!",
-      "joinStamp": 1742509283,
-      "lastActivity": 1750854686,
-      "delta": 1
+      "username": "conquerer11k",
+      "displayName": "SpunkyTurquoiseApe",
+      "racesPlayed": 13610,
+      "role": "member",
+      "title": "Spring-a-round",
+      "joinStamp": 1749752209,
+      "lastActivity": 1750865985,
+      "delta": 9
     },
     {
       "username": "rc0913",
@@ -81,16 +71,6 @@
       "title": "Acute Tinselitis",
       "joinStamp": 1750457551,
       "lastActivity": 1750830671,
-      "delta": 0
-    },
-    {
-      "username": "conquerer11k",
-      "displayName": "SpunkyTurquoiseApe",
-      "racesPlayed": 13598,
-      "role": "member",
-      "title": "Spring-a-round",
-      "joinStamp": 1749752209,
-      "lastActivity": 1750795173,
       "delta": 0
     },
     {
@@ -254,6 +234,16 @@
       "delta": 0
     },
     {
+      "username": "aiy_infection",
+      "displayName": "icarus - 10k soon",
+      "racesPlayed": 10010,
+      "role": "captain",
+      "title": "Happy Vibes :)",
+      "joinStamp": 1742486554,
+      "lastActivity": 1750865127,
+      "delta": 0
+    },
+    {
       "username": "vdgyertikopzefrgh",
       "displayName": "vdgyertikopzefrgh",
       "racesPlayed": 10632,
@@ -351,6 +341,16 @@
       "title": "First Trimester",
       "joinStamp": 1743005762,
       "lastActivity": 1750567130,
+      "delta": 0
+    },
+    {
+      "username": "vioiynx",
+      "displayName": "vioiynx",
+      "racesPlayed": 3149,
+      "role": "vicecaptain",
+      "title": "Oh Em Gee!",
+      "joinStamp": 1742509283,
+      "lastActivity": 1750865069,
       "delta": 0
     },
     {
