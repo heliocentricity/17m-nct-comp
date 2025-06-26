@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 26, 2025 at 7:26 AM PDT",
+  "last_updated": "June 26, 2025 at 8:29 AM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 33698,
+      "racesPlayed": 33758,
       "role": "member",
       "title": "Dragon Tamer",
       "joinStamp": 1750805902,
-      "lastActivity": 1750947123,
-      "delta": 829
+      "lastActivity": 1750951175,
+      "delta": 889
     },
     {
       "username": "tryhardwillwork",
@@ -56,12 +56,12 @@
     {
       "username": "persionde",
       "displayName": "persionde",
-      "racesPlayed": 4052,
+      "racesPlayed": 4056,
       "role": "member",
       "title": ":D",
       "joinStamp": 1750643616,
-      "lastActivity": 1750887386,
-      "delta": 53
+      "lastActivity": 1750949790,
+      "delta": 57
     },
     {
       "username": "gw2iscoollol",
@@ -84,14 +84,24 @@
       "delta": 23
     },
     {
+      "username": "sumimyangel",
+      "displayName": "stephenJoester",
+      "racesPlayed": 21630,
+      "role": "member",
+      "title": "Spring Speedster",
+      "joinStamp": 1748965989,
+      "lastActivity": 1750949616,
+      "delta": 22
+    },
+    {
       "username": "conquerer11k",
       "displayName": "ResilientRedDonkey",
-      "racesPlayed": 13617,
+      "racesPlayed": 13618,
       "role": "member",
       "title": "Spring-a-round",
       "joinStamp": 1749752209,
-      "lastActivity": 1750870806,
-      "delta": 16
+      "lastActivity": 1750949102,
+      "delta": 17
     },
     {
       "username": "vdgyertikopzefrgh",
@@ -100,7 +110,7 @@
       "role": "member",
       "title": ":D",
       "joinStamp": 1742927144,
-      "lastActivity": 1750947565,
+      "lastActivity": 1750948008,
       "delta": 16
     },
     {
@@ -112,6 +122,16 @@
       "joinStamp": 1750457551,
       "lastActivity": 1750904650,
       "delta": 15
+    },
+    {
+      "username": "dianac128",
+      "displayName": "ryiichu",
+      "racesPlayed": 1784,
+      "role": "member",
+      "title": "Expert Extraordinaire",
+      "joinStamp": 1750468101,
+      "lastActivity": 1750948884,
+      "delta": 14
     },
     {
       "username": "5fff3c41947a5b24ed13ddb1c73b1e55",
@@ -184,16 +204,6 @@
       "delta": 0
     },
     {
-      "username": "sumimyangel",
-      "displayName": "stephenJoester",
-      "racesPlayed": 21608,
-      "role": "member",
-      "title": "Spring Speedster",
-      "joinStamp": 1748965989,
-      "lastActivity": 1750848420,
-      "delta": 0
-    },
-    {
       "username": "opsy07",
       "displayName": "2fingertypist",
       "racesPlayed": 2632,
@@ -201,16 +211,6 @@
       "title": "Green Streak",
       "joinStamp": 1744382527,
       "lastActivity": 1749863144,
-      "delta": 0
-    },
-    {
-      "username": "dianac128",
-      "displayName": "ryiichu",
-      "racesPlayed": 1770,
-      "role": "member",
-      "title": "Expert Extraordinaire",
-      "joinStamp": 1750468101,
-      "lastActivity": 1750789206,
       "delta": 0
     },
     {
