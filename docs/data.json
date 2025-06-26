@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 26, 2025 at 6:38 AM PDT",
+  "last_updated": "June 26, 2025 at 7:26 AM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 33676,
+      "racesPlayed": 33698,
       "role": "member",
       "title": "Dragon Tamer",
       "joinStamp": 1750805902,
-      "lastActivity": 1750942328,
-      "delta": 807
+      "lastActivity": 1750947123,
+      "delta": 829
     },
     {
       "username": "tryhardwillwork",
@@ -91,6 +91,16 @@
       "title": "Spring-a-round",
       "joinStamp": 1749752209,
       "lastActivity": 1750870806,
+      "delta": 16
+    },
+    {
+      "username": "vdgyertikopzefrgh",
+      "displayName": "vdgyertikopzefrgh",
+      "racesPlayed": 10648,
+      "role": "member",
+      "title": ":D",
+      "joinStamp": 1742927144,
+      "lastActivity": 1750947565,
       "delta": 16
     },
     {
@@ -261,16 +271,6 @@
       "title": "Legendary Lapper",
       "joinStamp": 1747355208,
       "lastActivity": 1750348878,
-      "delta": 0
-    },
-    {
-      "username": "vdgyertikopzefrgh",
-      "displayName": "vdgyertikopzefrgh",
-      "racesPlayed": 10632,
-      "role": "member",
-      "title": ":D",
-      "joinStamp": 1742927144,
-      "lastActivity": 1750593165,
       "delta": 0
     },
     {
