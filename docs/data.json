@@ -1,27 +1,27 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 25, 2025 at 6:35 PM PDT",
+  "last_updated": "June 25, 2025 at 7:10 PM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 33328,
+      "racesPlayed": 33371,
       "role": "member",
       "title": "Dragon Tamer",
       "joinStamp": 1750805902,
-      "lastActivity": 1750901376,
-      "delta": 459
+      "lastActivity": 1750903177,
+      "delta": 502
     },
     {
       "username": "tryhardwillwork",
       "displayName": "Krowns",
-      "racesPlayed": 29012,
+      "racesPlayed": 29057,
       "role": "member",
       "title": "Trailblazer",
       "joinStamp": 1750808321,
-      "lastActivity": 1750901344,
-      "delta": 237
+      "lastActivity": 1750903171,
+      "delta": 282
     },
     {
       "username": "vioiynx",
@@ -30,7 +30,7 @@
       "role": "vicecaptain",
       "title": "Oh Em Gee!",
       "joinStamp": 1742509283,
-      "lastActivity": 1750901354,
+      "lastActivity": 1750901585,
       "delta": 172
     },
     {
