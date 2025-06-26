@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 25, 2025 at 10:28 PM PDT",
+  "last_updated": "June 25, 2025 at 11:39 PM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 33607,
+      "racesPlayed": 33646,
       "role": "member",
       "title": "Dragon Tamer",
       "joinStamp": 1750805902,
-      "lastActivity": 1750915180,
-      "delta": 738
+      "lastActivity": 1750917474,
+      "delta": 777
     },
     {
       "username": "tryhardwillwork",
@@ -46,12 +46,22 @@
     {
       "username": "neiletsky",
       "displayName": "NoLimit",
-      "racesPlayed": 10555,
+      "racesPlayed": 10586,
       "role": "vicecaptain",
       "title": "Speed Demon",
       "joinStamp": 1744741826,
-      "lastActivity": 1750883760,
-      "delta": 65
+      "lastActivity": 1750919331,
+      "delta": 96
+    },
+    {
+      "username": "7dc66a8c355d489769587db8476a03e2",
+      "displayName": "Understanding ooooo",
+      "racesPlayed": 21871,
+      "role": "member",
+      "title": "Mystery Man",
+      "joinStamp": 1750877271,
+      "lastActivity": 1750919357,
+      "delta": 62
     },
     {
       "username": "persionde",
@@ -62,16 +72,6 @@
       "joinStamp": 1750643616,
       "lastActivity": 1750887386,
       "delta": 53
-    },
-    {
-      "username": "7dc66a8c355d489769587db8476a03e2",
-      "displayName": "Understanding ooooo",
-      "racesPlayed": 21858,
-      "role": "member",
-      "title": "Mystery Man",
-      "joinStamp": 1750877271,
-      "lastActivity": 1750915067,
-      "delta": 49
     },
     {
       "username": "gw2iscoollol",
