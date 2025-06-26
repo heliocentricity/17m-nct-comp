@@ -1,27 +1,27 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 26, 2025 at 12:21 PM PDT",
+  "last_updated": "June 26, 2025 at 1:29 PM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 33849,
+      "racesPlayed": 33863,
       "role": "member",
       "title": "The Smasher",
       "joinStamp": 1750805902,
-      "lastActivity": 1750965235,
-      "delta": 980
+      "lastActivity": 1750969191,
+      "delta": 994
     },
     {
       "username": "tryhardwillwork",
       "displayName": "Krowns",
-      "racesPlayed": 29205,
+      "racesPlayed": 29248,
       "role": "member",
       "title": "Trailblazer",
       "joinStamp": 1750808321,
-      "lastActivity": 1750910605,
-      "delta": 430
+      "lastActivity": 1750969013,
+      "delta": 473
     },
     {
       "username": "neiletsky",
@@ -36,22 +36,22 @@
     {
       "username": "aiy_infection",
       "displayName": "icarus - 10k soon",
-      "racesPlayed": 10206,
+      "racesPlayed": 10222,
       "role": "captain",
       "title": "Happy Vibes :)",
       "joinStamp": 1742486554,
-      "lastActivity": 1750965589,
-      "delta": 196
+      "lastActivity": 1750966378,
+      "delta": 212
     },
     {
       "username": "vioiynx",
       "displayName": "vioiynx",
-      "racesPlayed": 3321,
+      "racesPlayed": 3340,
       "role": "vicecaptain",
       "title": "Oh Em Gee!",
       "joinStamp": 1742509283,
-      "lastActivity": 1750901585,
-      "delta": 172
+      "lastActivity": 1750967713,
+      "delta": 191
     },
     {
       "username": "persionde",
@@ -62,6 +62,16 @@
       "joinStamp": 1750643616,
       "lastActivity": 1750963329,
       "delta": 60
+    },
+    {
+      "username": "soccer791",
+      "displayName": "Airborne",
+      "racesPlayed": 13596,
+      "role": "member",
+      "title": "Acute Tinselitis",
+      "joinStamp": 1750457551,
+      "lastActivity": 1750967058,
+      "delta": 59
     },
     {
       "username": "conquerer11k",
@@ -82,16 +92,6 @@
       "joinStamp": 1750794927,
       "lastActivity": 1750962966,
       "delta": 49
-    },
-    {
-      "username": "soccer791",
-      "displayName": "Airborne",
-      "racesPlayed": 13583,
-      "role": "member",
-      "title": "Acute Tinselitis",
-      "joinStamp": 1750457551,
-      "lastActivity": 1750965589,
-      "delta": 46
     },
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
@@ -152,6 +152,16 @@
       "joinStamp": 1750468101,
       "lastActivity": 1750948884,
       "delta": 14
+    },
+    {
+      "username": "2525de6c193656755826c3b612fe4f5c",
+      "displayName": "Kenritz",
+      "racesPlayed": 1858,
+      "role": "member",
+      "title": "Olde School",
+      "joinStamp": 1750461776,
+      "lastActivity": 1750461970,
+      "delta": 3
     },
     {
       "username": "rc0913",
@@ -254,16 +264,6 @@
       "delta": 0
     },
     {
-      "username": "2525de6c193656755826c3b612fe4f5c",
-      "displayName": "Kenritz",
-      "racesPlayed": 1855,
-      "role": "member",
-      "title": "Olde School",
-      "joinStamp": 1750461776,
-      "lastActivity": 1750461970,
-      "delta": 0
-    },
-    {
       "username": "f0dca54e9b8d6f1aa97d5bb4c608a50a",
       "displayName": "Vintagium",
       "racesPlayed": 1660,
@@ -321,6 +321,16 @@
       "title": "Spring Speedster",
       "joinStamp": 1747432192,
       "lastActivity": 1747778837,
+      "delta": 0
+    },
+    {
+      "username": "407017f3a63e1d9f1bc27590024a284f",
+      "displayName": "JoshAbner13",
+      "racesPlayed": 22,
+      "role": "member",
+      "title": "Raw Racing Recruit",
+      "joinStamp": 1750967124,
+      "lastActivity": 0,
       "delta": 0
     },
     {
