@@ -1,27 +1,27 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 26, 2025 at 1:29 PM PDT",
+  "last_updated": "June 26, 2025 at 2:25 PM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 33863,
+      "racesPlayed": 33915,
       "role": "member",
       "title": "The Smasher",
       "joinStamp": 1750805902,
-      "lastActivity": 1750969191,
-      "delta": 994
+      "lastActivity": 1750972751,
+      "delta": 1046
     },
     {
       "username": "tryhardwillwork",
       "displayName": "Krowns",
-      "racesPlayed": 29248,
+      "racesPlayed": 29294,
       "role": "member",
-      "title": "Trailblazer",
+      "title": "Astronaut",
       "joinStamp": 1750808321,
-      "lastActivity": 1750969013,
-      "delta": 473
+      "lastActivity": 1750972752,
+      "delta": 519
     },
     {
       "username": "neiletsky",
@@ -34,6 +34,16 @@
       "delta": 265
     },
     {
+      "username": "vioiynx",
+      "displayName": "vioiynx",
+      "racesPlayed": 3365,
+      "role": "vicecaptain",
+      "title": "Oh Em Gee!",
+      "joinStamp": 1742509283,
+      "lastActivity": 1750972096,
+      "delta": 216
+    },
+    {
       "username": "aiy_infection",
       "displayName": "icarus - 10k soon",
       "racesPlayed": 10222,
@@ -44,24 +54,24 @@
       "delta": 212
     },
     {
-      "username": "vioiynx",
-      "displayName": "vioiynx",
-      "racesPlayed": 3340,
-      "role": "vicecaptain",
-      "title": "Oh Em Gee!",
-      "joinStamp": 1742509283,
-      "lastActivity": 1750967713,
-      "delta": 191
-    },
-    {
       "username": "persionde",
       "displayName": "persionde",
-      "racesPlayed": 4059,
+      "racesPlayed": 4060,
       "role": "member",
       "title": ":D",
       "joinStamp": 1750643616,
-      "lastActivity": 1750963329,
-      "delta": 60
+      "lastActivity": 1750971526,
+      "delta": 61
+    },
+    {
+      "username": "4978dd1c73bd50b93b895f4299eed6b8",
+      "displayName": "Mystic",
+      "racesPlayed": 262,
+      "role": "member",
+      "title": "Millionaire",
+      "joinStamp": 1750712571,
+      "lastActivity": 1750972002,
+      "delta": 61
     },
     {
       "username": "soccer791",
@@ -92,16 +102,6 @@
       "joinStamp": 1750794927,
       "lastActivity": 1750962966,
       "delta": 49
-    },
-    {
-      "username": "4978dd1c73bd50b93b895f4299eed6b8",
-      "displayName": "Mystic",
-      "racesPlayed": 247,
-      "role": "member",
-      "title": "Millionaire",
-      "joinStamp": 1750712571,
-      "lastActivity": 1750961868,
-      "delta": 46
     },
     {
       "username": "gw2iscoollol",
@@ -160,7 +160,7 @@
       "role": "member",
       "title": "Olde School",
       "joinStamp": 1750461776,
-      "lastActivity": 1750461970,
+      "lastActivity": 1750969321,
       "delta": 3
     },
     {
