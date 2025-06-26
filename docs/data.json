@@ -1,27 +1,27 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 26, 2025 at 2:25 PM PDT",
+  "last_updated": "June 26, 2025 at 3:25 PM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 33915,
+      "racesPlayed": 33946,
       "role": "member",
       "title": "The Smasher",
       "joinStamp": 1750805902,
-      "lastActivity": 1750972751,
-      "delta": 1046
+      "lastActivity": 1750976369,
+      "delta": 1077
     },
     {
       "username": "tryhardwillwork",
       "displayName": "Krowns",
-      "racesPlayed": 29294,
+      "racesPlayed": 29305,
       "role": "member",
       "title": "Astronaut",
       "joinStamp": 1750808321,
-      "lastActivity": 1750972752,
-      "delta": 519
+      "lastActivity": 1750974315,
+      "delta": 530
     },
     {
       "username": "neiletsky",
@@ -56,32 +56,32 @@
     {
       "username": "persionde",
       "displayName": "persionde",
-      "racesPlayed": 4060,
+      "racesPlayed": 4083,
       "role": "member",
       "title": ":D",
       "joinStamp": 1750643616,
-      "lastActivity": 1750971526,
-      "delta": 61
-    },
-    {
-      "username": "4978dd1c73bd50b93b895f4299eed6b8",
-      "displayName": "Mystic",
-      "racesPlayed": 262,
-      "role": "member",
-      "title": "Millionaire",
-      "joinStamp": 1750712571,
-      "lastActivity": 1750972002,
-      "delta": 61
+      "lastActivity": 1750976368,
+      "delta": 84
     },
     {
       "username": "soccer791",
       "displayName": "Airborne",
-      "racesPlayed": 13596,
+      "racesPlayed": 13613,
       "role": "member",
       "title": "Acute Tinselitis",
       "joinStamp": 1750457551,
-      "lastActivity": 1750967058,
-      "delta": 59
+      "lastActivity": 1750975400,
+      "delta": 76
+    },
+    {
+      "username": "4978dd1c73bd50b93b895f4299eed6b8",
+      "displayName": "Mystic",
+      "racesPlayed": 269,
+      "role": "member",
+      "title": "Millionaire",
+      "joinStamp": 1750712571,
+      "lastActivity": 1750974586,
+      "delta": 68
     },
     {
       "username": "conquerer11k",
