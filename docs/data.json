@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 26, 2025 at 10:24 AM PDT",
+  "last_updated": "June 26, 2025 at 11:37 AM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 33799,
+      "racesPlayed": 33805,
       "role": "member",
       "title": "The Smasher",
       "joinStamp": 1750805902,
       "lastActivity": 1750957599,
-      "delta": 930
+      "delta": 936
     },
     {
       "username": "tryhardwillwork",
@@ -46,12 +46,22 @@
     {
       "username": "aiy_infection",
       "displayName": "icarus - 10k soon",
-      "racesPlayed": 10120,
+      "racesPlayed": 10155,
       "role": "captain",
       "title": "Happy Vibes :)",
       "joinStamp": 1742486554,
-      "lastActivity": 1750871709,
-      "delta": 110
+      "lastActivity": 1750962561,
+      "delta": 145
+    },
+    {
+      "username": "conquerer11k",
+      "displayName": "ResilientRedDonkey",
+      "racesPlayed": 13660,
+      "role": "member",
+      "title": "Spring-a-round",
+      "joinStamp": 1749752209,
+      "lastActivity": 1750962555,
+      "delta": 59
     },
     {
       "username": "persionde",
@@ -62,6 +72,26 @@
       "joinStamp": 1750643616,
       "lastActivity": 1750949790,
       "delta": 57
+    },
+    {
+      "username": "5fff3c41947a5b24ed13ddb1c73b1e55",
+      "displayName": "ApricotIvoryFlea",
+      "racesPlayed": 1310,
+      "role": "member",
+      "title": "Comeback Kid",
+      "joinStamp": 1750794927,
+      "lastActivity": 1750962561,
+      "delta": 49
+    },
+    {
+      "username": "4978dd1c73bd50b93b895f4299eed6b8",
+      "displayName": "Mystic",
+      "racesPlayed": 247,
+      "role": "member",
+      "title": "Millionaire",
+      "joinStamp": 1750712571,
+      "lastActivity": 1750961868,
+      "delta": 46
     },
     {
       "username": "gw2iscoollol",
@@ -76,22 +106,12 @@
     {
       "username": "soccer791",
       "displayName": "Airborne",
-      "racesPlayed": 13573,
+      "racesPlayed": 13576,
       "role": "member",
       "title": "Acute Tinselitis",
       "joinStamp": 1750457551,
-      "lastActivity": 1750958393,
-      "delta": 36
-    },
-    {
-      "username": "4978dd1c73bd50b93b895f4299eed6b8",
-      "displayName": "Mystic",
-      "racesPlayed": 234,
-      "role": "member",
-      "title": "Millionaire",
-      "joinStamp": 1750712571,
-      "lastActivity": 1750956575,
-      "delta": 33
+      "lastActivity": 1750959131,
+      "delta": 39
     },
     {
       "username": "sumimyangel",
@@ -104,16 +124,6 @@
       "delta": 22
     },
     {
-      "username": "conquerer11k",
-      "displayName": "ResilientRedDonkey",
-      "racesPlayed": 13618,
-      "role": "member",
-      "title": "Spring-a-round",
-      "joinStamp": 1749752209,
-      "lastActivity": 1750949102,
-      "delta": 17
-    },
-    {
       "username": "vdgyertikopzefrgh",
       "displayName": "vdgyertikopzefrgh",
       "racesPlayed": 10648,
@@ -124,6 +134,16 @@
       "delta": 16
     },
     {
+      "username": "timmytimmy213",
+      "displayName": "timmytimmy213",
+      "racesPlayed": 4227,
+      "role": "officer",
+      "title": "Champion Chaser",
+      "joinStamp": 1743005762,
+      "lastActivity": 1750962586,
+      "delta": 15
+    },
+    {
       "username": "dianac128",
       "displayName": "ryiichu",
       "racesPlayed": 1784,
@@ -132,16 +152,6 @@
       "joinStamp": 1750468101,
       "lastActivity": 1750948884,
       "delta": 14
-    },
-    {
-      "username": "5fff3c41947a5b24ed13ddb1c73b1e55",
-      "displayName": "ApricotIvoryFlea",
-      "racesPlayed": 1267,
-      "role": "member",
-      "title": "Comeback Kid",
-      "joinStamp": 1750794927,
-      "lastActivity": 1750878193,
-      "delta": 6
     },
     {
       "username": "rc0913",
@@ -341,16 +351,6 @@
       "title": "Flora Fury",
       "joinStamp": 1748723201,
       "lastActivity": 1750408445,
-      "delta": 0
-    },
-    {
-      "username": "timmytimmy213",
-      "displayName": "timmytimmy213",
-      "racesPlayed": 4212,
-      "role": "officer",
-      "title": "First Trimester",
-      "joinStamp": 1743005762,
-      "lastActivity": 1750567130,
       "delta": 0
     },
     {
