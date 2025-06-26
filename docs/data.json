@@ -1,27 +1,27 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 25, 2025 at 8:52 PM PDT",
+  "last_updated": "June 25, 2025 at 9:36 PM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 33496,
+      "racesPlayed": 33552,
       "role": "member",
       "title": "Dragon Tamer",
       "joinStamp": 1750805902,
-      "lastActivity": 1750909793,
-      "delta": 627
+      "lastActivity": 1750912172,
+      "delta": 683
     },
     {
       "username": "tryhardwillwork",
       "displayName": "Krowns",
-      "racesPlayed": 29194,
+      "racesPlayed": 29205,
       "role": "member",
       "title": "Trailblazer",
       "joinStamp": 1750808321,
-      "lastActivity": 1750909755,
-      "delta": 419
+      "lastActivity": 1750910605,
+      "delta": 430
     },
     {
       "username": "vioiynx",
@@ -64,6 +64,16 @@
       "delta": 53
     },
     {
+      "username": "7dc66a8c355d489769587db8476a03e2",
+      "displayName": "Understanding ooooo",
+      "racesPlayed": 21853,
+      "role": "member",
+      "title": "Mystery Man",
+      "joinStamp": 1750877271,
+      "lastActivity": 1750911137,
+      "delta": 44
+    },
+    {
       "username": "gw2iscoollol",
       "displayName": "Leqlerc",
       "racesPlayed": 6246,
@@ -74,24 +84,14 @@
       "delta": 41
     },
     {
-      "username": "7dc66a8c355d489769587db8476a03e2",
-      "displayName": "Understanding ooooo",
-      "racesPlayed": 21843,
-      "role": "member",
-      "title": "Mystery Man",
-      "joinStamp": 1750877271,
-      "lastActivity": 1750909748,
-      "delta": 34
-    },
-    {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
-      "racesPlayed": 223,
+      "racesPlayed": 224,
       "role": "member",
       "title": "Millionaire",
       "joinStamp": 1750712571,
-      "lastActivity": 1750890501,
-      "delta": 22
+      "lastActivity": 1750910457,
+      "delta": 23
     },
     {
       "username": "conquerer11k",
