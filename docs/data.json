@@ -1,27 +1,37 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 25, 2025 at 5:00 PM PDT",
+  "last_updated": "June 25, 2025 at 6:06 PM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 33233,
+      "racesPlayed": 33294,
       "role": "member",
       "title": "Dragon Tamer",
       "joinStamp": 1750805902,
-      "lastActivity": 1750895690,
-      "delta": 364
+      "lastActivity": 1750899567,
+      "delta": 425
     },
     {
       "username": "tryhardwillwork",
       "displayName": "Chronos",
-      "racesPlayed": 28889,
+      "racesPlayed": 28975,
       "role": "member",
       "title": "Trailblazer",
       "joinStamp": 1750808321,
-      "lastActivity": 1750895988,
-      "delta": 114
+      "lastActivity": 1750899569,
+      "delta": 200
+    },
+    {
+      "username": "vioiynx",
+      "displayName": "vioiynx",
+      "racesPlayed": 3293,
+      "role": "vicecaptain",
+      "title": "Oh Em Gee!",
+      "joinStamp": 1742509283,
+      "lastActivity": 1750899569,
+      "delta": 144
     },
     {
       "username": "aiy_infection",
@@ -32,16 +42,6 @@
       "joinStamp": 1742486554,
       "lastActivity": 1750871709,
       "delta": 110
-    },
-    {
-      "username": "vioiynx",
-      "displayName": "vioiynx",
-      "racesPlayed": 3220,
-      "role": "vicecaptain",
-      "title": "Oh Em Gee!",
-      "joinStamp": 1742509283,
-      "lastActivity": 1750886974,
-      "delta": 71
     },
     {
       "username": "neiletsky",
@@ -106,12 +106,12 @@
     {
       "username": "soccer791",
       "displayName": "Airborne",
-      "racesPlayed": 13543,
+      "racesPlayed": 13545,
       "role": "member",
       "title": "Acute Tinselitis",
       "joinStamp": 1750457551,
-      "lastActivity": 1750892840,
-      "delta": 6
+      "lastActivity": 1750899546,
+      "delta": 8
     },
     {
       "username": "5fff3c41947a5b24ed13ddb1c73b1e55",
@@ -391,6 +391,16 @@
       "title": "Eternal Spring",
       "joinStamp": 1750606113,
       "lastActivity": 1750733607,
+      "delta": 0
+    },
+    {
+      "username": "juderbucks81",
+      "displayName": "juderbucks81",
+      "racesPlayed": 465,
+      "role": "member",
+      "title": "Mystery Man",
+      "joinStamp": 1750896179,
+      "lastActivity": 1750896554,
       "delta": 0
     }
   ]
