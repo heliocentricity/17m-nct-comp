@@ -1,27 +1,27 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 27, 2025 at 1:28 PM PDT",
+  "last_updated": "June 27, 2025 at 2:22 PM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 34593,
+      "racesPlayed": 34631,
       "role": "officer",
       "title": "The Smasher",
       "joinStamp": 1750805902,
-      "lastActivity": 1751055186,
-      "delta": 1724
+      "lastActivity": 1751059175,
+      "delta": 1762
     },
     {
       "username": "tryhardwillwork",
       "displayName": "Krowns",
-      "racesPlayed": 29661,
+      "racesPlayed": 29725,
       "role": "member",
       "title": "Astronaut",
       "joinStamp": 1751048108,
-      "lastActivity": 1751055514,
-      "delta": 886
+      "lastActivity": 1751059190,
+      "delta": 950
     },
     {
       "username": "neiletsky",
@@ -44,6 +44,16 @@
       "delta": 314
     },
     {
+      "username": "soccer791",
+      "displayName": "Airborne",
+      "racesPlayed": 13831,
+      "role": "member",
+      "title": "Acute Tinselitis",
+      "joinStamp": 1750457551,
+      "lastActivity": 1751059182,
+      "delta": 294
+    },
+    {
       "username": "aharama",
       "displayName": "Aharama",
       "racesPlayed": 139480,
@@ -64,24 +74,14 @@
       "delta": 269
     },
     {
-      "username": "soccer791",
-      "displayName": "Airborne",
-      "racesPlayed": 13800,
-      "role": "member",
-      "title": "Acute Tinselitis",
-      "joinStamp": 1750457551,
-      "lastActivity": 1751048690,
-      "delta": 263
-    },
-    {
       "username": "persionde",
       "displayName": "persionde",
-      "racesPlayed": 4133,
+      "racesPlayed": 4146,
       "role": "member",
       "title": ":D",
       "joinStamp": 1750984125,
-      "lastActivity": 1750995166,
-      "delta": 134
+      "lastActivity": 1751057628,
+      "delta": 147
     },
     {
       "username": "thecretor145",
@@ -94,6 +94,16 @@
       "delta": 113
     },
     {
+      "username": "gw2iscoollol",
+      "displayName": "Leqlerc",
+      "racesPlayed": 6281,
+      "role": "member",
+      "title": "Nitro Burnout",
+      "joinStamp": 1750448154,
+      "lastActivity": 1751056544,
+      "delta": 76
+    },
+    {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
       "racesPlayed": 277,
@@ -102,16 +112,6 @@
       "joinStamp": 1750712571,
       "lastActivity": 1751052285,
       "delta": 76
-    },
-    {
-      "username": "gw2iscoollol",
-      "displayName": "Leqlerc",
-      "racesPlayed": 6274,
-      "role": "member",
-      "title": "Nitro Burnout",
-      "joinStamp": 1750448154,
-      "lastActivity": 1751043258,
-      "delta": 69
     },
     {
       "username": "conquerer11k",
@@ -204,6 +204,16 @@
       "delta": 14
     },
     {
+      "username": "azamondiasthe2",
+      "displayName": "Akravus",
+      "racesPlayed": 1905,
+      "role": "member",
+      "title": "A E S T H E T I C",
+      "joinStamp": 1750994218,
+      "lastActivity": 1751059135,
+      "delta": 14
+    },
+    {
       "username": "407017f3a63e1d9f1bc27590024a284f",
       "displayName": "JoshAbner13",
       "racesPlayed": 28,
@@ -222,16 +232,6 @@
       "joinStamp": 1750461776,
       "lastActivity": 1750969321,
       "delta": 3
-    },
-    {
-      "username": "azamondiasthe2",
-      "displayName": "Akravus",
-      "racesPlayed": 1893,
-      "role": "member",
-      "title": "A E S T H E T I C",
-      "joinStamp": 1750994218,
-      "lastActivity": 1751000767,
-      "delta": 2
     },
     {
       "username": "juderbucks81",
