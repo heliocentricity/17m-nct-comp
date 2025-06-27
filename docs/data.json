@@ -1,27 +1,37 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 27, 2025 at 2:22 PM PDT",
+  "last_updated": "June 27, 2025 at 3:27 PM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 34631,
+      "racesPlayed": 34684,
       "role": "officer",
       "title": "The Smasher",
       "joinStamp": 1750805902,
-      "lastActivity": 1751059175,
-      "delta": 1762
+      "lastActivity": 1751062277,
+      "delta": 1815
     },
     {
       "username": "tryhardwillwork",
       "displayName": "Krowns",
-      "racesPlayed": 29725,
+      "racesPlayed": 29771,
       "role": "member",
       "title": "Astronaut",
       "joinStamp": 1751048108,
-      "lastActivity": 1751059190,
-      "delta": 950
+      "lastActivity": 1751062434,
+      "delta": 996
+    },
+    {
+      "username": "soccer791",
+      "displayName": "Airborne",
+      "racesPlayed": 13884,
+      "role": "member",
+      "title": "Acute Tinselitis",
+      "joinStamp": 1750457551,
+      "lastActivity": 1751062553,
+      "delta": 347
     },
     {
       "username": "neiletsky",
@@ -42,16 +52,6 @@
       "joinStamp": 1742509283,
       "lastActivity": 1750987656,
       "delta": 314
-    },
-    {
-      "username": "soccer791",
-      "displayName": "Airborne",
-      "racesPlayed": 13831,
-      "role": "member",
-      "title": "Acute Tinselitis",
-      "joinStamp": 1750457551,
-      "lastActivity": 1751059182,
-      "delta": 294
     },
     {
       "username": "aharama",
@@ -76,12 +76,12 @@
     {
       "username": "persionde",
       "displayName": "persionde",
-      "racesPlayed": 4146,
+      "racesPlayed": 4151,
       "role": "member",
       "title": ":D",
       "joinStamp": 1750984125,
-      "lastActivity": 1751057628,
-      "delta": 147
+      "lastActivity": 1751061581,
+      "delta": 152
     },
     {
       "username": "thecretor145",
@@ -94,6 +94,16 @@
       "delta": 113
     },
     {
+      "username": "4978dd1c73bd50b93b895f4299eed6b8",
+      "displayName": "Mystic",
+      "racesPlayed": 280,
+      "role": "member",
+      "title": "Millionaire",
+      "joinStamp": 1750712571,
+      "lastActivity": 1751062603,
+      "delta": 79
+    },
+    {
       "username": "gw2iscoollol",
       "displayName": "Leqlerc",
       "racesPlayed": 6281,
@@ -101,16 +111,6 @@
       "title": "Nitro Burnout",
       "joinStamp": 1750448154,
       "lastActivity": 1751056544,
-      "delta": 76
-    },
-    {
-      "username": "4978dd1c73bd50b93b895f4299eed6b8",
-      "displayName": "Mystic",
-      "racesPlayed": 277,
-      "role": "member",
-      "title": "Millionaire",
-      "joinStamp": 1750712571,
-      "lastActivity": 1751052285,
       "delta": 76
     },
     {
@@ -122,6 +122,16 @@
       "joinStamp": 1749752209,
       "lastActivity": 1750962863,
       "delta": 59
+    },
+    {
+      "username": "4399e7a571cf827be64b714c30c899ef",
+      "displayName": "FuchsiaAzureCougar",
+      "racesPlayed": 439,
+      "role": "member",
+      "title": "Flora Fury",
+      "joinStamp": 1748723201,
+      "lastActivity": 1751062764,
+      "delta": 57
     },
     {
       "username": "96adbea38b59bc5d736244c73d479514",
@@ -142,16 +152,6 @@
       "joinStamp": 1750794927,
       "lastActivity": 1750962966,
       "delta": 49
-    },
-    {
-      "username": "4399e7a571cf827be64b714c30c899ef",
-      "displayName": "FuchsiaAzureCougar",
-      "racesPlayed": 427,
-      "role": "member",
-      "title": "Flora Fury",
-      "joinStamp": 1748723201,
-      "lastActivity": 1751015613,
-      "delta": 45
     },
     {
       "username": "timmytimmy213",
@@ -401,6 +401,16 @@
       "title": "Spring Speedster",
       "joinStamp": 1747432192,
       "lastActivity": 1747778837,
+      "delta": 0
+    },
+    {
+      "username": "theodorevue",
+      "displayName": "ProfessionalRacer",
+      "racesPlayed": 178,
+      "role": "member",
+      "title": "Original Gangster",
+      "joinStamp": 1751062377,
+      "lastActivity": 1751062787,
       "delta": 0
     },
     {
