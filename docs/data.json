@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 26, 2025 at 9:35 PM PDT",
+  "last_updated": "June 26, 2025 at 10:27 PM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 34215,
+      "racesPlayed": 34279,
       "role": "officer",
       "title": "The Smasher",
       "joinStamp": 1750805902,
-      "lastActivity": 1750998554,
-      "delta": 1346
+      "lastActivity": 1751001579,
+      "delta": 1410
     },
     {
       "username": "tryhardwillwork",
@@ -46,12 +46,12 @@
     {
       "username": "aiy_infection",
       "displayName": "icarus - 10k soon",
-      "racesPlayed": 10226,
+      "racesPlayed": 10239,
       "role": "captain",
       "title": "Happy Vibes :)",
       "joinStamp": 1742486554,
-      "lastActivity": 1750994570,
-      "delta": 216
+      "lastActivity": 1751001105,
+      "delta": 229
     },
     {
       "username": "persionde",
@@ -184,6 +184,16 @@
       "delta": 3
     },
     {
+      "username": "azamondiasthe2",
+      "displayName": "Akravus",
+      "racesPlayed": 1893,
+      "role": "member",
+      "title": "A E S T H E T I C",
+      "joinStamp": 1750994218,
+      "lastActivity": 1751000767,
+      "delta": 2
+    },
+    {
       "username": "juderbucks81",
       "displayName": "juderbucks81",
       "racesPlayed": 466,
@@ -264,16 +274,6 @@
       "delta": 0
     },
     {
-      "username": "azamondiasthe2",
-      "displayName": "Akravus",
-      "racesPlayed": 1891,
-      "role": "member",
-      "title": "A E S T H E T I C",
-      "joinStamp": 1750994218,
-      "lastActivity": 1750994563,
-      "delta": 0
-    },
-    {
       "username": "f49de7389426a7d9dfa859467b8bb877",
       "displayName": "AlyviaB",
       "racesPlayed": 156,
@@ -281,6 +281,16 @@
       "title": "Wampus Thwamper",
       "joinStamp": 1750042840,
       "lastActivity": 1750692293,
+      "delta": 0
+    },
+    {
+      "username": "32e1139354a044df2b8a66fcd8c41b39",
+      "displayName": "dmvprnc",
+      "racesPlayed": 362,
+      "role": "member",
+      "title": "Millionaire",
+      "joinStamp": 1751000503,
+      "lastActivity": 1751001593,
       "delta": 0
     },
     {
