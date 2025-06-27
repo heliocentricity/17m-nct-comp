@@ -1,37 +1,37 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 26, 2025 at 5:40 PM PDT",
+  "last_updated": "June 26, 2025 at 7:10 PM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 33994,
-      "role": "member",
+      "racesPlayed": 34084,
+      "role": "officer",
       "title": "The Smasher",
       "joinStamp": 1750805902,
-      "lastActivity": 1750984784,
-      "delta": 1125
+      "lastActivity": 1750990167,
+      "delta": 1215
     },
     {
       "username": "tryhardwillwork",
       "displayName": "Krowns",
-      "racesPlayed": 29305,
+      "racesPlayed": 29347,
       "role": "member",
       "title": "Astronaut",
       "joinStamp": 1750808321,
-      "lastActivity": 1750974315,
-      "delta": 530
+      "lastActivity": 1750989582,
+      "delta": 572
     },
     {
       "username": "vioiynx",
       "displayName": "vioiynx",
-      "racesPlayed": 3428,
+      "racesPlayed": 3463,
       "role": "vicecaptain",
       "title": "Oh Em Gee!",
       "joinStamp": 1742509283,
-      "lastActivity": 1750984762,
-      "delta": 279
+      "lastActivity": 1750987656,
+      "delta": 314
     },
     {
       "username": "neiletsky",
@@ -56,22 +56,22 @@
     {
       "username": "persionde",
       "displayName": "persionde",
-      "racesPlayed": 4105,
+      "racesPlayed": 4116,
       "role": "member",
       "title": ":D",
       "joinStamp": 1750984125,
-      "lastActivity": 0,
-      "delta": 106
+      "lastActivity": 1750989748,
+      "delta": 117
     },
     {
       "username": "soccer791",
       "displayName": "Airborne",
-      "racesPlayed": 13625,
+      "racesPlayed": 13631,
       "role": "member",
       "title": "Acute Tinselitis",
       "joinStamp": 1750457551,
-      "lastActivity": 1750984469,
-      "delta": 88
+      "lastActivity": 1750985923,
+      "delta": 94
     },
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
@@ -112,6 +112,16 @@
       "joinStamp": 1750448154,
       "lastActivity": 1750892238,
       "delta": 41
+    },
+    {
+      "username": "96adbea38b59bc5d736244c73d479514",
+      "displayName": "Pineapple",
+      "racesPlayed": 4364,
+      "role": "member",
+      "title": "Secret Agent",
+      "joinStamp": 1750984670,
+      "lastActivity": 1750989299,
+      "delta": 34
     },
     {
       "username": "sumimyangel",
@@ -274,13 +284,13 @@
       "delta": 0
     },
     {
-      "username": "96adbea38b59bc5d736244c73d479514",
-      "displayName": "Pineapple",
-      "racesPlayed": 4330,
+      "username": "thecretor145",
+      "displayName": "Trickster_illusoire",
+      "racesPlayed": 5045,
       "role": "member",
-      "title": "Secret Agent",
-      "joinStamp": 1750984670,
-      "lastActivity": 0,
+      "title": "All Night Racer",
+      "joinStamp": 1750988885,
+      "lastActivity": 1750990187,
       "delta": 0
     },
     {
@@ -297,7 +307,7 @@
       "username": "viper_shot",
       "displayName": "v1per_sh0t",
       "racesPlayed": 5612,
-      "role": "officer",
+      "role": "member",
       "title": "Legendary Lapper",
       "joinStamp": 1747355208,
       "lastActivity": 1750348878,
@@ -341,6 +351,16 @@
       "title": "Spring Speedster",
       "joinStamp": 1747432192,
       "lastActivity": 1747778837,
+      "delta": 0
+    },
+    {
+      "username": "frogs_are_frogs",
+      "displayName": "Confusion-Need Gold",
+      "racesPlayed": 17741,
+      "role": "member",
+      "title": "Luck o' the Irish",
+      "joinStamp": 1750988251,
+      "lastActivity": 1750988904,
       "delta": 0
     },
     {
@@ -391,6 +411,16 @@
       "title": "[SKIPWRD]",
       "joinStamp": 1743512395,
       "lastActivity": 1743598629,
+      "delta": 0
+    },
+    {
+      "username": "definitelynotdre",
+      "displayName": "Curiosite",
+      "racesPlayed": 663,
+      "role": "member",
+      "title": "Comeback Kid",
+      "joinStamp": 1750986063,
+      "lastActivity": 1750988866,
       "delta": 0
     },
     {
