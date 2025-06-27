@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 27, 2025 at 6:36 AM PDT",
+  "last_updated": "June 27, 2025 at 7:26 AM PDT",
   "board": [
     {
       "username": "abot8",
@@ -36,12 +36,12 @@
     {
       "username": "neiletsky",
       "displayName": "NoLimit",
-      "racesPlayed": 10768,
+      "racesPlayed": 10801,
       "role": "vicecaptain",
       "title": "Speed Demon",
       "joinStamp": 1744741826,
-      "lastActivity": 1751014151,
-      "delta": 278
+      "lastActivity": 1751033900,
+      "delta": 311
     },
     {
       "username": "aiy_infection",
@@ -56,12 +56,12 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 139410,
+      "racesPlayed": 139435,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1751030915,
-      "delta": 214
+      "lastActivity": 1751033307,
+      "delta": 239
     },
     {
       "username": "persionde",
@@ -76,12 +76,12 @@
     {
       "username": "thecretor145",
       "displayName": "Trickster_illusoire",
-      "racesPlayed": 5147,
+      "racesPlayed": 5154,
       "role": "member",
       "title": "All Night Racer",
       "joinStamp": 1750988885,
-      "lastActivity": 1751016877,
-      "delta": 102
+      "lastActivity": 1751032685,
+      "delta": 109
     },
     {
       "username": "soccer791",
@@ -202,6 +202,16 @@
       "joinStamp": 1750468101,
       "lastActivity": 1750948884,
       "delta": 14
+    },
+    {
+      "username": "407017f3a63e1d9f1bc27590024a284f",
+      "displayName": "JoshAbner13",
+      "racesPlayed": 28,
+      "role": "member",
+      "title": "Raw Racing Recruit",
+      "joinStamp": 1750967124,
+      "lastActivity": 1751033830,
+      "delta": 6
     },
     {
       "username": "2525de6c193656755826c3b612fe4f5c",
@@ -381,16 +391,6 @@
       "title": "Spring Speedster",
       "joinStamp": 1747432192,
       "lastActivity": 1747778837,
-      "delta": 0
-    },
-    {
-      "username": "407017f3a63e1d9f1bc27590024a284f",
-      "displayName": "JoshAbner13",
-      "racesPlayed": 22,
-      "role": "member",
-      "title": "Raw Racing Recruit",
-      "joinStamp": 1750967124,
-      "lastActivity": 0,
       "delta": 0
     },
     {
