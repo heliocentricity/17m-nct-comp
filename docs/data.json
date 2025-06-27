@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 26, 2025 at 10:27 PM PDT",
+  "last_updated": "June 26, 2025 at 11:38 PM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 34279,
+      "racesPlayed": 34335,
       "role": "officer",
       "title": "The Smasher",
       "joinStamp": 1750805902,
-      "lastActivity": 1751001579,
-      "delta": 1410
+      "lastActivity": 1751005780,
+      "delta": 1466
     },
     {
       "username": "tryhardwillwork",
@@ -46,12 +46,12 @@
     {
       "username": "aiy_infection",
       "displayName": "icarus - 10k soon",
-      "racesPlayed": 10239,
+      "racesPlayed": 10243,
       "role": "captain",
       "title": "Happy Vibes :)",
       "joinStamp": 1742486554,
       "lastActivity": 1751001105,
-      "delta": 229
+      "delta": 233
     },
     {
       "username": "persionde",
@@ -66,12 +66,12 @@
     {
       "username": "soccer791",
       "displayName": "Airborne",
-      "racesPlayed": 13634,
+      "racesPlayed": 13635,
       "role": "member",
       "title": "Acute Tinselitis",
       "joinStamp": 1750457551,
       "lastActivity": 1750996359,
-      "delta": 97
+      "delta": 98
     },
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
@@ -290,7 +290,7 @@
       "role": "member",
       "title": "Millionaire",
       "joinStamp": 1751000503,
-      "lastActivity": 1751001593,
+      "lastActivity": 1751001720,
       "delta": 0
     },
     {
