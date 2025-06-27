@@ -1,27 +1,27 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 27, 2025 at 10:23 AM PDT",
+  "last_updated": "June 27, 2025 at 11:36 AM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 34490,
+      "racesPlayed": 34496,
       "role": "officer",
       "title": "The Smasher",
       "joinStamp": 1750805902,
-      "lastActivity": 1751020764,
-      "delta": 1621
+      "lastActivity": 1751047996,
+      "delta": 1627
     },
     {
       "username": "tryhardwillwork",
       "displayName": "Krowns",
-      "racesPlayed": 29468,
+      "racesPlayed": 29545,
       "role": "member",
       "title": "Astronaut",
-      "joinStamp": 1750808321,
-      "lastActivity": 1751044749,
-      "delta": 693
+      "joinStamp": 1751048108,
+      "lastActivity": 1751048983,
+      "delta": 770
     },
     {
       "username": "neiletsky",
@@ -66,12 +66,12 @@
     {
       "username": "soccer791",
       "displayName": "Airborne",
-      "racesPlayed": 13766,
+      "racesPlayed": 13800,
       "role": "member",
       "title": "Acute Tinselitis",
       "joinStamp": 1750457551,
-      "lastActivity": 1751044453,
-      "delta": 229
+      "lastActivity": 1751048690,
+      "delta": 263
     },
     {
       "username": "persionde",
@@ -124,6 +124,16 @@
       "delta": 59
     },
     {
+      "username": "96adbea38b59bc5d736244c73d479514",
+      "displayName": "Pineapple",
+      "racesPlayed": 4382,
+      "role": "member",
+      "title": "Secret Agent",
+      "joinStamp": 1750984670,
+      "lastActivity": 1751047185,
+      "delta": 52
+    },
+    {
       "username": "5fff3c41947a5b24ed13ddb1c73b1e55",
       "displayName": "ApricotIvoryFlea",
       "racesPlayed": 1310,
@@ -152,16 +162,6 @@
       "joinStamp": 1743005762,
       "lastActivity": 1751038306,
       "delta": 45
-    },
-    {
-      "username": "96adbea38b59bc5d736244c73d479514",
-      "displayName": "Pineapple",
-      "racesPlayed": 4373,
-      "role": "member",
-      "title": "Secret Agent",
-      "joinStamp": 1750984670,
-      "lastActivity": 1751040485,
-      "delta": 43
     },
     {
       "username": "vdgyertikopzefrgh",
