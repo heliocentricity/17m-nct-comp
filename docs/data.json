@@ -1,27 +1,27 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 27, 2025 at 11:36 AM PDT",
+  "last_updated": "June 27, 2025 at 12:19 PM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 34496,
+      "racesPlayed": 34535,
       "role": "officer",
       "title": "The Smasher",
       "joinStamp": 1750805902,
-      "lastActivity": 1751047996,
-      "delta": 1627
+      "lastActivity": 1751051388,
+      "delta": 1666
     },
     {
       "username": "tryhardwillwork",
       "displayName": "Krowns",
-      "racesPlayed": 29545,
+      "racesPlayed": 29599,
       "role": "member",
       "title": "Astronaut",
       "joinStamp": 1751048108,
-      "lastActivity": 1751048983,
-      "delta": 770
+      "lastActivity": 1751051345,
+      "delta": 824
     },
     {
       "username": "neiletsky",
@@ -86,22 +86,22 @@
     {
       "username": "thecretor145",
       "displayName": "Trickster_illusoire",
-      "racesPlayed": 5154,
+      "racesPlayed": 5158,
       "role": "member",
       "title": "All Night Racer",
       "joinStamp": 1750988885,
-      "lastActivity": 1751032685,
-      "delta": 109
+      "lastActivity": 1751049889,
+      "delta": 113
     },
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
-      "racesPlayed": 273,
+      "racesPlayed": 274,
       "role": "member",
       "title": "Millionaire",
       "joinStamp": 1750712571,
-      "lastActivity": 1751039441,
-      "delta": 72
+      "lastActivity": 1751051077,
+      "delta": 73
     },
     {
       "username": "gw2iscoollol",
