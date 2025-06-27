@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 27, 2025 at 2:28 AM PDT",
+  "last_updated": "June 27, 2025 at 3:29 AM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 34420,
+      "racesPlayed": 34480,
       "role": "officer",
       "title": "The Smasher",
       "joinStamp": 1750805902,
-      "lastActivity": 1751015871,
-      "delta": 1551
+      "lastActivity": 1751019533,
+      "delta": 1611
     },
     {
       "username": "tryhardwillwork",
@@ -46,12 +46,12 @@
     {
       "username": "aiy_infection",
       "displayName": "icarus - 10k soon",
-      "racesPlayed": 10275,
+      "racesPlayed": 10279,
       "role": "captain",
       "title": "Happy Vibes :)",
       "joinStamp": 1742486554,
-      "lastActivity": 1751015986,
-      "delta": 265
+      "lastActivity": 1751016655,
+      "delta": 269
     },
     {
       "username": "persionde",
@@ -64,6 +64,16 @@
       "delta": 134
     },
     {
+      "username": "thecretor145",
+      "displayName": "Trickster_illusoire",
+      "racesPlayed": 5147,
+      "role": "member",
+      "title": "All Night Racer",
+      "joinStamp": 1750988885,
+      "lastActivity": 1751016877,
+      "delta": 102
+    },
+    {
       "username": "soccer791",
       "displayName": "Airborne",
       "racesPlayed": 13636,
@@ -72,16 +82,6 @@
       "joinStamp": 1750457551,
       "lastActivity": 1751007022,
       "delta": 99
-    },
-    {
-      "username": "thecretor145",
-      "displayName": "Trickster_illusoire",
-      "racesPlayed": 5138,
-      "role": "member",
-      "title": "All Night Racer",
-      "joinStamp": 1750988885,
-      "lastActivity": 1751015992,
-      "delta": 93
     },
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
@@ -100,7 +100,7 @@
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1751015944,
+      "lastActivity": 1751016377,
       "delta": 59
     },
     {
@@ -154,6 +154,16 @@
       "delta": 38
     },
     {
+      "username": "vdgyertikopzefrgh",
+      "displayName": "vdgyertikopzefrgh",
+      "racesPlayed": 10664,
+      "role": "member",
+      "title": ":D",
+      "joinStamp": 1742927144,
+      "lastActivity": 1751017888,
+      "delta": 32
+    },
+    {
       "username": "definitelynotdre",
       "displayName": "Curiosite",
       "racesPlayed": 689,
@@ -182,16 +192,6 @@
       "joinStamp": 1743005762,
       "lastActivity": 1751009654,
       "delta": 22
-    },
-    {
-      "username": "vdgyertikopzefrgh",
-      "displayName": "vdgyertikopzefrgh",
-      "racesPlayed": 10648,
-      "role": "member",
-      "title": ":D",
-      "joinStamp": 1742927144,
-      "lastActivity": 1750948008,
-      "delta": 16
     },
     {
       "username": "dianac128",
