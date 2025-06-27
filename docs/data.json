@@ -1,27 +1,27 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 27, 2025 at 12:19 PM PDT",
+  "last_updated": "June 27, 2025 at 1:28 PM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 34535,
+      "racesPlayed": 34593,
       "role": "officer",
       "title": "The Smasher",
       "joinStamp": 1750805902,
-      "lastActivity": 1751051388,
-      "delta": 1666
+      "lastActivity": 1751055186,
+      "delta": 1724
     },
     {
       "username": "tryhardwillwork",
       "displayName": "Krowns",
-      "racesPlayed": 29599,
+      "racesPlayed": 29661,
       "role": "member",
       "title": "Astronaut",
       "joinStamp": 1751048108,
-      "lastActivity": 1751051345,
-      "delta": 824
+      "lastActivity": 1751055514,
+      "delta": 886
     },
     {
       "username": "neiletsky",
@@ -96,12 +96,12 @@
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
-      "racesPlayed": 274,
+      "racesPlayed": 277,
       "role": "member",
       "title": "Millionaire",
       "joinStamp": 1750712571,
-      "lastActivity": 1751051077,
-      "delta": 73
+      "lastActivity": 1751052285,
+      "delta": 76
     },
     {
       "username": "gw2iscoollol",
@@ -311,6 +311,16 @@
       "title": ":D",
       "joinStamp": 1748724077,
       "lastActivity": 1750132651,
+      "delta": 0
+    },
+    {
+      "username": "fatearlobe2020v",
+      "displayName": "iliekchez29",
+      "racesPlayed": 4185,
+      "role": "member",
+      "title": "Vroooom?",
+      "joinStamp": 1751053524,
+      "lastActivity": 0,
       "delta": 0
     },
     {
