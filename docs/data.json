@@ -1,27 +1,27 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 26, 2025 at 8:52 PM PDT",
+  "last_updated": "June 26, 2025 at 9:35 PM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 34164,
+      "racesPlayed": 34215,
       "role": "officer",
       "title": "The Smasher",
       "joinStamp": 1750805902,
-      "lastActivity": 1750996187,
-      "delta": 1295
+      "lastActivity": 1750998554,
+      "delta": 1346
     },
     {
       "username": "tryhardwillwork",
       "displayName": "Krowns",
-      "racesPlayed": 29452,
+      "racesPlayed": 29455,
       "role": "member",
       "title": "Astronaut",
       "joinStamp": 1750808321,
-      "lastActivity": 1750996164,
-      "delta": 677
+      "lastActivity": 1750996490,
+      "delta": 680
     },
     {
       "username": "vioiynx",
@@ -70,7 +70,7 @@
       "role": "member",
       "title": "Acute Tinselitis",
       "joinStamp": 1750457551,
-      "lastActivity": 1750994722,
+      "lastActivity": 1750996359,
       "delta": 97
     },
     {
