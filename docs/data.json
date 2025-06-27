@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 27, 2025 at 3:27 PM PDT",
+  "last_updated": "June 27, 2025 at 4:26 PM PDT",
   "board": [
     {
       "username": "abot8",
@@ -16,22 +16,22 @@
     {
       "username": "tryhardwillwork",
       "displayName": "Krowns",
-      "racesPlayed": 29771,
+      "racesPlayed": 29775,
       "role": "member",
       "title": "Astronaut",
       "joinStamp": 1751048108,
-      "lastActivity": 1751062434,
-      "delta": 996
+      "lastActivity": 1751064024,
+      "delta": 1000
     },
     {
       "username": "soccer791",
       "displayName": "Airborne",
-      "racesPlayed": 13884,
+      "racesPlayed": 13947,
       "role": "member",
       "title": "Acute Tinselitis",
       "joinStamp": 1750457551,
-      "lastActivity": 1751062553,
-      "delta": 347
+      "lastActivity": 1751066362,
+      "delta": 410
     },
     {
       "username": "neiletsky",
@@ -76,12 +76,12 @@
     {
       "username": "persionde",
       "displayName": "persionde",
-      "racesPlayed": 4151,
+      "racesPlayed": 4163,
       "role": "member",
       "title": ":D",
       "joinStamp": 1750984125,
-      "lastActivity": 1751061581,
-      "delta": 152
+      "lastActivity": 1751066285,
+      "delta": 164
     },
     {
       "username": "thecretor145",
@@ -100,7 +100,7 @@
       "role": "member",
       "title": "Millionaire",
       "joinStamp": 1750712571,
-      "lastActivity": 1751062603,
+      "lastActivity": 1751062897,
       "delta": 79
     },
     {
@@ -114,6 +114,26 @@
       "delta": 76
     },
     {
+      "username": "96adbea38b59bc5d736244c73d479514",
+      "displayName": "Pineapple",
+      "racesPlayed": 4397,
+      "role": "member",
+      "title": "Secret Agent",
+      "joinStamp": 1750984670,
+      "lastActivity": 1751066083,
+      "delta": 67
+    },
+    {
+      "username": "4399e7a571cf827be64b714c30c899ef",
+      "displayName": "FuchsiaAzureCougar",
+      "racesPlayed": 448,
+      "role": "member",
+      "title": "Flora Fury",
+      "joinStamp": 1748723201,
+      "lastActivity": 1751064130,
+      "delta": 66
+    },
+    {
       "username": "conquerer11k",
       "displayName": "ResilientRedDonkey",
       "racesPlayed": 13660,
@@ -122,26 +142,6 @@
       "joinStamp": 1749752209,
       "lastActivity": 1750962863,
       "delta": 59
-    },
-    {
-      "username": "4399e7a571cf827be64b714c30c899ef",
-      "displayName": "FuchsiaAzureCougar",
-      "racesPlayed": 439,
-      "role": "member",
-      "title": "Flora Fury",
-      "joinStamp": 1748723201,
-      "lastActivity": 1751062764,
-      "delta": 57
-    },
-    {
-      "username": "96adbea38b59bc5d736244c73d479514",
-      "displayName": "Pineapple",
-      "racesPlayed": 4382,
-      "role": "member",
-      "title": "Secret Agent",
-      "joinStamp": 1750984670,
-      "lastActivity": 1751047185,
-      "delta": 52
     },
     {
       "username": "5fff3c41947a5b24ed13ddb1c73b1e55",
@@ -222,6 +222,16 @@
       "joinStamp": 1750967124,
       "lastActivity": 1751033830,
       "delta": 6
+    },
+    {
+      "username": "theodorevue",
+      "displayName": "ProfessionalRacer",
+      "racesPlayed": 183,
+      "role": "member",
+      "title": "Original Gangster",
+      "joinStamp": 1751062377,
+      "lastActivity": 1751063568,
+      "delta": 5
     },
     {
       "username": "2525de6c193656755826c3b612fe4f5c",
@@ -401,16 +411,6 @@
       "title": "Spring Speedster",
       "joinStamp": 1747432192,
       "lastActivity": 1747778837,
-      "delta": 0
-    },
-    {
-      "username": "theodorevue",
-      "displayName": "ProfessionalRacer",
-      "racesPlayed": 178,
-      "role": "member",
-      "title": "Original Gangster",
-      "joinStamp": 1751062377,
-      "lastActivity": 1751062787,
       "delta": 0
     },
     {
