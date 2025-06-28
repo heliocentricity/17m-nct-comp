@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 28, 2025 at 3:26 AM PDT",
+  "last_updated": "June 28, 2025 at 4:20 AM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 35257,
+      "racesPlayed": 35301,
       "role": "officer",
       "title": "The Smasher",
       "joinStamp": 1750805902,
-      "lastActivity": 1751103349,
-      "delta": 2388
+      "lastActivity": 1751109571,
+      "delta": 2432
     },
     {
       "username": "tryhardwillwork",
@@ -26,12 +26,12 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 139730,
+      "racesPlayed": 139789,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1751105983,
-      "delta": 534
+      "lastActivity": 1751109557,
+      "delta": 593
     },
     {
       "username": "soccer791",
@@ -164,6 +164,16 @@
       "delta": 59
     },
     {
+      "username": "cqvery",
+      "displayName": "cqvery",
+      "racesPlayed": 1388,
+      "role": "member",
+      "title": "Raw Racing Recruit",
+      "joinStamp": 1751071636,
+      "lastActivity": 1751109556,
+      "delta": 57
+    },
+    {
       "username": "5fff3c41947a5b24ed13ddb1c73b1e55",
       "displayName": "ApricotIvoryFlea",
       "racesPlayed": 1310,
@@ -172,16 +182,6 @@
       "joinStamp": 1750794927,
       "lastActivity": 1750962966,
       "delta": 49
-    },
-    {
-      "username": "cqvery",
-      "displayName": "cqvery",
-      "racesPlayed": 1370,
-      "role": "member",
-      "title": "Raw Racing Recruit",
-      "joinStamp": 1751071636,
-      "lastActivity": 1751096701,
-      "delta": 39
     },
     {
       "username": "vdgyertikopzefrgh",
