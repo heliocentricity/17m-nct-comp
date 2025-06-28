@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 28, 2025 at 4:20 AM PDT",
+  "last_updated": "June 28, 2025 at 5:50 AM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 35301,
+      "racesPlayed": 35307,
       "role": "officer",
       "title": "The Smasher",
       "joinStamp": 1750805902,
-      "lastActivity": 1751109571,
-      "delta": 2432
+      "lastActivity": 1751109872,
+      "delta": 2438
     },
     {
       "username": "tryhardwillwork",
@@ -26,12 +26,12 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 139789,
+      "racesPlayed": 139875,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1751109557,
-      "delta": 593
+      "lastActivity": 1751114964,
+      "delta": 679
     },
     {
       "username": "soccer791",
@@ -56,12 +56,12 @@
     {
       "username": "aiy_infection",
       "displayName": "icarus - 10k soon",
-      "racesPlayed": 10402,
+      "racesPlayed": 10405,
       "role": "captain",
       "title": "Drift Queen",
       "joinStamp": 1742486554,
-      "lastActivity": 1751105094,
-      "delta": 392
+      "lastActivity": 1751114904,
+      "delta": 395
     },
     {
       "username": "vioiynx",
@@ -124,6 +124,16 @@
       "delta": 107
     },
     {
+      "username": "cqvery",
+      "displayName": "cqvery",
+      "racesPlayed": 1434,
+      "role": "member",
+      "title": "Raw Racing Recruit",
+      "joinStamp": 1751071636,
+      "lastActivity": 1751113416,
+      "delta": 103
+    },
+    {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
       "racesPlayed": 280,
@@ -162,16 +172,6 @@
       "joinStamp": 1749752209,
       "lastActivity": 1750962863,
       "delta": 59
-    },
-    {
-      "username": "cqvery",
-      "displayName": "cqvery",
-      "racesPlayed": 1388,
-      "role": "member",
-      "title": "Raw Racing Recruit",
-      "joinStamp": 1751071636,
-      "lastActivity": 1751109556,
-      "delta": 57
     },
     {
       "username": "5fff3c41947a5b24ed13ddb1c73b1e55",
