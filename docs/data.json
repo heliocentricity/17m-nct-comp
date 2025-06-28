@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 28, 2025 at 2:29 AM PDT",
+  "last_updated": "June 28, 2025 at 3:26 AM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 35246,
+      "racesPlayed": 35257,
       "role": "officer",
       "title": "The Smasher",
       "joinStamp": 1750805902,
-      "lastActivity": 1751102375,
-      "delta": 2377
+      "lastActivity": 1751103349,
+      "delta": 2388
     },
     {
       "username": "tryhardwillwork",
@@ -24,6 +24,16 @@
       "delta": 1225
     },
     {
+      "username": "aharama",
+      "displayName": "Aharama",
+      "racesPlayed": 139730,
+      "role": "member",
+      "title": "Emperor",
+      "joinStamp": 1751010739,
+      "lastActivity": 1751105983,
+      "delta": 534
+    },
+    {
       "username": "soccer791",
       "displayName": "Airborne",
       "racesPlayed": 14021,
@@ -34,24 +44,24 @@
       "delta": 484
     },
     {
-      "username": "aharama",
-      "displayName": "Aharama",
-      "racesPlayed": 139666,
-      "role": "member",
-      "title": "Emperor",
-      "joinStamp": 1751010739,
-      "lastActivity": 1751102378,
-      "delta": 470
-    },
-    {
       "username": "neiletsky",
       "displayName": "NoLimit",
-      "racesPlayed": 10942,
+      "racesPlayed": 10946,
       "role": "vicecaptain",
       "title": "Speed Demon",
       "joinStamp": 1744741826,
-      "lastActivity": 1751100596,
-      "delta": 452
+      "lastActivity": 1751104654,
+      "delta": 456
+    },
+    {
+      "username": "aiy_infection",
+      "displayName": "icarus - 10k soon",
+      "racesPlayed": 10402,
+      "role": "captain",
+      "title": "Drift Queen",
+      "joinStamp": 1742486554,
+      "lastActivity": 1751105094,
+      "delta": 392
     },
     {
       "username": "vioiynx",
@@ -62,16 +72,6 @@
       "joinStamp": 1742509283,
       "lastActivity": 1751072871,
       "delta": 356
-    },
-    {
-      "username": "aiy_infection",
-      "displayName": "icarus - 10k soon",
-      "racesPlayed": 10357,
-      "role": "captain",
-      "title": "Drift Queen",
-      "joinStamp": 1742486554,
-      "lastActivity": 1751102393,
-      "delta": 347
     },
     {
       "username": "thecretor145",
