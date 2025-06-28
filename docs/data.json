@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 28, 2025 at 4:24 PM PDT",
+  "last_updated": "June 28, 2025 at 4:42 PM PDT",
   "board": [
     {
       "username": "abot8",
@@ -70,7 +70,7 @@
       "role": "member",
       "title": "Ultimate Racer",
       "joinStamp": 1750988885,
-      "lastActivity": 1751152722,
+      "lastActivity": 1751153030,
       "delta": 429
     },
     {
@@ -164,6 +164,16 @@
       "delta": 76
     },
     {
+      "username": "ryyedawg7",
+      "displayName": "NitroFlex",
+      "racesPlayed": 897,
+      "role": "member",
+      "title": "Catty Wampus",
+      "joinStamp": 1751081309,
+      "lastActivity": 1751153841,
+      "delta": 60
+    },
+    {
       "username": "conquerer11k",
       "displayName": "ResilientRedDonkey",
       "racesPlayed": 13660,
@@ -172,16 +182,6 @@
       "joinStamp": 1749752209,
       "lastActivity": 1750962863,
       "delta": 59
-    },
-    {
-      "username": "ryyedawg7",
-      "displayName": "NitroFlex",
-      "racesPlayed": 892,
-      "role": "member",
-      "title": "Catty Wampus",
-      "joinStamp": 1751081309,
-      "lastActivity": 1751152189,
-      "delta": 55
     },
     {
       "username": "5fff3c41947a5b24ed13ddb1c73b1e55",
