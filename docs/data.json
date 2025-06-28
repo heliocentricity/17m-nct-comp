@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 28, 2025 at 1:27 PM PDT",
+  "last_updated": "June 28, 2025 at 2:23 PM PDT",
   "board": [
     {
       "username": "abot8",
@@ -16,12 +16,12 @@
     {
       "username": "tryhardwillwork",
       "displayName": "Krowns",
-      "racesPlayed": 30184,
+      "racesPlayed": 30239,
       "role": "officer",
       "title": "Astronaut",
       "joinStamp": 1751048108,
-      "lastActivity": 1751141937,
-      "delta": 1409
+      "lastActivity": 1751145587,
+      "delta": 1464
     },
     {
       "username": "aharama",
@@ -76,32 +76,42 @@
     {
       "username": "thecretor145",
       "displayName": "Trickster_illusoire",
-      "racesPlayed": 5376,
+      "racesPlayed": 5417,
       "role": "member",
       "title": "Ultimate Racer",
       "joinStamp": 1750988885,
-      "lastActivity": 1751141933,
-      "delta": 331
+      "lastActivity": 1751145446,
+      "delta": 372
     },
     {
       "username": "persionde",
       "displayName": "persionde",
-      "racesPlayed": 4256,
+      "racesPlayed": 4271,
       "role": "member",
       "title": ":D",
       "joinStamp": 1750984125,
-      "lastActivity": 1751141960,
-      "delta": 257
+      "lastActivity": 1751145320,
+      "delta": 272
     },
     {
       "username": "definitelynotdre",
       "displayName": "Sharpe",
-      "racesPlayed": 866,
+      "racesPlayed": 917,
       "role": "member",
       "title": "Comeback Kid",
       "joinStamp": 1750986063,
-      "lastActivity": 1751141973,
-      "delta": 203
+      "lastActivity": 1751145559,
+      "delta": 254
+    },
+    {
+      "username": "4399e7a571cf827be64b714c30c899ef",
+      "displayName": "FuchsiaAzureCougar",
+      "racesPlayed": 499,
+      "role": "member",
+      "title": "Flora Fury",
+      "joinStamp": 1748723201,
+      "lastActivity": 1751143908,
+      "delta": 117
     },
     {
       "username": "timmytimmy213",
@@ -122,16 +132,6 @@
       "joinStamp": 1750984670,
       "lastActivity": 1751081699,
       "delta": 112
-    },
-    {
-      "username": "4399e7a571cf827be64b714c30c899ef",
-      "displayName": "FuchsiaAzureCougar",
-      "racesPlayed": 492,
-      "role": "member",
-      "title": "Flora Fury",
-      "joinStamp": 1748723201,
-      "lastActivity": 1751141087,
-      "delta": 110
     },
     {
       "username": "cqvery",
@@ -194,6 +194,16 @@
       "delta": 32
     },
     {
+      "username": "dianac128",
+      "displayName": "ryiichu",
+      "racesPlayed": 1800,
+      "role": "member",
+      "title": "A E S T H E T I C",
+      "joinStamp": 1750468101,
+      "lastActivity": 1751145519,
+      "delta": 30
+    },
+    {
       "username": "ryyedawg7",
       "displayName": "NitroFlex",
       "racesPlayed": 865,
@@ -212,16 +222,6 @@
       "joinStamp": 1748965989,
       "lastActivity": 1750949616,
       "delta": 22
-    },
-    {
-      "username": "dianac128",
-      "displayName": "ryiichu",
-      "racesPlayed": 1784,
-      "role": "member",
-      "title": "Expert Extraordinaire",
-      "joinStamp": 1750468101,
-      "lastActivity": 1750948884,
-      "delta": 14
     },
     {
       "username": "azamondiasthe2",
@@ -411,6 +411,16 @@
       "title": "Pro Pacer",
       "joinStamp": 1750796497,
       "lastActivity": 1750805289,
+      "delta": 0
+    },
+    {
+      "username": "a_normal_snake",
+      "displayName": "-Snake-",
+      "racesPlayed": 2936,
+      "role": "member",
+      "title": "I Love Dogs",
+      "joinStamp": 1751144117,
+      "lastActivity": 1751145572,
       "delta": 0
     },
     {
