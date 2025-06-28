@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 28, 2025 at 9:30 AM PDT",
+  "last_updated": "June 28, 2025 at 10:22 AM PDT",
   "board": [
     {
       "username": "abot8",
@@ -16,12 +16,12 @@
     {
       "username": "tryhardwillwork",
       "displayName": "Krowns",
-      "racesPlayed": 30000,
+      "racesPlayed": 30015,
       "role": "officer",
       "title": "Astronaut",
       "joinStamp": 1751048108,
-      "lastActivity": 1751080612,
-      "delta": 1225
+      "lastActivity": 1751131165,
+      "delta": 1240
     },
     {
       "username": "aharama",
@@ -46,12 +46,12 @@
     {
       "username": "soccer791",
       "displayName": "Airborne",
-      "racesPlayed": 14074,
+      "racesPlayed": 14108,
       "role": "member",
       "title": "Acute Tinselitis",
       "joinStamp": 1750457551,
-      "lastActivity": 1751127951,
-      "delta": 537
+      "lastActivity": 1751131193,
+      "delta": 571
     },
     {
       "username": "aiy_infection",
@@ -301,6 +301,16 @@
       "title": "Spring Speedster",
       "joinStamp": 1745202493,
       "lastActivity": 1748398483,
+      "delta": 0
+    },
+    {
+      "username": "sumitghag",
+      "displayName": "SumitGhag",
+      "racesPlayed": 23060,
+      "role": "member",
+      "title": "Novice Navigator",
+      "joinStamp": 1751129266,
+      "lastActivity": 1751129320,
       "delta": 0
     },
     {
