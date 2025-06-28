@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 27, 2025 at 11:35 PM PDT",
+  "last_updated": "June 28, 2025 at 12:23 AM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 35046,
+      "racesPlayed": 35109,
       "role": "officer",
       "title": "The Smasher",
       "joinStamp": 1750805902,
-      "lastActivity": 1751092158,
-      "delta": 2177
+      "lastActivity": 1751095192,
+      "delta": 2240
     },
     {
       "username": "tryhardwillwork",
@@ -36,12 +36,22 @@
     {
       "username": "neiletsky",
       "displayName": "NoLimit",
-      "racesPlayed": 10879,
+      "racesPlayed": 10937,
       "role": "vicecaptain",
       "title": "Speed Demon",
       "joinStamp": 1744741826,
-      "lastActivity": 1751092177,
-      "delta": 389
+      "lastActivity": 1751095089,
+      "delta": 447
+    },
+    {
+      "username": "aharama",
+      "displayName": "Aharama",
+      "racesPlayed": 139554,
+      "role": "member",
+      "title": "Emperor",
+      "joinStamp": 1751010739,
+      "lastActivity": 1751095149,
+      "delta": 358
     },
     {
       "username": "vioiynx",
@@ -52,16 +62,6 @@
       "joinStamp": 1742509283,
       "lastActivity": 1751072871,
       "delta": 356
-    },
-    {
-      "username": "aharama",
-      "displayName": "Aharama",
-      "racesPlayed": 139525,
-      "role": "member",
-      "title": "Emperor",
-      "joinStamp": 1751010739,
-      "lastActivity": 1751092180,
-      "delta": 329
     },
     {
       "username": "aiy_infection",
@@ -116,12 +116,12 @@
     {
       "username": "4399e7a571cf827be64b714c30c899ef",
       "displayName": "FuchsiaAzureCougar",
-      "racesPlayed": 480,
+      "racesPlayed": 489,
       "role": "member",
       "title": "Flora Fury",
       "joinStamp": 1748723201,
-      "lastActivity": 1751078871,
-      "delta": 98
+      "lastActivity": 1751095145,
+      "delta": 107
     },
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
@@ -194,6 +194,16 @@
       "delta": 22
     },
     {
+      "username": "cqvery",
+      "displayName": "cqvery",
+      "racesPlayed": 1352,
+      "role": "member",
+      "title": "Raw Racing Recruit",
+      "joinStamp": 1751071636,
+      "lastActivity": 1751094928,
+      "delta": 21
+    },
+    {
       "username": "ryyedawg7",
       "displayName": "NitroFlex",
       "racesPlayed": 858,
@@ -221,16 +231,6 @@
       "title": "A E S T H E T I C",
       "joinStamp": 1750994218,
       "lastActivity": 1751059135,
-      "delta": 14
-    },
-    {
-      "username": "cqvery",
-      "displayName": "cqvery",
-      "racesPlayed": 1345,
-      "role": "member",
-      "title": "Raw Racing Recruit",
-      "joinStamp": 1751071636,
-      "lastActivity": 1751082349,
       "delta": 14
     },
     {
