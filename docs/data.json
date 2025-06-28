@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 27, 2025 at 10:26 PM PDT",
+  "last_updated": "June 27, 2025 at 10:30 PM PDT",
   "board": [
     {
       "username": "abot8",
@@ -76,12 +76,12 @@
     {
       "username": "thecretor145",
       "displayName": "Trickster_illusoire",
-      "racesPlayed": 5267,
+      "racesPlayed": 5270,
       "role": "member",
       "title": "Ultimate Racer",
       "joinStamp": 1750988885,
-      "lastActivity": 1751085525,
-      "delta": 222
+      "lastActivity": 1751088569,
+      "delta": 225
     },
     {
       "username": "persionde",
