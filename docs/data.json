@@ -1,27 +1,27 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 27, 2025 at 6:26 PM PDT",
+  "last_updated": "June 27, 2025 at 7:06 PM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 34792,
+      "racesPlayed": 34798,
       "role": "officer",
       "title": "The Smasher",
       "joinStamp": 1750805902,
-      "lastActivity": 1751073529,
-      "delta": 1923
+      "lastActivity": 1751074184,
+      "delta": 1929
     },
     {
       "username": "tryhardwillwork",
       "displayName": "Krowns",
-      "racesPlayed": 29870,
+      "racesPlayed": 29920,
       "role": "officer",
       "title": "Astronaut",
       "joinStamp": 1751048108,
-      "lastActivity": 1751073515,
-      "delta": 1095
+      "lastActivity": 1751075952,
+      "delta": 1145
     },
     {
       "username": "soccer791",
@@ -56,12 +56,12 @@
     {
       "username": "aiy_infection",
       "displayName": "icarus - 10k soon",
-      "racesPlayed": 10331,
+      "racesPlayed": 10333,
       "role": "captain",
-      "title": "Happy Vibes :)",
+      "title": "Drift Queen",
       "joinStamp": 1742486554,
-      "lastActivity": 1751073569,
-      "delta": 321
+      "lastActivity": 1751074023,
+      "delta": 323
     },
     {
       "username": "aharama",
@@ -76,12 +76,12 @@
     {
       "username": "persionde",
       "displayName": "persionde",
-      "racesPlayed": 4201,
+      "racesPlayed": 4203,
       "role": "member",
       "title": ":D",
       "joinStamp": 1750984125,
-      "lastActivity": 1751073572,
-      "delta": 202
+      "lastActivity": 1751074372,
+      "delta": 204
     },
     {
       "username": "thecretor145",
@@ -96,12 +96,22 @@
     {
       "username": "96adbea38b59bc5d736244c73d479514",
       "displayName": "Pineapple",
-      "racesPlayed": 4415,
+      "racesPlayed": 4416,
       "role": "member",
       "title": "Secret Agent",
       "joinStamp": 1750984670,
-      "lastActivity": 1751071185,
-      "delta": 85
+      "lastActivity": 1751075176,
+      "delta": 86
+    },
+    {
+      "username": "definitelynotdre",
+      "displayName": "Curiosite",
+      "racesPlayed": 744,
+      "role": "member",
+      "title": "Comeback Kid",
+      "joinStamp": 1750986063,
+      "lastActivity": 1751075987,
+      "delta": 81
     },
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
@@ -126,12 +136,12 @@
     {
       "username": "4399e7a571cf827be64b714c30c899ef",
       "displayName": "FuchsiaAzureCougar",
-      "racesPlayed": 448,
+      "racesPlayed": 454,
       "role": "member",
       "title": "Flora Fury",
       "joinStamp": 1748723201,
-      "lastActivity": 1751064130,
-      "delta": 66
+      "lastActivity": 1751075925,
+      "delta": 72
     },
     {
       "username": "conquerer11k",
@@ -152,16 +162,6 @@
       "joinStamp": 1750794927,
       "lastActivity": 1750962966,
       "delta": 49
-    },
-    {
-      "username": "definitelynotdre",
-      "displayName": "Curiosite",
-      "racesPlayed": 709,
-      "role": "member",
-      "title": "Comeback Kid",
-      "joinStamp": 1750986063,
-      "lastActivity": 1751073572,
-      "delta": 46
     },
     {
       "username": "timmytimmy213",
@@ -224,6 +224,16 @@
       "delta": 6
     },
     {
+      "username": "ipayforyou",
+      "displayName": "JoshoverYou",
+      "racesPlayed": 5685,
+      "role": "member",
+      "title": "I Have Fans!",
+      "joinStamp": 1751073187,
+      "lastActivity": 1751074209,
+      "delta": 5
+    },
+    {
       "username": "theodorevue",
       "displayName": "ProfessionalRacer",
       "racesPlayed": 183,
@@ -241,6 +251,16 @@
       "title": "Olde School",
       "joinStamp": 1750461776,
       "lastActivity": 1750969321,
+      "delta": 3
+    },
+    {
+      "username": "cqvery",
+      "displayName": "cqvery",
+      "racesPlayed": 1334,
+      "role": "member",
+      "title": "Raw Racing Recruit",
+      "joinStamp": 1751071636,
+      "lastActivity": 1751074125,
       "delta": 3
     },
     {
@@ -304,16 +324,6 @@
       "delta": 0
     },
     {
-      "username": "ipayforyou",
-      "displayName": "JoshoverYou",
-      "racesPlayed": 5680,
-      "role": "member",
-      "title": "I Have Fans!",
-      "joinStamp": 1751073187,
-      "lastActivity": 1751073577,
-      "delta": 0
-    },
-    {
       "username": "b2cbc9dfc2058f59bdaf062719776245",
       "displayName": "Hypersound",
       "racesPlayed": 1056,
@@ -361,16 +371,6 @@
       "title": "Green Streak",
       "joinStamp": 1743434481,
       "lastActivity": 1747658119,
-      "delta": 0
-    },
-    {
-      "username": "cqvery",
-      "displayName": "cqvery",
-      "racesPlayed": 1331,
-      "role": "member",
-      "title": "Raw Racing Recruit",
-      "joinStamp": 1751071636,
-      "lastActivity": 1751072827,
       "delta": 0
     },
     {
