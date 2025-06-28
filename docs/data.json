@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 28, 2025 at 1:31 AM PDT",
+  "last_updated": "June 28, 2025 at 2:29 AM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 35186,
+      "racesPlayed": 35246,
       "role": "officer",
       "title": "The Smasher",
       "joinStamp": 1750805902,
-      "lastActivity": 1751099317,
-      "delta": 2317
+      "lastActivity": 1751102375,
+      "delta": 2377
     },
     {
       "username": "tryhardwillwork",
@@ -34,24 +34,24 @@
       "delta": 484
     },
     {
-      "username": "neiletsky",
-      "displayName": "NoLimit",
-      "racesPlayed": 10937,
-      "role": "vicecaptain",
-      "title": "Speed Demon",
-      "joinStamp": 1744741826,
-      "lastActivity": 1751095089,
-      "delta": 447
-    },
-    {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 139606,
+      "racesPlayed": 139666,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1751099361,
-      "delta": 410
+      "lastActivity": 1751102378,
+      "delta": 470
+    },
+    {
+      "username": "neiletsky",
+      "displayName": "NoLimit",
+      "racesPlayed": 10942,
+      "role": "vicecaptain",
+      "title": "Speed Demon",
+      "joinStamp": 1744741826,
+      "lastActivity": 1751100596,
+      "delta": 452
     },
     {
       "username": "vioiynx",
@@ -66,12 +66,12 @@
     {
       "username": "aiy_infection",
       "displayName": "icarus - 10k soon",
-      "racesPlayed": 10333,
+      "racesPlayed": 10357,
       "role": "captain",
       "title": "Drift Queen",
       "joinStamp": 1742486554,
-      "lastActivity": 1751074023,
-      "delta": 323
+      "lastActivity": 1751102393,
+      "delta": 347
     },
     {
       "username": "thecretor145",
@@ -194,6 +194,16 @@
       "delta": 32
     },
     {
+      "username": "ryyedawg7",
+      "displayName": "NitroFlex",
+      "racesPlayed": 865,
+      "role": "member",
+      "title": "Catty Wampus",
+      "joinStamp": 1751081309,
+      "lastActivity": 1751101262,
+      "delta": 28
+    },
+    {
       "username": "sumimyangel",
       "displayName": "stephenJoester",
       "racesPlayed": 21630,
@@ -202,16 +212,6 @@
       "joinStamp": 1748965989,
       "lastActivity": 1750949616,
       "delta": 22
-    },
-    {
-      "username": "ryyedawg7",
-      "displayName": "NitroFlex",
-      "racesPlayed": 858,
-      "role": "member",
-      "title": "Catty Wampus",
-      "joinStamp": 1751081309,
-      "lastActivity": 1751084203,
-      "delta": 21
     },
     {
       "username": "dianac128",
