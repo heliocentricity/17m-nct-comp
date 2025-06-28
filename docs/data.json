@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 27, 2025 at 10:30 PM PDT",
+  "last_updated": "June 27, 2025 at 11:35 PM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 34966,
+      "racesPlayed": 35046,
       "role": "officer",
       "title": "The Smasher",
       "joinStamp": 1750805902,
-      "lastActivity": 1751087268,
-      "delta": 2097
+      "lastActivity": 1751092158,
+      "delta": 2177
     },
     {
       "username": "tryhardwillwork",
@@ -34,6 +34,16 @@
       "delta": 484
     },
     {
+      "username": "neiletsky",
+      "displayName": "NoLimit",
+      "racesPlayed": 10879,
+      "role": "vicecaptain",
+      "title": "Speed Demon",
+      "joinStamp": 1744741826,
+      "lastActivity": 1751092177,
+      "delta": 389
+    },
+    {
       "username": "vioiynx",
       "displayName": "vioiynx",
       "racesPlayed": 3505,
@@ -44,14 +54,14 @@
       "delta": 356
     },
     {
-      "username": "neiletsky",
-      "displayName": "NoLimit",
-      "racesPlayed": 10818,
-      "role": "vicecaptain",
-      "title": "Speed Demon",
-      "joinStamp": 1744741826,
-      "lastActivity": 1751035157,
-      "delta": 328
+      "username": "aharama",
+      "displayName": "Aharama",
+      "racesPlayed": 139525,
+      "role": "member",
+      "title": "Emperor",
+      "joinStamp": 1751010739,
+      "lastActivity": 1751092180,
+      "delta": 329
     },
     {
       "username": "aiy_infection",
@@ -64,24 +74,14 @@
       "delta": 323
     },
     {
-      "username": "aharama",
-      "displayName": "Aharama",
-      "racesPlayed": 139480,
-      "role": "member",
-      "title": "Emperor",
-      "joinStamp": 1751010739,
-      "lastActivity": 1751041736,
-      "delta": 284
-    },
-    {
       "username": "thecretor145",
       "displayName": "Trickster_illusoire",
-      "racesPlayed": 5270,
+      "racesPlayed": 5315,
       "role": "member",
       "title": "Ultimate Racer",
       "joinStamp": 1750988885,
-      "lastActivity": 1751088569,
-      "delta": 225
+      "lastActivity": 1751092055,
+      "delta": 270
     },
     {
       "username": "persionde",
@@ -144,6 +144,16 @@
       "delta": 76
     },
     {
+      "username": "timmytimmy213",
+      "displayName": "timmytimmy213",
+      "racesPlayed": 4277,
+      "role": "officer",
+      "title": "Champion Chaser",
+      "joinStamp": 1743005762,
+      "lastActivity": 1751092061,
+      "delta": 65
+    },
+    {
       "username": "conquerer11k",
       "displayName": "ResilientRedDonkey",
       "racesPlayed": 13660,
@@ -162,16 +172,6 @@
       "joinStamp": 1750794927,
       "lastActivity": 1750962966,
       "delta": 49
-    },
-    {
-      "username": "timmytimmy213",
-      "displayName": "timmytimmy213",
-      "racesPlayed": 4257,
-      "role": "officer",
-      "title": "Champion Chaser",
-      "joinStamp": 1743005762,
-      "lastActivity": 1751038306,
-      "delta": 45
     },
     {
       "username": "vdgyertikopzefrgh",
