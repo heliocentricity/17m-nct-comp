@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 29, 2025 at 10:22 AM PDT",
+  "last_updated": "June 29, 2025 at 11:34 AM PDT",
   "board": [
     {
       "username": "abot8",
@@ -16,12 +16,12 @@
     {
       "username": "tryhardwillwork",
       "displayName": "Krowns",
-      "racesPlayed": 30501,
+      "racesPlayed": 30550,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1751169351,
-      "delta": 1726
+      "lastActivity": 1751221774,
+      "delta": 1775
     },
     {
       "username": "aharama",
@@ -34,34 +34,34 @@
       "delta": 1084
     },
     {
-      "username": "soccer791",
-      "displayName": "Airborne",
-      "racesPlayed": 14380,
-      "role": "member",
-      "title": "Acute Tinselitis",
-      "joinStamp": 1750457551,
-      "lastActivity": 1751217583,
-      "delta": 843
-    },
-    {
       "username": "neiletsky",
       "displayName": "NoLimit",
-      "racesPlayed": 11317,
+      "racesPlayed": 11398,
       "role": "vicecaptain",
       "title": "Speed Demon",
       "joinStamp": 1744741826,
-      "lastActivity": 1751217563,
-      "delta": 827
+      "lastActivity": 1751221774,
+      "delta": 908
+    },
+    {
+      "username": "soccer791",
+      "displayName": "Airborne",
+      "racesPlayed": 14431,
+      "role": "member",
+      "title": "Acute Tinselitis",
+      "joinStamp": 1750457551,
+      "lastActivity": 1751221733,
+      "delta": 894
     },
     {
       "username": "thecretor145",
       "displayName": "Trickster_illusoire",
-      "racesPlayed": 5747,
+      "racesPlayed": 5809,
       "role": "member",
       "title": "The Prankster",
       "joinStamp": 1750988885,
-      "lastActivity": 1751217581,
-      "delta": 702
+      "lastActivity": 1751221485,
+      "delta": 764
     },
     {
       "username": "aiy_infection",
@@ -214,6 +214,16 @@
       "delta": 30
     },
     {
+      "username": "ipayforyou",
+      "displayName": "JoshoverYou",
+      "racesPlayed": 5708,
+      "role": "member",
+      "title": "I Have Fans!",
+      "joinStamp": 1751073187,
+      "lastActivity": 1751219731,
+      "delta": 28
+    },
+    {
       "username": "a_normal_snake",
       "displayName": "-Snake-",
       "racesPlayed": 2962,
@@ -242,16 +252,6 @@
       "joinStamp": 1750994218,
       "lastActivity": 1751059135,
       "delta": 14
-    },
-    {
-      "username": "ipayforyou",
-      "displayName": "JoshoverYou",
-      "racesPlayed": 5693,
-      "role": "member",
-      "title": "I Have Fans!",
-      "joinStamp": 1751073187,
-      "lastActivity": 1751158304,
-      "delta": 13
     },
     {
       "username": "407017f3a63e1d9f1bc27590024a284f",
