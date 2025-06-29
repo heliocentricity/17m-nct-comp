@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 28, 2025 at 11:36 PM PDT",
+  "last_updated": "June 29, 2025 at 12:24 AM PDT",
   "board": [
     {
       "username": "abot8",
@@ -26,22 +26,22 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 139980,
+      "racesPlayed": 140037,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1751136395,
-      "delta": 784
+      "lastActivity": 1751181582,
+      "delta": 841
     },
     {
       "username": "soccer791",
       "displayName": "Airborne",
-      "racesPlayed": 14282,
+      "racesPlayed": 14333,
       "role": "member",
       "title": "Acute Tinselitis",
       "joinStamp": 1750457551,
-      "lastActivity": 1751178575,
-      "delta": 745
+      "lastActivity": 1751181560,
+      "delta": 796
     },
     {
       "username": "neiletsky",
@@ -106,12 +106,12 @@
     {
       "username": "cqvery",
       "displayName": "cqvery",
-      "racesPlayed": 1497,
+      "racesPlayed": 1508,
       "role": "member",
       "title": "Raw Racing Recruit",
       "joinStamp": 1751071636,
-      "lastActivity": 1751178508,
-      "delta": 166
+      "lastActivity": 1751181589,
+      "delta": 177
     },
     {
       "username": "timmytimmy213",
@@ -234,6 +234,16 @@
       "delta": 22
     },
     {
+      "username": "sumitghag",
+      "displayName": "SumitGhag",
+      "racesPlayed": 23078,
+      "role": "member",
+      "title": "Novice Navigator",
+      "joinStamp": 1751129266,
+      "lastActivity": 1751181561,
+      "delta": 18
+    },
+    {
       "username": "azamondiasthe2",
       "displayName": "Akravus",
       "racesPlayed": 1905,
@@ -301,16 +311,6 @@
       "title": "Spring Speedster",
       "joinStamp": 1745202493,
       "lastActivity": 1748398483,
-      "delta": 0
-    },
-    {
-      "username": "sumitghag",
-      "displayName": "SumitGhag",
-      "racesPlayed": 23060,
-      "role": "member",
-      "title": "Novice Navigator",
-      "joinStamp": 1751129266,
-      "lastActivity": 1751129320,
       "delta": 0
     },
     {
