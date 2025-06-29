@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 28, 2025 at 8:59 PM PDT",
+  "last_updated": "June 28, 2025 at 9:46 PM PDT",
   "board": [
     {
       "username": "abot8",
@@ -20,7 +20,7 @@
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1751168956,
+      "lastActivity": 1751169351,
       "delta": 1726
     },
     {
@@ -114,6 +114,16 @@
       "delta": 144
     },
     {
+      "username": "cqvery",
+      "displayName": "cqvery",
+      "racesPlayed": 1458,
+      "role": "member",
+      "title": "Raw Racing Recruit",
+      "joinStamp": 1751071636,
+      "lastActivity": 1751171443,
+      "delta": 127
+    },
+    {
       "username": "4399e7a571cf827be64b714c30c899ef",
       "displayName": "FuchsiaAzureCougar",
       "racesPlayed": 499,
@@ -142,16 +152,6 @@
       "joinStamp": 1750448154,
       "lastActivity": 1751161078,
       "delta": 111
-    },
-    {
-      "username": "cqvery",
-      "displayName": "cqvery",
-      "racesPlayed": 1434,
-      "role": "member",
-      "title": "Raw Racing Recruit",
-      "joinStamp": 1751071636,
-      "lastActivity": 1751113416,
-      "delta": 103
     },
     {
       "username": "ryyedawg7",
