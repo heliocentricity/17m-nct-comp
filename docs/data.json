@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 28, 2025 at 10:28 PM PDT",
+  "last_updated": "June 28, 2025 at 11:36 PM PDT",
   "board": [
     {
       "username": "abot8",
@@ -36,12 +36,12 @@
     {
       "username": "soccer791",
       "displayName": "Airborne",
-      "racesPlayed": 14236,
+      "racesPlayed": 14282,
       "role": "member",
       "title": "Acute Tinselitis",
       "joinStamp": 1750457551,
-      "lastActivity": 1751168203,
-      "delta": 699
+      "lastActivity": 1751178575,
+      "delta": 745
     },
     {
       "username": "neiletsky",
@@ -70,7 +70,7 @@
       "role": "member",
       "title": "Ultimate Racer",
       "joinStamp": 1750988885,
-      "lastActivity": 1751174362,
+      "lastActivity": 1751174464,
       "delta": 466
     },
     {
@@ -86,12 +86,12 @@
     {
       "username": "definitelynotdre",
       "displayName": "Sharpe",
-      "racesPlayed": 1016,
+      "racesPlayed": 1055,
       "role": "member",
       "title": "Comeback Kid",
       "joinStamp": 1750986063,
-      "lastActivity": 1751152756,
-      "delta": 353
+      "lastActivity": 1751176828,
+      "delta": 392
     },
     {
       "username": "persionde",
@@ -104,6 +104,16 @@
       "delta": 289
     },
     {
+      "username": "cqvery",
+      "displayName": "cqvery",
+      "racesPlayed": 1497,
+      "role": "member",
+      "title": "Raw Racing Recruit",
+      "joinStamp": 1751071636,
+      "lastActivity": 1751178508,
+      "delta": 166
+    },
+    {
       "username": "timmytimmy213",
       "displayName": "timmytimmy213",
       "racesPlayed": 4356,
@@ -112,16 +122,6 @@
       "joinStamp": 1743005762,
       "lastActivity": 1751157653,
       "delta": 144
-    },
-    {
-      "username": "cqvery",
-      "displayName": "cqvery",
-      "racesPlayed": 1459,
-      "role": "member",
-      "title": "Raw Racing Recruit",
-      "joinStamp": 1751071636,
-      "lastActivity": 1751172794,
-      "delta": 128
     },
     {
       "username": "4399e7a571cf827be64b714c30c899ef",
