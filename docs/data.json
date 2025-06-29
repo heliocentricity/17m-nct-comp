@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 29, 2025 at 8:25 AM PDT",
+  "last_updated": "June 29, 2025 at 9:30 AM PDT",
   "board": [
     {
       "username": "abot8",
@@ -46,22 +46,22 @@
     {
       "username": "neiletsky",
       "displayName": "NoLimit",
-      "racesPlayed": 11246,
+      "racesPlayed": 11272,
       "role": "vicecaptain",
       "title": "Speed Demon",
       "joinStamp": 1744741826,
-      "lastActivity": 1751195457,
-      "delta": 756
+      "lastActivity": 1751213122,
+      "delta": 782
     },
     {
       "username": "thecretor145",
       "displayName": "Trickster_illusoire",
-      "racesPlayed": 5658,
+      "racesPlayed": 5721,
       "role": "member",
-      "title": "Ultimate Racer",
+      "title": "The Prankster",
       "joinStamp": 1750988885,
-      "lastActivity": 1751210388,
-      "delta": 613
+      "lastActivity": 1751214567,
+      "delta": 676
     },
     {
       "username": "aiy_infection",
