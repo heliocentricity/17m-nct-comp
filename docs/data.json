@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 29, 2025 at 4:20 AM PDT",
+  "last_updated": "June 29, 2025 at 5:51 AM PDT",
   "board": [
     {
       "username": "abot8",
@@ -94,6 +94,16 @@
       "delta": 392
     },
     {
+      "username": "cqvery",
+      "displayName": "cqvery",
+      "racesPlayed": 1630,
+      "role": "member",
+      "title": "Raw Racing Recruit",
+      "joinStamp": 1751071636,
+      "lastActivity": 1751200166,
+      "delta": 299
+    },
+    {
       "username": "persionde",
       "displayName": "persionde",
       "racesPlayed": 4288,
@@ -102,16 +112,6 @@
       "joinStamp": 1750984125,
       "lastActivity": 1751148238,
       "delta": 289
-    },
-    {
-      "username": "cqvery",
-      "displayName": "cqvery",
-      "racesPlayed": 1583,
-      "role": "member",
-      "title": "Raw Racing Recruit",
-      "joinStamp": 1751071636,
-      "lastActivity": 1751195466,
-      "delta": 252
     },
     {
       "username": "timmytimmy213",
@@ -222,16 +222,6 @@
       "joinStamp": 1751144117,
       "lastActivity": 1751157953,
       "delta": 26
-    },
-    {
-      "username": "sumitghag",
-      "displayName": "SumitGhag",
-      "racesPlayed": 23084,
-      "role": "member",
-      "title": "Novice Navigator",
-      "joinStamp": 1751129266,
-      "lastActivity": 1751194847,
-      "delta": 24
     },
     {
       "username": "sumimyangel",
