@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 29, 2025 at 1:32 AM PDT",
+  "last_updated": "June 29, 2025 at 2:26 AM PDT",
   "board": [
     {
       "username": "abot8",
@@ -26,12 +26,12 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 140085,
+      "racesPlayed": 140130,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1751185735,
-      "delta": 889
+      "lastActivity": 1751188766,
+      "delta": 934
     },
     {
       "username": "soccer791",
@@ -46,22 +46,22 @@
     {
       "username": "neiletsky",
       "displayName": "NoLimit",
-      "racesPlayed": 11078,
+      "racesPlayed": 11116,
       "role": "vicecaptain",
       "title": "Speed Demon",
       "joinStamp": 1744741826,
-      "lastActivity": 1751125335,
-      "delta": 588
+      "lastActivity": 1751188775,
+      "delta": 626
     },
     {
       "username": "aiy_infection",
       "displayName": "icarus",
-      "racesPlayed": 10524,
+      "racesPlayed": 10525,
       "role": "captain",
       "title": "Drift Queen",
       "joinStamp": 1742486554,
-      "lastActivity": 1751165469,
-      "delta": 514
+      "lastActivity": 1751188071,
+      "delta": 515
     },
     {
       "username": "thecretor145",
@@ -134,6 +134,16 @@
       "delta": 117
     },
     {
+      "username": "ryyedawg7",
+      "displayName": "NitroFlex",
+      "racesPlayed": 950,
+      "role": "member",
+      "title": "Catty Wampus",
+      "joinStamp": 1751081309,
+      "lastActivity": 1751187326,
+      "delta": 113
+    },
+    {
       "username": "96adbea38b59bc5d736244c73d479514",
       "displayName": "Pineapple",
       "racesPlayed": 4442,
@@ -152,16 +162,6 @@
       "joinStamp": 1750448154,
       "lastActivity": 1751161078,
       "delta": 111
-    },
-    {
-      "username": "ryyedawg7",
-      "displayName": "NitroFlex",
-      "racesPlayed": 943,
-      "role": "member",
-      "title": "Catty Wampus",
-      "joinStamp": 1751081309,
-      "lastActivity": 1751185775,
-      "delta": 106
     },
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
@@ -441,6 +441,16 @@
       "title": "Eternal Spring",
       "joinStamp": 1750606113,
       "lastActivity": 1750733607,
+      "delta": 0
+    },
+    {
+      "username": "icarusv2",
+      "displayName": "icarus_v2",
+      "racesPlayed": 12,
+      "role": "member",
+      "title": "Raw Racing Recruit",
+      "joinStamp": 1751188607,
+      "lastActivity": 0,
       "delta": 0
     }
   ]
