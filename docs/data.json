@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 29, 2025 at 3:29 AM PDT",
+  "last_updated": "June 29, 2025 at 4:20 AM PDT",
   "board": [
     {
       "username": "abot8",
@@ -26,12 +26,12 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 140183,
+      "racesPlayed": 140200,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1751192364,
-      "delta": 987
+      "lastActivity": 1751195119,
+      "delta": 1004
     },
     {
       "username": "soccer791",
@@ -46,12 +46,12 @@
     {
       "username": "neiletsky",
       "displayName": "NoLimit",
-      "racesPlayed": 11187,
+      "racesPlayed": 11246,
       "role": "vicecaptain",
       "title": "Speed Demon",
       "joinStamp": 1744741826,
-      "lastActivity": 1751192367,
-      "delta": 697
+      "lastActivity": 1751195457,
+      "delta": 756
     },
     {
       "username": "aiy_infection",
@@ -106,12 +106,12 @@
     {
       "username": "cqvery",
       "displayName": "cqvery",
-      "racesPlayed": 1542,
+      "racesPlayed": 1583,
       "role": "member",
       "title": "Raw Racing Recruit",
       "joinStamp": 1751071636,
-      "lastActivity": 1751192307,
-      "delta": 211
+      "lastActivity": 1751195466,
+      "delta": 252
     },
     {
       "username": "timmytimmy213",
@@ -126,12 +126,12 @@
     {
       "username": "4399e7a571cf827be64b714c30c899ef",
       "displayName": "FuchsiaAzureCougar",
-      "racesPlayed": 499,
+      "racesPlayed": 514,
       "role": "member",
       "title": "Flora Fury",
       "joinStamp": 1748723201,
-      "lastActivity": 1751143908,
-      "delta": 117
+      "lastActivity": 1751195414,
+      "delta": 132
     },
     {
       "username": "ryyedawg7",
@@ -224,6 +224,16 @@
       "delta": 26
     },
     {
+      "username": "sumitghag",
+      "displayName": "SumitGhag",
+      "racesPlayed": 23084,
+      "role": "member",
+      "title": "Novice Navigator",
+      "joinStamp": 1751129266,
+      "lastActivity": 1751194847,
+      "delta": 24
+    },
+    {
       "username": "sumimyangel",
       "displayName": "stephenJoester",
       "racesPlayed": 21630,
@@ -232,16 +242,6 @@
       "joinStamp": 1748965989,
       "lastActivity": 1750949616,
       "delta": 22
-    },
-    {
-      "username": "sumitghag",
-      "displayName": "SumitGhag",
-      "racesPlayed": 23078,
-      "role": "member",
-      "title": "Novice Navigator",
-      "joinStamp": 1751129266,
-      "lastActivity": 1751181685,
-      "delta": 18
     },
     {
       "username": "azamondiasthe2",
