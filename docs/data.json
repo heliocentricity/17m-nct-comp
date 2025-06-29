@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 29, 2025 at 2:23 PM PDT",
+  "last_updated": "June 29, 2025 at 3:25 PM PDT",
   "board": [
     {
       "username": "abot8",
@@ -16,12 +16,12 @@
     {
       "username": "tryhardwillwork",
       "displayName": "Krowns",
-      "racesPlayed": 30706,
+      "racesPlayed": 30751,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1751231963,
-      "delta": 1931
+      "lastActivity": 1751234251,
+      "delta": 1976
     },
     {
       "username": "aharama",
@@ -34,6 +34,16 @@
       "delta": 1084
     },
     {
+      "username": "soccer791",
+      "displayName": "Airborne",
+      "racesPlayed": 14495,
+      "role": "member",
+      "title": "Acute Tinselitis",
+      "joinStamp": 1750457551,
+      "lastActivity": 1751235460,
+      "delta": 958
+    },
+    {
       "username": "neiletsky",
       "displayName": "NoLimit",
       "racesPlayed": 11437,
@@ -44,23 +54,13 @@
       "delta": 947
     },
     {
-      "username": "soccer791",
-      "displayName": "Airborne",
-      "racesPlayed": 14477,
-      "role": "member",
-      "title": "Acute Tinselitis",
-      "joinStamp": 1750457551,
-      "lastActivity": 1751231268,
-      "delta": 940
-    },
-    {
       "username": "thecretor145",
       "displayName": "Trickster_illusoire",
       "racesPlayed": 5915,
       "role": "member",
       "title": "The Prankster",
       "joinStamp": 1750988885,
-      "lastActivity": 1751231988,
+      "lastActivity": 1751232201,
       "delta": 870
     },
     {
@@ -72,6 +72,16 @@
       "joinStamp": 1742486554,
       "lastActivity": 1751188071,
       "delta": 515
+    },
+    {
+      "username": "definitelynotdre",
+      "displayName": "Sharpe",
+      "racesPlayed": 1128,
+      "role": "member",
+      "title": "Oh Em Gee!",
+      "joinStamp": 1751235889,
+      "lastActivity": 0,
+      "delta": 465
     },
     {
       "username": "vioiynx",
@@ -86,12 +96,12 @@
     {
       "username": "persionde",
       "displayName": "persionde",
-      "racesPlayed": 4346,
+      "racesPlayed": 4359,
       "role": "member",
       "title": ":D",
       "joinStamp": 1750984125,
-      "lastActivity": 1751231958,
-      "delta": 347
+      "lastActivity": 1751234718,
+      "delta": 360
     },
     {
       "username": "cqvery",
