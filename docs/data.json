@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 29, 2025 at 12:24 AM PDT",
+  "last_updated": "June 29, 2025 at 1:32 AM PDT",
   "board": [
     {
       "username": "abot8",
@@ -26,22 +26,22 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 140037,
+      "racesPlayed": 140085,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1751181582,
-      "delta": 841
+      "lastActivity": 1751185735,
+      "delta": 889
     },
     {
       "username": "soccer791",
       "displayName": "Airborne",
-      "racesPlayed": 14333,
+      "racesPlayed": 14362,
       "role": "member",
       "title": "Acute Tinselitis",
       "joinStamp": 1750457551,
-      "lastActivity": 1751181560,
-      "delta": 796
+      "lastActivity": 1751183605,
+      "delta": 825
     },
     {
       "username": "neiletsky",
@@ -106,12 +106,12 @@
     {
       "username": "cqvery",
       "displayName": "cqvery",
-      "racesPlayed": 1508,
+      "racesPlayed": 1525,
       "role": "member",
       "title": "Raw Racing Recruit",
       "joinStamp": 1751071636,
-      "lastActivity": 1751181589,
-      "delta": 177
+      "lastActivity": 1751185779,
+      "delta": 194
     },
     {
       "username": "timmytimmy213",
@@ -156,12 +156,12 @@
     {
       "username": "ryyedawg7",
       "displayName": "NitroFlex",
-      "racesPlayed": 940,
+      "racesPlayed": 943,
       "role": "member",
       "title": "Catty Wampus",
       "joinStamp": 1751081309,
-      "lastActivity": 1751161306,
-      "delta": 103
+      "lastActivity": 1751185775,
+      "delta": 106
     },
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
@@ -240,7 +240,7 @@
       "role": "member",
       "title": "Novice Navigator",
       "joinStamp": 1751129266,
-      "lastActivity": 1751181561,
+      "lastActivity": 1751181685,
       "delta": 18
     },
     {
