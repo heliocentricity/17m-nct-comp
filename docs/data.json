@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 28, 2025 at 7:27 PM PDT",
+  "last_updated": "June 28, 2025 at 8:59 PM PDT",
   "board": [
     {
       "username": "abot8",
@@ -16,12 +16,12 @@
     {
       "username": "tryhardwillwork",
       "displayName": "Krowns",
-      "racesPlayed": 30430,
+      "racesPlayed": 30501,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1751163584,
-      "delta": 1655
+      "lastActivity": 1751168956,
+      "delta": 1726
     },
     {
       "username": "aharama",
@@ -36,12 +36,12 @@
     {
       "username": "soccer791",
       "displayName": "Airborne",
-      "racesPlayed": 14200,
+      "racesPlayed": 14236,
       "role": "member",
       "title": "Acute Tinselitis",
       "joinStamp": 1750457551,
-      "lastActivity": 1751137999,
-      "delta": 663
+      "lastActivity": 1751168203,
+      "delta": 699
     },
     {
       "username": "neiletsky",
@@ -56,22 +56,22 @@
     {
       "username": "aiy_infection",
       "displayName": "icarus",
-      "racesPlayed": 10523,
+      "racesPlayed": 10524,
       "role": "captain",
       "title": "Drift Queen",
       "joinStamp": 1742486554,
-      "lastActivity": 1751163535,
-      "delta": 513
+      "lastActivity": 1751165469,
+      "delta": 514
     },
     {
       "username": "thecretor145",
       "displayName": "Trickster_illusoire",
-      "racesPlayed": 5474,
+      "racesPlayed": 5479,
       "role": "member",
       "title": "Ultimate Racer",
       "joinStamp": 1750988885,
-      "lastActivity": 1751153030,
-      "delta": 429
+      "lastActivity": 1751168077,
+      "delta": 434
     },
     {
       "username": "vioiynx",
