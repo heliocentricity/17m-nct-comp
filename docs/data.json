@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 29, 2025 at 1:27 PM PDT",
+  "last_updated": "June 29, 2025 at 2:23 PM PDT",
   "board": [
     {
       "username": "abot8",
@@ -16,12 +16,12 @@
     {
       "username": "tryhardwillwork",
       "displayName": "Krowns",
-      "racesPlayed": 30634,
+      "racesPlayed": 30706,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1751228146,
-      "delta": 1859
+      "lastActivity": 1751231963,
+      "delta": 1931
     },
     {
       "username": "aharama",
@@ -40,28 +40,28 @@
       "role": "vicecaptain",
       "title": "Speed Demon",
       "joinStamp": 1744741826,
-      "lastActivity": 1751228389,
+      "lastActivity": 1751228466,
       "delta": 947
     },
     {
       "username": "soccer791",
       "displayName": "Airborne",
-      "racesPlayed": 14458,
+      "racesPlayed": 14477,
       "role": "member",
       "title": "Acute Tinselitis",
       "joinStamp": 1750457551,
-      "lastActivity": 1751227086,
-      "delta": 921
+      "lastActivity": 1751231268,
+      "delta": 940
     },
     {
       "username": "thecretor145",
       "displayName": "Trickster_illusoire",
-      "racesPlayed": 5873,
+      "racesPlayed": 5915,
       "role": "member",
       "title": "The Prankster",
       "joinStamp": 1750988885,
-      "lastActivity": 1751228312,
-      "delta": 828
+      "lastActivity": 1751231988,
+      "delta": 870
     },
     {
       "username": "aiy_infection",
@@ -84,6 +84,16 @@
       "delta": 392
     },
     {
+      "username": "persionde",
+      "displayName": "persionde",
+      "racesPlayed": 4346,
+      "role": "member",
+      "title": ":D",
+      "joinStamp": 1750984125,
+      "lastActivity": 1751231958,
+      "delta": 347
+    },
+    {
       "username": "cqvery",
       "displayName": "cqvery",
       "racesPlayed": 1630,
@@ -92,16 +102,6 @@
       "joinStamp": 1751071636,
       "lastActivity": 1751200166,
       "delta": 299
-    },
-    {
-      "username": "persionde",
-      "displayName": "persionde",
-      "racesPlayed": 4297,
-      "role": "member",
-      "title": ":D",
-      "joinStamp": 1750984125,
-      "lastActivity": 1751228366,
-      "delta": 298
     },
     {
       "username": "4399e7a571cf827be64b714c30c899ef",
@@ -200,7 +200,7 @@
       "role": "member",
       "title": "I Love Dogs",
       "joinStamp": 1751144117,
-      "lastActivity": 1751228354,
+      "lastActivity": 1751228615,
       "delta": 44
     },
     {
