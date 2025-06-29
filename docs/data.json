@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 29, 2025 at 7:23 AM PDT",
+  "last_updated": "June 29, 2025 at 8:25 AM PDT",
   "board": [
     {
       "username": "abot8",
@@ -26,12 +26,12 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 140236,
+      "racesPlayed": 140280,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1751206786,
-      "delta": 1040
+      "lastActivity": 1751209370,
+      "delta": 1084
     },
     {
       "username": "soccer791",
@@ -56,12 +56,12 @@
     {
       "username": "thecretor145",
       "displayName": "Trickster_illusoire",
-      "racesPlayed": 5587,
+      "racesPlayed": 5658,
       "role": "member",
       "title": "Ultimate Racer",
       "joinStamp": 1750988885,
-      "lastActivity": 1751206762,
-      "delta": 542
+      "lastActivity": 1751210388,
+      "delta": 613
     },
     {
       "username": "aiy_infection",
@@ -134,6 +134,16 @@
       "delta": 144
     },
     {
+      "username": "96adbea38b59bc5d736244c73d479514",
+      "displayName": "Pineapple",
+      "racesPlayed": 4445,
+      "role": "member",
+      "title": "Secret Agent",
+      "joinStamp": 1750984670,
+      "lastActivity": 1751207385,
+      "delta": 115
+    },
+    {
       "username": "ryyedawg7",
       "displayName": "NitroFlex",
       "racesPlayed": 950,
@@ -142,16 +152,6 @@
       "joinStamp": 1751081309,
       "lastActivity": 1751187326,
       "delta": 113
-    },
-    {
-      "username": "96adbea38b59bc5d736244c73d479514",
-      "displayName": "Pineapple",
-      "racesPlayed": 4442,
-      "role": "member",
-      "title": "Secret Agent",
-      "joinStamp": 1750984670,
-      "lastActivity": 1751081699,
-      "delta": 112
     },
     {
       "username": "gw2iscoollol",
