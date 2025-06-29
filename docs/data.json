@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 28, 2025 at 4:42 PM PDT",
+  "last_updated": "June 28, 2025 at 7:02 PM PDT",
   "board": [
     {
       "username": "abot8",
@@ -16,12 +16,12 @@
     {
       "username": "tryhardwillwork",
       "displayName": "Krowns",
-      "racesPlayed": 30250,
+      "racesPlayed": 30407,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1751146533,
-      "delta": 1475
+      "lastActivity": 1751162374,
+      "delta": 1632
     },
     {
       "username": "aharama",
@@ -56,12 +56,12 @@
     {
       "username": "aiy_infection",
       "displayName": "icarus",
-      "racesPlayed": 10475,
+      "racesPlayed": 10504,
       "role": "captain",
       "title": "Drift Queen",
       "joinStamp": 1742486554,
-      "lastActivity": 1751121416,
-      "delta": 465
+      "lastActivity": 1751162380,
+      "delta": 494
     },
     {
       "username": "thecretor145",
@@ -104,6 +104,16 @@
       "delta": 289
     },
     {
+      "username": "timmytimmy213",
+      "displayName": "timmytimmy213",
+      "racesPlayed": 4356,
+      "role": "officer",
+      "title": "Champion Chaser",
+      "joinStamp": 1743005762,
+      "lastActivity": 1751157653,
+      "delta": 144
+    },
+    {
       "username": "4399e7a571cf827be64b714c30c899ef",
       "displayName": "FuchsiaAzureCougar",
       "racesPlayed": 499,
@@ -112,16 +122,6 @@
       "joinStamp": 1748723201,
       "lastActivity": 1751143908,
       "delta": 117
-    },
-    {
-      "username": "timmytimmy213",
-      "displayName": "timmytimmy213",
-      "racesPlayed": 4327,
-      "role": "officer",
-      "title": "Champion Chaser",
-      "joinStamp": 1743005762,
-      "lastActivity": 1751136370,
-      "delta": 115
     },
     {
       "username": "96adbea38b59bc5d736244c73d479514",
@@ -134,6 +134,16 @@
       "delta": 112
     },
     {
+      "username": "gw2iscoollol",
+      "displayName": "Leqlerc",
+      "racesPlayed": 6316,
+      "role": "member",
+      "title": "Nitro Burnout",
+      "joinStamp": 1750448154,
+      "lastActivity": 1751161078,
+      "delta": 111
+    },
+    {
       "username": "cqvery",
       "displayName": "cqvery",
       "racesPlayed": 1434,
@@ -141,6 +151,16 @@
       "title": "Raw Racing Recruit",
       "joinStamp": 1751071636,
       "lastActivity": 1751113416,
+      "delta": 103
+    },
+    {
+      "username": "ryyedawg7",
+      "displayName": "NitroFlex",
+      "racesPlayed": 940,
+      "role": "member",
+      "title": "Catty Wampus",
+      "joinStamp": 1751081309,
+      "lastActivity": 1751161306,
       "delta": 103
     },
     {
@@ -152,26 +172,6 @@
       "joinStamp": 1750712571,
       "lastActivity": 1751138555,
       "delta": 89
-    },
-    {
-      "username": "gw2iscoollol",
-      "displayName": "Leqlerc",
-      "racesPlayed": 6281,
-      "role": "member",
-      "title": "Nitro Burnout",
-      "joinStamp": 1750448154,
-      "lastActivity": 1751056544,
-      "delta": 76
-    },
-    {
-      "username": "ryyedawg7",
-      "displayName": "NitroFlex",
-      "racesPlayed": 897,
-      "role": "member",
-      "title": "Catty Wampus",
-      "joinStamp": 1751081309,
-      "lastActivity": 1751153841,
-      "delta": 60
     },
     {
       "username": "conquerer11k",
@@ -216,12 +216,12 @@
     {
       "username": "a_normal_snake",
       "displayName": "-Snake-",
-      "racesPlayed": 2960,
+      "racesPlayed": 2962,
       "role": "member",
       "title": "I Love Dogs",
       "joinStamp": 1751144117,
-      "lastActivity": 1751150748,
-      "delta": 24
+      "lastActivity": 1751157953,
+      "delta": 26
     },
     {
       "username": "sumimyangel",
@@ -244,6 +244,16 @@
       "delta": 14
     },
     {
+      "username": "ipayforyou",
+      "displayName": "JoshoverYou",
+      "racesPlayed": 5693,
+      "role": "member",
+      "title": "I Have Fans!",
+      "joinStamp": 1751073187,
+      "lastActivity": 1751158304,
+      "delta": 13
+    },
+    {
       "username": "407017f3a63e1d9f1bc27590024a284f",
       "displayName": "JoshAbner13",
       "racesPlayed": 28,
@@ -252,16 +262,6 @@
       "joinStamp": 1750967124,
       "lastActivity": 1751033830,
       "delta": 6
-    },
-    {
-      "username": "ipayforyou",
-      "displayName": "JoshoverYou",
-      "racesPlayed": 5685,
-      "role": "member",
-      "title": "I Have Fans!",
-      "joinStamp": 1751073187,
-      "lastActivity": 1751074209,
-      "delta": 5
     },
     {
       "username": "theodorevue",
