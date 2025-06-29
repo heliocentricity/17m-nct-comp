@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 29, 2025 at 6:32 AM PDT",
+  "last_updated": "June 29, 2025 at 7:23 AM PDT",
   "board": [
     {
       "username": "abot8",
@@ -26,12 +26,12 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 140200,
+      "racesPlayed": 140236,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1751195119,
-      "delta": 1004
+      "lastActivity": 1751206786,
+      "delta": 1040
     },
     {
       "username": "soccer791",
@@ -54,6 +54,16 @@
       "delta": 756
     },
     {
+      "username": "thecretor145",
+      "displayName": "Trickster_illusoire",
+      "racesPlayed": 5587,
+      "role": "member",
+      "title": "Ultimate Racer",
+      "joinStamp": 1750988885,
+      "lastActivity": 1751206762,
+      "delta": 542
+    },
+    {
       "username": "aiy_infection",
       "displayName": "icarus",
       "racesPlayed": 10525,
@@ -62,16 +72,6 @@
       "joinStamp": 1742486554,
       "lastActivity": 1751188071,
       "delta": 515
-    },
-    {
-      "username": "thecretor145",
-      "displayName": "Trickster_illusoire",
-      "racesPlayed": 5540,
-      "role": "member",
-      "title": "Ultimate Racer",
-      "joinStamp": 1750988885,
-      "lastActivity": 1751203775,
-      "delta": 495
     },
     {
       "username": "vioiynx",
