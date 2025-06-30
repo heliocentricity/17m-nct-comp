@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 30, 2025 at 3:26 PM PDT",
+  "last_updated": "June 30, 2025 at 4:25 PM PDT",
   "board": [
     {
       "username": "abot8",
@@ -26,12 +26,12 @@
     {
       "username": "soccer791",
       "displayName": "Airborne",
-      "racesPlayed": 15060,
+      "racesPlayed": 15063,
       "role": "member",
       "title": "Acute Tinselitis",
       "joinStamp": 1750457551,
-      "lastActivity": 1751300274,
-      "delta": 1523
+      "lastActivity": 1751325522,
+      "delta": 1526
     },
     {
       "username": "aharama",
@@ -56,12 +56,12 @@
     {
       "username": "thecretor145",
       "displayName": "Trickster_illusoire",
-      "racesPlayed": 6102,
+      "racesPlayed": 6116,
       "role": "member",
       "title": "The Prankster",
       "joinStamp": 1750988885,
-      "lastActivity": 1751316690,
-      "delta": 1057
+      "lastActivity": 1751325583,
+      "delta": 1071
     },
     {
       "username": "aiy_infection",
@@ -114,6 +114,16 @@
       "delta": 300
     },
     {
+      "username": "ryyedawg7",
+      "displayName": "R Y Y E",
+      "racesPlayed": 1097,
+      "role": "member",
+      "title": "Catty Wampus",
+      "joinStamp": 1751081309,
+      "lastActivity": 1751325591,
+      "delta": 260
+    },
+    {
       "username": "timmytimmy213",
       "displayName": "timmytimmy213",
       "racesPlayed": 4455,
@@ -122,16 +132,6 @@
       "joinStamp": 1743005762,
       "lastActivity": 1751302680,
       "delta": 243
-    },
-    {
-      "username": "ryyedawg7",
-      "displayName": "R Y Y E",
-      "racesPlayed": 1078,
-      "role": "member",
-      "title": "Catty Wampus",
-      "joinStamp": 1751081309,
-      "lastActivity": 1751321984,
-      "delta": 241
     },
     {
       "username": "4399e7a571cf827be64b714c30c899ef",
@@ -164,6 +164,16 @@
       "delta": 130
     },
     {
+      "username": "a_normal_snake",
+      "displayName": "-Snake-",
+      "racesPlayed": 3059,
+      "role": "member",
+      "title": "I Love Dogs",
+      "joinStamp": 1751144117,
+      "lastActivity": 1751324127,
+      "delta": 123
+    },
+    {
       "username": "96adbea38b59bc5d736244c73d479514",
       "displayName": "Pineapple",
       "racesPlayed": 4445,
@@ -172,16 +182,6 @@
       "joinStamp": 1750984670,
       "lastActivity": 1751207385,
       "delta": 115
-    },
-    {
-      "username": "a_normal_snake",
-      "displayName": "-Snake-",
-      "racesPlayed": 3049,
-      "role": "member",
-      "title": "I Love Dogs",
-      "joinStamp": 1751144117,
-      "lastActivity": 1751321921,
-      "delta": 113
     },
     {
       "username": "conquerer11k",
@@ -274,6 +274,16 @@
       "delta": 5
     },
     {
+      "username": "1400dgloo",
+      "displayName": "1400dgloo",
+      "racesPlayed": 610,
+      "role": "member",
+      "title": "Pro Pacer",
+      "joinStamp": 1750796497,
+      "lastActivity": 1751325590,
+      "delta": 4
+    },
+    {
       "username": "2525de6c193656755826c3b612fe4f5c",
       "displayName": "Kenritz",
       "racesPlayed": 1858,
@@ -282,16 +292,6 @@
       "joinStamp": 1750461776,
       "lastActivity": 1750969321,
       "delta": 3
-    },
-    {
-      "username": "1400dgloo",
-      "displayName": "1400dgloo",
-      "racesPlayed": 608,
-      "role": "member",
-      "title": "Pro Pacer",
-      "joinStamp": 1750796497,
-      "lastActivity": 1751293333,
-      "delta": 2
     },
     {
       "username": "rc0913",
