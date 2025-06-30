@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 30, 2025 at 9:34 AM PDT",
+  "last_updated": "June 30, 2025 at 10:24 AM PDT",
   "board": [
     {
       "username": "abot8",
@@ -56,12 +56,12 @@
     {
       "username": "thecretor145",
       "displayName": "Trickster_illusoire",
-      "racesPlayed": 5916,
+      "racesPlayed": 5958,
       "role": "member",
       "title": "The Prankster",
       "joinStamp": 1750988885,
-      "lastActivity": 1751252387,
-      "delta": 871
+      "lastActivity": 1751303975,
+      "delta": 913
     },
     {
       "username": "aiy_infection",
@@ -76,12 +76,12 @@
     {
       "username": "definitelynotdre",
       "displayName": "Sharpe",
-      "racesPlayed": 1172,
+      "racesPlayed": 1175,
       "role": "member",
       "title": "Oh Em Gee!",
       "joinStamp": 1751235889,
-      "lastActivity": 1751257912,
-      "delta": 509
+      "lastActivity": 1751302157,
+      "delta": 512
     },
     {
       "username": "persionde",
@@ -114,6 +114,16 @@
       "delta": 300
     },
     {
+      "username": "timmytimmy213",
+      "displayName": "timmytimmy213",
+      "racesPlayed": 4455,
+      "role": "officer",
+      "title": "Champion Chaser",
+      "joinStamp": 1743005762,
+      "lastActivity": 1751302680,
+      "delta": 243
+    },
+    {
       "username": "ryyedawg7",
       "displayName": "NitroFlex",
       "racesPlayed": 1061,
@@ -122,16 +132,6 @@
       "joinStamp": 1751081309,
       "lastActivity": 1751266537,
       "delta": 224
-    },
-    {
-      "username": "timmytimmy213",
-      "displayName": "timmytimmy213",
-      "racesPlayed": 4430,
-      "role": "officer",
-      "title": "Champion Chaser",
-      "joinStamp": 1743005762,
-      "lastActivity": 1751277302,
-      "delta": 218
     },
     {
       "username": "4399e7a571cf827be64b714c30c899ef",
