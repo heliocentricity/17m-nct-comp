@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 30, 2025 at 11:37 AM PDT",
+  "last_updated": "June 30, 2025 at 12:20 PM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 35465,
+      "racesPlayed": 35482,
       "role": "officer",
       "title": "The Smasher",
       "joinStamp": 1750805902,
-      "lastActivity": 1751289558,
-      "delta": 2596
+      "lastActivity": 1751311071,
+      "delta": 2613
     },
     {
       "username": "tryhardwillwork",
@@ -56,12 +56,12 @@
     {
       "username": "thecretor145",
       "displayName": "Trickster_illusoire",
-      "racesPlayed": 6033,
+      "racesPlayed": 6058,
       "role": "member",
       "title": "The Prankster",
       "joinStamp": 1750988885,
-      "lastActivity": 1751308176,
-      "delta": 988
+      "lastActivity": 1751310745,
+      "delta": 1013
     },
     {
       "username": "aiy_infection",
@@ -76,12 +76,22 @@
     {
       "username": "definitelynotdre",
       "displayName": "Sharpe",
-      "racesPlayed": 1175,
+      "racesPlayed": 1179,
       "role": "member",
       "title": "Oh Em Gee!",
       "joinStamp": 1751235889,
-      "lastActivity": 1751302157,
-      "delta": 512
+      "lastActivity": 1751310594,
+      "delta": 516
+    },
+    {
+      "username": "vioiynx",
+      "displayName": "vioiynx",
+      "racesPlayed": 3571,
+      "role": "vicecaptain",
+      "title": "Oh Em Gee!",
+      "joinStamp": 1742509283,
+      "lastActivity": 1751311007,
+      "delta": 422
     },
     {
       "username": "persionde",
@@ -92,16 +102,6 @@
       "joinStamp": 1750984125,
       "lastActivity": 1751298834,
       "delta": 411
-    },
-    {
-      "username": "vioiynx",
-      "displayName": "vioiynx",
-      "racesPlayed": 3542,
-      "role": "vicecaptain",
-      "title": "Oh Em Gee!",
-      "joinStamp": 1742509283,
-      "lastActivity": 1751297077,
-      "delta": 393
     },
     {
       "username": "cqvery",
@@ -154,6 +154,16 @@
       "delta": 139
     },
     {
+      "username": "4978dd1c73bd50b93b895f4299eed6b8",
+      "displayName": "Mystic",
+      "racesPlayed": 320,
+      "role": "member",
+      "title": "Millionaire",
+      "joinStamp": 1750712571,
+      "lastActivity": 1751309713,
+      "delta": 119
+    },
+    {
       "username": "96adbea38b59bc5d736244c73d479514",
       "displayName": "Pineapple",
       "racesPlayed": 4445,
@@ -162,16 +172,6 @@
       "joinStamp": 1750984670,
       "lastActivity": 1751207385,
       "delta": 115
-    },
-    {
-      "username": "4978dd1c73bd50b93b895f4299eed6b8",
-      "displayName": "Mystic",
-      "racesPlayed": 312,
-      "role": "member",
-      "title": "Millionaire",
-      "joinStamp": 1750712571,
-      "lastActivity": 1751308172,
-      "delta": 111
     },
     {
       "username": "a_normal_snake",
