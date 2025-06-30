@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 30, 2025 at 6:39 AM PDT",
+  "last_updated": "June 30, 2025 at 7:27 AM PDT",
   "board": [
     {
       "username": "abot8",
@@ -16,32 +16,32 @@
     {
       "username": "tryhardwillwork",
       "displayName": "Krowns",
-      "racesPlayed": 30904,
+      "racesPlayed": 30941,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1751253473,
-      "delta": 2129
+      "lastActivity": 1751293153,
+      "delta": 2166
     },
     {
       "username": "soccer791",
       "displayName": "Airborne",
-      "racesPlayed": 14865,
+      "racesPlayed": 14914,
       "role": "member",
       "title": "Acute Tinselitis",
       "joinStamp": 1750457551,
-      "lastActivity": 1751290190,
-      "delta": 1328
+      "lastActivity": 1751293186,
+      "delta": 1377
     },
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 140516,
+      "racesPlayed": 140552,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1751290142,
-      "delta": 1320
+      "lastActivity": 1751293191,
+      "delta": 1356
     },
     {
       "username": "neiletsky",
@@ -284,6 +284,16 @@
       "delta": 3
     },
     {
+      "username": "1400dgloo",
+      "displayName": "1400dgloo",
+      "racesPlayed": 608,
+      "role": "member",
+      "title": "Pro Pacer",
+      "joinStamp": 1750796497,
+      "lastActivity": 1750805289,
+      "delta": 2
+    },
+    {
       "username": "rc0913",
       "displayName": "RicSuave",
       "racesPlayed": 4424,
@@ -391,16 +401,6 @@
       "title": "Eggsecutive",
       "joinStamp": 1744391071,
       "lastActivity": 1750168426,
-      "delta": 0
-    },
-    {
-      "username": "1400dgloo",
-      "displayName": "1400dgloo",
-      "racesPlayed": 606,
-      "role": "member",
-      "title": "Pro Pacer",
-      "joinStamp": 1750796497,
-      "lastActivity": 1750805289,
       "delta": 0
     },
     {
