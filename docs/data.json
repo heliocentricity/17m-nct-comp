@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 29, 2025 at 10:29 PM PDT",
+  "last_updated": "June 29, 2025 at 11:40 PM PDT",
   "board": [
     {
       "username": "abot8",
@@ -24,6 +24,16 @@
       "delta": 2125
     },
     {
+      "username": "aharama",
+      "displayName": "Aharama",
+      "racesPlayed": 140336,
+      "role": "member",
+      "title": "Emperor",
+      "joinStamp": 1751010739,
+      "lastActivity": 1751265593,
+      "delta": 1140
+    },
+    {
       "username": "soccer791",
       "displayName": "Airborne",
       "racesPlayed": 14656,
@@ -34,24 +44,14 @@
       "delta": 1119
     },
     {
-      "username": "aharama",
-      "displayName": "Aharama",
-      "racesPlayed": 140280,
-      "role": "member",
-      "title": "Emperor",
-      "joinStamp": 1751010739,
-      "lastActivity": 1751209370,
-      "delta": 1084
-    },
-    {
       "username": "neiletsky",
       "displayName": "NoLimit",
-      "racesPlayed": 11437,
+      "racesPlayed": 11499,
       "role": "vicecaptain",
       "title": "Speed Demon",
       "joinStamp": 1744741826,
-      "lastActivity": 1751228466,
-      "delta": 947
+      "lastActivity": 1751265530,
+      "delta": 1009
     },
     {
       "username": "thecretor145",
@@ -110,7 +110,7 @@
       "role": "member",
       "title": "Raw Racing Recruit",
       "joinStamp": 1751071636,
-      "lastActivity": 1751200166,
+      "lastActivity": 1751260816,
       "delta": 300
     },
     {
@@ -254,16 +254,6 @@
       "delta": 14
     },
     {
-      "username": "407017f3a63e1d9f1bc27590024a284f",
-      "displayName": "JoshAbner13",
-      "racesPlayed": 28,
-      "role": "member",
-      "title": "Raw Racing Recruit",
-      "joinStamp": 1750967124,
-      "lastActivity": 1751033830,
-      "delta": 6
-    },
-    {
       "username": "theodorevue",
       "displayName": "ProfessionalRacer",
       "racesPlayed": 183,
@@ -361,16 +351,6 @@
       "title": "Vroooom?",
       "joinStamp": 1751053524,
       "lastActivity": 0,
-      "delta": 0
-    },
-    {
-      "username": "f49de7389426a7d9dfa859467b8bb877",
-      "displayName": "AlyviaB",
-      "racesPlayed": 156,
-      "role": "member",
-      "title": "Wampus Thwamper",
-      "joinStamp": 1750042840,
-      "lastActivity": 1750692293,
       "delta": 0
     },
     {
