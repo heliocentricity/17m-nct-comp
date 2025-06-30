@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 29, 2025 at 9:40 PM PDT",
+  "last_updated": "June 29, 2025 at 10:29 PM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 35439,
+      "racesPlayed": 35455,
       "role": "officer",
       "title": "The Smasher",
       "joinStamp": 1750805902,
-      "lastActivity": 1751258382,
-      "delta": 2570
+      "lastActivity": 1751259086,
+      "delta": 2586
     },
     {
       "username": "tryhardwillwork",
@@ -106,12 +106,12 @@
     {
       "username": "cqvery",
       "displayName": "cqvery",
-      "racesPlayed": 1630,
+      "racesPlayed": 1631,
       "role": "member",
       "title": "Raw Racing Recruit",
       "joinStamp": 1751071636,
       "lastActivity": 1751200166,
-      "delta": 299
+      "delta": 300
     },
     {
       "username": "ryyedawg7",
