@@ -1,27 +1,27 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 29, 2025 at 7:21 PM PDT",
+  "last_updated": "June 29, 2025 at 8:57 PM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 35369,
+      "racesPlayed": 35383,
       "role": "officer",
       "title": "The Smasher",
       "joinStamp": 1750805902,
-      "lastActivity": 1751239293,
-      "delta": 2500
+      "lastActivity": 1751255365,
+      "delta": 2514
     },
     {
       "username": "tryhardwillwork",
       "displayName": "Krowns",
-      "racesPlayed": 30879,
+      "racesPlayed": 30900,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1751249935,
-      "delta": 2104
+      "lastActivity": 1751253473,
+      "delta": 2125
     },
     {
       "username": "soccer791",
@@ -56,22 +56,22 @@
     {
       "username": "thecretor145",
       "displayName": "Trickster_illusoire",
-      "racesPlayed": 5915,
+      "racesPlayed": 5916,
       "role": "member",
       "title": "The Prankster",
       "joinStamp": 1750988885,
-      "lastActivity": 1751232201,
-      "delta": 870
+      "lastActivity": 1751252387,
+      "delta": 871
     },
     {
       "username": "aiy_infection",
       "displayName": "icarus",
-      "racesPlayed": 10534,
+      "racesPlayed": 10553,
       "role": "captain",
       "title": "Drift Queen",
       "joinStamp": 1742486554,
-      "lastActivity": 1751246166,
-      "delta": 524
+      "lastActivity": 1751254617,
+      "delta": 543
     },
     {
       "username": "definitelynotdre",
@@ -114,24 +114,24 @@
       "delta": 299
     },
     {
-      "username": "timmytimmy213",
-      "displayName": "timmytimmy213",
-      "racesPlayed": 4384,
-      "role": "officer",
-      "title": "Champion Chaser",
-      "joinStamp": 1743005762,
-      "lastActivity": 1751249958,
-      "delta": 172
-    },
-    {
       "username": "ryyedawg7",
       "displayName": "NitroFlex",
-      "racesPlayed": 1007,
+      "racesPlayed": 1047,
       "role": "member",
       "title": "Catty Wampus",
       "joinStamp": 1751081309,
-      "lastActivity": 1751249992,
-      "delta": 170
+      "lastActivity": 1751255378,
+      "delta": 210
+    },
+    {
+      "username": "timmytimmy213",
+      "displayName": "timmytimmy213",
+      "racesPlayed": 4396,
+      "role": "officer",
+      "title": "Champion Chaser",
+      "joinStamp": 1743005762,
+      "lastActivity": 1751250582,
+      "delta": 184
     },
     {
       "username": "4399e7a571cf827be64b714c30c899ef",
@@ -214,6 +214,16 @@
       "delta": 48
     },
     {
+      "username": "ipayforyou",
+      "displayName": "JoshoverYou",
+      "racesPlayed": 5717,
+      "role": "member",
+      "title": "I Have Fans!",
+      "joinStamp": 1751073187,
+      "lastActivity": 1751254004,
+      "delta": 37
+    },
+    {
       "username": "dianac128",
       "displayName": "ryiichu",
       "racesPlayed": 1800,
@@ -222,16 +232,6 @@
       "joinStamp": 1750468101,
       "lastActivity": 1751145519,
       "delta": 30
-    },
-    {
-      "username": "ipayforyou",
-      "displayName": "JoshoverYou",
-      "racesPlayed": 5708,
-      "role": "member",
-      "title": "I Have Fans!",
-      "joinStamp": 1751073187,
-      "lastActivity": 1751219731,
-      "delta": 28
     },
     {
       "username": "sumimyangel",
