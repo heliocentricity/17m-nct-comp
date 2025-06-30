@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 30, 2025 at 10:24 AM PDT",
+  "last_updated": "June 30, 2025 at 11:37 AM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 35459,
+      "racesPlayed": 35465,
       "role": "officer",
       "title": "The Smasher",
       "joinStamp": 1750805902,
       "lastActivity": 1751289558,
-      "delta": 2590
+      "delta": 2596
     },
     {
       "username": "tryhardwillwork",
@@ -56,12 +56,12 @@
     {
       "username": "thecretor145",
       "displayName": "Trickster_illusoire",
-      "racesPlayed": 5958,
+      "racesPlayed": 6033,
       "role": "member",
       "title": "The Prankster",
       "joinStamp": 1750988885,
-      "lastActivity": 1751303975,
-      "delta": 913
+      "lastActivity": 1751308176,
+      "delta": 988
     },
     {
       "username": "aiy_infection",
@@ -166,12 +166,12 @@
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
-      "racesPlayed": 306,
+      "racesPlayed": 312,
       "role": "member",
       "title": "Millionaire",
       "joinStamp": 1750712571,
-      "lastActivity": 1751300483,
-      "delta": 105
+      "lastActivity": 1751308172,
+      "delta": 111
     },
     {
       "username": "a_normal_snake",
@@ -186,22 +186,22 @@
     {
       "username": "conquerer11k",
       "displayName": "ResilientRedDonkey",
-      "racesPlayed": 13660,
+      "racesPlayed": 13670,
       "role": "member",
       "title": "Spring-a-round",
       "joinStamp": 1749752209,
-      "lastActivity": 1750962863,
-      "delta": 59
+      "lastActivity": 1751306857,
+      "delta": 69
     },
     {
       "username": "5fff3c41947a5b24ed13ddb1c73b1e55",
       "displayName": "ApricotIvoryFlea",
-      "racesPlayed": 1310,
+      "racesPlayed": 1312,
       "role": "member",
       "title": "Comeback Kid",
       "joinStamp": 1750794927,
-      "lastActivity": 1750962966,
-      "delta": 49
+      "lastActivity": 1751306745,
+      "delta": 51
     },
     {
       "username": "vdgyertikopzefrgh",
@@ -360,6 +360,16 @@
       "role": "member",
       "title": "Vroooom?",
       "joinStamp": 1751053524,
+      "lastActivity": 0,
+      "delta": 0
+    },
+    {
+      "username": "e91a12732e6934f1497a87273a05f395",
+      "displayName": "Hannah Banana",
+      "racesPlayed": 4801,
+      "role": "member",
+      "title": "I Love Frogs",
+      "joinStamp": 1751308294,
       "lastActivity": 0,
       "delta": 0
     },
