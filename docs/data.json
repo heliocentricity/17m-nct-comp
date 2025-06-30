@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 30, 2025 at 12:20 PM PDT",
+  "last_updated": "June 30, 2025 at 1:28 PM PDT",
   "board": [
     {
       "username": "abot8",
@@ -16,12 +16,12 @@
     {
       "username": "tryhardwillwork",
       "displayName": "Krowns",
-      "racesPlayed": 31055,
+      "racesPlayed": 31072,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1751299774,
-      "delta": 2280
+      "lastActivity": 1751313640,
+      "delta": 2297
     },
     {
       "username": "soccer791",
@@ -56,12 +56,12 @@
     {
       "username": "thecretor145",
       "displayName": "Trickster_illusoire",
-      "racesPlayed": 6058,
+      "racesPlayed": 6086,
       "role": "member",
       "title": "The Prankster",
       "joinStamp": 1750988885,
-      "lastActivity": 1751310745,
-      "delta": 1013
+      "lastActivity": 1751314760,
+      "delta": 1041
     },
     {
       "username": "aiy_infection",
@@ -76,32 +76,32 @@
     {
       "username": "definitelynotdre",
       "displayName": "Sharpe",
-      "racesPlayed": 1179,
+      "racesPlayed": 1181,
       "role": "member",
       "title": "Oh Em Gee!",
       "joinStamp": 1751235889,
       "lastActivity": 1751310594,
-      "delta": 516
-    },
-    {
-      "username": "vioiynx",
-      "displayName": "vioiynx",
-      "racesPlayed": 3571,
-      "role": "vicecaptain",
-      "title": "Oh Em Gee!",
-      "joinStamp": 1742509283,
-      "lastActivity": 1751311007,
-      "delta": 422
+      "delta": 518
     },
     {
       "username": "persionde",
       "displayName": "persionde",
-      "racesPlayed": 4410,
+      "racesPlayed": 4430,
       "role": "member",
       "title": ":D",
       "joinStamp": 1750984125,
-      "lastActivity": 1751298834,
-      "delta": 411
+      "lastActivity": 1751314681,
+      "delta": 431
+    },
+    {
+      "username": "vioiynx",
+      "displayName": "vioiynx",
+      "racesPlayed": 3575,
+      "role": "vicecaptain",
+      "title": "Oh Em Gee!",
+      "joinStamp": 1742509283,
+      "lastActivity": 1751311661,
+      "delta": 426
     },
     {
       "username": "cqvery",
