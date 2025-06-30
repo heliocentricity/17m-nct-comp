@@ -1,47 +1,47 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 30, 2025 at 5:56 AM PDT",
+  "last_updated": "June 30, 2025 at 6:39 AM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 35455,
+      "racesPlayed": 35459,
       "role": "officer",
       "title": "The Smasher",
       "joinStamp": 1750805902,
-      "lastActivity": 1751259086,
-      "delta": 2586
+      "lastActivity": 1751289558,
+      "delta": 2590
     },
     {
       "username": "tryhardwillwork",
       "displayName": "Krowns",
-      "racesPlayed": 30900,
+      "racesPlayed": 30904,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
       "lastActivity": 1751253473,
-      "delta": 2125
-    },
-    {
-      "username": "aharama",
-      "displayName": "Aharama",
-      "racesPlayed": 140500,
-      "role": "member",
-      "title": "Emperor",
-      "joinStamp": 1751010739,
-      "lastActivity": 1751274491,
-      "delta": 1304
+      "delta": 2129
     },
     {
       "username": "soccer791",
       "displayName": "Airborne",
-      "racesPlayed": 14820,
+      "racesPlayed": 14865,
       "role": "member",
       "title": "Acute Tinselitis",
       "joinStamp": 1750457551,
-      "lastActivity": 1751287769,
-      "delta": 1283
+      "lastActivity": 1751290190,
+      "delta": 1328
+    },
+    {
+      "username": "aharama",
+      "displayName": "Aharama",
+      "racesPlayed": 140516,
+      "role": "member",
+      "title": "Emperor",
+      "joinStamp": 1751010739,
+      "lastActivity": 1751290142,
+      "delta": 1320
     },
     {
       "username": "neiletsky",
@@ -144,6 +144,16 @@
       "delta": 150
     },
     {
+      "username": "gw2iscoollol",
+      "displayName": "Leqlerc",
+      "racesPlayed": 6327,
+      "role": "member",
+      "title": "Nitro Burnout",
+      "joinStamp": 1750448154,
+      "lastActivity": 1751290111,
+      "delta": 122
+    },
+    {
       "username": "96adbea38b59bc5d736244c73d479514",
       "displayName": "Pineapple",
       "racesPlayed": 4445,
@@ -152,16 +162,6 @@
       "joinStamp": 1750984670,
       "lastActivity": 1751207385,
       "delta": 115
-    },
-    {
-      "username": "gw2iscoollol",
-      "displayName": "Leqlerc",
-      "racesPlayed": 6316,
-      "role": "member",
-      "title": "Nitro Burnout",
-      "joinStamp": 1750448154,
-      "lastActivity": 1751161078,
-      "delta": 111
     },
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
