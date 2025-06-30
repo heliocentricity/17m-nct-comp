@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 30, 2025 at 2:24 PM PDT",
+  "last_updated": "June 30, 2025 at 3:26 PM PDT",
   "board": [
     {
       "username": "abot8",
       "displayName": "1400dglooo",
-      "racesPlayed": 35508,
+      "racesPlayed": 35548,
       "role": "officer",
       "title": "The Smasher",
       "joinStamp": 1750805902,
-      "lastActivity": 1751317808,
-      "delta": 2639
+      "lastActivity": 1751320548,
+      "delta": 2679
     },
     {
       "username": "tryhardwillwork",
@@ -46,12 +46,12 @@
     {
       "username": "neiletsky",
       "displayName": "NoLimit",
-      "racesPlayed": 11751,
+      "racesPlayed": 11781,
       "role": "vicecaptain",
       "title": "Speed Demon",
       "joinStamp": 1744741826,
-      "lastActivity": 1751318383,
-      "delta": 1261
+      "lastActivity": 1751320616,
+      "delta": 1291
     },
     {
       "username": "thecretor145",
@@ -125,13 +125,13 @@
     },
     {
       "username": "ryyedawg7",
-      "displayName": "NitroFlex",
-      "racesPlayed": 1061,
+      "displayName": "R Y Y E",
+      "racesPlayed": 1078,
       "role": "member",
       "title": "Catty Wampus",
       "joinStamp": 1751081309,
-      "lastActivity": 1751266537,
-      "delta": 224
+      "lastActivity": 1751321984,
+      "delta": 241
     },
     {
       "username": "4399e7a571cf827be64b714c30c899ef",
@@ -156,12 +156,12 @@
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
-      "racesPlayed": 323,
+      "racesPlayed": 331,
       "role": "member",
       "title": "Millionaire",
       "joinStamp": 1750712571,
-      "lastActivity": 1751318234,
-      "delta": 122
+      "lastActivity": 1751319597,
+      "delta": 130
     },
     {
       "username": "96adbea38b59bc5d736244c73d479514",
@@ -176,12 +176,12 @@
     {
       "username": "a_normal_snake",
       "displayName": "-Snake-",
-      "racesPlayed": 3027,
+      "racesPlayed": 3049,
       "role": "member",
       "title": "I Love Dogs",
       "joinStamp": 1751144117,
-      "lastActivity": 1751297233,
-      "delta": 91
+      "lastActivity": 1751321921,
+      "delta": 113
     },
     {
       "username": "conquerer11k",
@@ -450,7 +450,7 @@
       "role": "member",
       "title": "Word Skipper",
       "joinStamp": 1751316121,
-      "lastActivity": 1751318341,
+      "lastActivity": 1751318531,
       "delta": 0
     }
   ]
