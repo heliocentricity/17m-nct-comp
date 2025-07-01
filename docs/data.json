@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 1, 2025 at 6:39 AM PDT",
+  "last_updated": "July 1, 2025 at 7:26 AM PDT",
   "board": [
     {
       "username": "abot8",
@@ -56,12 +56,12 @@
     {
       "username": "thecretor145",
       "displayName": "Trickster_illusoire",
-      "racesPlayed": 6218,
+      "racesPlayed": 6270,
       "role": "member",
       "title": "The Prankster",
       "joinStamp": 1750988885,
-      "lastActivity": 1751376583,
-      "delta": 1173
+      "lastActivity": 1751379492,
+      "delta": 1225
     },
     {
       "username": "aiy_infection",
