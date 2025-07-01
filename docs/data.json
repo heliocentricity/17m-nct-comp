@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "June 30, 2025 at 7:28 PM PDT",
+  "last_updated": "June 30, 2025 at 9:03 PM PDT",
   "board": [
     {
       "username": "abot8",
@@ -26,12 +26,12 @@
     {
       "username": "soccer791",
       "displayName": "Airborne",
-      "racesPlayed": 15225,
+      "racesPlayed": 15317,
       "role": "member",
       "title": "Acute Tinselitis",
       "joinStamp": 1750457551,
-      "lastActivity": 1751336370,
-      "delta": 1688
+      "lastActivity": 1751342135,
+      "delta": 1780
     },
     {
       "username": "aharama",
@@ -86,12 +86,12 @@
     {
       "username": "persionde",
       "displayName": "persionde",
-      "racesPlayed": 4433,
+      "racesPlayed": 4436,
       "role": "member",
       "title": ":D",
       "joinStamp": 1750984125,
-      "lastActivity": 1751336380,
-      "delta": 434
+      "lastActivity": 1751340190,
+      "delta": 437
     },
     {
       "username": "vioiynx",
@@ -106,22 +106,12 @@
     {
       "username": "ryyedawg7",
       "displayName": "R Y Y E",
-      "racesPlayed": 1150,
+      "racesPlayed": 1152,
       "role": "member",
       "title": "Catty Wampus",
       "joinStamp": 1751081309,
-      "lastActivity": 1751336346,
-      "delta": 313
-    },
-    {
-      "username": "cqvery",
-      "displayName": "cqvery",
-      "racesPlayed": 1631,
-      "role": "member",
-      "title": "Raw Racing Recruit",
-      "joinStamp": 1751071636,
-      "lastActivity": 1751260816,
-      "delta": 300
+      "lastActivity": 1751337022,
+      "delta": 315
     },
     {
       "username": "timmytimmy213",
@@ -194,6 +184,16 @@
       "delta": 69
     },
     {
+      "username": "viper_shot",
+      "displayName": "v1per_sh0t",
+      "racesPlayed": 5676,
+      "role": "member",
+      "title": "Legendary Lapper",
+      "joinStamp": 1747355208,
+      "lastActivity": 1751338337,
+      "delta": 64
+    },
+    {
       "username": "5fff3c41947a5b24ed13ddb1c73b1e55",
       "displayName": "ApricotIvoryFlea",
       "racesPlayed": 1312,
@@ -202,16 +202,6 @@
       "joinStamp": 1750794927,
       "lastActivity": 1751306745,
       "delta": 51
-    },
-    {
-      "username": "viper_shot",
-      "displayName": "v1per_sh0t",
-      "racesPlayed": 5661,
-      "role": "member",
-      "title": "Legendary Lapper",
-      "joinStamp": 1747355208,
-      "lastActivity": 1751334539,
-      "delta": 49
     },
     {
       "username": "vdgyertikopzefrgh",
