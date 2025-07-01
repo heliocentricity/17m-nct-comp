@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 1, 2025 at 12:28 AM PDT",
+  "last_updated": "July 1, 2025 at 1:36 AM PDT",
   "board": [
     {
       "username": "abot8",
@@ -36,12 +36,12 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 140625,
+      "racesPlayed": 140711,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1751354338,
-      "delta": 1429
+      "lastActivity": 1751358583,
+      "delta": 1515
     },
     {
       "username": "neiletsky",
@@ -116,12 +116,12 @@
     {
       "username": "timmytimmy213",
       "displayName": "timmytimmy213",
-      "racesPlayed": 4455,
+      "racesPlayed": 4485,
       "role": "officer",
       "title": "Champion Chaser",
       "joinStamp": 1743005762,
-      "lastActivity": 1751302680,
-      "delta": 243
+      "lastActivity": 1751357705,
+      "delta": 273
     },
     {
       "username": "a_normal_snake",
