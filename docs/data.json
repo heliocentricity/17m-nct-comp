@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 1, 2025 at 2:25 PM PDT",
+  "last_updated": "July 1, 2025 at 3:25 PM PDT",
   "board": [
     {
       "username": "abot8",
@@ -16,12 +16,12 @@
     {
       "username": "tryhardwillwork",
       "displayName": "Krowns",
-      "racesPlayed": 31257,
+      "racesPlayed": 31334,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1751404763,
-      "delta": 2482
+      "lastActivity": 1751408386,
+      "delta": 2559
     },
     {
       "username": "soccer791",
@@ -126,12 +126,12 @@
     {
       "username": "a_normal_snake",
       "displayName": "-Snake-",
-      "racesPlayed": 3188,
+      "racesPlayed": 3206,
       "role": "member",
       "title": "I Love Dogs",
       "joinStamp": 1751144117,
-      "lastActivity": 1751404706,
-      "delta": 252
+      "lastActivity": 1751407870,
+      "delta": 270
     },
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
@@ -224,6 +224,16 @@
       "delta": 48
     },
     {
+      "username": "8d225e93c28002e8f8a3d489a8b14bf9",
+      "displayName": "FoscoBurrows",
+      "racesPlayed": 11736,
+      "role": "member",
+      "title": "Potaytoes",
+      "joinStamp": 1751395286,
+      "lastActivity": 1751406557,
+      "delta": 44
+    },
+    {
       "username": "dianac128",
       "displayName": "ryiichu",
       "racesPlayed": 1802,
@@ -234,24 +244,14 @@
       "delta": 32
     },
     {
-      "username": "8d225e93c28002e8f8a3d489a8b14bf9",
-      "displayName": "FoscoBurrows",
-      "racesPlayed": 11720,
-      "role": "member",
-      "title": "Potaytoes",
-      "joinStamp": 1751395286,
-      "lastActivity": 1751404601,
-      "delta": 28
-    },
-    {
       "username": "be74ffff6b556a68cdccc087a63e6676",
       "displayName": "Scyphozoa64",
-      "racesPlayed": 113,
+      "racesPlayed": 116,
       "role": "member",
       "title": "Raw Racing Recruit",
       "joinStamp": 1751297409,
       "lastActivity": 1751374381,
-      "delta": 25
+      "delta": 28
     },
     {
       "username": "sumimyangel",
@@ -440,7 +440,7 @@
       "role": "member",
       "title": "[SKIPWRD]",
       "joinStamp": 1751402070,
-      "lastActivity": 1751404785,
+      "lastActivity": 1751404966,
       "delta": 0
     },
     {
