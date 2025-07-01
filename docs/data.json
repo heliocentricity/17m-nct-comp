@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 1, 2025 at 12:20 PM PDT",
+  "last_updated": "July 1, 2025 at 1:29 PM PDT",
   "board": [
     {
       "username": "abot8",
@@ -16,22 +16,22 @@
     {
       "username": "tryhardwillwork",
       "displayName": "Krowns",
-      "racesPlayed": 31234,
+      "racesPlayed": 31242,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1751396585,
-      "delta": 2459
+      "lastActivity": 1751399714,
+      "delta": 2467
     },
     {
       "username": "soccer791",
       "displayName": "Airborne",
-      "racesPlayed": 15360,
+      "racesPlayed": 15380,
       "role": "member",
       "title": "Acute Tinselitis",
       "joinStamp": 1750457551,
-      "lastActivity": 1751344505,
-      "delta": 1823
+      "lastActivity": 1751400046,
+      "delta": 1843
     },
     {
       "username": "aharama",
@@ -126,12 +126,12 @@
     {
       "username": "a_normal_snake",
       "displayName": "-Snake-",
-      "racesPlayed": 3170,
+      "racesPlayed": 3176,
       "role": "member",
       "title": "I Love Dogs",
       "joinStamp": 1751144117,
-      "lastActivity": 1751397511,
-      "delta": 234
+      "lastActivity": 1751400799,
+      "delta": 240
     },
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
@@ -206,12 +206,12 @@
     {
       "username": "ipayforyou",
       "displayName": "JoshoverYou",
-      "racesPlayed": 5728,
+      "racesPlayed": 5729,
       "role": "member",
       "title": "I Have Fans!",
       "joinStamp": 1751073187,
       "lastActivity": 1751389345,
-      "delta": 48
+      "delta": 49
     },
     {
       "username": "vdgyertikopzefrgh",
@@ -262,6 +262,16 @@
       "joinStamp": 1750994218,
       "lastActivity": 1751059135,
       "delta": 14
+    },
+    {
+      "username": "8d225e93c28002e8f8a3d489a8b14bf9",
+      "displayName": "FoscoBurrows",
+      "racesPlayed": 11701,
+      "role": "member",
+      "title": "Potaytoes",
+      "joinStamp": 1751395286,
+      "lastActivity": 1751399871,
+      "delta": 9
     },
     {
       "username": "theodorevue",
@@ -401,16 +411,6 @@
       "title": "Millionaire",
       "joinStamp": 1751000503,
       "lastActivity": 1751001720,
-      "delta": 0
-    },
-    {
-      "username": "8d225e93c28002e8f8a3d489a8b14bf9",
-      "displayName": "FoscoBurrows",
-      "racesPlayed": 11692,
-      "role": "member",
-      "title": "Potaytoes",
-      "joinStamp": 1751395286,
-      "lastActivity": 1751396483,
       "delta": 0
     },
     {
