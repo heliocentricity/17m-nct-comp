@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 2, 2025 at 4:13 PM PDT",
+  "last_updated": "July 2, 2025 at 4:27 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
       "displayName": "Krowns",
-      "racesPlayed": 31693,
+      "racesPlayed": 31707,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1751497759,
-      "delta": 2918
+      "lastActivity": 1751498351,
+      "delta": 2932
     },
     {
       "username": "abot8",
