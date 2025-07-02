@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 1, 2025 at 10:29 PM PDT",
+  "last_updated": "July 1, 2025 at 11:39 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -24,6 +24,16 @@
       "delta": 2679
     },
     {
+      "username": "aharama",
+      "displayName": "Aharama",
+      "racesPlayed": 141085,
+      "role": "member",
+      "title": "Emperor",
+      "joinStamp": 1751010739,
+      "lastActivity": 1751437771,
+      "delta": 1889
+    },
+    {
       "username": "soccer791",
       "displayName": "Airborne",
       "racesPlayed": 15389,
@@ -32,16 +42,6 @@
       "joinStamp": 1750457551,
       "lastActivity": 1751415677,
       "delta": 1852
-    },
-    {
-      "username": "aharama",
-      "displayName": "Aharama",
-      "racesPlayed": 140994,
-      "role": "member",
-      "title": "Emperor",
-      "joinStamp": 1751010739,
-      "lastActivity": 1751433579,
-      "delta": 1798
     },
     {
       "username": "neiletsky",
@@ -96,22 +96,22 @@
     {
       "username": "vioiynx",
       "displayName": "vioiynx",
-      "racesPlayed": 3619,
+      "racesPlayed": 3622,
       "role": "vicecaptain",
       "title": "Oh Em Gee!",
       "joinStamp": 1742509283,
-      "lastActivity": 1751396421,
-      "delta": 470
+      "lastActivity": 1751434444,
+      "delta": 473
     },
     {
       "username": "a_normal_snake",
       "displayName": "-Snake-",
-      "racesPlayed": 3328,
+      "racesPlayed": 3356,
       "role": "member",
       "title": "I Love Dogs",
       "joinStamp": 1751144117,
-      "lastActivity": 1751433579,
-      "delta": 392
+      "lastActivity": 1751437633,
+      "delta": 420
     },
     {
       "username": "ryyedawg7",
@@ -126,12 +126,12 @@
     {
       "username": "timmytimmy213",
       "displayName": "timmytimmy213",
-      "racesPlayed": 4504,
+      "racesPlayed": 4526,
       "role": "officer",
       "title": "Champion Chaser",
       "joinStamp": 1743005762,
-      "lastActivity": 1751396064,
-      "delta": 292
+      "lastActivity": 1751437050,
+      "delta": 314
     },
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
