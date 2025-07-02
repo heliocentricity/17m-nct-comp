@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 2, 2025 at 7:27 AM PDT",
+  "last_updated": "July 2, 2025 at 8:29 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -74,24 +74,14 @@
       "delta": 626
     },
     {
-      "username": "definitelynotdre",
-      "displayName": "Sharpe",
-      "racesPlayed": 1195,
-      "role": "member",
-      "title": "Oh Em Gee!",
-      "joinStamp": 1751235889,
-      "lastActivity": 1751392098,
-      "delta": 532
-    },
-    {
       "username": "persionde",
       "displayName": "persionde",
-      "racesPlayed": 4497,
+      "racesPlayed": 4503,
       "role": "member",
       "title": ":D",
       "joinStamp": 1750984125,
       "lastActivity": 1751430147,
-      "delta": 498
+      "delta": 504
     },
     {
       "username": "vioiynx",
@@ -136,12 +126,12 @@
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
-      "racesPlayed": 370,
+      "racesPlayed": 373,
       "role": "member",
       "title": "Millionaire",
       "joinStamp": 1750712571,
-      "lastActivity": 1751393870,
-      "delta": 169
+      "lastActivity": 1751468789,
+      "delta": 172
     },
     {
       "username": "4399e7a571cf827be64b714c30c899ef",
@@ -176,12 +166,12 @@
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
       "displayName": "FoscoBurrows",
-      "racesPlayed": 11773,
+      "racesPlayed": 11782,
       "role": "member",
       "title": "Potaytoes",
       "joinStamp": 1751395286,
-      "lastActivity": 1751465971,
-      "delta": 81
+      "lastActivity": 1751469560,
+      "delta": 90
     },
     {
       "username": "ipayforyou",
