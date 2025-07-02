@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 2, 2025 at 8:29 AM PDT",
+  "last_updated": "July 2, 2025 at 9:35 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -26,12 +26,12 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 141305,
+      "racesPlayed": 141325,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1751457822,
-      "delta": 2109
+      "lastActivity": 1751472765,
+      "delta": 2129
     },
     {
       "username": "soccer791",
@@ -56,12 +56,12 @@
     {
       "username": "thecretor145",
       "displayName": "Trickster_illusoire",
-      "racesPlayed": 6412,
+      "racesPlayed": 6413,
       "role": "member",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1751464566,
-      "delta": 1367
+      "lastActivity": 1751471544,
+      "delta": 1368
     },
     {
       "username": "aiy_infection",
@@ -74,14 +74,24 @@
       "delta": 626
     },
     {
+      "username": "sumitghag",
+      "displayName": "SumitGhag",
+      "racesPlayed": 23667,
+      "role": "member",
+      "title": "Novice Navigator",
+      "joinStamp": 1751471886,
+      "lastActivity": 1751472404,
+      "delta": 607
+    },
+    {
       "username": "persionde",
       "displayName": "persionde",
-      "racesPlayed": 4503,
+      "racesPlayed": 4526,
       "role": "member",
       "title": ":D",
       "joinStamp": 1750984125,
-      "lastActivity": 1751430147,
-      "delta": 504
+      "lastActivity": 1751471765,
+      "delta": 527
     },
     {
       "username": "vioiynx",
@@ -166,12 +176,12 @@
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
       "displayName": "FoscoBurrows",
-      "racesPlayed": 11782,
+      "racesPlayed": 11784,
       "role": "member",
       "title": "Potaytoes",
       "joinStamp": 1751395286,
-      "lastActivity": 1751469560,
-      "delta": 90
+      "lastActivity": 1751470371,
+      "delta": 92
     },
     {
       "username": "ipayforyou",
