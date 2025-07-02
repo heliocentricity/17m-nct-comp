@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 2, 2025 at 3:30 AM PDT",
+  "last_updated": "July 2, 2025 at 4:24 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -66,12 +66,12 @@
     {
       "username": "aiy_infection",
       "displayName": "icarus",
-      "racesPlayed": 10553,
+      "racesPlayed": 10555,
       "role": "captain",
       "title": "Drift Queen",
       "joinStamp": 1742486554,
-      "lastActivity": 1751254617,
-      "delta": 543
+      "lastActivity": 1751455181,
+      "delta": 545
     },
     {
       "username": "definitelynotdre",
