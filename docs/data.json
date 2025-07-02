@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 2, 2025 at 9:35 AM PDT",
+  "last_updated": "July 2, 2025 at 10:25 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -136,12 +136,12 @@
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
-      "racesPlayed": 373,
+      "racesPlayed": 374,
       "role": "member",
       "title": "Millionaire",
       "joinStamp": 1750712571,
-      "lastActivity": 1751468789,
-      "delta": 172
+      "lastActivity": 1751474825,
+      "delta": 173
     },
     {
       "username": "4399e7a571cf827be64b714c30c899ef",
@@ -176,12 +176,12 @@
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
       "displayName": "FoscoBurrows",
-      "racesPlayed": 11784,
+      "racesPlayed": 11796,
       "role": "member",
       "title": "Potaytoes",
       "joinStamp": 1751395286,
-      "lastActivity": 1751470371,
-      "delta": 92
+      "lastActivity": 1751476155,
+      "delta": 104
     },
     {
       "username": "ipayforyou",
