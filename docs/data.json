@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 2, 2025 at 4:04 PM PDT",
+  "last_updated": "July 2, 2025 at 4:13 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
       "displayName": "Krowns",
-      "racesPlayed": 31684,
+      "racesPlayed": 31693,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1751497182,
-      "delta": 2909
+      "lastActivity": 1751497759,
+      "delta": 2918
     },
     {
       "username": "abot8",
@@ -51,7 +51,7 @@
       "title": "The Prankster",
       "joinStamp": 1751390680,
       "lastActivity": 1751496482,
-      "delta": 2077
+      "delta": 2065
     },
     {
       "username": "neiletsky",
@@ -90,7 +90,7 @@
       "role": "member",
       "title": ":D",
       "joinStamp": 1750984125,
-      "lastActivity": 1751489827,
+      "lastActivity": 1751497203,
       "delta": 564
     },
     {
