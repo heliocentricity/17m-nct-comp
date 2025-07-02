@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 2, 2025 at 10:25 AM PDT",
+  "last_updated": "July 2, 2025 at 11:38 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -36,12 +36,12 @@
     {
       "username": "soccer791",
       "displayName": "Airborne",
-      "racesPlayed": 15403,
+      "racesPlayed": 15422,
       "role": "member",
       "title": "Acute Tinselitis",
       "joinStamp": 1750457551,
-      "lastActivity": 1751442754,
-      "delta": 1866
+      "lastActivity": 1751480334,
+      "delta": 1885
     },
     {
       "username": "neiletsky",
@@ -136,12 +136,12 @@
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
-      "racesPlayed": 374,
+      "racesPlayed": 377,
       "role": "member",
       "title": "Millionaire",
       "joinStamp": 1750712571,
-      "lastActivity": 1751474825,
-      "delta": 173
+      "lastActivity": 1751478868,
+      "delta": 176
     },
     {
       "username": "4399e7a571cf827be64b714c30c899ef",
@@ -164,6 +164,16 @@
       "delta": 141
     },
     {
+      "username": "8d225e93c28002e8f8a3d489a8b14bf9",
+      "displayName": "FoscoBurrows",
+      "racesPlayed": 11808,
+      "role": "member",
+      "title": "Potaytoes",
+      "joinStamp": 1751395286,
+      "lastActivity": 1751480396,
+      "delta": 116
+    },
+    {
       "username": "96adbea38b59bc5d736244c73d479514",
       "displayName": "Pineapple",
       "racesPlayed": 4445,
@@ -172,16 +182,6 @@
       "joinStamp": 1750984670,
       "lastActivity": 1751207385,
       "delta": 115
-    },
-    {
-      "username": "8d225e93c28002e8f8a3d489a8b14bf9",
-      "displayName": "FoscoBurrows",
-      "racesPlayed": 11796,
-      "role": "member",
-      "title": "Potaytoes",
-      "joinStamp": 1751395286,
-      "lastActivity": 1751476155,
-      "delta": 104
     },
     {
       "username": "ipayforyou",
@@ -234,6 +234,16 @@
       "delta": 48
     },
     {
+      "username": "be74ffff6b556a68cdccc087a63e6676",
+      "displayName": "Scyphozoa64",
+      "racesPlayed": 124,
+      "role": "member",
+      "title": "Raw Racing Recruit",
+      "joinStamp": 1751297409,
+      "lastActivity": 1751477932,
+      "delta": 36
+    },
+    {
       "username": "dianac128",
       "displayName": "ryiichu",
       "racesPlayed": 1802,
@@ -241,16 +251,6 @@
       "title": "A E S T H E T I C",
       "joinStamp": 1750468101,
       "lastActivity": 1751327487,
-      "delta": 32
-    },
-    {
-      "username": "be74ffff6b556a68cdccc087a63e6676",
-      "displayName": "Scyphozoa64",
-      "racesPlayed": 120,
-      "role": "member",
-      "title": "Raw Racing Recruit",
-      "joinStamp": 1751297409,
-      "lastActivity": 1751410447,
       "delta": 32
     },
     {
