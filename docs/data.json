@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 1, 2025 at 9:36 PM PDT",
+  "last_updated": "July 1, 2025 at 10:29 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -36,12 +36,12 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 140924,
+      "racesPlayed": 140994,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1751430554,
-      "delta": 1728
+      "lastActivity": 1751433579,
+      "delta": 1798
     },
     {
       "username": "neiletsky",
@@ -96,12 +96,22 @@
     {
       "username": "vioiynx",
       "displayName": "vioiynx",
-      "racesPlayed": 3612,
+      "racesPlayed": 3619,
       "role": "vicecaptain",
       "title": "Oh Em Gee!",
       "joinStamp": 1742509283,
       "lastActivity": 1751396421,
-      "delta": 463
+      "delta": 470
+    },
+    {
+      "username": "a_normal_snake",
+      "displayName": "-Snake-",
+      "racesPlayed": 3328,
+      "role": "member",
+      "title": "I Love Dogs",
+      "joinStamp": 1751144117,
+      "lastActivity": 1751433579,
+      "delta": 392
     },
     {
       "username": "ryyedawg7",
@@ -112,16 +122,6 @@
       "joinStamp": 1751081309,
       "lastActivity": 1751422724,
       "delta": 391
-    },
-    {
-      "username": "a_normal_snake",
-      "displayName": "-Snake-",
-      "racesPlayed": 3311,
-      "role": "member",
-      "title": "I Love Dogs",
-      "joinStamp": 1751144117,
-      "lastActivity": 1751430563,
-      "delta": 375
     },
     {
       "username": "timmytimmy213",
