@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 3, 2025 at 3:25 PM PDT",
+  "last_updated": "July 3, 2025 at 4:25 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -36,12 +36,12 @@
     {
       "username": "thecretor145",
       "displayName": "Trickster illusoire",
-      "racesPlayed": 6538,
+      "racesPlayed": 6560,
       "role": "member",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1751564693,
-      "delta": 2178
+      "lastActivity": 1751583779,
+      "delta": 2200
     },
     {
       "username": "neiletsky",
@@ -144,6 +144,16 @@
       "delta": 294
     },
     {
+      "username": "gw2iscoollol",
+      "displayName": "Leqlerc",
+      "racesPlayed": 6398,
+      "role": "member",
+      "title": "Nitro Burnout",
+      "joinStamp": 1750448154,
+      "lastActivity": 1751583212,
+      "delta": 193
+    },
+    {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
       "racesPlayed": 377,
@@ -152,16 +162,6 @@
       "joinStamp": 1750712571,
       "lastActivity": 1751478868,
       "delta": 176
-    },
-    {
-      "username": "gw2iscoollol",
-      "displayName": "Leqlerc",
-      "racesPlayed": 6373,
-      "role": "member",
-      "title": "Nitro Burnout",
-      "joinStamp": 1750448154,
-      "lastActivity": 1751576982,
-      "delta": 168
     },
     {
       "username": "4399e7a571cf827be64b714c30c899ef",
