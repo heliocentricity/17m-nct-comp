@@ -1,11 +1,11 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 3, 2025 at 10:25 AM PDT",
+  "last_updated": "July 3, 2025 at 11:37 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
-      "displayName": "Krowns",
+      "displayName": "Imperator",
       "racesPlayed": 31801,
       "role": "officer",
       "title": "Imperator",
@@ -36,22 +36,22 @@
     {
       "username": "thecretor145",
       "displayName": "Trickster illusoire",
-      "racesPlayed": 6516,
+      "racesPlayed": 6538,
       "role": "member",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1751562174,
-      "delta": 2156
+      "lastActivity": 1751564693,
+      "delta": 2178
     },
     {
       "username": "neiletsky",
       "displayName": "NoLimit",
-      "racesPlayed": 12161,
+      "racesPlayed": 12177,
       "role": "vicecaptain",
       "title": "Speed Demon",
       "joinStamp": 1744741826,
-      "lastActivity": 1751563176,
-      "delta": 1671
+      "lastActivity": 1751564970,
+      "delta": 1687
     },
     {
       "username": "aiy_infection",
@@ -126,22 +126,22 @@
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
       "displayName": "Scyphozoa64",
-      "racesPlayed": 435,
+      "racesPlayed": 438,
       "role": "member",
       "title": "I Love Nitros",
       "joinStamp": 1751297409,
       "lastActivity": 1751560349,
-      "delta": 347
+      "delta": 350
     },
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
       "displayName": "FoscoBurrows",
-      "racesPlayed": 11874,
+      "racesPlayed": 11941,
       "role": "member",
       "title": "Potaytoes",
       "joinStamp": 1751395286,
-      "lastActivity": 1751557549,
-      "delta": 182
+      "lastActivity": 1751567369,
+      "delta": 249
     },
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
@@ -196,12 +196,12 @@
     {
       "username": "ipayforyou",
       "displayName": "JoshoverYou",
-      "racesPlayed": 5756,
+      "racesPlayed": 5760,
       "role": "member",
       "title": "I Have Fans!",
       "joinStamp": 1751073187,
-      "lastActivity": 1751499199,
-      "delta": 76
+      "lastActivity": 1751566361,
+      "delta": 80
     },
     {
       "username": "viper_shot",
