@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 2, 2025 at 4:53 PM PDT",
+  "last_updated": "July 2, 2025 at 7:12 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
       "displayName": "Krowns",
-      "racesPlayed": 31724,
+      "racesPlayed": 31801,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1751499804,
-      "delta": 2949
+      "lastActivity": 1751508358,
+      "delta": 3026
     },
     {
       "username": "abot8",
@@ -35,7 +35,7 @@
     },
     {
       "username": "soccer791",
-      "displayName": "Airborne",
+      "displayName": "trickster is losing",
       "racesPlayed": 15640,
       "role": "member",
       "title": "Acute Tinselitis",
@@ -45,13 +45,13 @@
     },
     {
       "username": "thecretor145",
-      "displayName": "Trickster_illusoire",
-      "racesPlayed": 6426,
+      "displayName": "airborne gonna lose",
+      "racesPlayed": 6427,
       "role": "member",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1751496482,
-      "delta": 2066
+      "lastActivity": 1751500401,
+      "delta": 2067
     },
     {
       "username": "neiletsky",
@@ -86,22 +86,22 @@
     {
       "username": "persionde",
       "displayName": "persionde",
-      "racesPlayed": 4564,
+      "racesPlayed": 4577,
       "role": "member",
       "title": ":D",
       "joinStamp": 1750984125,
-      "lastActivity": 1751500018,
-      "delta": 565
+      "lastActivity": 1751504499,
+      "delta": 578
     },
     {
       "username": "vioiynx",
       "displayName": "vioiynx",
-      "racesPlayed": 3622,
+      "racesPlayed": 3701,
       "role": "vicecaptain",
       "title": "Oh Em Gee!",
       "joinStamp": 1742509283,
-      "lastActivity": 1751434444,
-      "delta": 473
+      "lastActivity": 1751507157,
+      "delta": 552
     },
     {
       "username": "a_normal_snake",
@@ -152,6 +152,16 @@
       "joinStamp": 1748723201,
       "lastActivity": 1751491351,
       "delta": 153
+    },
+    {
+      "username": "be74ffff6b556a68cdccc087a63e6676",
+      "displayName": "Scyphozoa64",
+      "racesPlayed": 234,
+      "role": "member",
+      "title": "I Hate Words",
+      "joinStamp": 1751297409,
+      "lastActivity": 1751508244,
+      "delta": 146
     },
     {
       "username": "gw2iscoollol",
@@ -232,16 +242,6 @@
       "joinStamp": 1742927144,
       "lastActivity": 1751202476,
       "delta": 48
-    },
-    {
-      "username": "be74ffff6b556a68cdccc087a63e6676",
-      "displayName": "Scyphozoa64",
-      "racesPlayed": 126,
-      "role": "member",
-      "title": "Raw Racing Recruit",
-      "joinStamp": 1751297409,
-      "lastActivity": 1751485570,
-      "delta": 38
     },
     {
       "username": "dianac128",
