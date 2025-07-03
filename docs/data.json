@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 3, 2025 at 9:33 AM PDT",
+  "last_updated": "July 3, 2025 at 10:25 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -35,23 +35,23 @@
     },
     {
       "username": "thecretor145",
-      "displayName": "MysticVortex",
-      "racesPlayed": 6502,
+      "displayName": "Trickster illusoire",
+      "racesPlayed": 6516,
       "role": "member",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1751559216,
-      "delta": 2142
+      "lastActivity": 1751562174,
+      "delta": 2156
     },
     {
       "username": "neiletsky",
       "displayName": "NoLimit",
-      "racesPlayed": 12109,
+      "racesPlayed": 12161,
       "role": "vicecaptain",
       "title": "Speed Demon",
       "joinStamp": 1744741826,
-      "lastActivity": 1751530208,
-      "delta": 1619
+      "lastActivity": 1751563176,
+      "delta": 1671
     },
     {
       "username": "aiy_infection",
@@ -130,7 +130,7 @@
       "role": "member",
       "title": "I Love Nitros",
       "joinStamp": 1751297409,
-      "lastActivity": 1751558314,
+      "lastActivity": 1751560349,
       "delta": 347
     },
     {
