@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 3, 2025 at 7:26 AM PDT",
+  "last_updated": "July 3, 2025 at 8:29 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -36,12 +36,12 @@
     {
       "username": "thecretor145",
       "displayName": "MysticVortex",
-      "racesPlayed": 6442,
+      "racesPlayed": 6469,
       "role": "member",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1751552370,
-      "delta": 2082
+      "lastActivity": 1751555970,
+      "delta": 2109
     },
     {
       "username": "neiletsky",
@@ -66,22 +66,22 @@
     {
       "username": "sumitghag",
       "displayName": "SumitGhag",
-      "racesPlayed": 23668,
+      "racesPlayed": 23688,
       "role": "member",
       "title": "Novice Navigator",
       "joinStamp": 1751471886,
-      "lastActivity": 1751547781,
-      "delta": 608
+      "lastActivity": 1751554603,
+      "delta": 628
     },
     {
       "username": "persionde",
       "displayName": "persionde",
-      "racesPlayed": 4585,
+      "racesPlayed": 4608,
       "role": "member",
       "title": ":D",
       "joinStamp": 1750984125,
-      "lastActivity": 1751518732,
-      "delta": 586
+      "lastActivity": 1751555954,
+      "delta": 609
     },
     {
       "username": "vioiynx",
@@ -134,6 +134,16 @@
       "delta": 311
     },
     {
+      "username": "8d225e93c28002e8f8a3d489a8b14bf9",
+      "displayName": "FoscoBurrows",
+      "racesPlayed": 11872,
+      "role": "member",
+      "title": "Potaytoes",
+      "joinStamp": 1751395286,
+      "lastActivity": 1751554738,
+      "delta": 180
+    },
+    {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
       "racesPlayed": 377,
@@ -142,16 +152,6 @@
       "joinStamp": 1750712571,
       "lastActivity": 1751478868,
       "delta": 176
-    },
-    {
-      "username": "8d225e93c28002e8f8a3d489a8b14bf9",
-      "displayName": "FoscoBurrows",
-      "racesPlayed": 11867,
-      "role": "member",
-      "title": "Potaytoes",
-      "joinStamp": 1751395286,
-      "lastActivity": 1751552125,
-      "delta": 175
     },
     {
       "username": "gw2iscoollol",
