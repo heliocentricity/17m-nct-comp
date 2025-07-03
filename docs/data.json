@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 3, 2025 at 5:54 AM PDT",
+  "last_updated": "July 3, 2025 at 6:37 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -56,22 +56,22 @@
     {
       "username": "aiy_infection",
       "displayName": "icarus",
-      "racesPlayed": 10694,
+      "racesPlayed": 10707,
       "role": "captain",
       "title": "Drift Queen",
       "joinStamp": 1742486554,
-      "lastActivity": 1751545903,
-      "delta": 684
+      "lastActivity": 1751548702,
+      "delta": 697
     },
     {
       "username": "sumitghag",
       "displayName": "SumitGhag",
-      "racesPlayed": 23667,
+      "racesPlayed": 23668,
       "role": "member",
       "title": "Novice Navigator",
       "joinStamp": 1751471886,
-      "lastActivity": 1751472404,
-      "delta": 607
+      "lastActivity": 1751547781,
+      "delta": 608
     },
     {
       "username": "persionde",
@@ -154,6 +154,16 @@
       "delta": 160
     },
     {
+      "username": "8d225e93c28002e8f8a3d489a8b14bf9",
+      "displayName": "FoscoBurrows",
+      "racesPlayed": 11850,
+      "role": "member",
+      "title": "Potaytoes",
+      "joinStamp": 1751395286,
+      "lastActivity": 1751549362,
+      "delta": 158
+    },
+    {
       "username": "4399e7a571cf827be64b714c30c899ef",
       "displayName": "FuchsiaAzureCougar",
       "racesPlayed": 535,
@@ -162,16 +172,6 @@
       "joinStamp": 1748723201,
       "lastActivity": 1751491351,
       "delta": 153
-    },
-    {
-      "username": "8d225e93c28002e8f8a3d489a8b14bf9",
-      "displayName": "FoscoBurrows",
-      "racesPlayed": 11825,
-      "role": "member",
-      "title": "Potaytoes",
-      "joinStamp": 1751395286,
-      "lastActivity": 1751485999,
-      "delta": 133
     },
     {
       "username": "96adbea38b59bc5d736244c73d479514",
