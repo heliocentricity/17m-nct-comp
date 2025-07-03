@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 3, 2025 at 4:23 AM PDT",
+  "last_updated": "July 3, 2025 at 5:54 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -56,12 +56,12 @@
     {
       "username": "aiy_infection",
       "displayName": "icarus",
-      "racesPlayed": 10654,
+      "racesPlayed": 10694,
       "role": "captain",
       "title": "Drift Queen",
       "joinStamp": 1742486554,
-      "lastActivity": 1751541559,
-      "delta": 644
+      "lastActivity": 1751545903,
+      "delta": 684
     },
     {
       "username": "sumitghag",
@@ -126,12 +126,12 @@
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
       "displayName": "Scyphozoa64",
-      "racesPlayed": 360,
+      "racesPlayed": 399,
       "role": "member",
       "title": "I Love Nitros",
       "joinStamp": 1751297409,
-      "lastActivity": 1751519924,
-      "delta": 272
+      "lastActivity": 1751545716,
+      "delta": 311
     },
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
@@ -311,16 +311,6 @@
       "title": "Eternal Spring",
       "joinStamp": 1745209661,
       "lastActivity": 1750738904,
-      "delta": 0
-    },
-    {
-      "username": "fatearlobe2020v",
-      "displayName": "iliekchez29",
-      "racesPlayed": 4185,
-      "role": "member",
-      "title": "Vroooom?",
-      "joinStamp": 1751053524,
-      "lastActivity": 0,
       "delta": 0
     },
     {
