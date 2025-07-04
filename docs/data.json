@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 4, 2025 at 2:24 PM PDT",
+  "last_updated": "July 4, 2025 at 3:26 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -36,12 +36,12 @@
     {
       "username": "thecretor145",
       "displayName": "Trickster illusoire",
-      "racesPlayed": 6679,
+      "racesPlayed": 6697,
       "role": "member",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1751663962,
-      "delta": 2319
+      "lastActivity": 1751665654,
+      "delta": 2337
     },
     {
       "username": "neiletsky",
@@ -114,6 +114,16 @@
       "delta": 429
     },
     {
+      "username": "ryyedawg7",
+      "displayName": "R Y Y E",
+      "racesPlayed": 1254,
+      "role": "member",
+      "title": "wow. such gifting",
+      "joinStamp": 1751081309,
+      "lastActivity": 1751667586,
+      "delta": 417
+    },
+    {
       "username": "timmytimmy213",
       "displayName": "timmytimmy213",
       "racesPlayed": 4627,
@@ -122,16 +132,6 @@
       "joinStamp": 1743005762,
       "lastActivity": 1751644511,
       "delta": 415
-    },
-    {
-      "username": "ryyedawg7",
-      "displayName": "R Y Y E",
-      "racesPlayed": 1242,
-      "role": "member",
-      "title": "wow. such gifting",
-      "joinStamp": 1751081309,
-      "lastActivity": 1751522553,
-      "delta": 405
     },
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
@@ -214,6 +214,16 @@
       "delta": 64
     },
     {
+      "username": "insanity12354",
+      "displayName": "insanity12354",
+      "racesPlayed": 8341,
+      "role": "member",
+      "title": "Fast and Flora",
+      "joinStamp": 1751588612,
+      "lastActivity": 1751666115,
+      "delta": 57
+    },
+    {
       "username": "5fff3c41947a5b24ed13ddb1c73b1e55",
       "displayName": "ApricotIvoryFlea",
       "racesPlayed": 1313,
@@ -222,16 +232,6 @@
       "joinStamp": 1750794927,
       "lastActivity": 1751347990,
       "delta": 52
-    },
-    {
-      "username": "insanity12354",
-      "displayName": "insanity12354",
-      "racesPlayed": 8334,
-      "role": "member",
-      "title": "Fast and Flora",
-      "joinStamp": 1751588612,
-      "lastActivity": 1751663980,
-      "delta": 50
     },
     {
       "username": "vdgyertikopzefrgh",
