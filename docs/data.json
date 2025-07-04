@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 3, 2025 at 4:25 PM PDT",
+  "last_updated": "July 3, 2025 at 7:09 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
       "displayName": "Imperator",
-      "racesPlayed": 31801,
+      "racesPlayed": 31805,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1751508600,
-      "delta": 3026
+      "lastActivity": 1751587474,
+      "delta": 3030
     },
     {
       "username": "abot8",
@@ -331,6 +331,16 @@
       "title": "Green Streak",
       "joinStamp": 1743434481,
       "lastActivity": 1747658119,
+      "delta": 0
+    },
+    {
+      "username": "insanity12354",
+      "displayName": "insanity12354",
+      "racesPlayed": 8284,
+      "role": "member",
+      "title": "Fast and Flora",
+      "joinStamp": 1751588612,
+      "lastActivity": 1751589034,
       "delta": 0
     },
     {
