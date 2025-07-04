@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 4, 2025 at 7:26 AM PDT",
+  "last_updated": "July 4, 2025 at 8:27 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -26,12 +26,12 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 141590,
+      "racesPlayed": 141600,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1751638449,
-      "delta": 2394
+      "lastActivity": 1751641585,
+      "delta": 2404
     },
     {
       "username": "thecretor145",
@@ -114,24 +114,24 @@
       "delta": 405
     },
     {
-      "username": "be74ffff6b556a68cdccc087a63e6676",
-      "displayName": "Scyphozoa64",
-      "racesPlayed": 469,
-      "role": "member",
-      "title": "I Love Nitros",
-      "joinStamp": 1751297409,
-      "lastActivity": 1751638791,
-      "delta": 381
-    },
-    {
       "username": "timmytimmy213",
       "displayName": "timmytimmy213",
-      "racesPlayed": 4586,
+      "racesPlayed": 4611,
       "role": "officer",
       "title": "Champion Chaser",
       "joinStamp": 1743005762,
-      "lastActivity": 1751623076,
-      "delta": 374
+      "lastActivity": 1751640961,
+      "delta": 399
+    },
+    {
+      "username": "be74ffff6b556a68cdccc087a63e6676",
+      "displayName": "Scyphozoa64",
+      "racesPlayed": 483,
+      "role": "member",
+      "title": "I Love Nitros",
+      "joinStamp": 1751297409,
+      "lastActivity": 1751640989,
+      "delta": 395
     },
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
@@ -156,12 +156,12 @@
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
-      "racesPlayed": 379,
+      "racesPlayed": 384,
       "role": "member",
       "title": "Millionaire",
       "joinStamp": 1750712571,
-      "lastActivity": 1751638150,
-      "delta": 178
+      "lastActivity": 1751641625,
+      "delta": 183
     },
     {
       "username": "4399e7a571cf827be64b714c30c899ef",
