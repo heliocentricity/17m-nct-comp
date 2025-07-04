@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 3, 2025 at 8:53 PM PDT",
+  "last_updated": "July 3, 2025 at 9:36 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -66,12 +66,12 @@
     {
       "username": "sumitghag",
       "displayName": "SumitGhag",
-      "racesPlayed": 23701,
+      "racesPlayed": 23704,
       "role": "member",
       "title": "Novice Navigator",
       "joinStamp": 1751471886,
-      "lastActivity": 1751559098,
-      "delta": 641
+      "lastActivity": 1751602481,
+      "delta": 644
     },
     {
       "username": "persionde",
@@ -264,6 +264,16 @@
       "delta": 13
     },
     {
+      "username": "insanity12354",
+      "displayName": "insanity12354",
+      "racesPlayed": 8289,
+      "role": "member",
+      "title": "Fast and Flora",
+      "joinStamp": 1751588612,
+      "lastActivity": 1751602342,
+      "delta": 5
+    },
+    {
       "username": "1400dgloo",
       "displayName": "1400dgloo",
       "racesPlayed": 610,
@@ -331,16 +341,6 @@
       "title": "Green Streak",
       "joinStamp": 1743434481,
       "lastActivity": 1747658119,
-      "delta": 0
-    },
-    {
-      "username": "insanity12354",
-      "displayName": "insanity12354",
-      "racesPlayed": 8284,
-      "role": "member",
-      "title": "Fast and Flora",
-      "joinStamp": 1751588612,
-      "lastActivity": 1751589034,
       "delta": 0
     },
     {
