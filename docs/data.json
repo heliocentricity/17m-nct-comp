@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 4, 2025 at 12:28 AM PDT",
+  "last_updated": "July 4, 2025 at 1:35 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -46,22 +46,22 @@
     {
       "username": "neiletsky",
       "displayName": "ResourcefulSapphireFish",
-      "racesPlayed": 12295,
+      "racesPlayed": 12377,
       "role": "vicecaptain",
       "title": "Speed Demon",
       "joinStamp": 1744741826,
-      "lastActivity": 1751613574,
-      "delta": 1805
+      "lastActivity": 1751617607,
+      "delta": 1887
     },
     {
       "username": "sumitghag",
       "displayName": "SumitGhag",
-      "racesPlayed": 23772,
+      "racesPlayed": 23777,
       "role": "member",
       "title": "Novice Navigator",
       "joinStamp": 1751471886,
-      "lastActivity": 1751613576,
-      "delta": 712
+      "lastActivity": 1751614346,
+      "delta": 717
     },
     {
       "username": "aiy_infection",
