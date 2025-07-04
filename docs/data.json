@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 3, 2025 at 9:36 PM PDT",
+  "last_updated": "July 3, 2025 at 10:29 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -66,12 +66,12 @@
     {
       "username": "sumitghag",
       "displayName": "SumitGhag",
-      "racesPlayed": 23704,
+      "racesPlayed": 23728,
       "role": "member",
       "title": "Novice Navigator",
       "joinStamp": 1751471886,
-      "lastActivity": 1751602481,
-      "delta": 644
+      "lastActivity": 1751605164,
+      "delta": 668
     },
     {
       "username": "persionde",
