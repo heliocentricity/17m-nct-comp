@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 4, 2025 at 6:36 AM PDT",
+  "last_updated": "July 4, 2025 at 7:26 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -26,12 +26,12 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 141563,
+      "racesPlayed": 141590,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1751600941,
-      "delta": 2367
+      "lastActivity": 1751638449,
+      "delta": 2394
     },
     {
       "username": "thecretor145",
@@ -50,18 +50,18 @@
       "role": "vicecaptain",
       "title": "Speed Demon",
       "joinStamp": 1744741826,
-      "lastActivity": 1751635563,
+      "lastActivity": 1751636177,
       "delta": 1964
     },
     {
       "username": "sumitghag",
       "displayName": "SumitGhag",
-      "racesPlayed": 23793,
+      "racesPlayed": 23803,
       "role": "member",
-      "title": "Novice Navigator",
+      "title": "Ultimate Racer",
       "joinStamp": 1751471886,
-      "lastActivity": 1751632322,
-      "delta": 733
+      "lastActivity": 1751638773,
+      "delta": 743
     },
     {
       "username": "aiy_infection",
@@ -114,6 +114,16 @@
       "delta": 405
     },
     {
+      "username": "be74ffff6b556a68cdccc087a63e6676",
+      "displayName": "Scyphozoa64",
+      "racesPlayed": 469,
+      "role": "member",
+      "title": "I Love Nitros",
+      "joinStamp": 1751297409,
+      "lastActivity": 1751638791,
+      "delta": 381
+    },
+    {
       "username": "timmytimmy213",
       "displayName": "timmytimmy213",
       "racesPlayed": 4586,
@@ -122,16 +132,6 @@
       "joinStamp": 1743005762,
       "lastActivity": 1751623076,
       "delta": 374
-    },
-    {
-      "username": "be74ffff6b556a68cdccc087a63e6676",
-      "displayName": "Scyphozoa64",
-      "racesPlayed": 444,
-      "role": "member",
-      "title": "I Love Nitros",
-      "joinStamp": 1751297409,
-      "lastActivity": 1751569713,
-      "delta": 356
     },
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
@@ -156,12 +156,12 @@
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
-      "racesPlayed": 377,
+      "racesPlayed": 379,
       "role": "member",
       "title": "Millionaire",
       "joinStamp": 1750712571,
-      "lastActivity": 1751478868,
-      "delta": 176
+      "lastActivity": 1751638150,
+      "delta": 178
     },
     {
       "username": "4399e7a571cf827be64b714c30c899ef",
