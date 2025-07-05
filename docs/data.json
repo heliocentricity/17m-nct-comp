@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 5, 2025 at 4:20 AM PDT",
+  "last_updated": "July 5, 2025 at 5:51 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -46,32 +46,32 @@
     {
       "username": "neiletsky",
       "displayName": "ResourcefulSapphireFish",
-      "racesPlayed": 12769,
+      "racesPlayed": 12804,
       "role": "vicecaptain",
       "title": "Speed Demon",
       "joinStamp": 1744741826,
-      "lastActivity": 1751705748,
-      "delta": 2279
-    },
-    {
-      "username": "aiy_infection",
-      "displayName": "icarus",
-      "racesPlayed": 10909,
-      "role": "captain",
-      "title": "Drift Queen",
-      "joinStamp": 1742486554,
-      "lastActivity": 1751705672,
-      "delta": 899
+      "lastActivity": 1751719773,
+      "delta": 2314
     },
     {
       "username": "sumitghag",
       "displayName": "SumitGhag",
-      "racesPlayed": 23941,
+      "racesPlayed": 23968,
       "role": "member",
-      "title": "Pro Pacer",
+      "title": "Unstoppable",
       "joinStamp": 1751471886,
-      "lastActivity": 1751700823,
-      "delta": 881
+      "lastActivity": 1751718164,
+      "delta": 908
+    },
+    {
+      "username": "aiy_infection",
+      "displayName": "icarus",
+      "racesPlayed": 10916,
+      "role": "captain",
+      "title": "Drift Queen",
+      "joinStamp": 1742486554,
+      "lastActivity": 1751719754,
+      "delta": 906
     },
     {
       "username": "persionde",
