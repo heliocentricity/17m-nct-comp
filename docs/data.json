@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 4, 2025 at 8:49 PM PDT",
+  "last_updated": "July 4, 2025 at 9:33 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -54,6 +54,16 @@
       "delta": 2022
     },
     {
+      "username": "aiy_infection",
+      "displayName": "icarus",
+      "racesPlayed": 10779,
+      "role": "captain",
+      "title": "Drift Queen",
+      "joinStamp": 1742486554,
+      "lastActivity": 1751689065,
+      "delta": 769
+    },
+    {
       "username": "sumitghag",
       "displayName": "SumitGhag",
       "racesPlayed": 23825,
@@ -62,16 +72,6 @@
       "joinStamp": 1751471886,
       "lastActivity": 1751644776,
       "delta": 765
-    },
-    {
-      "username": "aiy_infection",
-      "displayName": "icarus",
-      "racesPlayed": 10764,
-      "role": "captain",
-      "title": "Drift Queen",
-      "joinStamp": 1742486554,
-      "lastActivity": 1751686789,
-      "delta": 754
     },
     {
       "username": "persionde",
@@ -96,12 +96,12 @@
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
       "displayName": "Scyphozoa64",
-      "racesPlayed": 577,
+      "racesPlayed": 634,
       "role": "member",
       "title": "I Love Nitros",
       "joinStamp": 1751297409,
-      "lastActivity": 1751668254,
-      "delta": 489
+      "lastActivity": 1751689788,
+      "delta": 546
     },
     {
       "username": "a_normal_snake",
@@ -156,12 +156,12 @@
     {
       "username": "4399e7a571cf827be64b714c30c899ef",
       "displayName": "FuchsiaAzureCougar",
-      "racesPlayed": 535,
+      "racesPlayed": 541,
       "role": "member",
       "title": "Flora Fury",
       "joinStamp": 1748723201,
-      "lastActivity": 1751491351,
-      "delta": 153
+      "lastActivity": 1751688950,
+      "delta": 159
     },
     {
       "username": "96adbea38b59bc5d736244c73d479514",
@@ -262,6 +262,16 @@
       "joinStamp": 1751308294,
       "lastActivity": 1751670298,
       "delta": 14
+    },
+    {
+      "username": "thequantumrevolution",
+      "displayName": "thequantumrevolution",
+      "racesPlayed": 25,
+      "role": "member",
+      "title": "Raw Racing Recruit",
+      "joinStamp": 1751685478,
+      "lastActivity": 1751689596,
+      "delta": 5
     },
     {
       "username": "1400dgloo",
@@ -371,16 +381,6 @@
       "title": "Eternal Spring",
       "joinStamp": 1750606113,
       "lastActivity": 1750733607,
-      "delta": 0
-    },
-    {
-      "username": "thequantumrevolution",
-      "displayName": "thequantumrevolution",
-      "racesPlayed": 20,
-      "role": "member",
-      "title": "Raw Racing Recruit",
-      "joinStamp": 1751685478,
-      "lastActivity": 1751686602,
       "delta": 0
     }
   ]
