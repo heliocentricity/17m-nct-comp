@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 5, 2025 at 2:25 AM PDT",
+  "last_updated": "July 5, 2025 at 3:26 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -214,6 +214,16 @@
       "delta": 80
     },
     {
+      "username": "sumimyangel",
+      "displayName": "stephenJoester",
+      "racesPlayed": 21675,
+      "role": "member",
+      "title": "Champion Chaser",
+      "joinStamp": 1748965989,
+      "lastActivity": 1751710713,
+      "delta": 67
+    },
+    {
       "username": "5fff3c41947a5b24ed13ddb1c73b1e55",
       "displayName": "ApricotIvoryFlea",
       "racesPlayed": 1313,
@@ -222,6 +232,16 @@
       "joinStamp": 1750794927,
       "lastActivity": 1751347990,
       "delta": 52
+    },
+    {
+      "username": "514c4cd8cd68eabdd3bdca12ff9601d4",
+      "displayName": "SLOWESTat_beingFAST",
+      "racesPlayed": 8445,
+      "role": "member",
+      "title": "Happy Vibes :)",
+      "joinStamp": 1751703504,
+      "lastActivity": 1751708296,
+      "delta": 49
     },
     {
       "username": "vdgyertikopzefrgh",
@@ -234,16 +254,6 @@
       "delta": 48
     },
     {
-      "username": "514c4cd8cd68eabdd3bdca12ff9601d4",
-      "displayName": "SLOWESTat_beingFAST",
-      "racesPlayed": 8442,
-      "role": "member",
-      "title": "Happy Vibes :)",
-      "joinStamp": 1751703504,
-      "lastActivity": 1751707159,
-      "delta": 46
-    },
-    {
       "username": "dianac128",
       "displayName": "ryiichu",
       "racesPlayed": 1802,
@@ -252,16 +262,6 @@
       "joinStamp": 1750468101,
       "lastActivity": 1751327487,
       "delta": 32
-    },
-    {
-      "username": "sumimyangel",
-      "displayName": "stephenJoester",
-      "racesPlayed": 21630,
-      "role": "member",
-      "title": "Spring Speedster",
-      "joinStamp": 1748965989,
-      "lastActivity": 1750949616,
-      "delta": 22
     },
     {
       "username": "e91a12732e6934f1497a87273a05f395",
