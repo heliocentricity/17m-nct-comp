@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 4, 2025 at 4:24 PM PDT",
+  "last_updated": "July 4, 2025 at 7:05 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
       "displayName": "Imperator",
-      "racesPlayed": 31805,
+      "racesPlayed": 31919,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1751587474,
-      "delta": 3030
+      "lastActivity": 1751679185,
+      "delta": 3144
     },
     {
       "username": "abot8",
@@ -26,32 +26,32 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 141625,
+      "racesPlayed": 141665,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1751646906,
-      "delta": 2429
+      "lastActivity": 1751680792,
+      "delta": 2469
     },
     {
       "username": "thecretor145",
       "displayName": "Trickster illusoire",
-      "racesPlayed": 6752,
+      "racesPlayed": 6785,
       "role": "member",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1751671170,
-      "delta": 2392
+      "lastActivity": 1751676113,
+      "delta": 2425
     },
     {
       "username": "neiletsky",
       "displayName": "ResourcefulSapphireFish",
-      "racesPlayed": 12511,
+      "racesPlayed": 12512,
       "role": "vicecaptain",
       "title": "Speed Demon",
       "joinStamp": 1744741826,
-      "lastActivity": 1751660088,
-      "delta": 2021
+      "lastActivity": 1751678424,
+      "delta": 2022
     },
     {
       "username": "sumitghag",
@@ -114,16 +114,6 @@
       "delta": 429
     },
     {
-      "username": "ryyedawg7",
-      "displayName": "R Y Y E",
-      "racesPlayed": 1255,
-      "role": "member",
-      "title": "wow. such gifting",
-      "joinStamp": 1751081309,
-      "lastActivity": 1751667975,
-      "delta": 418
-    },
-    {
       "username": "timmytimmy213",
       "displayName": "timmytimmy213",
       "racesPlayed": 4627,
@@ -184,6 +174,16 @@
       "delta": 115
     },
     {
+      "username": "viper_shot",
+      "displayName": "v1per_sh0t",
+      "racesPlayed": 5717,
+      "role": "member",
+      "title": "Legendary Lapper",
+      "joinStamp": 1747355208,
+      "lastActivity": 1751672727,
+      "delta": 105
+    },
+    {
       "username": "conquerer11k",
       "displayName": "ResilientRedDonkey",
       "racesPlayed": 13688,
@@ -202,16 +202,6 @@
       "joinStamp": 1751073187,
       "lastActivity": 1751566361,
       "delta": 80
-    },
-    {
-      "username": "viper_shot",
-      "displayName": "v1per_sh0t",
-      "racesPlayed": 5683,
-      "role": "member",
-      "title": "Legendary Lapper",
-      "joinStamp": 1747355208,
-      "lastActivity": 1751338337,
-      "delta": 71
     },
     {
       "username": "insanity12354",
@@ -371,6 +361,16 @@
       "title": "Eternal Spring",
       "joinStamp": 1750606113,
       "lastActivity": 1750733607,
+      "delta": 0
+    },
+    {
+      "username": "8b81d3996ac92d37dd96fca816ef5a5d",
+      "displayName": "-tzalexn-",
+      "racesPlayed": 250,
+      "role": "member",
+      "title": "Learner Leader",
+      "joinStamp": 1751674449,
+      "lastActivity": 1751680200,
       "delta": 0
     }
   ]
