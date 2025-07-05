@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 5, 2025 at 9:30 AM PDT",
+  "last_updated": "July 5, 2025 at 10:23 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -126,12 +126,12 @@
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
       "displayName": "FoscoBurrows",
-      "racesPlayed": 12036,
+      "racesPlayed": 12041,
       "role": "member",
       "title": "Potaytoes",
       "joinStamp": 1751395286,
-      "lastActivity": 1751732258,
-      "delta": 344
+      "lastActivity": 1751735369,
+      "delta": 349
     },
     {
       "username": "gw2iscoollol",
@@ -146,12 +146,12 @@
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
-      "racesPlayed": 384,
+      "racesPlayed": 392,
       "role": "member",
       "title": "Millionaire",
       "joinStamp": 1750712571,
-      "lastActivity": 1751642742,
-      "delta": 183
+      "lastActivity": 1751734610,
+      "delta": 191
     },
     {
       "username": "4399e7a571cf827be64b714c30c899ef",
@@ -264,6 +264,16 @@
       "delta": 32
     },
     {
+      "username": "kudism",
+      "displayName": "avalon",
+      "racesPlayed": 1565,
+      "role": "member",
+      "title": "Eternal Spring",
+      "joinStamp": 1750606113,
+      "lastActivity": 1751735963,
+      "delta": 25
+    },
+    {
       "username": "e91a12732e6934f1497a87273a05f395",
       "displayName": "Hannah Banana",
       "racesPlayed": 4815,
@@ -271,16 +281,6 @@
       "title": "I Love Frogs",
       "joinStamp": 1751308294,
       "lastActivity": 1751670298,
-      "delta": 14
-    },
-    {
-      "username": "kudism",
-      "displayName": "avalon",
-      "racesPlayed": 1554,
-      "role": "member",
-      "title": "Eternal Spring",
-      "joinStamp": 1750606113,
-      "lastActivity": 1751732471,
       "delta": 14
     },
     {
