@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 5, 2025 at 10:23 AM PDT",
+  "last_updated": "July 5, 2025 at 11:33 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -24,6 +24,16 @@
       "delta": 2882
     },
     {
+      "username": "thecretor145",
+      "displayName": "Trickster illusoire",
+      "racesPlayed": 6920,
+      "role": "officer",
+      "title": "The Prankster",
+      "joinStamp": 1751390680,
+      "lastActivity": 1751739154,
+      "delta": 2560
+    },
+    {
       "username": "aharama",
       "displayName": "Aharama",
       "racesPlayed": 141755,
@@ -32,16 +42,6 @@
       "joinStamp": 1751010739,
       "lastActivity": 1751705074,
       "delta": 2559
-    },
-    {
-      "username": "thecretor145",
-      "displayName": "Trickster illusoire",
-      "racesPlayed": 6906,
-      "role": "officer",
-      "title": "The Prankster",
-      "joinStamp": 1751390680,
-      "lastActivity": 1751732310,
-      "delta": 2546
     },
     {
       "username": "neiletsky",
@@ -74,6 +74,16 @@
       "delta": 948
     },
     {
+      "username": "be74ffff6b556a68cdccc087a63e6676",
+      "displayName": "Scyphozoa64",
+      "racesPlayed": 716,
+      "role": "member",
+      "title": "I Love Nitros",
+      "joinStamp": 1751297409,
+      "lastActivity": 1751740186,
+      "delta": 628
+    },
+    {
       "username": "persionde",
       "displayName": "persionde",
       "racesPlayed": 4613,
@@ -82,16 +92,6 @@
       "joinStamp": 1750984125,
       "lastActivity": 1751660425,
       "delta": 614
-    },
-    {
-      "username": "be74ffff6b556a68cdccc087a63e6676",
-      "displayName": "Scyphozoa64",
-      "racesPlayed": 698,
-      "role": "member",
-      "title": "I Love Nitros",
-      "joinStamp": 1751297409,
-      "lastActivity": 1751725704,
-      "delta": 610
     },
     {
       "username": "vioiynx",
@@ -134,6 +134,16 @@
       "delta": 349
     },
     {
+      "username": "4978dd1c73bd50b93b895f4299eed6b8",
+      "displayName": "Mystic",
+      "racesPlayed": 403,
+      "role": "member",
+      "title": "Millionaire",
+      "joinStamp": 1750712571,
+      "lastActivity": 1751739519,
+      "delta": 202
+    },
+    {
       "username": "gw2iscoollol",
       "displayName": "Leqlerc",
       "racesPlayed": 6398,
@@ -142,16 +152,6 @@
       "joinStamp": 1750448154,
       "lastActivity": 1751583212,
       "delta": 193
-    },
-    {
-      "username": "4978dd1c73bd50b93b895f4299eed6b8",
-      "displayName": "Mystic",
-      "racesPlayed": 392,
-      "role": "member",
-      "title": "Millionaire",
-      "joinStamp": 1750712571,
-      "lastActivity": 1751734610,
-      "delta": 191
     },
     {
       "username": "4399e7a571cf827be64b714c30c899ef",
@@ -266,12 +266,12 @@
     {
       "username": "kudism",
       "displayName": "avalon",
-      "racesPlayed": 1565,
+      "racesPlayed": 1570,
       "role": "member",
       "title": "Eternal Spring",
       "joinStamp": 1750606113,
-      "lastActivity": 1751735963,
-      "delta": 25
+      "lastActivity": 1751736653,
+      "delta": 30
     },
     {
       "username": "e91a12732e6934f1497a87273a05f395",
@@ -282,6 +282,16 @@
       "joinStamp": 1751308294,
       "lastActivity": 1751670298,
       "delta": 14
+    },
+    {
+      "username": "8b81d3996ac92d37dd96fca816ef5a5d",
+      "displayName": "-tzalexn-",
+      "racesPlayed": 256,
+      "role": "member",
+      "title": "Learner Leader",
+      "joinStamp": 1751674449,
+      "lastActivity": 1751740190,
+      "delta": 6
     },
     {
       "username": "thequantumrevolution",
@@ -312,16 +322,6 @@
       "joinStamp": 1744391071,
       "lastActivity": 1751699729,
       "delta": 3
-    },
-    {
-      "username": "8b81d3996ac92d37dd96fca816ef5a5d",
-      "displayName": "-tzalexn-",
-      "racesPlayed": 251,
-      "role": "member",
-      "title": "Learner Leader",
-      "joinStamp": 1751674449,
-      "lastActivity": 1751681510,
-      "delta": 1
     },
     {
       "username": "superdavidj",
