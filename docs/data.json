@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 4, 2025 at 9:33 PM PDT",
+  "last_updated": "July 4, 2025 at 10:26 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -26,12 +26,12 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 141680,
+      "racesPlayed": 141688,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1751682457,
-      "delta": 2484
+      "lastActivity": 1751691239,
+      "delta": 2492
     },
     {
       "username": "thecretor145",
@@ -54,6 +54,16 @@
       "delta": 2022
     },
     {
+      "username": "sumitghag",
+      "displayName": "SumitGhag",
+      "racesPlayed": 23870,
+      "role": "member",
+      "title": "Pro Pacer",
+      "joinStamp": 1751471886,
+      "lastActivity": 1751692750,
+      "delta": 810
+    },
+    {
       "username": "aiy_infection",
       "displayName": "icarus",
       "racesPlayed": 10779,
@@ -62,16 +72,6 @@
       "joinStamp": 1742486554,
       "lastActivity": 1751689065,
       "delta": 769
-    },
-    {
-      "username": "sumitghag",
-      "displayName": "SumitGhag",
-      "racesPlayed": 23825,
-      "role": "member",
-      "title": "Ultimate Racer",
-      "joinStamp": 1751471886,
-      "lastActivity": 1751644776,
-      "delta": 765
     },
     {
       "username": "persionde",
@@ -84,6 +84,16 @@
       "delta": 614
     },
     {
+      "username": "be74ffff6b556a68cdccc087a63e6676",
+      "displayName": "Scyphozoa64",
+      "racesPlayed": 644,
+      "role": "member",
+      "title": "I Love Nitros",
+      "joinStamp": 1751297409,
+      "lastActivity": 1751691193,
+      "delta": 556
+    },
+    {
       "username": "vioiynx",
       "displayName": "vioiynx",
       "racesPlayed": 3701,
@@ -92,16 +102,6 @@
       "joinStamp": 1742509283,
       "lastActivity": 1751507157,
       "delta": 552
-    },
-    {
-      "username": "be74ffff6b556a68cdccc087a63e6676",
-      "displayName": "Scyphozoa64",
-      "racesPlayed": 634,
-      "role": "member",
-      "title": "I Love Nitros",
-      "joinStamp": 1751297409,
-      "lastActivity": 1751689788,
-      "delta": 546
     },
     {
       "username": "a_normal_snake",
