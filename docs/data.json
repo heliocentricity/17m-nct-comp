@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 5, 2025 at 2:24 PM PDT",
+  "last_updated": "July 5, 2025 at 3:24 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
       "displayName": "Imperator",
-      "racesPlayed": 31997,
+      "racesPlayed": 32012,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1751750348,
-      "delta": 3222
+      "lastActivity": 1751751362,
+      "delta": 3237
     },
     {
       "username": "abot8",
@@ -76,12 +76,12 @@
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
       "displayName": "Scyphozoa64",
-      "racesPlayed": 747,
+      "racesPlayed": 796,
       "role": "member",
       "title": "I Love Nitros",
       "joinStamp": 1751297409,
-      "lastActivity": 1751750356,
-      "delta": 659
+      "lastActivity": 1751753549,
+      "delta": 708
     },
     {
       "username": "persionde",
@@ -166,12 +166,12 @@
     {
       "username": "insanity12354",
       "displayName": "insanity12354",
-      "racesPlayed": 8401,
+      "racesPlayed": 8409,
       "role": "member",
       "title": "Fast and Flora",
       "joinStamp": 1751588612,
-      "lastActivity": 1751749041,
-      "delta": 117
+      "lastActivity": 1751752190,
+      "delta": 125
     },
     {
       "username": "96adbea38b59bc5d736244c73d479514",
@@ -192,6 +192,16 @@
       "joinStamp": 1747355208,
       "lastActivity": 1751672727,
       "delta": 105
+    },
+    {
+      "username": "514c4cd8cd68eabdd3bdca12ff9601d4",
+      "displayName": "SLOWESTat_beingFAST",
+      "racesPlayed": 8485,
+      "role": "member",
+      "title": "Happy Vibes :)",
+      "joinStamp": 1751703504,
+      "lastActivity": 1751753625,
+      "delta": 89
     },
     {
       "username": "conquerer11k",
@@ -230,7 +240,7 @@
       "role": "member",
       "title": "Eternal Spring",
       "joinStamp": 1750606113,
-      "lastActivity": 1751750392,
+      "lastActivity": 1751750627,
       "delta": 60
     },
     {
@@ -242,16 +252,6 @@
       "joinStamp": 1750794927,
       "lastActivity": 1751347990,
       "delta": 52
-    },
-    {
-      "username": "514c4cd8cd68eabdd3bdca12ff9601d4",
-      "displayName": "SLOWESTat_beingFAST",
-      "racesPlayed": 8445,
-      "role": "member",
-      "title": "Happy Vibes :)",
-      "joinStamp": 1751703504,
-      "lastActivity": 1751708296,
-      "delta": 49
     },
     {
       "username": "vdgyertikopzefrgh",
