@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 5, 2025 at 8:25 AM PDT",
+  "last_updated": "July 5, 2025 at 9:30 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -36,12 +36,12 @@
     {
       "username": "thecretor145",
       "displayName": "Trickster illusoire",
-      "racesPlayed": 6881,
+      "racesPlayed": 6906,
       "role": "officer",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1751728237,
-      "delta": 2521
+      "lastActivity": 1751732310,
+      "delta": 2546
     },
     {
       "username": "neiletsky",
@@ -56,12 +56,12 @@
     {
       "username": "sumitghag",
       "displayName": "SumitGhag",
-      "racesPlayed": 24024,
+      "racesPlayed": 24054,
       "role": "member",
       "title": "Unstoppable",
       "joinStamp": 1751471886,
-      "lastActivity": 1751728453,
-      "delta": 964
+      "lastActivity": 1751732883,
+      "delta": 994
     },
     {
       "username": "aiy_infection",
@@ -126,12 +126,12 @@
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
       "displayName": "FoscoBurrows",
-      "racesPlayed": 11986,
+      "racesPlayed": 12036,
       "role": "member",
       "title": "Potaytoes",
       "joinStamp": 1751395286,
-      "lastActivity": 1751570615,
-      "delta": 294
+      "lastActivity": 1751732258,
+      "delta": 344
     },
     {
       "username": "gw2iscoollol",
@@ -274,6 +274,16 @@
       "delta": 14
     },
     {
+      "username": "kudism",
+      "displayName": "avalon",
+      "racesPlayed": 1554,
+      "role": "member",
+      "title": "Eternal Spring",
+      "joinStamp": 1750606113,
+      "lastActivity": 1751732471,
+      "delta": 14
+    },
+    {
       "username": "thequantumrevolution",
       "displayName": "thequantumrevolution",
       "racesPlayed": 25,
@@ -344,6 +354,16 @@
       "delta": 0
     },
     {
+      "username": "aphoenix888",
+      "displayName": "",
+      "racesPlayed": 2238,
+      "role": "member",
+      "title": "God Mode",
+      "joinStamp": 1751730598,
+      "lastActivity": 0,
+      "delta": 0
+    },
+    {
       "username": "b2cbc9dfc2058f59bdaf062719776245",
       "displayName": "Hypersound",
       "racesPlayed": 1056,
@@ -381,16 +401,6 @@
       "title": "Millionaire",
       "joinStamp": 1747978481,
       "lastActivity": 1750423100,
-      "delta": 0
-    },
-    {
-      "username": "kudism",
-      "displayName": "avalon",
-      "racesPlayed": 1540,
-      "role": "member",
-      "title": "Eternal Spring",
-      "joinStamp": 1750606113,
-      "lastActivity": 1750733607,
       "delta": 0
     }
   ]
