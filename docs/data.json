@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 5, 2025 at 7:25 AM PDT",
+  "last_updated": "July 5, 2025 at 8:25 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -36,22 +36,32 @@
     {
       "username": "thecretor145",
       "displayName": "Trickster illusoire",
-      "racesPlayed": 6858,
+      "racesPlayed": 6881,
       "role": "officer",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1751725181,
-      "delta": 2498
+      "lastActivity": 1751728237,
+      "delta": 2521
     },
     {
       "username": "neiletsky",
       "displayName": "ResourcefulSapphireFish",
-      "racesPlayed": 12941,
+      "racesPlayed": 13000,
       "role": "vicecaptain",
       "title": "Speed Demon",
       "joinStamp": 1744741826,
-      "lastActivity": 1751725167,
-      "delta": 2451
+      "lastActivity": 1751728596,
+      "delta": 2510
+    },
+    {
+      "username": "sumitghag",
+      "displayName": "SumitGhag",
+      "racesPlayed": 24024,
+      "role": "member",
+      "title": "Unstoppable",
+      "joinStamp": 1751471886,
+      "lastActivity": 1751728453,
+      "delta": 964
     },
     {
       "username": "aiy_infection",
@@ -62,16 +72,6 @@
       "joinStamp": 1742486554,
       "lastActivity": 1751722370,
       "delta": 948
-    },
-    {
-      "username": "sumitghag",
-      "displayName": "SumitGhag",
-      "racesPlayed": 23998,
-      "role": "member",
-      "title": "Unstoppable",
-      "joinStamp": 1751471886,
-      "lastActivity": 1751722092,
-      "delta": 938
     },
     {
       "username": "persionde",
@@ -86,12 +86,12 @@
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
       "displayName": "Scyphozoa64",
-      "racesPlayed": 695,
+      "racesPlayed": 698,
       "role": "member",
       "title": "I Love Nitros",
       "joinStamp": 1751297409,
-      "lastActivity": 1751725150,
-      "delta": 607
+      "lastActivity": 1751725704,
+      "delta": 610
     },
     {
       "username": "vioiynx",
