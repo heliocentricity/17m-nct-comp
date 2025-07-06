@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 5, 2025 at 11:37 PM PDT",
+  "last_updated": "July 6, 2025 at 12:23 AM PDT",
   "board": [
     {
       "username": "soccer791",
@@ -44,6 +44,16 @@
       "delta": 2753
     },
     {
+      "username": "neiletsky",
+      "displayName": "ResourcefulSapphireFish",
+      "racesPlayed": 13126,
+      "role": "vicecaptain",
+      "title": "Colemak Conqueror",
+      "joinStamp": 1744741826,
+      "lastActivity": 1751786358,
+      "delta": 2636
+    },
+    {
       "username": "aharama",
       "displayName": "Aharama",
       "racesPlayed": 141805,
@@ -54,24 +64,14 @@
       "delta": 2609
     },
     {
-      "username": "neiletsky",
-      "displayName": "ResourcefulSapphireFish",
-      "racesPlayed": 13063,
-      "role": "vicecaptain",
-      "title": "Speed Demon",
-      "joinStamp": 1744741826,
-      "lastActivity": 1751783382,
-      "delta": 2573
-    },
-    {
       "username": "sumitghag",
       "displayName": "SumitGhag",
-      "racesPlayed": 24074,
+      "racesPlayed": 24077,
       "role": "member",
       "title": "Qwerty Quester",
       "joinStamp": 1751471886,
-      "lastActivity": 1751783184,
-      "delta": 1014
+      "lastActivity": 1751785522,
+      "delta": 1017
     },
     {
       "username": "aiy_infection",
@@ -174,24 +174,24 @@
       "delta": 180
     },
     {
-      "username": "4399e7a571cf827be64b714c30c899ef",
-      "displayName": "FuchsiaAzureCougar",
-      "racesPlayed": 541,
-      "role": "member",
-      "title": "Flora Fury",
-      "joinStamp": 1748723201,
-      "lastActivity": 1751688950,
-      "delta": 159
-    },
-    {
       "username": "kudism",
       "displayName": "Radiant",
-      "racesPlayed": 1670,
+      "racesPlayed": 1701,
       "role": "member",
       "title": "#elfie",
       "joinStamp": 1750606113,
-      "lastActivity": 1751783138,
-      "delta": 130
+      "lastActivity": 1751785635,
+      "delta": 161
+    },
+    {
+      "username": "4399e7a571cf827be64b714c30c899ef",
+      "displayName": "FuchsiaAzureCougar",
+      "racesPlayed": 542,
+      "role": "member",
+      "title": "Flora Fury",
+      "joinStamp": 1748723201,
+      "lastActivity": 1751784826,
+      "delta": 160
     },
     {
       "username": "insanity12354",
