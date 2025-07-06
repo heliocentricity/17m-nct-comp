@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 6, 2025 at 2:26 AM PDT",
+  "last_updated": "July 6, 2025 at 3:27 AM PDT",
   "board": [
     {
       "username": "soccer791",
@@ -36,12 +36,12 @@
     {
       "username": "neiletsky",
       "displayName": "ResourcefulSapphireFish",
-      "racesPlayed": 13271,
+      "racesPlayed": 13280,
       "role": "vicecaptain",
       "title": "Colemak Conqueror",
       "joinStamp": 1744741826,
-      "lastActivity": 1751793562,
-      "delta": 2781
+      "lastActivity": 1751794332,
+      "delta": 2790
     },
     {
       "username": "thecretor145",
@@ -56,12 +56,12 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 141805,
+      "racesPlayed": 141830,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1751770593,
-      "delta": 2609
+      "lastActivity": 1751796186,
+      "delta": 2634
     },
     {
       "username": "sumitghag",
@@ -116,12 +116,12 @@
     {
       "username": "timmytimmy213",
       "displayName": "timmytimmy213",
-      "racesPlayed": 4642,
+      "racesPlayed": 4648,
       "role": "officer",
       "title": "Champion Chaser",
       "joinStamp": 1743005762,
-      "lastActivity": 1751793314,
-      "delta": 430
+      "lastActivity": 1751794474,
+      "delta": 436
     },
     {
       "username": "a_normal_snake",
@@ -304,6 +304,16 @@
       "delta": 15
     },
     {
+      "username": "aphoenix888",
+      "displayName": "",
+      "racesPlayed": 2247,
+      "role": "member",
+      "title": "Colemak Conqueror",
+      "joinStamp": 1751730598,
+      "lastActivity": 1751797137,
+      "delta": 9
+    },
+    {
       "username": "thequantumrevolution",
       "displayName": "thequantumrevolution",
       "racesPlayed": 25,
@@ -371,16 +381,6 @@
       "title": "Green Streak",
       "joinStamp": 1744382527,
       "lastActivity": 1749863144,
-      "delta": 0
-    },
-    {
-      "username": "aphoenix888",
-      "displayName": "",
-      "racesPlayed": 2238,
-      "role": "member",
-      "title": "God Mode",
-      "joinStamp": 1751730598,
-      "lastActivity": 0,
       "delta": 0
     },
     {
