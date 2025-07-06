@@ -1,37 +1,37 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 6, 2025 at 2:24 PM PDT",
+  "last_updated": "July 6, 2025 at 3:26 PM PDT",
   "board": [
     {
       "username": "soccer791",
       "displayName": "Reverie",
-      "racesPlayed": 17621,
+      "racesPlayed": 17622,
       "role": "member",
       "title": "Acute Tinselitis",
       "joinStamp": 1751766957,
-      "lastActivity": 1751836791,
-      "delta": 4084
+      "lastActivity": 1751837070,
+      "delta": 4085
     },
     {
       "username": "tryhardwillwork",
       "displayName": "Imperator",
-      "racesPlayed": 32265,
+      "racesPlayed": 32345,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1751836774,
-      "delta": 3490
+      "lastActivity": 1751840368,
+      "delta": 3570
     },
     {
       "username": "thecretor145",
       "displayName": "Trickster illusoire",
-      "racesPlayed": 7468,
+      "racesPlayed": 7495,
       "role": "officer",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1751830540,
-      "delta": 3108
+      "lastActivity": 1751840118,
+      "delta": 3135
     },
     {
       "username": "neiletsky",
@@ -86,12 +86,12 @@
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
       "displayName": "Scyphozoa64",
-      "racesPlayed": 1058,
+      "racesPlayed": 1061,
       "role": "officer",
       "title": "Epic Word Skippage",
       "joinStamp": 1751297409,
-      "lastActivity": 1751832356,
-      "delta": 970
+      "lastActivity": 1751838318,
+      "delta": 973
     },
     {
       "username": "persionde",
@@ -154,6 +154,16 @@
       "delta": 262
     },
     {
+      "username": "514c4cd8cd68eabdd3bdca12ff9601d4",
+      "displayName": "SLOWESTat_beingFAST",
+      "racesPlayed": 8617,
+      "role": "member",
+      "title": "Happy Vibes :)",
+      "joinStamp": 1751703504,
+      "lastActivity": 1751838773,
+      "delta": 221
+    },
+    {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
       "racesPlayed": 403,
@@ -172,16 +182,6 @@
       "joinStamp": 1750448154,
       "lastActivity": 1751583212,
       "delta": 193
-    },
-    {
-      "username": "514c4cd8cd68eabdd3bdca12ff9601d4",
-      "displayName": "SLOWESTat_beingFAST",
-      "racesPlayed": 8584,
-      "role": "member",
-      "title": "Happy Vibes :)",
-      "joinStamp": 1751703504,
-      "lastActivity": 1751790306,
-      "delta": 188
     },
     {
       "username": "4399e7a571cf827be64b714c30c899ef",
@@ -254,6 +254,16 @@
       "delta": 81
     },
     {
+      "username": "i_dont_eat_stuff",
+      "displayName": "rocksmasher9",
+      "racesPlayed": 9102,
+      "role": "member",
+      "title": ":D",
+      "joinStamp": 1751805075,
+      "lastActivity": 1751838558,
+      "delta": 54
+    },
+    {
       "username": "5fff3c41947a5b24ed13ddb1c73b1e55",
       "displayName": "ApricotIvoryFlea",
       "racesPlayed": 1313,
@@ -282,16 +292,6 @@
       "joinStamp": 1750468101,
       "lastActivity": 1751327487,
       "delta": 32
-    },
-    {
-      "username": "i_dont_eat_stuff",
-      "displayName": "rocksmasher9",
-      "racesPlayed": 9075,
-      "role": "member",
-      "title": ":D",
-      "joinStamp": 1751805075,
-      "lastActivity": 1751836690,
-      "delta": 27
     },
     {
       "username": "e91a12732e6934f1497a87273a05f395",
