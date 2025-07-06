@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 6, 2025 at 7:23 AM PDT",
+  "last_updated": "July 6, 2025 at 8:25 AM PDT",
   "board": [
     {
       "username": "soccer791",
       "displayName": "Reverie",
-      "racesPlayed": 17222,
+      "racesPlayed": 17279,
       "role": "member",
       "title": "Acute Tinselitis",
       "joinStamp": 1751766957,
-      "lastActivity": 1751781064,
-      "delta": 3685
+      "lastActivity": 1751815169,
+      "delta": 3742
     },
     {
       "username": "tryhardwillwork",
@@ -22,6 +22,16 @@
       "joinStamp": 1751048108,
       "lastActivity": 1751773242,
       "delta": 3430
+    },
+    {
+      "username": "thecretor145",
+      "displayName": "Trickster illusoire",
+      "racesPlayed": 7258,
+      "role": "officer",
+      "title": "The Prankster",
+      "joinStamp": 1751390680,
+      "lastActivity": 1751815189,
+      "delta": 2898
     },
     {
       "username": "neiletsky",
@@ -42,16 +52,6 @@
       "joinStamp": 1750805902,
       "lastActivity": 1751320548,
       "delta": 2882
-    },
-    {
-      "username": "thecretor145",
-      "displayName": "Trickster illusoire",
-      "racesPlayed": 7209,
-      "role": "officer",
-      "title": "The Prankster",
-      "joinStamp": 1751390680,
-      "lastActivity": 1751811582,
-      "delta": 2849
     },
     {
       "username": "aharama",
@@ -86,12 +86,12 @@
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
       "displayName": "Scyphozoa64",
-      "racesPlayed": 963,
+      "racesPlayed": 989,
       "role": "officer",
       "title": "Qwerty Quester",
       "joinStamp": 1751297409,
-      "lastActivity": 1751811363,
-      "delta": 875
+      "lastActivity": 1751813706,
+      "delta": 901
     },
     {
       "username": "persionde",
@@ -144,6 +144,16 @@
       "delta": 357
     },
     {
+      "username": "kudism",
+      "displayName": "Radiant",
+      "racesPlayed": 1748,
+      "role": "member",
+      "title": "#elfie",
+      "joinStamp": 1750606113,
+      "lastActivity": 1751815151,
+      "delta": 208
+    },
+    {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
       "racesPlayed": 403,
@@ -172,16 +182,6 @@
       "joinStamp": 1751703504,
       "lastActivity": 1751790306,
       "delta": 188
-    },
-    {
-      "username": "kudism",
-      "displayName": "Radiant",
-      "racesPlayed": 1725,
-      "role": "member",
-      "title": "#elfie",
-      "joinStamp": 1750606113,
-      "lastActivity": 1751811308,
-      "delta": 185
     },
     {
       "username": "4399e7a571cf827be64b714c30c899ef",
@@ -294,6 +294,16 @@
       "delta": 27
     },
     {
+      "username": "cat_hiding_in_couch",
+      "displayName": "Royal0",
+      "racesPlayed": 1221,
+      "role": "member",
+      "title": "Qwerty Quester",
+      "joinStamp": 1751811398,
+      "lastActivity": 1751812635,
+      "delta": 20
+    },
+    {
       "username": "aphoenix888",
       "displayName": "",
       "racesPlayed": 2255,
@@ -404,16 +414,6 @@
       "delta": 0
     },
     {
-      "username": "cat_hiding_in_couch",
-      "displayName": "Royal0",
-      "racesPlayed": 1201,
-      "role": "member",
-      "title": "Qwerty Quester",
-      "joinStamp": 1751811398,
-      "lastActivity": 1751811571,
-      "delta": 0
-    },
-    {
       "username": "f0dca54e9b8d6f1aa97d5bb4c608a50a",
       "displayName": "Vintagium",
       "racesPlayed": 1660,
@@ -441,6 +441,16 @@
       "title": "Raw Racing Recruit",
       "joinStamp": 1751810415,
       "lastActivity": 1751811155,
+      "delta": 0
+    },
+    {
+      "username": "smalltarget",
+      "displayName": "GlowingTurquoiseZebra",
+      "racesPlayed": 0,
+      "role": "member",
+      "title": "Raw Racing Recruit",
+      "joinStamp": 1751814359,
+      "lastActivity": 0,
       "delta": 0
     }
   ]
