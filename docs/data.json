@@ -1,27 +1,27 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 6, 2025 at 1:28 PM PDT",
+  "last_updated": "July 6, 2025 at 2:24 PM PDT",
   "board": [
     {
       "username": "soccer791",
       "displayName": "Reverie",
-      "racesPlayed": 17584,
+      "racesPlayed": 17621,
       "role": "member",
       "title": "Acute Tinselitis",
       "joinStamp": 1751766957,
-      "lastActivity": 1751833007,
-      "delta": 4047
+      "lastActivity": 1751836791,
+      "delta": 4084
     },
     {
       "username": "tryhardwillwork",
       "displayName": "Imperator",
-      "racesPlayed": 32205,
+      "racesPlayed": 32265,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1751773242,
-      "delta": 3430
+      "lastActivity": 1751836774,
+      "delta": 3490
     },
     {
       "username": "thecretor145",
@@ -146,12 +146,12 @@
     {
       "username": "kudism",
       "displayName": "Radiant",
-      "racesPlayed": 1799,
+      "racesPlayed": 1802,
       "role": "member",
       "title": "#elfie",
       "joinStamp": 1750606113,
-      "lastActivity": 1751831622,
-      "delta": 259
+      "lastActivity": 1751834278,
+      "delta": 262
     },
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
@@ -284,6 +284,16 @@
       "delta": 32
     },
     {
+      "username": "i_dont_eat_stuff",
+      "displayName": "rocksmasher9",
+      "racesPlayed": 9075,
+      "role": "member",
+      "title": ":D",
+      "joinStamp": 1751805075,
+      "lastActivity": 1751836690,
+      "delta": 27
+    },
+    {
       "username": "e91a12732e6934f1497a87273a05f395",
       "displayName": "Hannah Banana",
       "racesPlayed": 4828,
@@ -414,16 +424,6 @@
       "delta": 0
     },
     {
-      "username": "i_dont_eat_stuff",
-      "displayName": "rocksmasher9",
-      "racesPlayed": 9048,
-      "role": "member",
-      "title": "Raindrop Racer",
-      "joinStamp": 1751805075,
-      "lastActivity": 1751806012,
-      "delta": 0
-    },
-    {
       "username": "f0dca54e9b8d6f1aa97d5bb4c608a50a",
       "displayName": "Vintagium",
       "racesPlayed": 1660,
@@ -451,6 +451,16 @@
       "title": "Millionaire",
       "joinStamp": 1747978481,
       "lastActivity": 1750423100,
+      "delta": 0
+    },
+    {
+      "username": "48fe060c93c7f31ea136e638906151d6",
+      "displayName": "WonderfulScarletSalamander",
+      "racesPlayed": 18,
+      "role": "member",
+      "title": "Raw Racing Recruit",
+      "joinStamp": 1751835423,
+      "lastActivity": 0,
       "delta": 0
     },
     {
