@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 6, 2025 at 9:31 AM PDT",
+  "last_updated": "July 6, 2025 at 10:22 AM PDT",
   "board": [
     {
       "username": "soccer791",
       "displayName": "Reverie",
-      "racesPlayed": 17360,
+      "racesPlayed": 17425,
       "role": "member",
       "title": "Acute Tinselitis",
       "joinStamp": 1751766957,
-      "lastActivity": 1751819363,
-      "delta": 3823
+      "lastActivity": 1751822306,
+      "delta": 3888
     },
     {
       "username": "tryhardwillwork",
@@ -26,12 +26,12 @@
     {
       "username": "thecretor145",
       "displayName": "Trickster illusoire",
-      "racesPlayed": 7317,
+      "racesPlayed": 7369,
       "role": "officer",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1751819372,
-      "delta": 2957
+      "lastActivity": 1751822369,
+      "delta": 3009
     },
     {
       "username": "neiletsky",
@@ -146,12 +146,12 @@
     {
       "username": "kudism",
       "displayName": "Radiant",
-      "racesPlayed": 1748,
+      "racesPlayed": 1768,
       "role": "member",
       "title": "#elfie",
       "joinStamp": 1750606113,
-      "lastActivity": 1751815380,
-      "delta": 208
+      "lastActivity": 1751822329,
+      "delta": 228
     },
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
@@ -324,6 +324,16 @@
       "delta": 15
     },
     {
+      "username": "taylor9191",
+      "displayName": "Tay on Summer Break",
+      "racesPlayed": 3602,
+      "role": "member",
+      "title": "Flora Fury",
+      "joinStamp": 1751815971,
+      "lastActivity": 1751819868,
+      "delta": 5
+    },
+    {
       "username": "thequantumrevolution",
       "displayName": "thequantumrevolution",
       "racesPlayed": 25,
@@ -421,16 +431,6 @@
       "title": "Green Streak",
       "joinStamp": 1743434481,
       "lastActivity": 1747658119,
-      "delta": 0
-    },
-    {
-      "username": "taylor9191",
-      "displayName": "Tay on Summer Break",
-      "racesPlayed": 3597,
-      "role": "member",
-      "title": "Flora Fury",
-      "joinStamp": 1751815971,
-      "lastActivity": 1751819081,
       "delta": 0
     },
     {
