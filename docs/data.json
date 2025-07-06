@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 5, 2025 at 10:26 PM PDT",
+  "last_updated": "July 5, 2025 at 11:37 PM PDT",
   "board": [
     {
       "username": "soccer791",
       "displayName": "Reverie",
-      "racesPlayed": 17206,
+      "racesPlayed": 17222,
       "role": "member",
       "title": "Acute Tinselitis",
       "joinStamp": 1751766957,
-      "lastActivity": 1751778867,
-      "delta": 3669
+      "lastActivity": 1751781064,
+      "delta": 3685
     },
     {
       "username": "tryhardwillwork",
@@ -56,22 +56,22 @@
     {
       "username": "neiletsky",
       "displayName": "ResourcefulSapphireFish",
-      "racesPlayed": 13000,
+      "racesPlayed": 13063,
       "role": "vicecaptain",
       "title": "Speed Demon",
       "joinStamp": 1744741826,
-      "lastActivity": 1751728596,
-      "delta": 2510
+      "lastActivity": 1751783382,
+      "delta": 2573
     },
     {
       "username": "sumitghag",
       "displayName": "SumitGhag",
-      "racesPlayed": 24054,
+      "racesPlayed": 24074,
       "role": "member",
-      "title": "Unstoppable",
+      "title": "Qwerty Quester",
       "joinStamp": 1751471886,
-      "lastActivity": 1751732883,
-      "delta": 994
+      "lastActivity": 1751783184,
+      "delta": 1014
     },
     {
       "username": "aiy_infection",
@@ -164,6 +164,16 @@
       "delta": 193
     },
     {
+      "username": "514c4cd8cd68eabdd3bdca12ff9601d4",
+      "displayName": "SLOWESTat_beingFAST",
+      "racesPlayed": 8576,
+      "role": "member",
+      "title": "Happy Vibes :)",
+      "joinStamp": 1751703504,
+      "lastActivity": 1751782761,
+      "delta": 180
+    },
+    {
       "username": "4399e7a571cf827be64b714c30c899ef",
       "displayName": "FuchsiaAzureCougar",
       "racesPlayed": 541,
@@ -174,14 +184,14 @@
       "delta": 159
     },
     {
-      "username": "514c4cd8cd68eabdd3bdca12ff9601d4",
-      "displayName": "SLOWESTat_beingFAST",
-      "racesPlayed": 8551,
+      "username": "kudism",
+      "displayName": "Radiant",
+      "racesPlayed": 1670,
       "role": "member",
-      "title": "Happy Vibes :)",
-      "joinStamp": 1751703504,
-      "lastActivity": 1751760017,
-      "delta": 155
+      "title": "#elfie",
+      "joinStamp": 1750606113,
+      "lastActivity": 1751783138,
+      "delta": 130
     },
     {
       "username": "insanity12354",
@@ -232,16 +242,6 @@
       "joinStamp": 1751073187,
       "lastActivity": 1751749967,
       "delta": 81
-    },
-    {
-      "username": "kudism",
-      "displayName": "Radiant",
-      "racesPlayed": 1619,
-      "role": "member",
-      "title": "#elfie",
-      "joinStamp": 1750606113,
-      "lastActivity": 1751778558,
-      "delta": 79
     },
     {
       "username": "sumimyangel",
