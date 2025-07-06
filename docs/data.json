@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 6, 2025 at 5:51 AM PDT",
+  "last_updated": "July 6, 2025 at 6:33 AM PDT",
   "board": [
     {
       "username": "soccer791",
@@ -36,62 +36,62 @@
     {
       "username": "neiletsky",
       "displayName": "ResourcefulSapphireFish",
-      "racesPlayed": 13315,
+      "racesPlayed": 13371,
       "role": "vicecaptain",
       "title": "Colemak Conqueror",
       "joinStamp": 1744741826,
-      "lastActivity": 1751806152,
-      "delta": 2825
+      "lastActivity": 1751808577,
+      "delta": 2881
     },
     {
       "username": "thecretor145",
       "displayName": "Trickster illusoire",
-      "racesPlayed": 7138,
+      "racesPlayed": 7156,
       "role": "officer",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1751806185,
-      "delta": 2778
+      "lastActivity": 1751808573,
+      "delta": 2796
     },
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 141891,
+      "racesPlayed": 141905,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1751803078,
-      "delta": 2695
+      "lastActivity": 1751807543,
+      "delta": 2709
     },
     {
       "username": "sumitghag",
       "displayName": "SumitGhag",
-      "racesPlayed": 24141,
+      "racesPlayed": 24167,
       "role": "member",
       "title": "Qwerty Quester",
       "joinStamp": 1751471886,
-      "lastActivity": 1751806137,
-      "delta": 1081
+      "lastActivity": 1751808505,
+      "delta": 1107
     },
     {
       "username": "aiy_infection",
       "displayName": "icarus",
-      "racesPlayed": 11038,
+      "racesPlayed": 11055,
       "role": "captain",
       "title": "Drift Queen",
       "joinStamp": 1742486554,
-      "lastActivity": 1751803836,
-      "delta": 1028
+      "lastActivity": 1751807780,
+      "delta": 1045
     },
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
       "displayName": "Scyphozoa64",
-      "racesPlayed": 933,
+      "racesPlayed": 952,
       "role": "officer",
       "title": "Qwerty Quester",
       "joinStamp": 1751297409,
-      "lastActivity": 1751774351,
-      "delta": 845
+      "lastActivity": 1751807779,
+      "delta": 864
     },
     {
       "username": "persionde",
@@ -116,12 +116,12 @@
     {
       "username": "timmytimmy213",
       "displayName": "timmytimmy213",
-      "racesPlayed": 4752,
+      "racesPlayed": 4756,
       "role": "officer",
       "title": "Olde School",
       "joinStamp": 1743005762,
-      "lastActivity": 1751806170,
-      "delta": 540
+      "lastActivity": 1751807040,
+      "delta": 544
     },
     {
       "username": "a_normal_snake",
@@ -214,6 +214,16 @@
       "delta": 115
     },
     {
+      "username": "sumimyangel",
+      "displayName": "stephenJoester",
+      "racesPlayed": 21715,
+      "role": "member",
+      "title": "Champion Chaser",
+      "joinStamp": 1748965989,
+      "lastActivity": 1751806526,
+      "delta": 107
+    },
+    {
       "username": "viper_shot",
       "displayName": "v1per_sh0t",
       "racesPlayed": 5717,
@@ -222,16 +232,6 @@
       "joinStamp": 1747355208,
       "lastActivity": 1751672727,
       "delta": 105
-    },
-    {
-      "username": "sumimyangel",
-      "displayName": "stephenJoester",
-      "racesPlayed": 21709,
-      "role": "member",
-      "title": "Champion Chaser",
-      "joinStamp": 1748965989,
-      "lastActivity": 1751806158,
-      "delta": 101
     },
     {
       "username": "conquerer11k",
