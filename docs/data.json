@@ -1,27 +1,27 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 5, 2025 at 7:26 PM PDT",
+  "last_updated": "July 5, 2025 at 8:58 PM PDT",
   "board": [
     {
       "username": "soccer791",
       "displayName": "Reverie",
-      "racesPlayed": 17074,
+      "racesPlayed": 17169,
       "role": "member",
       "title": "Acute Tinselitis",
       "joinStamp": 1751766957,
-      "lastActivity": 1751768323,
-      "delta": 3537
+      "lastActivity": 1751773720,
+      "delta": 3632
     },
     {
       "username": "tryhardwillwork",
       "displayName": "Imperator",
-      "racesPlayed": 32165,
+      "racesPlayed": 32205,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1751766237,
-      "delta": 3390
+      "lastActivity": 1751773242,
+      "delta": 3430
     },
     {
       "username": "abot8",
@@ -36,22 +36,22 @@
     {
       "username": "thecretor145",
       "displayName": "Trickster illusoire",
-      "racesPlayed": 7030,
+      "racesPlayed": 7075,
       "role": "officer",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1751766518,
-      "delta": 2670
+      "lastActivity": 1751773755,
+      "delta": 2715
     },
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 141795,
+      "racesPlayed": 141805,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1751768356,
-      "delta": 2599
+      "lastActivity": 1751770593,
+      "delta": 2609
     },
     {
       "username": "neiletsky",
@@ -86,12 +86,12 @@
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
       "displayName": "Scyphozoa64",
-      "racesPlayed": 869,
+      "racesPlayed": 931,
       "role": "member",
       "title": "Qwerty Quester",
       "joinStamp": 1751297409,
-      "lastActivity": 1751766111,
-      "delta": 781
+      "lastActivity": 1751773085,
+      "delta": 843
     },
     {
       "username": "persionde",
@@ -236,12 +236,12 @@
     {
       "username": "kudism",
       "displayName": "avalon",
-      "racesPlayed": 1608,
+      "racesPlayed": 1614,
       "role": "member",
       "title": "#elfie",
       "joinStamp": 1750606113,
-      "lastActivity": 1751762810,
-      "delta": 68
+      "lastActivity": 1751769705,
+      "delta": 74
     },
     {
       "username": "sumimyangel",
@@ -334,6 +334,16 @@
       "delta": 3
     },
     {
+      "username": "872f6edb6a13bb8207fd4169a626bb43",
+      "displayName": "ARONYO",
+      "racesPlayed": 2765,
+      "role": "member",
+      "title": "Nitro Rich",
+      "joinStamp": 1751529340,
+      "lastActivity": 1751771050,
+      "delta": 2
+    },
+    {
       "username": "superdavidj",
       "displayName": "FIood",
       "racesPlayed": 10539,
@@ -381,16 +391,6 @@
       "title": "Eternal Spring",
       "joinStamp": 1745209661,
       "lastActivity": 1750738904,
-      "delta": 0
-    },
-    {
-      "username": "872f6edb6a13bb8207fd4169a626bb43",
-      "displayName": "ARONYO",
-      "racesPlayed": 2763,
-      "role": "member",
-      "title": "Nitro Rich",
-      "joinStamp": 1751529340,
-      "lastActivity": 1751529538,
       "delta": 0
     },
     {
