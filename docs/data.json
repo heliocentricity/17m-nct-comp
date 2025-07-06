@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 6, 2025 at 10:22 AM PDT",
+  "last_updated": "July 6, 2025 at 11:34 AM PDT",
   "board": [
     {
       "username": "soccer791",
       "displayName": "Reverie",
-      "racesPlayed": 17425,
+      "racesPlayed": 17482,
       "role": "member",
       "title": "Acute Tinselitis",
       "joinStamp": 1751766957,
-      "lastActivity": 1751822306,
-      "delta": 3888
+      "lastActivity": 1751825417,
+      "delta": 3945
     },
     {
       "username": "tryhardwillwork",
@@ -26,22 +26,22 @@
     {
       "username": "thecretor145",
       "displayName": "Trickster illusoire",
-      "racesPlayed": 7369,
+      "racesPlayed": 7419,
       "role": "officer",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1751822369,
-      "delta": 3009
+      "lastActivity": 1751826562,
+      "delta": 3059
     },
     {
       "username": "neiletsky",
       "displayName": "ResourcefulSapphireFish",
-      "racesPlayed": 13376,
+      "racesPlayed": 13380,
       "role": "vicecaptain",
       "title": "Colemak Conqueror",
       "joinStamp": 1744741826,
       "lastActivity": 1751808994,
-      "delta": 2886
+      "delta": 2890
     },
     {
       "username": "abot8",
@@ -104,6 +104,16 @@
       "delta": 614
     },
     {
+      "username": "timmytimmy213",
+      "displayName": "timmytimmy213",
+      "racesPlayed": 4775,
+      "role": "officer",
+      "title": "Olde School",
+      "joinStamp": 1743005762,
+      "lastActivity": 1751825781,
+      "delta": 563
+    },
+    {
       "username": "vioiynx",
       "displayName": "vioiynx",
       "racesPlayed": 3701,
@@ -112,16 +122,6 @@
       "joinStamp": 1742509283,
       "lastActivity": 1751507157,
       "delta": 552
-    },
-    {
-      "username": "timmytimmy213",
-      "displayName": "timmytimmy213",
-      "racesPlayed": 4756,
-      "role": "officer",
-      "title": "Olde School",
-      "joinStamp": 1743005762,
-      "lastActivity": 1751807040,
-      "delta": 544
     },
     {
       "username": "a_normal_snake",
@@ -146,12 +146,12 @@
     {
       "username": "kudism",
       "displayName": "Radiant",
-      "racesPlayed": 1768,
+      "racesPlayed": 1789,
       "role": "member",
       "title": "#elfie",
       "joinStamp": 1750606113,
-      "lastActivity": 1751822329,
-      "delta": 228
+      "lastActivity": 1751824924,
+      "delta": 249
     },
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
@@ -196,12 +196,12 @@
     {
       "username": "insanity12354",
       "displayName": "insanity12354",
-      "racesPlayed": 8409,
+      "racesPlayed": 8429,
       "role": "member",
       "title": "Fast and Flora",
       "joinStamp": 1751588612,
-      "lastActivity": 1751752190,
-      "delta": 125
+      "lastActivity": 1751825041,
+      "delta": 145
     },
     {
       "username": "96adbea38b59bc5d736244c73d479514",
