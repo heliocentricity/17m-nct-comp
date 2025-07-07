@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 7, 2025 at 6:39 AM PDT",
+  "last_updated": "July 7, 2025 at 7:27 AM PDT",
   "board": [
     {
       "username": "soccer791",
@@ -16,12 +16,12 @@
     {
       "username": "tryhardwillwork",
       "displayName": "Imperator",
-      "racesPlayed": 32515,
+      "racesPlayed": 32575,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1751894964,
-      "delta": 3740
+      "lastActivity": 1751897975,
+      "delta": 3800
     },
     {
       "username": "neiletsky",
@@ -56,22 +56,22 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 142005,
+      "racesPlayed": 142015,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1751883828,
-      "delta": 2809
+      "lastActivity": 1751897088,
+      "delta": 2819
     },
     {
       "username": "sumitghag",
       "displayName": "SumitGhag",
-      "racesPlayed": 24330,
+      "racesPlayed": 24331,
       "role": "member",
       "title": "Super Sport Driver",
       "joinStamp": 1751471886,
-      "lastActivity": 1751894504,
-      "delta": 1270
+      "lastActivity": 1751895923,
+      "delta": 1271
     },
     {
       "username": "aiy_infection",
@@ -80,7 +80,7 @@
       "role": "captain",
       "title": "Drift Queen",
       "joinStamp": 1742486554,
-      "lastActivity": 1751894720,
+      "lastActivity": 1751895350,
       "delta": 1103
     },
     {
@@ -204,6 +204,16 @@
       "delta": 159
     },
     {
+      "username": "sumimyangel",
+      "displayName": "stephenJoester",
+      "racesPlayed": 21725,
+      "role": "member",
+      "title": "Champion Chaser",
+      "joinStamp": 1748965989,
+      "lastActivity": 1751806526,
+      "delta": 117
+    },
+    {
       "username": "96adbea38b59bc5d736244c73d479514",
       "displayName": "Pineapple",
       "racesPlayed": 4445,
@@ -222,16 +232,6 @@
       "joinStamp": 1751870479,
       "lastActivity": 1751882021,
       "delta": 111
-    },
-    {
-      "username": "sumimyangel",
-      "displayName": "stephenJoester",
-      "racesPlayed": 21715,
-      "role": "member",
-      "title": "Champion Chaser",
-      "joinStamp": 1748965989,
-      "lastActivity": 1751806526,
-      "delta": 107
     },
     {
       "username": "viper_shot",
@@ -354,6 +354,16 @@
       "delta": 21
     },
     {
+      "username": "galaxymasterpro",
+      "displayName": "galaxymasterpro",
+      "racesPlayed": 2011,
+      "role": "member",
+      "title": "Epic Engager",
+      "joinStamp": 1751817752,
+      "lastActivity": 1751897980,
+      "delta": 10
+    },
+    {
       "username": "a9b3d7a9c859cd8b0449aeccf2941077",
       "displayName": "HumbleCrimsonJackal",
       "racesPlayed": 42,
@@ -382,16 +392,6 @@
       "joinStamp": 1744391071,
       "lastActivity": 1751699729,
       "delta": 3
-    },
-    {
-      "username": "galaxymasterpro",
-      "displayName": "galaxymasterpro",
-      "racesPlayed": 2002,
-      "role": "member",
-      "title": "Epic Engager",
-      "joinStamp": 1751817752,
-      "lastActivity": 1751846272,
-      "delta": 1
     },
     {
       "username": "superdavidj",
