@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 7, 2025 at 3:31 AM PDT",
+  "last_updated": "July 7, 2025 at 4:23 AM PDT",
   "board": [
     {
       "username": "soccer791",
@@ -24,6 +24,16 @@
       "delta": 3725
     },
     {
+      "username": "neiletsky",
+      "displayName": "ResourcefulSapphireFish",
+      "racesPlayed": 13801,
+      "role": "vicecaptain",
+      "title": "Colemak Conqueror",
+      "joinStamp": 1744741826,
+      "lastActivity": 1751886965,
+      "delta": 3311
+    },
+    {
       "username": "thecretor145",
       "displayName": "Trickster illusoire",
       "racesPlayed": 7669,
@@ -32,16 +42,6 @@
       "joinStamp": 1751390680,
       "lastActivity": 1751862532,
       "delta": 3309
-    },
-    {
-      "username": "neiletsky",
-      "displayName": "ResourcefulSapphireFish",
-      "racesPlayed": 13744,
-      "role": "vicecaptain",
-      "title": "Colemak Conqueror",
-      "joinStamp": 1744741826,
-      "lastActivity": 1751884172,
-      "delta": 3254
     },
     {
       "username": "abot8",
@@ -156,12 +156,12 @@
     {
       "username": "514c4cd8cd68eabdd3bdca12ff9601d4",
       "displayName": "SLOWESTat_beingFAST",
-      "racesPlayed": 8677,
+      "racesPlayed": 8684,
       "role": "member",
       "title": "Happy Vibes :)",
       "joinStamp": 1751703504,
-      "lastActivity": 1751884145,
-      "delta": 281
+      "lastActivity": 1751885265,
+      "delta": 288
     },
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
@@ -266,12 +266,12 @@
     {
       "username": "i_dont_eat_stuff",
       "displayName": "rocksmasher9",
-      "racesPlayed": 9102,
+      "racesPlayed": 9116,
       "role": "member",
       "title": ":D",
       "joinStamp": 1751805075,
-      "lastActivity": 1751838558,
-      "delta": 54
+      "lastActivity": 1751885673,
+      "delta": 68
     },
     {
       "username": "5fff3c41947a5b24ed13ddb1c73b1e55",
