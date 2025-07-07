@@ -1,47 +1,47 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 7, 2025 at 3:26 PM PDT",
+  "last_updated": "July 7, 2025 at 4:25 PM PDT",
   "board": [
     {
       "username": "soccer791",
       "displayName": "Reverie",
-      "racesPlayed": 18163,
+      "racesPlayed": 18241,
       "role": "member",
       "title": "Acute Tinselitis",
       "joinStamp": 1751766957,
-      "lastActivity": 1751925824,
-      "delta": 4626
+      "lastActivity": 1751930340,
+      "delta": 4704
     },
     {
       "username": "tryhardwillwork",
       "displayName": "Imperator",
-      "racesPlayed": 33106,
+      "racesPlayed": 33131,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1751926777,
-      "delta": 4331
+      "lastActivity": 1751929927,
+      "delta": 4356
     },
     {
       "username": "thecretor145",
       "displayName": "Trickster illusoire",
-      "racesPlayed": 7977,
+      "racesPlayed": 8032,
       "role": "officer",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1751926149,
-      "delta": 3617
+      "lastActivity": 1751930132,
+      "delta": 3672
     },
     {
       "username": "neiletsky",
       "displayName": "ResourcefulSapphireFish",
-      "racesPlayed": 14032,
+      "racesPlayed": 14108,
       "role": "vicecaptain",
       "title": "I Hate Words",
       "joinStamp": 1744741826,
-      "lastActivity": 1751926743,
-      "delta": 3542
+      "lastActivity": 1751930364,
+      "delta": 3618
     },
     {
       "username": "abot8",
@@ -96,12 +96,22 @@
     {
       "username": "ryyedawg7",
       "displayName": "R Y Y E",
-      "racesPlayed": 1523,
+      "racesPlayed": 1535,
       "role": "member",
       "title": "wow. such gifting",
       "joinStamp": 1751926592,
-      "lastActivity": 1751926640,
-      "delta": 686
+      "lastActivity": 1751930084,
+      "delta": 698
+    },
+    {
+      "username": "timmytimmy213",
+      "displayName": "timmytimmy213",
+      "racesPlayed": 4851,
+      "role": "officer",
+      "title": "Olde School",
+      "joinStamp": 1743005762,
+      "lastActivity": 1751929162,
+      "delta": 639
     },
     {
       "username": "persionde",
@@ -112,16 +122,6 @@
       "joinStamp": 1750984125,
       "lastActivity": 1751660425,
       "delta": 614
-    },
-    {
-      "username": "timmytimmy213",
-      "displayName": "timmytimmy213",
-      "racesPlayed": 4806,
-      "role": "officer",
-      "title": "Olde School",
-      "joinStamp": 1743005762,
-      "lastActivity": 1751901489,
-      "delta": 594
     },
     {
       "username": "vioiynx",
@@ -155,23 +155,23 @@
     },
     {
       "username": "kudism",
-      "displayName": "Radiant",
-      "racesPlayed": 1935,
+      "displayName": "rosaline",
+      "racesPlayed": 1939,
       "role": "member",
       "title": "#elfie",
       "joinStamp": 1750606113,
-      "lastActivity": 1751926508,
-      "delta": 395
+      "lastActivity": 1751927365,
+      "delta": 399
     },
     {
       "username": "trxppycarter",
       "displayName": "cxrter",
-      "racesPlayed": 4776,
+      "racesPlayed": 4802,
       "role": "member",
       "title": "Oh Em Gee!",
       "joinStamp": 1751870479,
-      "lastActivity": 1751926791,
-      "delta": 310
+      "lastActivity": 1751929361,
+      "delta": 336
     },
     {
       "username": "514c4cd8cd68eabdd3bdca12ff9601d4",
@@ -250,7 +250,7 @@
       "role": "member",
       "title": ":D",
       "joinStamp": 1751805075,
-      "lastActivity": 1751924399,
+      "lastActivity": 1751926892,
       "delta": 109
     },
     {
@@ -294,6 +294,16 @@
       "delta": 76
     },
     {
+      "username": "e91a12732e6934f1497a87273a05f395",
+      "displayName": "Hannah Banana",
+      "racesPlayed": 4860,
+      "role": "member",
+      "title": "I Love Frogs",
+      "joinStamp": 1751308294,
+      "lastActivity": 1751930197,
+      "delta": 59
+    },
+    {
       "username": "5fff3c41947a5b24ed13ddb1c73b1e55",
       "displayName": "ApricotIvoryFlea",
       "racesPlayed": 1313,
@@ -302,16 +312,6 @@
       "joinStamp": 1750794927,
       "lastActivity": 1751347990,
       "delta": 52
-    },
-    {
-      "username": "e91a12732e6934f1497a87273a05f395",
-      "displayName": "Hannah Banana",
-      "racesPlayed": 4851,
-      "role": "member",
-      "title": "I Love Frogs",
-      "joinStamp": 1751308294,
-      "lastActivity": 1751914358,
-      "delta": 50
     },
     {
       "username": "vdgyertikopzefrgh",
