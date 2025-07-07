@@ -1,37 +1,37 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 6, 2025 at 7:22 PM PDT",
+  "last_updated": "July 6, 2025 at 8:58 PM PDT",
   "board": [
     {
       "username": "soccer791",
       "displayName": "Reverie",
-      "racesPlayed": 17699,
+      "racesPlayed": 17741,
       "role": "member",
       "title": "Acute Tinselitis",
       "joinStamp": 1751766957,
-      "lastActivity": 1751854762,
-      "delta": 4162
+      "lastActivity": 1751860139,
+      "delta": 4204
     },
     {
       "username": "tryhardwillwork",
       "displayName": "Imperator",
-      "racesPlayed": 32489,
+      "racesPlayed": 32500,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1751854302,
-      "delta": 3714
+      "lastActivity": 1751856254,
+      "delta": 3725
     },
     {
       "username": "thecretor145",
       "displayName": "Trickster illusoire",
-      "racesPlayed": 7555,
+      "racesPlayed": 7644,
       "role": "officer",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1751854792,
-      "delta": 3195
+      "lastActivity": 1751859511,
+      "delta": 3284
     },
     {
       "username": "neiletsky",
@@ -66,12 +66,12 @@
     {
       "username": "sumitghag",
       "displayName": "SumitGhag",
-      "racesPlayed": 24210,
+      "racesPlayed": 24219,
       "role": "member",
       "title": "Super Sport Driver",
       "joinStamp": 1751471886,
-      "lastActivity": 1751817489,
-      "delta": 1150
+      "lastActivity": 1751860152,
+      "delta": 1159
     },
     {
       "username": "aiy_infection",
@@ -86,12 +86,12 @@
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
       "displayName": "Scyphozoa64",
-      "racesPlayed": 1061,
+      "racesPlayed": 1070,
       "role": "officer",
       "title": "Epic Word Skippage",
       "joinStamp": 1751297409,
-      "lastActivity": 1751838318,
-      "delta": 973
+      "lastActivity": 1751857708,
+      "delta": 982
     },
     {
       "username": "persionde",
@@ -146,12 +146,12 @@
     {
       "username": "kudism",
       "displayName": "Radiant",
-      "racesPlayed": 1839,
+      "racesPlayed": 1843,
       "role": "member",
       "title": "Eternal Spring",
       "joinStamp": 1750606113,
-      "lastActivity": 1751854733,
-      "delta": 299
+      "lastActivity": 1751859547,
+      "delta": 303
     },
     {
       "username": "514c4cd8cd68eabdd3bdca12ff9601d4",
