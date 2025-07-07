@@ -1,47 +1,47 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 7, 2025 at 12:23 PM PDT",
+  "last_updated": "July 7, 2025 at 1:30 PM PDT",
   "board": [
     {
       "username": "soccer791",
       "displayName": "Reverie",
-      "racesPlayed": 18033,
+      "racesPlayed": 18082,
       "role": "member",
       "title": "Acute Tinselitis",
       "joinStamp": 1751766957,
-      "lastActivity": 1751915769,
-      "delta": 4496
+      "lastActivity": 1751920123,
+      "delta": 4545
     },
     {
       "username": "tryhardwillwork",
       "displayName": "Imperator",
-      "racesPlayed": 32921,
+      "racesPlayed": 33006,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1751915990,
-      "delta": 4146
+      "lastActivity": 1751920156,
+      "delta": 4231
     },
     {
       "username": "thecretor145",
       "displayName": "Trickster illusoire",
-      "racesPlayed": 7882,
+      "racesPlayed": 7917,
       "role": "officer",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1751915630,
-      "delta": 3522
+      "lastActivity": 1751919697,
+      "delta": 3557
     },
     {
       "username": "neiletsky",
       "displayName": "ResourcefulSapphireFish",
-      "racesPlayed": 13918,
+      "racesPlayed": 13963,
       "role": "vicecaptain",
       "title": "I Hate Words",
       "joinStamp": 1744741826,
-      "lastActivity": 1751915976,
-      "delta": 3428
+      "lastActivity": 1751918327,
+      "delta": 3473
     },
     {
       "username": "abot8",
@@ -126,12 +126,12 @@
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
       "displayName": "FoscoBurrows",
-      "racesPlayed": 12131,
+      "racesPlayed": 12152,
       "role": "member",
       "title": "Potaytoes",
       "joinStamp": 1751395286,
-      "lastActivity": 1751915475,
-      "delta": 439
+      "lastActivity": 1751918842,
+      "delta": 460
     },
     {
       "username": "a_normal_snake",
@@ -164,6 +164,16 @@
       "delta": 288
     },
     {
+      "username": "trxppycarter",
+      "displayName": "cxrter",
+      "racesPlayed": 4686,
+      "role": "member",
+      "title": "Oh Em Gee!",
+      "joinStamp": 1751870479,
+      "lastActivity": 1751920192,
+      "delta": 220
+    },
+    {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
       "racesPlayed": 403,
@@ -172,16 +182,6 @@
       "joinStamp": 1750712571,
       "lastActivity": 1751739519,
       "delta": 202
-    },
-    {
-      "username": "trxppycarter",
-      "displayName": "cxrter",
-      "racesPlayed": 4661,
-      "role": "member",
-      "title": "Oh Em Gee!",
-      "joinStamp": 1751870479,
-      "lastActivity": 1751915966,
-      "delta": 195
     },
     {
       "username": "gw2iscoollol",
@@ -234,6 +234,16 @@
       "delta": 115
     },
     {
+      "username": "i_dont_eat_stuff",
+      "displayName": "rocksmasher9",
+      "racesPlayed": 9154,
+      "role": "member",
+      "title": ":D",
+      "joinStamp": 1751805075,
+      "lastActivity": 1751919264,
+      "delta": 106
+    },
+    {
       "username": "viper_shot",
       "displayName": "v1per_sh0t",
       "racesPlayed": 5717,
@@ -272,16 +282,6 @@
       "joinStamp": 1751815971,
       "lastActivity": 1751906900,
       "delta": 75
-    },
-    {
-      "username": "i_dont_eat_stuff",
-      "displayName": "rocksmasher9",
-      "racesPlayed": 9116,
-      "role": "member",
-      "title": ":D",
-      "joinStamp": 1751805075,
-      "lastActivity": 1751885673,
-      "delta": 68
     },
     {
       "username": "5fff3c41947a5b24ed13ddb1c73b1e55",
