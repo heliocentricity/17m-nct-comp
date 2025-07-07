@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 7, 2025 at 12:27 AM PDT",
+  "last_updated": "July 7, 2025 at 1:37 AM PDT",
   "board": [
     {
       "username": "soccer791",
       "displayName": "Reverie",
-      "racesPlayed": 18010,
+      "racesPlayed": 18018,
       "role": "member",
       "title": "Acute Tinselitis",
       "joinStamp": 1751766957,
-      "lastActivity": 1751872773,
-      "delta": 4473
+      "lastActivity": 1751874466,
+      "delta": 4481
     },
     {
       "username": "tryhardwillwork",
@@ -36,12 +36,12 @@
     {
       "username": "neiletsky",
       "displayName": "ResourcefulSapphireFish",
-      "racesPlayed": 13512,
+      "racesPlayed": 13608,
       "role": "vicecaptain",
       "title": "Colemak Conqueror",
       "joinStamp": 1744741826,
-      "lastActivity": 1751872771,
-      "delta": 3022
+      "lastActivity": 1751876981,
+      "delta": 3118
     },
     {
       "username": "abot8",
@@ -66,12 +66,12 @@
     {
       "username": "sumitghag",
       "displayName": "SumitGhag",
-      "racesPlayed": 24275,
+      "racesPlayed": 24279,
       "role": "member",
       "title": "Super Sport Driver",
       "joinStamp": 1751471886,
-      "lastActivity": 1751872202,
-      "delta": 1215
+      "lastActivity": 1751875714,
+      "delta": 1219
     },
     {
       "username": "aiy_infection",
@@ -110,7 +110,7 @@
       "role": "officer",
       "title": "Olde School",
       "joinStamp": 1743005762,
-      "lastActivity": 1751870518,
+      "lastActivity": 1751873093,
       "delta": 584
     },
     {
@@ -156,12 +156,12 @@
     {
       "username": "514c4cd8cd68eabdd3bdca12ff9601d4",
       "displayName": "SLOWESTat_beingFAST",
-      "racesPlayed": 8617,
+      "racesPlayed": 8619,
       "role": "member",
       "title": "Happy Vibes :)",
       "joinStamp": 1751703504,
       "lastActivity": 1751838773,
-      "delta": 221
+      "delta": 223
     },
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
@@ -282,6 +282,16 @@
       "joinStamp": 1742927144,
       "lastActivity": 1751202476,
       "delta": 48
+    },
+    {
+      "username": "trxppycarter",
+      "displayName": "cxrter",
+      "racesPlayed": 4511,
+      "role": "member",
+      "title": "Oh Em Gee!",
+      "joinStamp": 1751870479,
+      "lastActivity": 1751876993,
+      "delta": 45
     },
     {
       "username": "e91a12732e6934f1497a87273a05f395",
@@ -451,16 +461,6 @@
       "title": "Green Streak",
       "joinStamp": 1743434481,
       "lastActivity": 1747658119,
-      "delta": 0
-    },
-    {
-      "username": "trxppycarter",
-      "displayName": "cxrter",
-      "racesPlayed": 4466,
-      "role": "member",
-      "title": "Oh Em Gee!",
-      "joinStamp": 1751870479,
-      "lastActivity": 1751872734,
       "delta": 0
     },
     {
