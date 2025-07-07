@@ -1,47 +1,47 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 7, 2025 at 10:24 AM PDT",
+  "last_updated": "July 7, 2025 at 11:37 AM PDT",
   "board": [
     {
       "username": "soccer791",
       "displayName": "Reverie",
-      "racesPlayed": 18018,
+      "racesPlayed": 18030,
       "role": "member",
       "title": "Acute Tinselitis",
       "joinStamp": 1751766957,
-      "lastActivity": 1751874466,
-      "delta": 4481
+      "lastActivity": 1751912603,
+      "delta": 4493
     },
     {
       "username": "tryhardwillwork",
       "displayName": "Imperator",
-      "racesPlayed": 32788,
+      "racesPlayed": 32880,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1751908747,
-      "delta": 4013
+      "lastActivity": 1751912967,
+      "delta": 4105
     },
     {
       "username": "thecretor145",
       "displayName": "Trickster illusoire",
-      "racesPlayed": 7812,
+      "racesPlayed": 7865,
       "role": "officer",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1751908763,
-      "delta": 3452
+      "lastActivity": 1751912940,
+      "delta": 3505
     },
     {
       "username": "neiletsky",
       "displayName": "ResourcefulSapphireFish",
-      "racesPlayed": 13801,
+      "racesPlayed": 13863,
       "role": "vicecaptain",
       "title": "I Hate Words",
       "joinStamp": 1744741826,
-      "lastActivity": 1751886965,
-      "delta": 3311
+      "lastActivity": 1751912989,
+      "delta": 3373
     },
     {
       "username": "abot8",
@@ -124,34 +124,34 @@
       "delta": 552
     },
     {
-      "username": "a_normal_snake",
-      "displayName": "-Snake-",
-      "racesPlayed": 3365,
-      "role": "member",
-      "title": "I Love Dogs",
-      "joinStamp": 1751144117,
-      "lastActivity": 1751662889,
-      "delta": 429
-    },
-    {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
       "displayName": "FoscoBurrows",
-      "racesPlayed": 12119,
+      "racesPlayed": 12128,
       "role": "member",
       "title": "Potaytoes",
       "joinStamp": 1751395286,
-      "lastActivity": 1751907782,
-      "delta": 427
+      "lastActivity": 1751912858,
+      "delta": 436
+    },
+    {
+      "username": "a_normal_snake",
+      "displayName": "-Snake-",
+      "racesPlayed": 3366,
+      "role": "member",
+      "title": "I Love Dogs",
+      "joinStamp": 1751144117,
+      "lastActivity": 1751912016,
+      "delta": 430
     },
     {
       "username": "kudism",
       "displayName": "Radiant",
-      "racesPlayed": 1858,
+      "racesPlayed": 1880,
       "role": "member",
       "title": "Eternal Spring",
       "joinStamp": 1750606113,
-      "lastActivity": 1751864910,
-      "delta": 318
+      "lastActivity": 1751912967,
+      "delta": 340
     },
     {
       "username": "514c4cd8cd68eabdd3bdca12ff9601d4",
@@ -182,6 +182,16 @@
       "joinStamp": 1750448154,
       "lastActivity": 1751583212,
       "delta": 193
+    },
+    {
+      "username": "trxppycarter",
+      "displayName": "cxrter",
+      "racesPlayed": 4645,
+      "role": "member",
+      "title": "Oh Em Gee!",
+      "joinStamp": 1751870479,
+      "lastActivity": 1751912966,
+      "delta": 179
     },
     {
       "username": "4399e7a571cf827be64b714c30c899ef",
@@ -222,16 +232,6 @@
       "joinStamp": 1750984670,
       "lastActivity": 1751207385,
       "delta": 115
-    },
-    {
-      "username": "trxppycarter",
-      "displayName": "cxrter",
-      "racesPlayed": 4577,
-      "role": "member",
-      "title": "Oh Em Gee!",
-      "joinStamp": 1751870479,
-      "lastActivity": 1751882021,
-      "delta": 111
     },
     {
       "username": "viper_shot",
@@ -356,12 +356,12 @@
     {
       "username": "8b81d3996ac92d37dd96fca816ef5a5d",
       "displayName": "-tzalexn-",
-      "racesPlayed": 276,
+      "racesPlayed": 279,
       "role": "member",
       "title": "Qwerty Quester",
       "joinStamp": 1751674449,
-      "lastActivity": 1751848522,
-      "delta": 26
+      "lastActivity": 1751910008,
+      "delta": 29
     },
     {
       "username": "a9b3d7a9c859cd8b0449aeccf2941077",
