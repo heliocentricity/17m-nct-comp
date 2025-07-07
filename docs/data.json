@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 7, 2025 at 1:37 AM PDT",
+  "last_updated": "July 7, 2025 at 2:31 AM PDT",
   "board": [
     {
       "username": "soccer791",
@@ -36,12 +36,12 @@
     {
       "username": "neiletsky",
       "displayName": "ResourcefulSapphireFish",
-      "racesPlayed": 13608,
+      "racesPlayed": 13676,
       "role": "vicecaptain",
       "title": "Colemak Conqueror",
       "joinStamp": 1744741826,
-      "lastActivity": 1751876981,
-      "delta": 3118
+      "lastActivity": 1751880554,
+      "delta": 3186
     },
     {
       "username": "abot8",
@@ -56,22 +56,22 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 141955,
+      "racesPlayed": 141980,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1751854636,
-      "delta": 2759
+      "lastActivity": 1751880425,
+      "delta": 2784
     },
     {
       "username": "sumitghag",
       "displayName": "SumitGhag",
-      "racesPlayed": 24279,
+      "racesPlayed": 24285,
       "role": "member",
       "title": "Super Sport Driver",
       "joinStamp": 1751471886,
-      "lastActivity": 1751875714,
-      "delta": 1219
+      "lastActivity": 1751879524,
+      "delta": 1225
     },
     {
       "username": "aiy_infection",
@@ -156,12 +156,12 @@
     {
       "username": "514c4cd8cd68eabdd3bdca12ff9601d4",
       "displayName": "SLOWESTat_beingFAST",
-      "racesPlayed": 8619,
+      "racesPlayed": 8648,
       "role": "member",
       "title": "Happy Vibes :)",
       "joinStamp": 1751703504,
-      "lastActivity": 1751838773,
-      "delta": 223
+      "lastActivity": 1751880575,
+      "delta": 252
     },
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
@@ -234,6 +234,16 @@
       "delta": 105
     },
     {
+      "username": "trxppycarter",
+      "displayName": "cxrter",
+      "racesPlayed": 4558,
+      "role": "member",
+      "title": "Oh Em Gee!",
+      "joinStamp": 1751870479,
+      "lastActivity": 1751880587,
+      "delta": 92
+    },
+    {
       "username": "conquerer11k",
       "displayName": "ResilientRedDonkey",
       "racesPlayed": 13688,
@@ -282,16 +292,6 @@
       "joinStamp": 1742927144,
       "lastActivity": 1751202476,
       "delta": 48
-    },
-    {
-      "username": "trxppycarter",
-      "displayName": "cxrter",
-      "racesPlayed": 4511,
-      "role": "member",
-      "title": "Oh Em Gee!",
-      "joinStamp": 1751870479,
-      "lastActivity": 1751876993,
-      "delta": 45
     },
     {
       "username": "e91a12732e6934f1497a87273a05f395",
