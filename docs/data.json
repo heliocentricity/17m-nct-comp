@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 6, 2025 at 11:40 PM PDT",
+  "last_updated": "July 7, 2025 at 12:27 AM PDT",
   "board": [
     {
       "username": "soccer791",
       "displayName": "Reverie",
-      "racesPlayed": 17954,
+      "racesPlayed": 18010,
       "role": "member",
       "title": "Acute Tinselitis",
       "joinStamp": 1751766957,
-      "lastActivity": 1751870380,
-      "delta": 4417
+      "lastActivity": 1751872773,
+      "delta": 4473
     },
     {
       "username": "tryhardwillwork",
@@ -36,12 +36,12 @@
     {
       "username": "neiletsky",
       "displayName": "ResourcefulSapphireFish",
-      "racesPlayed": 13445,
+      "racesPlayed": 13512,
       "role": "vicecaptain",
       "title": "Colemak Conqueror",
       "joinStamp": 1744741826,
-      "lastActivity": 1751829867,
-      "delta": 2955
+      "lastActivity": 1751872771,
+      "delta": 3022
     },
     {
       "username": "abot8",
@@ -66,12 +66,12 @@
     {
       "username": "sumitghag",
       "displayName": "SumitGhag",
-      "racesPlayed": 24263,
+      "racesPlayed": 24275,
       "role": "member",
       "title": "Super Sport Driver",
       "joinStamp": 1751471886,
-      "lastActivity": 1751870321,
-      "delta": 1203
+      "lastActivity": 1751872202,
+      "delta": 1215
     },
     {
       "username": "aiy_infection",
@@ -106,12 +106,12 @@
     {
       "username": "timmytimmy213",
       "displayName": "timmytimmy213",
-      "racesPlayed": 4788,
+      "racesPlayed": 4796,
       "role": "officer",
       "title": "Olde School",
       "joinStamp": 1743005762,
-      "lastActivity": 1751870384,
-      "delta": 576
+      "lastActivity": 1751870518,
+      "delta": 584
     },
     {
       "username": "vioiynx",
@@ -451,6 +451,16 @@
       "title": "Green Streak",
       "joinStamp": 1743434481,
       "lastActivity": 1747658119,
+      "delta": 0
+    },
+    {
+      "username": "trxppycarter",
+      "displayName": "cxrter",
+      "racesPlayed": 4466,
+      "role": "member",
+      "title": "Oh Em Gee!",
+      "joinStamp": 1751870479,
+      "lastActivity": 1751872734,
       "delta": 0
     },
     {
