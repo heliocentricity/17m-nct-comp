@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 7, 2025 at 4:23 AM PDT",
+  "last_updated": "July 7, 2025 at 5:56 AM PDT",
   "board": [
     {
       "username": "soccer791",
@@ -28,7 +28,7 @@
       "displayName": "ResourcefulSapphireFish",
       "racesPlayed": 13801,
       "role": "vicecaptain",
-      "title": "Colemak Conqueror",
+      "title": "I Hate Words",
       "joinStamp": 1744741826,
       "lastActivity": 1751886965,
       "delta": 3311
@@ -66,22 +66,22 @@
     {
       "username": "sumitghag",
       "displayName": "SumitGhag",
-      "racesPlayed": 24285,
+      "racesPlayed": 24306,
       "role": "member",
       "title": "Super Sport Driver",
       "joinStamp": 1751471886,
-      "lastActivity": 1751879524,
-      "delta": 1225
+      "lastActivity": 1751892524,
+      "delta": 1246
     },
     {
       "username": "aiy_infection",
       "displayName": "icarus",
-      "racesPlayed": 11060,
+      "racesPlayed": 11096,
       "role": "captain",
       "title": "Drift Queen",
       "joinStamp": 1742486554,
-      "lastActivity": 1751811154,
-      "delta": 1050
+      "lastActivity": 1751891916,
+      "delta": 1086
     },
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
@@ -136,12 +136,12 @@
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
       "displayName": "FoscoBurrows",
-      "racesPlayed": 12081,
+      "racesPlayed": 12098,
       "role": "member",
       "title": "Potaytoes",
       "joinStamp": 1751395286,
-      "lastActivity": 1751818835,
-      "delta": 389
+      "lastActivity": 1751891695,
+      "delta": 406
     },
     {
       "username": "kudism",
@@ -304,6 +304,16 @@
       "delta": 44
     },
     {
+      "username": "cat_hiding_in_couch",
+      "displayName": "Royal0",
+      "racesPlayed": 1240,
+      "role": "member",
+      "title": "Qwerty Quester",
+      "joinStamp": 1751811398,
+      "lastActivity": 1751890342,
+      "delta": 39
+    },
+    {
       "username": "aphoenix888",
       "displayName": "",
       "racesPlayed": 2276,
@@ -322,16 +332,6 @@
       "joinStamp": 1750468101,
       "lastActivity": 1751327487,
       "delta": 32
-    },
-    {
-      "username": "cat_hiding_in_couch",
-      "displayName": "Royal0",
-      "racesPlayed": 1227,
-      "role": "member",
-      "title": "Qwerty Quester",
-      "joinStamp": 1751811398,
-      "lastActivity": 1751848604,
-      "delta": 26
     },
     {
       "username": "8b81d3996ac92d37dd96fca816ef5a5d",
@@ -362,26 +362,6 @@
       "joinStamp": 1751810415,
       "lastActivity": 1751846931,
       "delta": 6
-    },
-    {
-      "username": "thequantumrevolution",
-      "displayName": "thequantumrevolution",
-      "racesPlayed": 25,
-      "role": "member",
-      "title": "Raw Racing Recruit",
-      "joinStamp": 1751685478,
-      "lastActivity": 1751689596,
-      "delta": 5
-    },
-    {
-      "username": "872f6edb6a13bb8207fd4169a626bb43",
-      "displayName": "ARONYO",
-      "racesPlayed": 2767,
-      "role": "member",
-      "title": "Nitro Rich",
-      "joinStamp": 1751529340,
-      "lastActivity": 1751804990,
-      "delta": 4
     },
     {
       "username": "1400dgloo",
@@ -471,16 +451,6 @@
       "title": "Millionaire",
       "joinStamp": 1747978481,
       "lastActivity": 1750423100,
-      "delta": 0
-    },
-    {
-      "username": "48fe060c93c7f31ea136e638906151d6",
-      "displayName": "WonderfulScarletSalamander",
-      "racesPlayed": 18,
-      "role": "member",
-      "title": "Raw Racing Recruit",
-      "joinStamp": 1751835423,
-      "lastActivity": 0,
       "delta": 0
     }
   ]
