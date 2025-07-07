@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 7, 2025 at 8:28 AM PDT",
+  "last_updated": "July 7, 2025 at 9:34 AM PDT",
   "board": [
     {
       "username": "soccer791",
@@ -16,22 +16,22 @@
     {
       "username": "tryhardwillwork",
       "displayName": "Imperator",
-      "racesPlayed": 32642,
+      "racesPlayed": 32722,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1751901578,
-      "delta": 3867
+      "lastActivity": 1751905781,
+      "delta": 3947
     },
     {
       "username": "thecretor145",
       "displayName": "Trickster illusoire",
-      "racesPlayed": 7720,
+      "racesPlayed": 7777,
       "role": "officer",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1751901498,
-      "delta": 3360
+      "lastActivity": 1751905761,
+      "delta": 3417
     },
     {
       "username": "neiletsky",
@@ -56,22 +56,22 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 142020,
+      "racesPlayed": 142040,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1751901486,
-      "delta": 2824
+      "lastActivity": 1751905785,
+      "delta": 2844
     },
     {
       "username": "sumitghag",
       "displayName": "SumitGhag",
-      "racesPlayed": 24358,
+      "racesPlayed": 24360,
       "role": "member",
       "title": "Super Sport Driver",
       "joinStamp": 1751471886,
-      "lastActivity": 1751901422,
-      "delta": 1298
+      "lastActivity": 1751902509,
+      "delta": 1300
     },
     {
       "username": "aiy_infection",
@@ -90,7 +90,7 @@
       "role": "officer",
       "title": "Epic Word Skippage",
       "joinStamp": 1751297409,
-      "lastActivity": 1751894390,
+      "lastActivity": 1751902005,
       "delta": 985
     },
     {
@@ -136,12 +136,12 @@
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
       "displayName": "FoscoBurrows",
-      "racesPlayed": 12099,
+      "racesPlayed": 12101,
       "role": "member",
       "title": "Potaytoes",
       "joinStamp": 1751395286,
-      "lastActivity": 1751894619,
-      "delta": 407
+      "lastActivity": 1751903135,
+      "delta": 409
     },
     {
       "username": "kudism",
@@ -274,6 +274,16 @@
       "delta": 68
     },
     {
+      "username": "taylor9191",
+      "displayName": "Tay on Summer Break",
+      "racesPlayed": 3665,
+      "role": "member",
+      "title": "Flora Fury",
+      "joinStamp": 1751815971,
+      "lastActivity": 1751905485,
+      "delta": 68
+    },
+    {
       "username": "5fff3c41947a5b24ed13ddb1c73b1e55",
       "displayName": "ApricotIvoryFlea",
       "racesPlayed": 1313,
@@ -282,16 +292,6 @@
       "joinStamp": 1750794927,
       "lastActivity": 1751347990,
       "delta": 52
-    },
-    {
-      "username": "taylor9191",
-      "displayName": "Tay on Summer Break",
-      "racesPlayed": 3647,
-      "role": "member",
-      "title": "Flora Fury",
-      "joinStamp": 1751815971,
-      "lastActivity": 1751901576,
-      "delta": 50
     },
     {
       "username": "vdgyertikopzefrgh",
@@ -346,12 +346,12 @@
     {
       "username": "galaxymasterpro",
       "displayName": "galaxymasterpro",
-      "racesPlayed": 2030,
+      "racesPlayed": 2032,
       "role": "member",
       "title": "Epic Engager",
       "joinStamp": 1751817752,
-      "lastActivity": 1751901579,
-      "delta": 29
+      "lastActivity": 1751902511,
+      "delta": 31
     },
     {
       "username": "8b81d3996ac92d37dd96fca816ef5a5d",
