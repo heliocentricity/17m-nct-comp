@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 8, 2025 at 12:21 PM PDT",
+  "last_updated": "July 8, 2025 at 1:30 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
       "displayName": "Imperator",
-      "racesPlayed": 33500,
+      "racesPlayed": 33515,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1751948306,
-      "delta": 4725
+      "lastActivity": 1752005947,
+      "delta": 4740
     },
     {
       "username": "thecretor145",
@@ -66,12 +66,12 @@
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
       "displayName": "Scyphozoa64",
-      "racesPlayed": 1306,
+      "racesPlayed": 1314,
       "role": "officer",
       "title": "Learner Leader",
       "joinStamp": 1751297409,
-      "lastActivity": 1751999830,
-      "delta": 1218
+      "lastActivity": 1752004382,
+      "delta": 1226
     },
     {
       "username": "aiy_infection",
@@ -86,12 +86,12 @@
     {
       "username": "timmytimmy213",
       "displayName": "timmytimmy213",
-      "racesPlayed": 5007,
+      "racesPlayed": 5019,
       "role": "officer",
       "title": "Olde School",
       "joinStamp": 1743005762,
-      "lastActivity": 1751997781,
-      "delta": 795
+      "lastActivity": 1752003488,
+      "delta": 807
     },
     {
       "username": "ryyedawg7",
