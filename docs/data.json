@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 8, 2025 at 10:24 AM PDT",
+  "last_updated": "July 8, 2025 at 11:38 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -66,12 +66,12 @@
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
       "displayName": "Scyphozoa64",
-      "racesPlayed": 1291,
+      "racesPlayed": 1306,
       "role": "officer",
       "title": "Learner Leader",
       "joinStamp": 1751297409,
-      "lastActivity": 1751991260,
-      "delta": 1203
+      "lastActivity": 1751999373,
+      "delta": 1218
     },
     {
       "username": "aiy_infection",
@@ -86,12 +86,12 @@
     {
       "username": "timmytimmy213",
       "displayName": "timmytimmy213",
-      "racesPlayed": 4970,
+      "racesPlayed": 5007,
       "role": "officer",
       "title": "Olde School",
       "joinStamp": 1743005762,
-      "lastActivity": 1751990831,
-      "delta": 758
+      "lastActivity": 1751997781,
+      "delta": 795
     },
     {
       "username": "ryyedawg7",
@@ -106,12 +106,12 @@
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
       "displayName": "FoscoBurrows",
-      "racesPlayed": 12365,
+      "racesPlayed": 12416,
       "role": "member",
       "title": "Potaytoes",
       "joinStamp": 1751395286,
-      "lastActivity": 1751995187,
-      "delta": 673
+      "lastActivity": 1751999211,
+      "delta": 724
     },
     {
       "username": "persionde",
@@ -316,12 +316,12 @@
     {
       "username": "8b81d3996ac92d37dd96fca816ef5a5d",
       "displayName": "-tzalexn-",
-      "racesPlayed": 307,
+      "racesPlayed": 310,
       "role": "member",
       "title": "Mystery Man",
       "joinStamp": 1751674449,
-      "lastActivity": 1751950735,
-      "delta": 57
+      "lastActivity": 1751997391,
+      "delta": 60
     },
     {
       "username": "cat_hiding_in_couch",
@@ -350,7 +350,7 @@
       "role": "member",
       "title": "Spring Speedster",
       "joinStamp": 1751976064,
-      "lastActivity": 1751995183,
+      "lastActivity": 1751995420,
       "delta": 49
     },
     {
@@ -451,6 +451,16 @@
       "title": "Green Streak",
       "joinStamp": 1743434481,
       "lastActivity": 1747658119,
+      "delta": 0
+    },
+    {
+      "username": "627aecdf7610fc6de50ed0e535eb9577",
+      "displayName": "xRaider",
+      "racesPlayed": 17208,
+      "role": "member",
+      "title": "Overdrive",
+      "joinStamp": 1751996582,
+      "lastActivity": 1751997822,
       "delta": 0
     },
     {
