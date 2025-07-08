@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 8, 2025 at 4:24 AM PDT",
+  "last_updated": "July 8, 2025 at 5:56 AM PDT",
   "board": [
     {
       "username": "soccer791",
@@ -66,12 +66,12 @@
     {
       "username": "sumitghag",
       "displayName": "SumitGhag",
-      "racesPlayed": 24484,
+      "racesPlayed": 24534,
       "role": "member",
       "title": "Sports Car Driver",
       "joinStamp": 1751471886,
-      "lastActivity": 1751969095,
-      "delta": 1424
+      "lastActivity": 1751978523,
+      "delta": 1474
     },
     {
       "username": "aiy_infection",
@@ -86,12 +86,12 @@
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
       "displayName": "Scyphozoa64",
-      "racesPlayed": 1128,
+      "racesPlayed": 1176,
       "role": "officer",
       "title": "Epic Word Skippage",
       "joinStamp": 1751297409,
-      "lastActivity": 1751944166,
-      "delta": 1040
+      "lastActivity": 1751978986,
+      "delta": 1088
     },
     {
       "username": "ryyedawg7",
@@ -224,6 +224,16 @@
       "delta": 159
     },
     {
+      "username": "i_dont_eat_stuff",
+      "displayName": "rocksmasher9",
+      "racesPlayed": 9185,
+      "role": "member",
+      "title": ":D",
+      "joinStamp": 1751805075,
+      "lastActivity": 1751978263,
+      "delta": 137
+    },
+    {
       "username": "sumimyangel",
       "displayName": "stephenJoester",
       "racesPlayed": 21729,
@@ -242,16 +252,6 @@
       "joinStamp": 1750984670,
       "lastActivity": 1751207385,
       "delta": 115
-    },
-    {
-      "username": "i_dont_eat_stuff",
-      "displayName": "rocksmasher9",
-      "racesPlayed": 9157,
-      "role": "member",
-      "title": ":D",
-      "joinStamp": 1751805075,
-      "lastActivity": 1751926892,
-      "delta": 109
     },
     {
       "username": "viper_shot",
@@ -286,12 +286,22 @@
     {
       "username": "taylor9191",
       "displayName": "Tay on Summer Break",
-      "racesPlayed": 3673,
+      "racesPlayed": 3679,
       "role": "member",
       "title": "Flora Fury",
       "joinStamp": 1751815971,
-      "lastActivity": 1751922862,
-      "delta": 76
+      "lastActivity": 1751976633,
+      "delta": 82
+    },
+    {
+      "username": "aphoenix888",
+      "displayName": "",
+      "racesPlayed": 2302,
+      "role": "member",
+      "title": "Colemak Conqueror",
+      "joinStamp": 1751730598,
+      "lastActivity": 1751974539,
+      "delta": 64
     },
     {
       "username": "e91a12732e6934f1497a87273a05f395",
@@ -324,16 +334,6 @@
       "delta": 52
     },
     {
-      "username": "aphoenix888",
-      "displayName": "",
-      "racesPlayed": 2286,
-      "role": "member",
-      "title": "Colemak Conqueror",
-      "joinStamp": 1751730598,
-      "lastActivity": 1751973590,
-      "delta": 48
-    },
-    {
       "username": "vdgyertikopzefrgh",
       "displayName": "vdgyertikopzefrgh",
       "racesPlayed": 10680,
@@ -356,12 +356,12 @@
     {
       "username": "galaxymasterpro",
       "displayName": "galaxymasterpro",
-      "racesPlayed": 2035,
+      "racesPlayed": 2038,
       "role": "member",
       "title": "Epic Engager",
       "joinStamp": 1751817752,
-      "lastActivity": 1751921325,
-      "delta": 34
+      "lastActivity": 1751976134,
+      "delta": 37
     },
     {
       "username": "dianac128",
@@ -441,6 +441,16 @@
       "title": "Eternal Spring",
       "joinStamp": 1745209661,
       "lastActivity": 1750738904,
+      "delta": 0
+    },
+    {
+      "username": "f2dc26df1555a912f4f3ad24bd6f635d",
+      "displayName": "Mehfuz Reshid",
+      "racesPlayed": 1074,
+      "role": "member",
+      "title": "Spring Speedster",
+      "joinStamp": 1751976064,
+      "lastActivity": 1751976480,
       "delta": 0
     },
     {
