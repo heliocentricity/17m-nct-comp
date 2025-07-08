@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 8, 2025 at 3:30 AM PDT",
+  "last_updated": "July 8, 2025 at 4:24 AM PDT",
   "board": [
     {
       "username": "soccer791",
@@ -106,12 +106,12 @@
     {
       "username": "timmytimmy213",
       "displayName": "timmytimmy213",
-      "racesPlayed": 4925,
+      "racesPlayed": 4943,
       "role": "officer",
       "title": "Olde School",
       "joinStamp": 1743005762,
-      "lastActivity": 1751969644,
-      "delta": 713
+      "lastActivity": 1751973065,
+      "delta": 731
     },
     {
       "username": "persionde",
@@ -176,12 +176,12 @@
     {
       "username": "514c4cd8cd68eabdd3bdca12ff9601d4",
       "displayName": "SLOWESTat_beingFAST",
-      "racesPlayed": 8743,
+      "racesPlayed": 8770,
       "role": "member",
       "title": "Happy Vibes :)",
       "joinStamp": 1751703504,
-      "lastActivity": 1751966774,
-      "delta": 347
+      "lastActivity": 1751972604,
+      "delta": 374
     },
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
@@ -324,6 +324,16 @@
       "delta": 52
     },
     {
+      "username": "aphoenix888",
+      "displayName": "",
+      "racesPlayed": 2286,
+      "role": "member",
+      "title": "Colemak Conqueror",
+      "joinStamp": 1751730598,
+      "lastActivity": 1751973590,
+      "delta": 48
+    },
+    {
       "username": "vdgyertikopzefrgh",
       "displayName": "vdgyertikopzefrgh",
       "racesPlayed": 10680,
@@ -332,16 +342,6 @@
       "joinStamp": 1742927144,
       "lastActivity": 1751202476,
       "delta": 48
-    },
-    {
-      "username": "aphoenix888",
-      "displayName": "",
-      "racesPlayed": 2278,
-      "role": "member",
-      "title": "Colemak Conqueror",
-      "joinStamp": 1751730598,
-      "lastActivity": 1751893776,
-      "delta": 40
     },
     {
       "username": "cat_hiding_in_couch",
