@@ -1,8 +1,18 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 7, 2025 at 9:36 PM PDT",
+  "last_updated": "July 7, 2025 at 10:28 PM PDT",
   "board": [
+    {
+      "username": "soccer791",
+      "displayName": "Reverie",
+      "racesPlayed": 18319,
+      "role": "member",
+      "title": "Acute Tinselitis",
+      "joinStamp": 1751766957,
+      "lastActivity": 1751951976,
+      "delta": 4782
+    },
     {
       "username": "tryhardwillwork",
       "displayName": "Imperator",
@@ -14,34 +24,24 @@
       "delta": 4725
     },
     {
-      "username": "soccer791",
-      "displayName": "Reverie",
-      "racesPlayed": 18252,
-      "role": "member",
-      "title": "Acute Tinselitis",
-      "joinStamp": 1751766957,
-      "lastActivity": 1751931512,
-      "delta": 4715
-    },
-    {
       "username": "thecretor145",
       "displayName": "Trickster illusoire",
-      "racesPlayed": 8045,
+      "racesPlayed": 8071,
       "role": "officer",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1751948962,
-      "delta": 3685
+      "lastActivity": 1751950771,
+      "delta": 3711
     },
     {
       "username": "neiletsky",
       "displayName": "ResourcefulSapphireFish",
-      "racesPlayed": 14158,
+      "racesPlayed": 14187,
       "role": "vicecaptain",
       "title": "I Hate Words",
       "joinStamp": 1744741826,
-      "lastActivity": 1751948951,
-      "delta": 3668
+      "lastActivity": 1751951981,
+      "delta": 3697
     },
     {
       "username": "aharama",
@@ -66,12 +66,12 @@
     {
       "username": "sumitghag",
       "displayName": "SumitGhag",
-      "racesPlayed": 24374,
+      "racesPlayed": 24409,
       "role": "member",
-      "title": "Super Sport Driver",
+      "title": "Sports Car Driver",
       "joinStamp": 1751471886,
-      "lastActivity": 1751948694,
-      "delta": 1314
+      "lastActivity": 1751951695,
+      "delta": 1349
     },
     {
       "username": "aiy_infection",
@@ -304,6 +304,16 @@
       "delta": 59
     },
     {
+      "username": "8b81d3996ac92d37dd96fca816ef5a5d",
+      "displayName": "-tzalexn-",
+      "racesPlayed": 307,
+      "role": "member",
+      "title": "Mystery Man",
+      "joinStamp": 1751674449,
+      "lastActivity": 1751950735,
+      "delta": 57
+    },
+    {
       "username": "5fff3c41947a5b24ed13ddb1c73b1e55",
       "displayName": "ApricotIvoryFlea",
       "racesPlayed": 1313,
@@ -312,16 +322,6 @@
       "joinStamp": 1750794927,
       "lastActivity": 1751347990,
       "delta": 52
-    },
-    {
-      "username": "8b81d3996ac92d37dd96fca816ef5a5d",
-      "displayName": "-tzalexn-",
-      "racesPlayed": 300,
-      "role": "member",
-      "title": "Mystery Man",
-      "joinStamp": 1751674449,
-      "lastActivity": 1751948792,
-      "delta": 50
     },
     {
       "username": "vdgyertikopzefrgh",
