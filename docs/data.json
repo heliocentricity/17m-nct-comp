@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 8, 2025 at 11:38 AM PDT",
+  "last_updated": "July 8, 2025 at 12:21 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -70,7 +70,7 @@
       "role": "officer",
       "title": "Learner Leader",
       "joinStamp": 1751297409,
-      "lastActivity": 1751999373,
+      "lastActivity": 1751999830,
       "delta": 1218
     },
     {
@@ -106,12 +106,12 @@
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
       "displayName": "FoscoBurrows",
-      "racesPlayed": 12416,
+      "racesPlayed": 12430,
       "role": "member",
       "title": "Potaytoes",
       "joinStamp": 1751395286,
-      "lastActivity": 1751999211,
-      "delta": 724
+      "lastActivity": 1752000536,
+      "delta": 738
     },
     {
       "username": "persionde",
@@ -146,12 +146,12 @@
     {
       "username": "a_normal_snake",
       "displayName": "-Snake-",
-      "racesPlayed": 3366,
+      "racesPlayed": 3368,
       "role": "member",
       "title": "I Love Dogs",
       "joinStamp": 1751144117,
-      "lastActivity": 1751912016,
-      "delta": 430
+      "lastActivity": 1752001497,
+      "delta": 432
     },
     {
       "username": "trxppycarter",
@@ -176,12 +176,12 @@
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
-      "racesPlayed": 403,
+      "racesPlayed": 416,
       "role": "member",
       "title": "Millionaire",
       "joinStamp": 1750712571,
-      "lastActivity": 1751739519,
-      "delta": 202
+      "lastActivity": 1752000992,
+      "delta": 215
     },
     {
       "username": "gw2iscoollol",
@@ -394,6 +394,16 @@
       "delta": 4
     },
     {
+      "username": "627aecdf7610fc6de50ed0e535eb9577",
+      "displayName": "xRaider",
+      "racesPlayed": 17211,
+      "role": "member",
+      "title": "Overdrive",
+      "joinStamp": 1751996582,
+      "lastActivity": 1752000703,
+      "delta": 3
+    },
+    {
       "username": "01dda282fb97c0a298a6a18e8eac8d8d",
       "displayName": "Juris Doctor",
       "racesPlayed": 3646,
@@ -451,16 +461,6 @@
       "title": "Green Streak",
       "joinStamp": 1743434481,
       "lastActivity": 1747658119,
-      "delta": 0
-    },
-    {
-      "username": "627aecdf7610fc6de50ed0e535eb9577",
-      "displayName": "xRaider",
-      "racesPlayed": 17208,
-      "role": "member",
-      "title": "Overdrive",
-      "joinStamp": 1751996582,
-      "lastActivity": 1751997822,
       "delta": 0
     },
     {
