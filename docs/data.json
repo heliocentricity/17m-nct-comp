@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 9, 2025 at 3:26 PM PDT",
+  "last_updated": "July 9, 2025 at 4:26 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -274,6 +274,26 @@
       "delta": 131
     },
     {
+      "username": "8b81d3996ac92d37dd96fca816ef5a5d",
+      "displayName": "-tzalexn-",
+      "racesPlayed": 377,
+      "role": "member",
+      "title": "Mystery Man",
+      "joinStamp": 1751674449,
+      "lastActivity": 1752102554,
+      "delta": 127
+    },
+    {
+      "username": "cat_hiding_in_couch",
+      "displayName": "Royal0",
+      "racesPlayed": 1323,
+      "role": "member",
+      "title": "Qwerty Quester",
+      "joinStamp": 1751811398,
+      "lastActivity": 1752100362,
+      "delta": 122
+    },
+    {
       "username": "sumimyangel",
       "displayName": "stephenJoester",
       "racesPlayed": 21729,
@@ -294,16 +314,6 @@
       "delta": 116
     },
     {
-      "username": "8b81d3996ac92d37dd96fca816ef5a5d",
-      "displayName": "-tzalexn-",
-      "racesPlayed": 366,
-      "role": "member",
-      "title": "Mystery Man",
-      "joinStamp": 1751674449,
-      "lastActivity": 1752099571,
-      "delta": 116
-    },
-    {
       "username": "96adbea38b59bc5d736244c73d479514",
       "displayName": "Pineapple",
       "racesPlayed": 4445,
@@ -311,16 +321,6 @@
       "title": "Secret Agent",
       "joinStamp": 1750984670,
       "lastActivity": 1751207385,
-      "delta": 115
-    },
-    {
-      "username": "cat_hiding_in_couch",
-      "displayName": "Royal0",
-      "racesPlayed": 1316,
-      "role": "member",
-      "title": "Qwerty Quester",
-      "joinStamp": 1751811398,
-      "lastActivity": 1752098186,
       "delta": 115
     },
     {
