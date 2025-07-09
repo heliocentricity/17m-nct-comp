@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 9, 2025 at 4:24 AM PDT",
+  "last_updated": "July 9, 2025 at 5:56 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -56,22 +56,22 @@
     {
       "username": "sumitghag",
       "displayName": "SumitGhag",
-      "racesPlayed": 24667,
+      "racesPlayed": 24673,
       "role": "member",
       "title": "Sports Car Driver",
       "joinStamp": 1751471886,
-      "lastActivity": 1752058368,
-      "delta": 1607
+      "lastActivity": 1752060621,
+      "delta": 1613
     },
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
       "displayName": "Scyphozoa64",
-      "racesPlayed": 1348,
+      "racesPlayed": 1349,
       "role": "officer",
       "title": "Learner Leader",
       "joinStamp": 1751297409,
       "lastActivity": 1752026176,
-      "delta": 1260
+      "delta": 1261
     },
     {
       "username": "aiy_infection",
@@ -106,12 +106,12 @@
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
       "displayName": "FoscoBurrows",
-      "racesPlayed": 12430,
+      "racesPlayed": 12444,
       "role": "member",
       "title": "Potaytoes",
       "joinStamp": 1751395286,
-      "lastActivity": 1752000536,
-      "delta": 738
+      "lastActivity": 1752063952,
+      "delta": 752
     },
     {
       "username": "persionde",
@@ -324,6 +324,16 @@
       "delta": 87
     },
     {
+      "username": "cat_hiding_in_couch",
+      "displayName": "Royal0",
+      "racesPlayed": 1277,
+      "role": "member",
+      "title": "Qwerty Quester",
+      "joinStamp": 1751811398,
+      "lastActivity": 1752061155,
+      "delta": 76
+    },
+    {
       "username": "8b81d3996ac92d37dd96fca816ef5a5d",
       "displayName": "-tzalexn-",
       "racesPlayed": 323,
@@ -342,16 +352,6 @@
       "joinStamp": 1751308294,
       "lastActivity": 1752009569,
       "delta": 72
-    },
-    {
-      "username": "cat_hiding_in_couch",
-      "displayName": "Royal0",
-      "racesPlayed": 1256,
-      "role": "member",
-      "title": "Qwerty Quester",
-      "joinStamp": 1751811398,
-      "lastActivity": 1751994917,
-      "delta": 55
     },
     {
       "username": "5fff3c41947a5b24ed13ddb1c73b1e55",
