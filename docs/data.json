@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 9, 2025 at 1:37 AM PDT",
+  "last_updated": "July 9, 2025 at 2:31 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -234,6 +234,16 @@
       "delta": 137
     },
     {
+      "username": "viper_shot",
+      "displayName": "v1per_sh0t",
+      "racesPlayed": 5744,
+      "role": "member",
+      "title": "Legendary Lapper",
+      "joinStamp": 1747355208,
+      "lastActivity": 1752051061,
+      "delta": 132
+    },
+    {
       "username": "sumimyangel",
       "displayName": "stephenJoester",
       "racesPlayed": 21729,
@@ -242,16 +252,6 @@
       "joinStamp": 1748965989,
       "lastActivity": 1751898592,
       "delta": 121
-    },
-    {
-      "username": "viper_shot",
-      "displayName": "v1per_sh0t",
-      "racesPlayed": 5732,
-      "role": "member",
-      "title": "Legendary Lapper",
-      "joinStamp": 1747355208,
-      "lastActivity": 1752049763,
-      "delta": 120
     },
     {
       "username": "96adbea38b59bc5d736244c73d479514",
