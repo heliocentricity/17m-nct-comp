@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 8, 2025 at 4:26 PM PDT",
+  "last_updated": "July 8, 2025 at 7:18 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
       "displayName": "Imperator",
-      "racesPlayed": 33662,
+      "racesPlayed": 33707,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1752016775,
-      "delta": 4887
+      "lastActivity": 1752024197,
+      "delta": 4932
     },
     {
       "username": "thecretor145",
@@ -66,12 +66,12 @@
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
       "displayName": "Scyphozoa64",
-      "racesPlayed": 1324,
+      "racesPlayed": 1348,
       "role": "officer",
       "title": "Learner Leader",
       "joinStamp": 1751297409,
-      "lastActivity": 1752011267,
-      "delta": 1236
+      "lastActivity": 1752026176,
+      "delta": 1260
     },
     {
       "username": "aiy_infection",
@@ -84,6 +84,16 @@
       "delta": 1103
     },
     {
+      "username": "ryyedawg7",
+      "displayName": "R Y Y E",
+      "racesPlayed": 1645,
+      "role": "member",
+      "title": "wow. such gifting",
+      "joinStamp": 1751926592,
+      "lastActivity": 1752021180,
+      "delta": 808
+    },
+    {
       "username": "timmytimmy213",
       "displayName": "timmytimmy213",
       "racesPlayed": 5019,
@@ -92,16 +102,6 @@
       "joinStamp": 1743005762,
       "lastActivity": 1752003488,
       "delta": 807
-    },
-    {
-      "username": "ryyedawg7",
-      "displayName": "R Y Y E",
-      "racesPlayed": 1625,
-      "role": "member",
-      "title": "wow. such gifting",
-      "joinStamp": 1751926592,
-      "lastActivity": 1752015238,
-      "delta": 788
     },
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
@@ -136,12 +136,22 @@
     {
       "username": "kudism",
       "displayName": "rosaline",
-      "racesPlayed": 1989,
+      "racesPlayed": 2001,
       "role": "member",
-      "title": "#elfie",
+      "title": "Ferret Parent",
       "joinStamp": 1750606113,
-      "lastActivity": 1752015700,
-      "delta": 449
+      "lastActivity": 1752026974,
+      "delta": 461
+    },
+    {
+      "username": "514c4cd8cd68eabdd3bdca12ff9601d4",
+      "displayName": "SLOWESTat_beingFAST",
+      "racesPlayed": 8832,
+      "role": "member",
+      "title": "Happy Vibes :)",
+      "joinStamp": 1751703504,
+      "lastActivity": 1752025215,
+      "delta": 436
     },
     {
       "username": "a_normal_snake",
@@ -162,16 +172,6 @@
       "joinStamp": 1751870479,
       "lastActivity": 1751937172,
       "delta": 400
-    },
-    {
-      "username": "514c4cd8cd68eabdd3bdca12ff9601d4",
-      "displayName": "SLOWESTat_beingFAST",
-      "racesPlayed": 8793,
-      "role": "member",
-      "title": "Happy Vibes :)",
-      "joinStamp": 1751703504,
-      "lastActivity": 1752015813,
-      "delta": 397
     },
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
@@ -260,7 +260,7 @@
       "role": "member",
       "title": "Spring Speedster",
       "joinStamp": 1751976064,
-      "lastActivity": 1752016758,
+      "lastActivity": 1752017073,
       "delta": 108
     },
     {
@@ -284,6 +284,16 @@
       "delta": 100
     },
     {
+      "username": "aphoenix888",
+      "displayName": "",
+      "racesPlayed": 2334,
+      "role": "member",
+      "title": "Colemak Conqueror",
+      "joinStamp": 1751730598,
+      "lastActivity": 1752022709,
+      "delta": 96
+    },
+    {
       "username": "conquerer11k",
       "displayName": "ResilientRedDonkey",
       "racesPlayed": 13688,
@@ -296,12 +306,12 @@
     {
       "username": "ipayforyou",
       "displayName": "JoshoverYou",
-      "racesPlayed": 5764,
+      "racesPlayed": 5767,
       "role": "member",
       "title": "I Have Fans!",
       "joinStamp": 1751073187,
-      "lastActivity": 1751947406,
-      "delta": 84
+      "lastActivity": 1752024666,
+      "delta": 87
     },
     {
       "username": "e91a12732e6934f1497a87273a05f395",
@@ -316,22 +326,12 @@
     {
       "username": "8b81d3996ac92d37dd96fca816ef5a5d",
       "displayName": "-tzalexn-",
-      "racesPlayed": 319,
+      "racesPlayed": 320,
       "role": "member",
       "title": "Mystery Man",
       "joinStamp": 1751674449,
       "lastActivity": 1752010759,
-      "delta": 69
-    },
-    {
-      "username": "aphoenix888",
-      "displayName": "",
-      "racesPlayed": 2302,
-      "role": "member",
-      "title": "Colemak Conqueror",
-      "joinStamp": 1751730598,
-      "lastActivity": 1751974539,
-      "delta": 64
+      "delta": 70
     },
     {
       "username": "cat_hiding_in_couch",
@@ -374,6 +374,16 @@
       "delta": 32
     },
     {
+      "username": "627aecdf7610fc6de50ed0e535eb9577",
+      "displayName": "xRaider",
+      "racesPlayed": 17233,
+      "role": "member",
+      "title": "Overdrive",
+      "joinStamp": 1751996582,
+      "lastActivity": 1752026960,
+      "delta": 25
+    },
+    {
       "username": "a9b3d7a9c859cd8b0449aeccf2941077",
       "displayName": "HumbleCrimsonJackal",
       "racesPlayed": 42,
@@ -392,16 +402,6 @@
       "joinStamp": 1750796497,
       "lastActivity": 1751325742,
       "delta": 4
-    },
-    {
-      "username": "627aecdf7610fc6de50ed0e535eb9577",
-      "displayName": "xRaider",
-      "racesPlayed": 17211,
-      "role": "member",
-      "title": "Overdrive",
-      "joinStamp": 1751996582,
-      "lastActivity": 1752000703,
-      "delta": 3
     },
     {
       "username": "01dda282fb97c0a298a6a18e8eac8d8d",
@@ -471,6 +471,16 @@
       "title": "Millionaire",
       "joinStamp": 1747978481,
       "lastActivity": 1750423100,
+      "delta": 0
+    },
+    {
+      "username": "bd2ec43a38126f5bb6cadb806a27005e",
+      "displayName": "ExcitingAmethystDamselfly",
+      "racesPlayed": 284,
+      "role": "member",
+      "title": "I Love Frogs",
+      "joinStamp": 1752021482,
+      "lastActivity": 0,
       "delta": 0
     }
   ]
