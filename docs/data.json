@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 9, 2025 at 12:21 PM PDT",
+  "last_updated": "July 9, 2025 at 1:30 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -136,12 +136,12 @@
     {
       "username": "kudism",
       "displayName": "rosaline",
-      "racesPlayed": 2054,
+      "racesPlayed": 2078,
       "role": "member",
       "title": "Ferret Parent",
       "joinStamp": 1750606113,
-      "lastActivity": 1752035994,
-      "delta": 514
+      "lastActivity": 1752092451,
+      "delta": 538
     },
     {
       "username": "514c4cd8cd68eabdd3bdca12ff9601d4",
@@ -194,6 +194,16 @@
       "delta": 193
     },
     {
+      "username": "627aecdf7610fc6de50ed0e535eb9577",
+      "displayName": "xRaider",
+      "racesPlayed": 17396,
+      "role": "member",
+      "title": "Overdrive",
+      "joinStamp": 1751996582,
+      "lastActivity": 1752092102,
+      "delta": 188
+    },
+    {
       "username": "taylor9191",
       "displayName": "Tay on Summer Break",
       "racesPlayed": 3780,
@@ -202,16 +212,6 @@
       "joinStamp": 1751815971,
       "lastActivity": 1752072823,
       "delta": 183
-    },
-    {
-      "username": "627aecdf7610fc6de50ed0e535eb9577",
-      "displayName": "xRaider",
-      "racesPlayed": 17368,
-      "role": "member",
-      "title": "Overdrive",
-      "joinStamp": 1751996582,
-      "lastActivity": 1752071949,
-      "delta": 160
     },
     {
       "username": "4399e7a571cf827be64b714c30c899ef",
@@ -304,6 +304,16 @@
       "delta": 115
     },
     {
+      "username": "cat_hiding_in_couch",
+      "displayName": "Royal0",
+      "racesPlayed": 1309,
+      "role": "member",
+      "title": "Qwerty Quester",
+      "joinStamp": 1751811398,
+      "lastActivity": 1752092128,
+      "delta": 108
+    },
+    {
       "username": "8b81d3996ac92d37dd96fca816ef5a5d",
       "displayName": "-tzalexn-",
       "racesPlayed": 353,
@@ -312,16 +322,6 @@
       "joinStamp": 1751674449,
       "lastActivity": 1752086467,
       "delta": 103
-    },
-    {
-      "username": "cat_hiding_in_couch",
-      "displayName": "Royal0",
-      "racesPlayed": 1300,
-      "role": "member",
-      "title": "Qwerty Quester",
-      "joinStamp": 1751811398,
-      "lastActivity": 1752079015,
-      "delta": 99
     },
     {
       "username": "conquerer11k",
