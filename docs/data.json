@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 9, 2025 at 11:40 PM PDT",
+  "last_updated": "July 10, 2025 at 12:27 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -14,6 +14,16 @@
       "delta": 5057
     },
     {
+      "username": "neiletsky",
+      "displayName": "ResourcefulSapphireFish",
+      "racesPlayed": 14319,
+      "role": "vicecaptain",
+      "title": "I Hate Words",
+      "joinStamp": 1744741826,
+      "lastActivity": 1752131985,
+      "delta": 3829
+    },
+    {
       "username": "thecretor145",
       "displayName": "Trickster illusoire",
       "racesPlayed": 8156,
@@ -22,16 +32,6 @@
       "joinStamp": 1751390680,
       "lastActivity": 1752125732,
       "delta": 3796
-    },
-    {
-      "username": "neiletsky",
-      "displayName": "ResourcefulSapphireFish",
-      "racesPlayed": 14259,
-      "role": "vicecaptain",
-      "title": "I Hate Words",
-      "joinStamp": 1744741826,
-      "lastActivity": 1752129571,
-      "delta": 3769
     },
     {
       "username": "aharama",
@@ -56,12 +56,12 @@
     {
       "username": "sumitghag",
       "displayName": "SumitGhag",
-      "racesPlayed": 24794,
+      "racesPlayed": 24798,
       "role": "member",
       "title": "Sports Car Driver",
       "joinStamp": 1751471886,
-      "lastActivity": 1752129212,
-      "delta": 1734
+      "lastActivity": 1752130144,
+      "delta": 1738
     },
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
@@ -146,12 +146,12 @@
     {
       "username": "514c4cd8cd68eabdd3bdca12ff9601d4",
       "displayName": "SLOWESTat_beingFAST",
-      "racesPlayed": 8878,
+      "racesPlayed": 8879,
       "role": "member",
       "title": "Happy Vibes :)",
       "joinStamp": 1751703504,
-      "lastActivity": 1752044911,
-      "delta": 482
+      "lastActivity": 1752131466,
+      "delta": 483
     },
     {
       "username": "a_normal_snake",
