@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 10, 2025 at 12:22 PM PDT",
+  "last_updated": "July 10, 2025 at 1:30 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -116,22 +116,22 @@
     {
       "username": "kudism",
       "displayName": "rosaline",
-      "racesPlayed": 2208,
+      "racesPlayed": 2254,
       "role": "member",
       "title": "Ferret Parent",
       "joinStamp": 1750606113,
-      "lastActivity": 1752175151,
-      "delta": 668
+      "lastActivity": 1752179391,
+      "delta": 714
     },
     {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
       "displayName": "xRaider",
-      "racesPlayed": 17865,
+      "racesPlayed": 17890,
       "role": "member",
       "title": "Overdrive",
       "joinStamp": 1751996582,
-      "lastActivity": 1752175179,
-      "delta": 657
+      "lastActivity": 1752178547,
+      "delta": 682
     },
     {
       "username": "persionde",
@@ -170,7 +170,7 @@
       "role": "member",
       "title": "I Love Dogs",
       "joinStamp": 1751144117,
-      "lastActivity": 1752175163,
+      "lastActivity": 1752175204,
       "delta": 465
     },
     {
@@ -234,6 +234,16 @@
       "delta": 189
     },
     {
+      "username": "8b81d3996ac92d37dd96fca816ef5a5d",
+      "displayName": "-tzalexn-",
+      "racesPlayed": 412,
+      "role": "member",
+      "title": "I Love Nitros",
+      "joinStamp": 1751674449,
+      "lastActivity": 1752177723,
+      "delta": 162
+    },
+    {
       "username": "4399e7a571cf827be64b714c30c899ef",
       "displayName": "FuchsiaAzureCougar",
       "racesPlayed": 542,
@@ -254,24 +264,14 @@
       "delta": 159
     },
     {
-      "username": "8b81d3996ac92d37dd96fca816ef5a5d",
-      "displayName": "-tzalexn-",
-      "racesPlayed": 404,
-      "role": "member",
-      "title": "I Love Nitros",
-      "joinStamp": 1751674449,
-      "lastActivity": 1752175053,
-      "delta": 154
-    },
-    {
       "username": "aphoenix888",
       "displayName": "",
-      "racesPlayed": 2384,
+      "racesPlayed": 2393,
       "role": "member",
       "title": "Colemak Conqueror",
       "joinStamp": 1751730598,
-      "lastActivity": 1752159039,
-      "delta": 146
+      "lastActivity": 1752177484,
+      "delta": 155
     },
     {
       "username": "cat_hiding_in_couch",
