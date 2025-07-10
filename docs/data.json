@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 10, 2025 at 8:31 AM PDT",
+  "last_updated": "July 10, 2025 at 9:35 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -16,12 +16,12 @@
     {
       "username": "neiletsky",
       "displayName": "ResourcefulSapphireFish",
-      "racesPlayed": 14435,
+      "racesPlayed": 14461,
       "role": "vicecaptain",
       "title": "Speed Demon",
       "joinStamp": 1744741826,
-      "lastActivity": 1752137395,
-      "delta": 3945
+      "lastActivity": 1752164978,
+      "delta": 3971
     },
     {
       "username": "thecretor145",
@@ -56,12 +56,12 @@
     {
       "username": "sumitghag",
       "displayName": "SumitGhag",
-      "racesPlayed": 24873,
+      "racesPlayed": 24892,
       "role": "member",
       "title": "Titan of the Track",
       "joinStamp": 1751471886,
-      "lastActivity": 1752158922,
-      "delta": 1813
+      "lastActivity": 1752164196,
+      "delta": 1832
     },
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
@@ -154,6 +154,16 @@
       "delta": 543
     },
     {
+      "username": "627aecdf7610fc6de50ed0e535eb9577",
+      "displayName": "xRaider",
+      "racesPlayed": 17684,
+      "role": "member",
+      "title": "Overdrive",
+      "joinStamp": 1751996582,
+      "lastActivity": 1752164961,
+      "delta": 476
+    },
+    {
       "username": "a_normal_snake",
       "displayName": "-Snake-",
       "racesPlayed": 3380,
@@ -162,16 +172,6 @@
       "joinStamp": 1751144117,
       "lastActivity": 1752078261,
       "delta": 444
-    },
-    {
-      "username": "627aecdf7610fc6de50ed0e535eb9577",
-      "displayName": "xRaider",
-      "racesPlayed": 17617,
-      "role": "member",
-      "title": "Overdrive",
-      "joinStamp": 1751996582,
-      "lastActivity": 1752160638,
-      "delta": 409
     },
     {
       "username": "trxppycarter",
@@ -226,12 +226,12 @@
     {
       "username": "taylor9191",
       "displayName": "Tay on Summer Break",
-      "racesPlayed": 3781,
+      "racesPlayed": 3786,
       "role": "member",
       "title": "Flora Fury",
       "joinStamp": 1751815971,
-      "lastActivity": 1752108433,
-      "delta": 184
+      "lastActivity": 1752162812,
+      "delta": 189
     },
     {
       "username": "4399e7a571cf827be64b714c30c899ef",
@@ -386,12 +386,12 @@
     {
       "username": "bd2ec43a38126f5bb6cadb806a27005e",
       "displayName": "ExcitingAmethystDamselfly",
-      "racesPlayed": 307,
+      "racesPlayed": 308,
       "role": "member",
       "title": "I Love Frogs",
       "joinStamp": 1752021482,
-      "lastActivity": 1752161390,
-      "delta": 23
+      "lastActivity": 1752161517,
+      "delta": 24
     },
     {
       "username": "a9b3d7a9c859cd8b0449aeccf2941077",
