@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 10, 2025 at 6:41 AM PDT",
+  "last_updated": "July 10, 2025 at 7:28 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -36,12 +36,12 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 142480,
+      "racesPlayed": 142533,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1752154774,
-      "delta": 3284
+      "lastActivity": 1752157177,
+      "delta": 3337
     },
     {
       "username": "abot8",
@@ -56,12 +56,12 @@
     {
       "username": "sumitghag",
       "displayName": "SumitGhag",
-      "racesPlayed": 24854,
+      "racesPlayed": 24859,
       "role": "member",
       "title": "Titan of the Track",
       "joinStamp": 1751471886,
       "lastActivity": 1752154641,
-      "delta": 1794
+      "delta": 1799
     },
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
@@ -176,12 +176,22 @@
     {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
       "displayName": "xRaider",
-      "racesPlayed": 17528,
+      "racesPlayed": 17588,
       "role": "member",
       "title": "Overdrive",
       "joinStamp": 1751996582,
-      "lastActivity": 1752154776,
-      "delta": 320
+      "lastActivity": 1752157167,
+      "delta": 380
+    },
+    {
+      "username": "f2dc26df1555a912f4f3ad24bd6f635d",
+      "displayName": "Mehfuz Reshid",
+      "racesPlayed": 1300,
+      "role": "member",
+      "title": "Spring Speedster",
+      "joinStamp": 1751976064,
+      "lastActivity": 1752156716,
+      "delta": 226
     },
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
@@ -192,16 +202,6 @@
       "joinStamp": 1750712571,
       "lastActivity": 1752000992,
       "delta": 215
-    },
-    {
-      "username": "f2dc26df1555a912f4f3ad24bd6f635d",
-      "displayName": "Mehfuz Reshid",
-      "racesPlayed": 1284,
-      "role": "member",
-      "title": "Spring Speedster",
-      "joinStamp": 1751976064,
-      "lastActivity": 1752154754,
-      "delta": 210
     },
     {
       "username": "i_dont_eat_stuff",
