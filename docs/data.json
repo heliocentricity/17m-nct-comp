@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 10, 2025 at 7:28 AM PDT",
+  "last_updated": "July 10, 2025 at 8:31 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -36,12 +36,12 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 142533,
+      "racesPlayed": 142555,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1752157177,
-      "delta": 3337
+      "lastActivity": 1752158818,
+      "delta": 3359
     },
     {
       "username": "abot8",
@@ -56,12 +56,12 @@
     {
       "username": "sumitghag",
       "displayName": "SumitGhag",
-      "racesPlayed": 24859,
+      "racesPlayed": 24873,
       "role": "member",
       "title": "Titan of the Track",
       "joinStamp": 1751471886,
-      "lastActivity": 1752154641,
-      "delta": 1799
+      "lastActivity": 1752158922,
+      "delta": 1813
     },
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
@@ -164,6 +164,16 @@
       "delta": 444
     },
     {
+      "username": "627aecdf7610fc6de50ed0e535eb9577",
+      "displayName": "xRaider",
+      "racesPlayed": 17617,
+      "role": "member",
+      "title": "Overdrive",
+      "joinStamp": 1751996582,
+      "lastActivity": 1752160638,
+      "delta": 409
+    },
+    {
       "username": "trxppycarter",
       "displayName": "cxrter",
       "racesPlayed": 4866,
@@ -172,16 +182,6 @@
       "joinStamp": 1751870479,
       "lastActivity": 1751937172,
       "delta": 400
-    },
-    {
-      "username": "627aecdf7610fc6de50ed0e535eb9577",
-      "displayName": "xRaider",
-      "racesPlayed": 17588,
-      "role": "member",
-      "title": "Overdrive",
-      "joinStamp": 1751996582,
-      "lastActivity": 1752157167,
-      "delta": 380
     },
     {
       "username": "f2dc26df1555a912f4f3ad24bd6f635d",
@@ -254,6 +254,16 @@
       "delta": 159
     },
     {
+      "username": "aphoenix888",
+      "displayName": "",
+      "racesPlayed": 2384,
+      "role": "member",
+      "title": "Colemak Conqueror",
+      "joinStamp": 1751730598,
+      "lastActivity": 1752159039,
+      "delta": 146
+    },
+    {
       "username": "cat_hiding_in_couch",
       "displayName": "Royal0",
       "racesPlayed": 1342,
@@ -282,16 +292,6 @@
       "joinStamp": 1747355208,
       "lastActivity": 1752051061,
       "delta": 132
-    },
-    {
-      "username": "aphoenix888",
-      "displayName": "",
-      "racesPlayed": 2369,
-      "role": "member",
-      "title": "Colemak Conqueror",
-      "joinStamp": 1751730598,
-      "lastActivity": 1752151400,
-      "delta": 131
     },
     {
       "username": "galaxymasterpro",
@@ -386,12 +386,12 @@
     {
       "username": "bd2ec43a38126f5bb6cadb806a27005e",
       "displayName": "ExcitingAmethystDamselfly",
-      "racesPlayed": 297,
+      "racesPlayed": 307,
       "role": "member",
       "title": "I Love Frogs",
       "joinStamp": 1752021482,
-      "lastActivity": 1752074854,
-      "delta": 13
+      "lastActivity": 1752161390,
+      "delta": 23
     },
     {
       "username": "a9b3d7a9c859cd8b0449aeccf2941077",
