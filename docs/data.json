@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 11, 2025 at 3:29 AM PDT",
+  "last_updated": "July 11, 2025 at 4:24 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -36,12 +36,12 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 142821,
+      "racesPlayed": 142832,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1752229184,
-      "delta": 3625
+      "lastActivity": 1752230407,
+      "delta": 3636
     },
     {
       "username": "abot8",
@@ -56,12 +56,12 @@
     {
       "username": "sumitghag",
       "displayName": "SumitGhag",
-      "racesPlayed": 24987,
+      "racesPlayed": 25007,
       "role": "member",
       "title": "Mystery Man",
       "joinStamp": 1751471886,
-      "lastActivity": 1752226783,
-      "delta": 1927
+      "lastActivity": 1752231129,
+      "delta": 1947
     },
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
@@ -234,6 +234,16 @@
       "delta": 193
     },
     {
+      "username": "aphoenix888",
+      "displayName": "",
+      "racesPlayed": 2414,
+      "role": "member",
+      "title": "Colemak Conqueror",
+      "joinStamp": 1751730598,
+      "lastActivity": 1752230236,
+      "delta": 176
+    },
+    {
       "username": "8b81d3996ac92d37dd96fca816ef5a5d",
       "displayName": "-tzalexn-",
       "racesPlayed": 421,
@@ -252,16 +262,6 @@
       "joinStamp": 1751811398,
       "lastActivity": 1752182652,
       "delta": 167
-    },
-    {
-      "username": "aphoenix888",
-      "displayName": "",
-      "racesPlayed": 2403,
-      "role": "member",
-      "title": "Colemak Conqueror",
-      "joinStamp": 1751730598,
-      "lastActivity": 1752185164,
-      "delta": 165
     },
     {
       "username": "4399e7a571cf827be64b714c30c899ef",
