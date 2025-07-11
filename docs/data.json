@@ -1,27 +1,27 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 11, 2025 at 3:27 PM PDT",
+  "last_updated": "July 11, 2025 at 4:26 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
       "displayName": "Mah Zu",
-      "racesPlayed": 34207,
+      "racesPlayed": 34220,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1752272373,
-      "delta": 5432
+      "lastActivity": 1752274579,
+      "delta": 5445
     },
     {
       "username": "neiletsky",
       "displayName": "ResourcefulSapphireFish",
-      "racesPlayed": 15011,
+      "racesPlayed": 15039,
       "role": "vicecaptain",
       "title": "Speed Demon",
       "joinStamp": 1744741826,
-      "lastActivity": 1752272179,
-      "delta": 4521
+      "lastActivity": 1752275206,
+      "delta": 4549
     },
     {
       "username": "aharama",
@@ -246,12 +246,12 @@
     {
       "username": "aphoenix888",
       "displayName": "",
-      "racesPlayed": 2414,
+      "racesPlayed": 2416,
       "role": "member",
       "title": "Colemak Conqueror",
       "joinStamp": 1751730598,
-      "lastActivity": 1752230236,
-      "delta": 176
+      "lastActivity": 1752274950,
+      "delta": 178
     },
     {
       "username": "4399e7a571cf827be64b714c30c899ef",
@@ -414,6 +414,16 @@
       "delta": 6
     },
     {
+      "username": "gloriaiscute",
+      "displayName": "P A C I F Y",
+      "racesPlayed": 6045,
+      "role": "member",
+      "title": "Legendary Lapper",
+      "joinStamp": 1752272481,
+      "lastActivity": 1752272976,
+      "delta": 4
+    },
+    {
       "username": "01dda282fb97c0a298a6a18e8eac8d8d",
       "displayName": "Juris Doctor",
       "racesPlayed": 3646,
@@ -422,16 +432,6 @@
       "joinStamp": 1744391071,
       "lastActivity": 1751699729,
       "delta": 3
-    },
-    {
-      "username": "gloriaiscute",
-      "displayName": "P A C I F Y",
-      "racesPlayed": 6042,
-      "role": "member",
-      "title": "Legendary Lapper",
-      "joinStamp": 1752272481,
-      "lastActivity": 0,
-      "delta": 1
     },
     {
       "username": "superdavidj",
