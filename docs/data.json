@@ -1,27 +1,27 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 11, 2025 at 10:25 AM PDT",
+  "last_updated": "July 11, 2025 at 11:38 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
       "displayName": "Mah Zu",
-      "racesPlayed": 33864,
+      "racesPlayed": 33903,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1752186353,
-      "delta": 5089
+      "lastActivity": 1752258582,
+      "delta": 5128
     },
     {
       "username": "neiletsky",
       "displayName": "ResourcefulSapphireFish",
-      "racesPlayed": 14739,
+      "racesPlayed": 14791,
       "role": "vicecaptain",
       "title": "Speed Demon",
       "joinStamp": 1744741826,
-      "lastActivity": 1752226709,
-      "delta": 4249
+      "lastActivity": 1752258584,
+      "delta": 4301
     },
     {
       "username": "aharama",
@@ -54,24 +54,24 @@
       "delta": 2882
     },
     {
-      "username": "sumitghag",
-      "displayName": "vegwan",
-      "racesPlayed": 25098,
-      "role": "member",
-      "title": "Super Sport Driver",
-      "joinStamp": 1751471886,
-      "lastActivity": 1752250035,
-      "delta": 2038
-    },
-    {
       "username": "be74ffff6b556a68cdccc087a63e6676",
       "displayName": "Scyphozoa64",
-      "racesPlayed": 1504,
+      "racesPlayed": 1511,
       "role": "officer",
       "title": "Epic Nitro User",
       "joinStamp": 1751297409,
-      "lastActivity": 1752251641,
-      "delta": 1416
+      "lastActivity": 1752258465,
+      "delta": 1423
+    },
+    {
+      "username": "627aecdf7610fc6de50ed0e535eb9577",
+      "displayName": "xRaider",
+      "racesPlayed": 18343,
+      "role": "member",
+      "title": "Overdrive",
+      "joinStamp": 1751996582,
+      "lastActivity": 1752258585,
+      "delta": 1135
     },
     {
       "username": "aiy_infection",
@@ -84,24 +84,14 @@
       "delta": 1103
     },
     {
-      "username": "627aecdf7610fc6de50ed0e535eb9577",
-      "displayName": "xRaider",
-      "racesPlayed": 18276,
-      "role": "member",
-      "title": "Overdrive",
-      "joinStamp": 1751996582,
-      "lastActivity": 1752254361,
-      "delta": 1068
-    },
-    {
       "username": "kudism",
       "displayName": "rosaline",
-      "racesPlayed": 2536,
+      "racesPlayed": 2557,
       "role": "member",
       "title": "Nitro Libre",
       "joinStamp": 1750606113,
-      "lastActivity": 1752251874,
-      "delta": 996
+      "lastActivity": 1752258467,
+      "delta": 1017
     },
     {
       "username": "ryyedawg7",
@@ -176,32 +166,32 @@
     {
       "username": "a_normal_snake",
       "displayName": "-Snake-",
-      "racesPlayed": 3427,
+      "racesPlayed": 3432,
       "role": "member",
       "title": "I Love Dogs",
       "joinStamp": 1751144117,
-      "lastActivity": 1752253624,
-      "delta": 491
+      "lastActivity": 1752256603,
+      "delta": 496
     },
     {
       "username": "i_dont_eat_stuff",
       "displayName": "\frocksmasher9",
-      "racesPlayed": 9379,
+      "racesPlayed": 9396,
       "role": "member",
       "title": ":D",
       "joinStamp": 1751805075,
-      "lastActivity": 1752234935,
-      "delta": 331
+      "lastActivity": 1752256637,
+      "delta": 348
     },
     {
       "username": "f2dc26df1555a912f4f3ad24bd6f635d",
       "displayName": "Mehfuz Reshid",
-      "racesPlayed": 1376,
+      "racesPlayed": 1381,
       "role": "member",
       "title": "Spring Speedster",
       "joinStamp": 1751976064,
-      "lastActivity": 1752249363,
-      "delta": 302
+      "lastActivity": 1752255337,
+      "delta": 307
     },
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
@@ -212,6 +202,16 @@
       "joinStamp": 1750712571,
       "lastActivity": 1752000992,
       "delta": 215
+    },
+    {
+      "username": "8b81d3996ac92d37dd96fca816ef5a5d",
+      "displayName": "-tzalexn-",
+      "racesPlayed": 455,
+      "role": "member",
+      "title": "I Love Nitros",
+      "joinStamp": 1751674449,
+      "lastActivity": 1752258540,
+      "delta": 205
     },
     {
       "username": "taylor9191",
@@ -252,16 +252,6 @@
       "joinStamp": 1751730598,
       "lastActivity": 1752230236,
       "delta": 176
-    },
-    {
-      "username": "8b81d3996ac92d37dd96fca816ef5a5d",
-      "displayName": "-tzalexn-",
-      "racesPlayed": 421,
-      "role": "member",
-      "title": "I Love Nitros",
-      "joinStamp": 1751674449,
-      "lastActivity": 1752211556,
-      "delta": 171
     },
     {
       "username": "4399e7a571cf827be64b714c30c899ef",
@@ -481,6 +471,16 @@
       "title": "Millionaire",
       "joinStamp": 1747978481,
       "lastActivity": 1750423100,
+      "delta": 0
+    },
+    {
+      "username": "74c2ce95032f247a79afc98fcccdcea2",
+      "displayName": "UnderstandingRedApe",
+      "racesPlayed": 128,
+      "role": "member",
+      "title": "Millionaire",
+      "joinStamp": 1752257956,
+      "lastActivity": 1752258592,
       "delta": 0
     }
   ]
