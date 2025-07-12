@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 12, 2025 at 8:27 AM PDT",
+  "last_updated": "July 12, 2025 at 9:32 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -36,12 +36,12 @@
     {
       "username": "thecretor145",
       "displayName": "Trickster illusoire",
-      "racesPlayed": 8202,
+      "racesPlayed": 8236,
       "role": "officer",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1752333572,
-      "delta": 3842
+      "lastActivity": 1752337790,
+      "delta": 3876
     },
     {
       "username": "abot8",
@@ -56,22 +56,22 @@
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
       "displayName": "Scyphozoa64",
-      "racesPlayed": 1546,
+      "racesPlayed": 1552,
       "role": "officer",
       "title": "Epic Nitro User",
       "joinStamp": 1751297409,
-      "lastActivity": 1752325054,
-      "delta": 1458
+      "lastActivity": 1752337681,
+      "delta": 1464
     },
     {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
       "displayName": "xRaider",
-      "racesPlayed": 18488,
+      "racesPlayed": 18515,
       "role": "member",
-      "title": "League Champion",
+      "title": "Overdrive",
       "joinStamp": 1751996582,
-      "lastActivity": 1752333567,
-      "delta": 1280
+      "lastActivity": 1752336893,
+      "delta": 1307
     },
     {
       "username": "aiy_infection",
@@ -86,12 +86,12 @@
     {
       "username": "kudism",
       "displayName": "rosaline",
-      "racesPlayed": 2581,
+      "racesPlayed": 2585,
       "role": "member",
       "title": "Nitro Libre",
       "joinStamp": 1750606113,
-      "lastActivity": 1752293124,
-      "delta": 1041
+      "lastActivity": 1752337753,
+      "delta": 1045
     },
     {
       "username": "ryyedawg7",
@@ -175,13 +175,13 @@
     },
     {
       "username": "f2dc26df1555a912f4f3ad24bd6f635d",
-      "displayName": "Mehfuz Reshid",
-      "racesPlayed": 1465,
+      "displayName": "Can i get Gold pls",
+      "racesPlayed": 1475,
       "role": "member",
       "title": "Spring Speedster",
       "joinStamp": 1751976064,
-      "lastActivity": 1752333571,
-      "delta": 391
+      "lastActivity": 1752334685,
+      "delta": 401
     },
     {
       "username": "i_dont_eat_stuff",
@@ -214,6 +214,16 @@
       "delta": 239
     },
     {
+      "username": "cat_hiding_in_couch",
+      "displayName": "Royal0",
+      "racesPlayed": 1437,
+      "role": "member",
+      "title": "Qwerty Quester",
+      "joinStamp": 1751811398,
+      "lastActivity": 1752334851,
+      "delta": 236
+    },
+    {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
       "racesPlayed": 433,
@@ -222,16 +232,6 @@
       "joinStamp": 1750712571,
       "lastActivity": 1752278370,
       "delta": 232
-    },
-    {
-      "username": "cat_hiding_in_couch",
-      "displayName": "Royal0",
-      "racesPlayed": 1423,
-      "role": "member",
-      "title": "Qwerty Quester",
-      "joinStamp": 1751811398,
-      "lastActivity": 1752279994,
-      "delta": 222
     },
     {
       "username": "taylor9191",
@@ -334,6 +334,26 @@
       "delta": 87
     },
     {
+      "username": "vdgyertikopzefrgh",
+      "displayName": "vdgyertikopzefrgh",
+      "racesPlayed": 10718,
+      "role": "member",
+      "title": ":D",
+      "joinStamp": 1742927144,
+      "lastActivity": 1752336554,
+      "delta": 86
+    },
+    {
+      "username": "74c2ce95032f247a79afc98fcccdcea2",
+      "displayName": "UnderstandingRedApe",
+      "racesPlayed": 206,
+      "role": "member",
+      "title": "Millionaire",
+      "joinStamp": 1752257956,
+      "lastActivity": 1752336198,
+      "delta": 78
+    },
+    {
       "username": "e91a12732e6934f1497a87273a05f395",
       "displayName": "Hannah Banana",
       "racesPlayed": 4878,
@@ -342,16 +362,6 @@
       "joinStamp": 1751308294,
       "lastActivity": 1752097390,
       "delta": 77
-    },
-    {
-      "username": "vdgyertikopzefrgh",
-      "displayName": "vdgyertikopzefrgh",
-      "racesPlayed": 10702,
-      "role": "member",
-      "title": ":D",
-      "joinStamp": 1742927144,
-      "lastActivity": 1752246653,
-      "delta": 70
     },
     {
       "username": "5fff3c41947a5b24ed13ddb1c73b1e55",
@@ -372,16 +382,6 @@
       "joinStamp": 1750468101,
       "lastActivity": 1752328384,
       "delta": 45
-    },
-    {
-      "username": "74c2ce95032f247a79afc98fcccdcea2",
-      "displayName": "UnderstandingRedApe",
-      "racesPlayed": 170,
-      "role": "member",
-      "title": "Millionaire",
-      "joinStamp": 1752257956,
-      "lastActivity": 1752263570,
-      "delta": 42
     },
     {
       "username": "1400dgloo",
