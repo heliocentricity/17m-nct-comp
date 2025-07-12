@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 11, 2025 at 7:22 PM PDT",
+  "last_updated": "July 11, 2025 at 8:57 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -26,12 +26,12 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 143125,
+      "racesPlayed": 143135,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1752286722,
-      "delta": 3929
+      "lastActivity": 1752287898,
+      "delta": 3939
     },
     {
       "username": "thecretor145",
@@ -66,12 +66,12 @@
     {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
       "displayName": "xRaider",
-      "racesPlayed": 18439,
+      "racesPlayed": 18440,
       "role": "member",
       "title": "League Champion",
       "joinStamp": 1751996582,
-      "lastActivity": 1752285619,
-      "delta": 1231
+      "lastActivity": 1752287237,
+      "delta": 1232
     },
     {
       "username": "aiy_infection",
@@ -86,22 +86,22 @@
     {
       "username": "kudism",
       "displayName": "rosaline",
-      "racesPlayed": 2557,
+      "racesPlayed": 2570,
       "role": "member",
       "title": "Nitro Libre",
       "joinStamp": 1750606113,
-      "lastActivity": 1752258467,
-      "delta": 1017
+      "lastActivity": 1752291931,
+      "delta": 1030
     },
     {
       "username": "ryyedawg7",
       "displayName": "R Y Y E",
-      "racesPlayed": 1710,
+      "racesPlayed": 1739,
       "role": "member",
       "title": "wow. such gifting",
       "joinStamp": 1751926592,
-      "lastActivity": 1752286669,
-      "delta": 873
+      "lastActivity": 1752291698,
+      "delta": 902
     },
     {
       "username": "timmytimmy213",
@@ -126,12 +126,12 @@
     {
       "username": "514c4cd8cd68eabdd3bdca12ff9601d4",
       "displayName": "SLOWESTat_beingFAST",
-      "racesPlayed": 9048,
+      "racesPlayed": 9093,
       "role": "member",
       "title": "Happy Vibes :)",
       "joinStamp": 1751703504,
-      "lastActivity": 1752219559,
-      "delta": 652
+      "lastActivity": 1752292189,
+      "delta": 697
     },
     {
       "username": "persionde",
@@ -204,6 +204,16 @@
       "delta": 232
     },
     {
+      "username": "8b81d3996ac92d37dd96fca816ef5a5d",
+      "displayName": "-tzalexn-",
+      "racesPlayed": 482,
+      "role": "member",
+      "title": "Novice Navigator",
+      "joinStamp": 1751674449,
+      "lastActivity": 1752292094,
+      "delta": 232
+    },
+    {
       "username": "cat_hiding_in_couch",
       "displayName": "Royal0",
       "racesPlayed": 1423,
@@ -212,16 +222,6 @@
       "joinStamp": 1751811398,
       "lastActivity": 1752279994,
       "delta": 222
-    },
-    {
-      "username": "8b81d3996ac92d37dd96fca816ef5a5d",
-      "displayName": "-tzalexn-",
-      "racesPlayed": 461,
-      "role": "member",
-      "title": "I Love Nitros",
-      "joinStamp": 1751674449,
-      "lastActivity": 1752260248,
-      "delta": 211
     },
     {
       "username": "taylor9191",
