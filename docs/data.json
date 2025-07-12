@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 11, 2025 at 8:57 PM PDT",
+  "last_updated": "July 11, 2025 at 9:38 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -26,12 +26,12 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 143135,
+      "racesPlayed": 143165,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1752287898,
-      "delta": 3939
+      "lastActivity": 1752294323,
+      "delta": 3969
     },
     {
       "username": "thecretor145",
@@ -86,12 +86,12 @@
     {
       "username": "kudism",
       "displayName": "rosaline",
-      "racesPlayed": 2570,
+      "racesPlayed": 2581,
       "role": "member",
       "title": "Nitro Libre",
       "joinStamp": 1750606113,
-      "lastActivity": 1752291931,
-      "delta": 1030
+      "lastActivity": 1752293124,
+      "delta": 1041
     },
     {
       "username": "ryyedawg7",
@@ -126,12 +126,12 @@
     {
       "username": "514c4cd8cd68eabdd3bdca12ff9601d4",
       "displayName": "SLOWESTat_beingFAST",
-      "racesPlayed": 9093,
+      "racesPlayed": 9094,
       "role": "member",
       "title": "Happy Vibes :)",
       "joinStamp": 1751703504,
-      "lastActivity": 1752292189,
-      "delta": 697
+      "lastActivity": 1752292686,
+      "delta": 698
     },
     {
       "username": "persionde",
@@ -194,6 +194,16 @@
       "delta": 348
     },
     {
+      "username": "8b81d3996ac92d37dd96fca816ef5a5d",
+      "displayName": "-tzalexn-",
+      "racesPlayed": 492,
+      "role": "member",
+      "title": "Novice Navigator",
+      "joinStamp": 1751674449,
+      "lastActivity": 1752294360,
+      "delta": 242
+    },
+    {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
       "racesPlayed": 433,
@@ -201,16 +211,6 @@
       "title": "Millionaire",
       "joinStamp": 1750712571,
       "lastActivity": 1752278370,
-      "delta": 232
-    },
-    {
-      "username": "8b81d3996ac92d37dd96fca816ef5a5d",
-      "displayName": "-tzalexn-",
-      "racesPlayed": 482,
-      "role": "member",
-      "title": "Novice Navigator",
-      "joinStamp": 1751674449,
-      "lastActivity": 1752292094,
       "delta": 232
     },
     {
