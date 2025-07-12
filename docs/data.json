@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 12, 2025 at 2:26 AM PDT",
+  "last_updated": "July 12, 2025 at 3:27 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -26,12 +26,12 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 143255,
+      "racesPlayed": 143285,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1752311316,
-      "delta": 4059
+      "lastActivity": 1752314660,
+      "delta": 4089
     },
     {
       "username": "thecretor145",
@@ -126,12 +126,12 @@
     {
       "username": "514c4cd8cd68eabdd3bdca12ff9601d4",
       "displayName": "SLOWESTat_beingFAST",
-      "racesPlayed": 9169,
+      "racesPlayed": 9178,
       "role": "member",
       "title": "Happy Vibes :)",
       "joinStamp": 1751703504,
-      "lastActivity": 1752311575,
-      "delta": 773
+      "lastActivity": 1752313857,
+      "delta": 782
     },
     {
       "username": "persionde",
@@ -274,6 +274,16 @@
       "delta": 159
     },
     {
+      "username": "viper_shot",
+      "displayName": "v1per_sh0t",
+      "racesPlayed": 5753,
+      "role": "member",
+      "title": "Legendary Lapper",
+      "joinStamp": 1747355208,
+      "lastActivity": 1752313962,
+      "delta": 141
+    },
+    {
       "username": "galaxymasterpro",
       "displayName": "galaxymasterpro",
       "racesPlayed": 2140,
@@ -282,16 +292,6 @@
       "joinStamp": 1751817752,
       "lastActivity": 1752253318,
       "delta": 139
-    },
-    {
-      "username": "viper_shot",
-      "displayName": "v1per_sh0t",
-      "racesPlayed": 5744,
-      "role": "member",
-      "title": "Legendary Lapper",
-      "joinStamp": 1747355208,
-      "lastActivity": 1752051061,
-      "delta": 132
     },
     {
       "username": "sumimyangel",
