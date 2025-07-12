@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 12, 2025 at 10:22 AM PDT",
+  "last_updated": "July 12, 2025 at 11:35 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -36,12 +36,12 @@
     {
       "username": "thecretor145",
       "displayName": "Trickster illusoire",
-      "racesPlayed": 8264,
+      "racesPlayed": 8298,
       "role": "officer",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1752340470,
-      "delta": 3904
+      "lastActivity": 1752343200,
+      "delta": 3938
     },
     {
       "username": "abot8",
@@ -74,6 +74,16 @@
       "delta": 1307
     },
     {
+      "username": "kudism",
+      "displayName": "rosaline",
+      "racesPlayed": 2664,
+      "role": "member",
+      "title": "Catty Wampus",
+      "joinStamp": 1750606113,
+      "lastActivity": 1752344957,
+      "delta": 1124
+    },
+    {
       "username": "aiy_infection",
       "displayName": "icarus",
       "racesPlayed": 11113,
@@ -82,16 +92,6 @@
       "joinStamp": 1742486554,
       "lastActivity": 1751895350,
       "delta": 1103
-    },
-    {
-      "username": "kudism",
-      "displayName": "rosaline",
-      "racesPlayed": 2602,
-      "role": "member",
-      "title": "Nitro Libre",
-      "joinStamp": 1750606113,
-      "lastActivity": 1752338755,
-      "delta": 1062
     },
     {
       "username": "ryyedawg7",
@@ -176,12 +176,12 @@
     {
       "username": "f2dc26df1555a912f4f3ad24bd6f635d",
       "displayName": "Can i get Gold pls",
-      "racesPlayed": 1501,
+      "racesPlayed": 1509,
       "role": "member",
       "title": "Spring Speedster",
       "joinStamp": 1751976064,
-      "lastActivity": 1752340761,
-      "delta": 427
+      "lastActivity": 1752341714,
+      "delta": 435
     },
     {
       "username": "i_dont_eat_stuff",
@@ -196,12 +196,12 @@
     {
       "username": "8b81d3996ac92d37dd96fca816ef5a5d",
       "displayName": "-tzalexn-",
-      "racesPlayed": 499,
+      "racesPlayed": 502,
       "role": "member",
       "title": "Novice Navigator",
       "joinStamp": 1751674449,
       "lastActivity": 1752340649,
-      "delta": 249
+      "delta": 252
     },
     {
       "username": "aphoenix888",
