@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 12, 2025 at 12:20 PM PDT",
+  "last_updated": "July 12, 2025 at 1:28 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -76,12 +76,12 @@
     {
       "username": "kudism",
       "displayName": "rosaline",
-      "racesPlayed": 2708,
+      "racesPlayed": 2714,
       "role": "member",
       "title": "Catty Wampus",
       "joinStamp": 1750606113,
-      "lastActivity": 1752347966,
-      "delta": 1168
+      "lastActivity": 1752350458,
+      "delta": 1174
     },
     {
       "username": "aiy_infection",
@@ -176,12 +176,12 @@
     {
       "username": "f2dc26df1555a912f4f3ad24bd6f635d",
       "displayName": "Can i get Gold pls",
-      "racesPlayed": 1509,
+      "racesPlayed": 1516,
       "role": "member",
       "title": "Spring Speedster",
       "joinStamp": 1751976064,
-      "lastActivity": 1752341714,
-      "delta": 435
+      "lastActivity": 1752350940,
+      "delta": 442
     },
     {
       "username": "i_dont_eat_stuff",
@@ -196,12 +196,12 @@
     {
       "username": "8b81d3996ac92d37dd96fca816ef5a5d",
       "displayName": "-tzalexn-",
-      "racesPlayed": 512,
+      "racesPlayed": 515,
       "role": "member",
       "title": "Novice Navigator",
       "joinStamp": 1751674449,
-      "lastActivity": 1752347117,
-      "delta": 262
+      "lastActivity": 1752349972,
+      "delta": 265
     },
     {
       "username": "aphoenix888",
@@ -471,6 +471,16 @@
       "title": "Eternal Spring",
       "joinStamp": 1745209661,
       "lastActivity": 1750738904,
+      "delta": 0
+    },
+    {
+      "username": "2f34c5734382332ea20053296a6d22d7",
+      "displayName": "SplendidBlushHoverfly",
+      "racesPlayed": 7696,
+      "role": "member",
+      "title": "[SKIPWRD]",
+      "joinStamp": 1752349203,
+      "lastActivity": 0,
       "delta": 0
     },
     {
