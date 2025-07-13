@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 13, 2025 at 3:29 AM PDT",
+  "last_updated": "July 13, 2025 at 4:22 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -26,12 +26,12 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 143667,
+      "racesPlayed": 143705,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1752401726,
-      "delta": 4471
+      "lastActivity": 1752404186,
+      "delta": 4509
     },
     {
       "username": "thecretor145",
@@ -404,6 +404,16 @@
       "delta": 3
     },
     {
+      "username": "2f34c5734382332ea20053296a6d22d7",
+      "displayName": "SplendidBlushHoverfly",
+      "racesPlayed": 7697,
+      "role": "member",
+      "title": "[SKIPWRD]",
+      "joinStamp": 1752349203,
+      "lastActivity": 0,
+      "delta": 1
+    },
+    {
       "username": "superdavidj",
       "displayName": "FIood",
       "racesPlayed": 10539,
@@ -431,16 +441,6 @@
       "title": "Eternal Spring",
       "joinStamp": 1745209661,
       "lastActivity": 1750738904,
-      "delta": 0
-    },
-    {
-      "username": "2f34c5734382332ea20053296a6d22d7",
-      "displayName": "SplendidBlushHoverfly",
-      "racesPlayed": 7696,
-      "role": "member",
-      "title": "[SKIPWRD]",
-      "joinStamp": 1752349203,
-      "lastActivity": 0,
       "delta": 0
     },
     {
