@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 12, 2025 at 7:31 PM PDT",
+  "last_updated": "July 12, 2025 at 9:04 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -36,12 +36,12 @@
     {
       "username": "thecretor145",
       "displayName": "Trickster illusoire",
-      "racesPlayed": 8353,
+      "racesPlayed": 8376,
       "role": "officer",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1752361359,
-      "delta": 3993
+      "lastActivity": 1752376138,
+      "delta": 4016
     },
     {
       "username": "abot8",
@@ -66,22 +66,22 @@
     {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
       "displayName": "xRaider",
-      "racesPlayed": 18606,
+      "racesPlayed": 18619,
       "role": "officer",
       "title": "Overdrive",
       "joinStamp": 1751996582,
-      "lastActivity": 1752373612,
-      "delta": 1398
+      "lastActivity": 1752374609,
+      "delta": 1411
     },
     {
       "username": "kudism",
       "displayName": "rosaline",
-      "racesPlayed": 2750,
+      "racesPlayed": 2761,
       "role": "member",
       "title": "Top Tier",
       "joinStamp": 1750606113,
-      "lastActivity": 1752371531,
-      "delta": 1210
+      "lastActivity": 1752379171,
+      "delta": 1221
     },
     {
       "username": "aiy_infection",
@@ -331,6 +331,16 @@
       "title": ":D",
       "joinStamp": 1742927144,
       "lastActivity": 1752336554,
+      "delta": 86
+    },
+    {
+      "username": "defnotairborne",
+      "displayName": "icarus",
+      "racesPlayed": 132,
+      "role": "member",
+      "title": "wow. such gifting",
+      "joinStamp": 1752376265,
+      "lastActivity": 1752378770,
       "delta": 86
     },
     {
