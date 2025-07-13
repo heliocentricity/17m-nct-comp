@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 13, 2025 at 6:34 AM PDT",
+  "last_updated": "July 13, 2025 at 7:24 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -14,6 +14,16 @@
       "delta": 5475
     },
     {
+      "username": "aharama",
+      "displayName": "Aharama",
+      "racesPlayed": 143823,
+      "role": "member",
+      "title": "Emperor",
+      "joinStamp": 1751010739,
+      "lastActivity": 1752416362,
+      "delta": 4627
+    },
+    {
       "username": "neiletsky",
       "displayName": "PinoyLegend",
       "racesPlayed": 15065,
@@ -22,16 +32,6 @@
       "joinStamp": 1744741826,
       "lastActivity": 1752355387,
       "delta": 4575
-    },
-    {
-      "username": "aharama",
-      "displayName": "Aharama",
-      "racesPlayed": 143762,
-      "role": "member",
-      "title": "Emperor",
-      "joinStamp": 1751010739,
-      "lastActivity": 1752409229,
-      "delta": 4566
     },
     {
       "username": "thecretor145",
@@ -186,12 +186,12 @@
     {
       "username": "f2dc26df1555a912f4f3ad24bd6f635d",
       "displayName": "Can i get Gold pls",
-      "racesPlayed": 1516,
+      "racesPlayed": 1519,
       "role": "member",
       "title": "Spring Speedster",
       "joinStamp": 1751976064,
-      "lastActivity": 1752350940,
-      "delta": 442
+      "lastActivity": 1752416341,
+      "delta": 445
     },
     {
       "username": "8b81d3996ac92d37dd96fca816ef5a5d",
@@ -304,6 +304,16 @@
       "delta": 139
     },
     {
+      "username": "vdgyertikopzefrgh",
+      "displayName": "vdgyertikopzefrgh",
+      "racesPlayed": 10734,
+      "role": "member",
+      "title": ":D",
+      "joinStamp": 1742927144,
+      "lastActivity": 1752416191,
+      "delta": 102
+    },
+    {
       "username": "conquerer11k",
       "displayName": "ResilientRedDonkey",
       "racesPlayed": 13688,
@@ -332,16 +342,6 @@
       "joinStamp": 1752376265,
       "lastActivity": 1752380661,
       "delta": 87
-    },
-    {
-      "username": "vdgyertikopzefrgh",
-      "displayName": "vdgyertikopzefrgh",
-      "racesPlayed": 10718,
-      "role": "member",
-      "title": ":D",
-      "joinStamp": 1742927144,
-      "lastActivity": 1752336554,
-      "delta": 86
     },
     {
       "username": "74c2ce95032f247a79afc98fcccdcea2",
