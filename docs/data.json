@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 12, 2025 at 10:28 PM PDT",
+  "last_updated": "July 12, 2025 at 11:38 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -26,22 +26,22 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 143455,
+      "racesPlayed": 143509,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1752329374,
-      "delta": 4259
+      "lastActivity": 1752388089,
+      "delta": 4313
     },
     {
       "username": "thecretor145",
       "displayName": "Trickster illusoire",
-      "racesPlayed": 8377,
+      "racesPlayed": 8400,
       "role": "officer",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1752382235,
-      "delta": 4017
+      "lastActivity": 1752388164,
+      "delta": 4040
     },
     {
       "username": "abot8",
@@ -76,12 +76,12 @@
     {
       "username": "kudism",
       "displayName": "rosaline",
-      "racesPlayed": 2784,
+      "racesPlayed": 2785,
       "role": "member",
       "title": "Top Tier",
       "joinStamp": 1750606113,
-      "lastActivity": 1752383314,
-      "delta": 1244
+      "lastActivity": 1752386378,
+      "delta": 1245
     },
     {
       "username": "aiy_infection",
@@ -106,12 +106,12 @@
     {
       "username": "514c4cd8cd68eabdd3bdca12ff9601d4",
       "displayName": "SLOWESTat_beingFAST",
-      "racesPlayed": 9211,
+      "racesPlayed": 9254,
       "role": "member",
       "title": "Happy Vibes :)",
       "joinStamp": 1751703504,
-      "lastActivity": 1752383993,
-      "delta": 815
+      "lastActivity": 1752388096,
+      "delta": 858
     },
     {
       "username": "timmytimmy213",
@@ -204,6 +204,16 @@
       "delta": 291
     },
     {
+      "username": "viper_shot",
+      "displayName": "v1per_sh0t",
+      "racesPlayed": 5901,
+      "role": "member",
+      "title": "Legendary Lapper",
+      "joinStamp": 1747355208,
+      "lastActivity": 1752388159,
+      "delta": 289
+    },
+    {
       "username": "cat_hiding_in_couch",
       "displayName": "Royal0",
       "racesPlayed": 1459,
@@ -212,16 +222,6 @@
       "joinStamp": 1751811398,
       "lastActivity": 1752366422,
       "delta": 258
-    },
-    {
-      "username": "viper_shot",
-      "displayName": "v1per_sh0t",
-      "racesPlayed": 5857,
-      "role": "member",
-      "title": "Legendary Lapper",
-      "joinStamp": 1747355208,
-      "lastActivity": 1752354239,
-      "delta": 245
     },
     {
       "username": "aphoenix888",
