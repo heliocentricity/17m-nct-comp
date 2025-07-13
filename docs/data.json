@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 12, 2025 at 11:38 PM PDT",
+  "last_updated": "July 13, 2025 at 12:27 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -26,22 +26,22 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 143509,
+      "racesPlayed": 143567,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1752388089,
-      "delta": 4313
+      "lastActivity": 1752391189,
+      "delta": 4371
     },
     {
       "username": "thecretor145",
       "displayName": "Trickster illusoire",
-      "racesPlayed": 8400,
+      "racesPlayed": 8440,
       "role": "officer",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1752388164,
-      "delta": 4040
+      "lastActivity": 1752391177,
+      "delta": 4080
     },
     {
       "username": "abot8",
@@ -106,12 +106,12 @@
     {
       "username": "514c4cd8cd68eabdd3bdca12ff9601d4",
       "displayName": "SLOWESTat_beingFAST",
-      "racesPlayed": 9254,
+      "racesPlayed": 9257,
       "role": "member",
       "title": "Happy Vibes :)",
       "joinStamp": 1751703504,
-      "lastActivity": 1752388096,
-      "delta": 858
+      "lastActivity": 1752389444,
+      "delta": 861
     },
     {
       "username": "timmytimmy213",
@@ -210,7 +210,7 @@
       "role": "member",
       "title": "Legendary Lapper",
       "joinStamp": 1747355208,
-      "lastActivity": 1752388159,
+      "lastActivity": 1752388613,
       "delta": 289
     },
     {
@@ -461,6 +461,16 @@
       "title": "Millionaire",
       "joinStamp": 1747978481,
       "lastActivity": 1750423100,
+      "delta": 0
+    },
+    {
+      "username": "ytytytututototo",
+      "displayName": "ytytytututototo",
+      "racesPlayed": 15,
+      "role": "member",
+      "title": "Raw Racing Recruit",
+      "joinStamp": 1752390910,
+      "lastActivity": 0,
       "delta": 0
     }
   ]
