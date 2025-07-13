@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 13, 2025 at 7:24 AM PDT",
+  "last_updated": "July 13, 2025 at 8:26 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -16,12 +16,12 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 143823,
+      "racesPlayed": 143855,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1752416362,
-      "delta": 4627
+      "lastActivity": 1752418121,
+      "delta": 4659
     },
     {
       "username": "neiletsky",
@@ -56,32 +56,32 @@
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
       "displayName": "Scyphozoa64",
-      "racesPlayed": 1619,
+      "racesPlayed": 1624,
       "role": "officer",
       "title": "Epic Nitro User",
       "joinStamp": 1751297409,
-      "lastActivity": 1752411474,
-      "delta": 1531
+      "lastActivity": 1752418019,
+      "delta": 1536
     },
     {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
       "displayName": "xRaider",
-      "racesPlayed": 18619,
+      "racesPlayed": 18650,
       "role": "officer",
       "title": "Overdrive",
       "joinStamp": 1751996582,
-      "lastActivity": 1752374609,
-      "delta": 1411
+      "lastActivity": 1752419953,
+      "delta": 1442
     },
     {
       "username": "kudism",
       "displayName": "rosaline",
-      "racesPlayed": 2785,
+      "racesPlayed": 2817,
       "role": "member",
       "title": "Top Tier",
       "joinStamp": 1750606113,
-      "lastActivity": 1752386378,
-      "delta": 1245
+      "lastActivity": 1752419974,
+      "delta": 1277
     },
     {
       "username": "aiy_infection",
@@ -174,6 +174,16 @@
       "delta": 531
     },
     {
+      "username": "f2dc26df1555a912f4f3ad24bd6f635d",
+      "displayName": "Can i get Gold pls",
+      "racesPlayed": 1551,
+      "role": "member",
+      "title": "Spring Speedster",
+      "joinStamp": 1751976064,
+      "lastActivity": 1752419960,
+      "delta": 477
+    },
+    {
       "username": "i_dont_eat_stuff",
       "displayName": "\frocksmasher9",
       "racesPlayed": 9497,
@@ -182,16 +192,6 @@
       "joinStamp": 1751805075,
       "lastActivity": 1752410279,
       "delta": 449
-    },
-    {
-      "username": "f2dc26df1555a912f4f3ad24bd6f635d",
-      "displayName": "Can i get Gold pls",
-      "racesPlayed": 1519,
-      "role": "member",
-      "title": "Spring Speedster",
-      "joinStamp": 1751976064,
-      "lastActivity": 1752416341,
-      "delta": 445
     },
     {
       "username": "8b81d3996ac92d37dd96fca816ef5a5d",
