@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 13, 2025 at 1:28 PM PDT",
+  "last_updated": "July 13, 2025 at 2:24 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -64,6 +64,16 @@
       "delta": 1536
     },
     {
+      "username": "kudism",
+      "displayName": "rosaline",
+      "racesPlayed": 3006,
+      "role": "member",
+      "title": "Top Tier",
+      "joinStamp": 1750606113,
+      "lastActivity": 1752439659,
+      "delta": 1466
+    },
+    {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
       "displayName": "xRaider",
       "racesPlayed": 18659,
@@ -72,16 +82,6 @@
       "joinStamp": 1751996582,
       "lastActivity": 1752422413,
       "delta": 1451
-    },
-    {
-      "username": "kudism",
-      "displayName": "rosaline",
-      "racesPlayed": 2984,
-      "role": "member",
-      "title": "Top Tier",
-      "joinStamp": 1750606113,
-      "lastActivity": 1752437962,
-      "delta": 1444
     },
     {
       "username": "aiy_infection",
@@ -176,12 +176,12 @@
     {
       "username": "f2dc26df1555a912f4f3ad24bd6f635d",
       "displayName": "Can i get Gold pls",
-      "racesPlayed": 1573,
+      "racesPlayed": 1579,
       "role": "member",
       "title": "Spring Speedster",
       "joinStamp": 1751976064,
-      "lastActivity": 1752426750,
-      "delta": 499
+      "lastActivity": 1752440630,
+      "delta": 505
     },
     {
       "username": "i_dont_eat_stuff",
@@ -192,6 +192,16 @@
       "joinStamp": 1751805075,
       "lastActivity": 1752426250,
       "delta": 456
+    },
+    {
+      "username": "aphoenix888",
+      "displayName": "",
+      "racesPlayed": 2550,
+      "role": "member",
+      "title": "Colemak Conqueror",
+      "joinStamp": 1751730598,
+      "lastActivity": 1752441189,
+      "delta": 312
     },
     {
       "username": "8b81d3996ac92d37dd96fca816ef5a5d",
@@ -212,16 +222,6 @@
       "joinStamp": 1747355208,
       "lastActivity": 1752388613,
       "delta": 289
-    },
-    {
-      "username": "aphoenix888",
-      "displayName": "",
-      "racesPlayed": 2522,
-      "role": "member",
-      "title": "Colemak Conqueror",
-      "joinStamp": 1751730598,
-      "lastActivity": 1752411859,
-      "delta": 284
     },
     {
       "username": "cat_hiding_in_couch",
@@ -264,6 +264,16 @@
       "delta": 193
     },
     {
+      "username": "defnotairborne",
+      "displayName": "icarus",
+      "racesPlayed": 222,
+      "role": "member",
+      "title": "wow. such gifting",
+      "joinStamp": 1752376265,
+      "lastActivity": 1752441593,
+      "delta": 176
+    },
+    {
       "username": "4399e7a571cf827be64b714c30c899ef",
       "displayName": "FuchsiaAzureCougar",
       "racesPlayed": 542,
@@ -302,16 +312,6 @@
       "joinStamp": 1751817752,
       "lastActivity": 1752253318,
       "delta": 139
-    },
-    {
-      "username": "defnotairborne",
-      "displayName": "icarus",
-      "racesPlayed": 152,
-      "role": "member",
-      "title": "wow. such gifting",
-      "joinStamp": 1752376265,
-      "lastActivity": 1752437834,
-      "delta": 106
     },
     {
       "username": "vdgyertikopzefrgh",
