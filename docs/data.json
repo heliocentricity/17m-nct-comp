@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 13, 2025 at 12:21 PM PDT",
+  "last_updated": "July 13, 2025 at 1:28 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -76,12 +76,12 @@
     {
       "username": "kudism",
       "displayName": "rosaline",
-      "racesPlayed": 2960,
+      "racesPlayed": 2984,
       "role": "member",
       "title": "Top Tier",
       "joinStamp": 1750606113,
-      "lastActivity": 1752433110,
-      "delta": 1420
+      "lastActivity": 1752437962,
+      "delta": 1444
     },
     {
       "username": "aiy_infection",
@@ -304,6 +304,16 @@
       "delta": 139
     },
     {
+      "username": "defnotairborne",
+      "displayName": "icarus",
+      "racesPlayed": 152,
+      "role": "member",
+      "title": "wow. such gifting",
+      "joinStamp": 1752376265,
+      "lastActivity": 1752437834,
+      "delta": 106
+    },
+    {
       "username": "vdgyertikopzefrgh",
       "displayName": "vdgyertikopzefrgh",
       "racesPlayed": 10734,
@@ -331,16 +341,6 @@
       "title": "I Have Fans!",
       "joinStamp": 1751073187,
       "lastActivity": 1752024666,
-      "delta": 87
-    },
-    {
-      "username": "defnotairborne",
-      "displayName": "icarus",
-      "racesPlayed": 133,
-      "role": "member",
-      "title": "wow. such gifting",
-      "joinStamp": 1752376265,
-      "lastActivity": 1752380661,
       "delta": 87
     },
     {
