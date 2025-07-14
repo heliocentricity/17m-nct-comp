@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 14, 2025 at 3:28 PM PDT",
+  "last_updated": "July 14, 2025 at 4:26 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -30,18 +30,18 @@
       "role": "vicecaptain",
       "title": "League Champion",
       "joinStamp": 1744741826,
-      "lastActivity": 1752524960,
+      "lastActivity": 1752532032,
       "delta": 4633
     },
     {
       "username": "thecretor145",
       "displayName": "Trickster illusoire",
-      "racesPlayed": 8697,
+      "racesPlayed": 8748,
       "role": "officer",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1752512022,
-      "delta": 4337
+      "lastActivity": 1752535181,
+      "delta": 4388
     },
     {
       "username": "abot8",
@@ -54,6 +54,16 @@
       "delta": 2882
     },
     {
+      "username": "627aecdf7610fc6de50ed0e535eb9577",
+      "displayName": "xRaider",
+      "racesPlayed": 18823,
+      "role": "officer",
+      "title": "Overdrive",
+      "joinStamp": 1751996582,
+      "lastActivity": 1752535188,
+      "delta": 1615
+    },
+    {
       "username": "be74ffff6b556a68cdccc087a63e6676",
       "displayName": "Scyphozoa64",
       "racesPlayed": 1675,
@@ -62,16 +72,6 @@
       "joinStamp": 1751297409,
       "lastActivity": 1752503521,
       "delta": 1587
-    },
-    {
-      "username": "627aecdf7610fc6de50ed0e535eb9577",
-      "displayName": "xRaider",
-      "racesPlayed": 18787,
-      "role": "officer",
-      "title": "Overdrive",
-      "joinStamp": 1751996582,
-      "lastActivity": 1752531358,
-      "delta": 1579
     },
     {
       "username": "kudism",
@@ -94,6 +94,16 @@
       "delta": 1103
     },
     {
+      "username": "ryyedawg7",
+      "displayName": "R Y Y E",
+      "racesPlayed": 1778,
+      "role": "member",
+      "title": "Top Tier",
+      "joinStamp": 1751926592,
+      "lastActivity": 1752535053,
+      "delta": 941
+    },
+    {
       "username": "514c4cd8cd68eabdd3bdca12ff9601d4",
       "displayName": "SLOWESTat_beingFAST",
       "racesPlayed": 9330,
@@ -102,16 +112,6 @@
       "joinStamp": 1751703504,
       "lastActivity": 1752476940,
       "delta": 934
-    },
-    {
-      "username": "ryyedawg7",
-      "displayName": "R Y Y E",
-      "racesPlayed": 1755,
-      "role": "member",
-      "title": "Top Tier",
-      "joinStamp": 1751926592,
-      "lastActivity": 1752373109,
-      "delta": 918
     },
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
@@ -156,12 +156,12 @@
     {
       "username": "f2dc26df1555a912f4f3ad24bd6f635d",
       "displayName": "Can i get Gold pls",
-      "racesPlayed": 1642,
+      "racesPlayed": 1651,
       "role": "member",
       "title": "Spring Speedster",
       "joinStamp": 1751976064,
-      "lastActivity": 1752506157,
-      "delta": 568
+      "lastActivity": 1752534313,
+      "delta": 577
     },
     {
       "username": "vioiynx",
@@ -186,12 +186,12 @@
     {
       "username": "i_dont_eat_stuff",
       "displayName": "\frocksmasher9",
-      "racesPlayed": 9569,
+      "racesPlayed": 9570,
       "role": "member",
       "title": ":D",
       "joinStamp": 1751805075,
-      "lastActivity": 1752531186,
-      "delta": 521
+      "lastActivity": 1752532139,
+      "delta": 522
     },
     {
       "username": "aphoenix888",
@@ -206,12 +206,12 @@
     {
       "username": "8b81d3996ac92d37dd96fca816ef5a5d",
       "displayName": "-tzalexn-",
-      "racesPlayed": 571,
+      "racesPlayed": 573,
       "role": "member",
       "title": "Top Tier",
       "joinStamp": 1751674449,
-      "lastActivity": 1752528367,
-      "delta": 321
+      "lastActivity": 1752532429,
+      "delta": 323
     },
     {
       "username": "cat_hiding_in_couch",
@@ -244,6 +244,16 @@
       "delta": 267
     },
     {
+      "username": "defnotairborne",
+      "displayName": "icarus",
+      "racesPlayed": 273,
+      "role": "member",
+      "title": "wow. such gifting",
+      "joinStamp": 1752376265,
+      "lastActivity": 1752535189,
+      "delta": 227
+    },
+    {
       "username": "taylor9191",
       "displayName": "Tay on Summer Break",
       "racesPlayed": 3802,
@@ -252,16 +262,6 @@
       "joinStamp": 1752195695,
       "lastActivity": 1752269423,
       "delta": 205
-    },
-    {
-      "username": "defnotairborne",
-      "displayName": "icarus",
-      "racesPlayed": 241,
-      "role": "member",
-      "title": "wow. such gifting",
-      "joinStamp": 1752376265,
-      "lastActivity": 1752481307,
-      "delta": 195
     },
     {
       "username": "gw2iscoollol",
