@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 14, 2025 at 7:28 AM PDT",
+  "last_updated": "July 14, 2025 at 8:31 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -56,12 +56,22 @@
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
       "displayName": "Scyphozoa64",
-      "racesPlayed": 1671,
+      "racesPlayed": 1675,
       "role": "officer",
       "title": "Epic Nitro User",
       "joinStamp": 1751297409,
-      "lastActivity": 1752502777,
-      "delta": 1583
+      "lastActivity": 1752503521,
+      "delta": 1587
+    },
+    {
+      "username": "627aecdf7610fc6de50ed0e535eb9577",
+      "displayName": "xRaider",
+      "racesPlayed": 18674,
+      "role": "officer",
+      "title": "Overdrive",
+      "joinStamp": 1751996582,
+      "lastActivity": 1752506970,
+      "delta": 1466
     },
     {
       "username": "kudism",
@@ -72,16 +82,6 @@
       "joinStamp": 1750606113,
       "lastActivity": 1752439659,
       "delta": 1466
-    },
-    {
-      "username": "627aecdf7610fc6de50ed0e535eb9577",
-      "displayName": "xRaider",
-      "racesPlayed": 18664,
-      "role": "officer",
-      "title": "Overdrive",
-      "joinStamp": 1751996582,
-      "lastActivity": 1752449097,
-      "delta": 1456
     },
     {
       "username": "aiy_infection",
@@ -154,6 +154,16 @@
       "delta": 605
     },
     {
+      "username": "f2dc26df1555a912f4f3ad24bd6f635d",
+      "displayName": "Can i get Gold pls",
+      "racesPlayed": 1642,
+      "role": "member",
+      "title": "Spring Speedster",
+      "joinStamp": 1751976064,
+      "lastActivity": 1752506157,
+      "delta": 568
+    },
+    {
       "username": "vioiynx",
       "displayName": "vioiynx",
       "racesPlayed": 3701,
@@ -162,16 +172,6 @@
       "joinStamp": 1742509283,
       "lastActivity": 1751507157,
       "delta": 552
-    },
-    {
-      "username": "f2dc26df1555a912f4f3ad24bd6f635d",
-      "displayName": "Can i get Gold pls",
-      "racesPlayed": 1612,
-      "role": "member",
-      "title": "Spring Speedster",
-      "joinStamp": 1751976064,
-      "lastActivity": 1752502765,
-      "delta": 538
     },
     {
       "username": "a_normal_snake",
@@ -320,7 +320,7 @@
       "role": "member",
       "title": ":D",
       "joinStamp": 1742927144,
-      "lastActivity": 1752502763,
+      "lastActivity": 1752502895,
       "delta": 118
     },
     {
