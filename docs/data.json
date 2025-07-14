@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 14, 2025 at 5:58 AM PDT",
+  "last_updated": "July 14, 2025 at 6:31 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -114,6 +114,16 @@
       "delta": 911
     },
     {
+      "username": "8d225e93c28002e8f8a3d489a8b14bf9",
+      "displayName": "FoscoBurrows",
+      "racesPlayed": 12508,
+      "role": "member",
+      "title": "Potaytoes",
+      "joinStamp": 1751395286,
+      "lastActivity": 1752499539,
+      "delta": 816
+    },
+    {
       "username": "timmytimmy213",
       "displayName": "timmytimmy213",
       "racesPlayed": 5019,
@@ -122,16 +132,6 @@
       "joinStamp": 1743005762,
       "lastActivity": 1752003488,
       "delta": 807
-    },
-    {
-      "username": "8d225e93c28002e8f8a3d489a8b14bf9",
-      "displayName": "FoscoBurrows",
-      "racesPlayed": 12488,
-      "role": "member",
-      "title": "Potaytoes",
-      "joinStamp": 1751395286,
-      "lastActivity": 1752087485,
-      "delta": 796
     },
     {
       "username": "persionde",
@@ -176,12 +176,12 @@
     {
       "username": "f2dc26df1555a912f4f3ad24bd6f635d",
       "displayName": "Can i get Gold pls",
-      "racesPlayed": 1579,
+      "racesPlayed": 1580,
       "role": "member",
       "title": "Spring Speedster",
       "joinStamp": 1751976064,
       "lastActivity": 1752440630,
-      "delta": 505
+      "delta": 506
     },
     {
       "username": "i_dont_eat_stuff",
