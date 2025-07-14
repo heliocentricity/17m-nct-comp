@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 14, 2025 at 8:31 AM PDT",
+  "last_updated": "July 14, 2025 at 9:36 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -66,12 +66,12 @@
     {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
       "displayName": "xRaider",
-      "racesPlayed": 18674,
+      "racesPlayed": 18733,
       "role": "officer",
       "title": "Overdrive",
       "joinStamp": 1751996582,
-      "lastActivity": 1752506970,
-      "delta": 1466
+      "lastActivity": 1752510570,
+      "delta": 1525
     },
     {
       "username": "kudism",
@@ -354,6 +354,16 @@
       "delta": 85
     },
     {
+      "username": "2f34c5734382332ea20053296a6d22d7",
+      "displayName": "SplendidBlushHoverfly",
+      "racesPlayed": 7774,
+      "role": "member",
+      "title": "[SKIPWRD]",
+      "joinStamp": 1752349203,
+      "lastActivity": 1752510593,
+      "delta": 78
+    },
+    {
       "username": "e91a12732e6934f1497a87273a05f395",
       "displayName": "Hannah Banana",
       "racesPlayed": 4878,
@@ -362,16 +372,6 @@
       "joinStamp": 1751308294,
       "lastActivity": 1752097390,
       "delta": 77
-    },
-    {
-      "username": "2f34c5734382332ea20053296a6d22d7",
-      "displayName": "SplendidBlushHoverfly",
-      "racesPlayed": 7758,
-      "role": "member",
-      "title": "[SKIPWRD]",
-      "joinStamp": 1752349203,
-      "lastActivity": 1752442934,
-      "delta": 62
     },
     {
       "username": "dianac128",
