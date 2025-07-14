@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 14, 2025 at 6:44 AM PDT",
+  "last_updated": "July 14, 2025 at 7:28 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -56,12 +56,12 @@
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
       "displayName": "Scyphozoa64",
-      "racesPlayed": 1651,
+      "racesPlayed": 1671,
       "role": "officer",
       "title": "Epic Nitro User",
       "joinStamp": 1751297409,
-      "lastActivity": 1752461793,
-      "delta": 1563
+      "lastActivity": 1752502777,
+      "delta": 1583
     },
     {
       "username": "kudism",
@@ -164,6 +164,16 @@
       "delta": 552
     },
     {
+      "username": "f2dc26df1555a912f4f3ad24bd6f635d",
+      "displayName": "Can i get Gold pls",
+      "racesPlayed": 1612,
+      "role": "member",
+      "title": "Spring Speedster",
+      "joinStamp": 1751976064,
+      "lastActivity": 1752502765,
+      "delta": 538
+    },
+    {
       "username": "a_normal_snake",
       "displayName": "-Snake-",
       "racesPlayed": 3470,
@@ -172,16 +182,6 @@
       "joinStamp": 1751144117,
       "lastActivity": 1752428208,
       "delta": 534
-    },
-    {
-      "username": "f2dc26df1555a912f4f3ad24bd6f635d",
-      "displayName": "Can i get Gold pls",
-      "racesPlayed": 1582,
-      "role": "member",
-      "title": "Spring Speedster",
-      "joinStamp": 1751976064,
-      "lastActivity": 1752500109,
-      "delta": 508
     },
     {
       "username": "i_dont_eat_stuff",
@@ -316,12 +316,12 @@
     {
       "username": "vdgyertikopzefrgh",
       "displayName": "vdgyertikopzefrgh",
-      "racesPlayed": 10734,
+      "racesPlayed": 10750,
       "role": "member",
       "title": ":D",
       "joinStamp": 1742927144,
-      "lastActivity": 1752416191,
-      "delta": 102
+      "lastActivity": 1752502763,
+      "delta": 118
     },
     {
       "username": "conquerer11k",
