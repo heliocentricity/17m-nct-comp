@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 13, 2025 at 11:42 PM PDT",
+  "last_updated": "July 14, 2025 at 12:30 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -16,32 +16,32 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 143908,
+      "racesPlayed": 143930,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1752474747,
-      "delta": 4712
+      "lastActivity": 1752478151,
+      "delta": 4734
     },
     {
       "username": "neiletsky",
       "displayName": "PinoyLegend",
-      "racesPlayed": 15093,
+      "racesPlayed": 15094,
       "role": "vicecaptain",
       "title": "League Champion",
       "joinStamp": 1744741826,
-      "lastActivity": 1752474178,
-      "delta": 4603
+      "lastActivity": 1752477569,
+      "delta": 4604
     },
     {
       "username": "thecretor145",
       "displayName": "Trickster illusoire",
-      "racesPlayed": 8662,
+      "racesPlayed": 8689,
       "role": "officer",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1752475149,
-      "delta": 4302
+      "lastActivity": 1752477662,
+      "delta": 4329
     },
     {
       "username": "abot8",
@@ -94,6 +94,16 @@
       "delta": 1103
     },
     {
+      "username": "514c4cd8cd68eabdd3bdca12ff9601d4",
+      "displayName": "SLOWESTat_beingFAST",
+      "racesPlayed": 9330,
+      "role": "member",
+      "title": "Happy Vibes :)",
+      "joinStamp": 1751703504,
+      "lastActivity": 1752476940,
+      "delta": 934
+    },
+    {
       "username": "ryyedawg7",
       "displayName": "R Y Y E",
       "racesPlayed": 1748,
@@ -102,16 +112,6 @@
       "joinStamp": 1751926592,
       "lastActivity": 1752373109,
       "delta": 911
-    },
-    {
-      "username": "514c4cd8cd68eabdd3bdca12ff9601d4",
-      "displayName": "SLOWESTat_beingFAST",
-      "racesPlayed": 9306,
-      "role": "member",
-      "title": "Happy Vibes :)",
-      "joinStamp": 1751703504,
-      "lastActivity": 1752475096,
-      "delta": 910
     },
     {
       "username": "timmytimmy213",
