@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 15, 2025 at 9:36 AM PDT",
+  "last_updated": "July 15, 2025 at 10:26 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -66,12 +66,12 @@
     {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
       "displayName": "xRaider",
-      "racesPlayed": 18871,
+      "racesPlayed": 18873,
       "role": "officer",
       "title": "Overdrive",
       "joinStamp": 1751996582,
-      "lastActivity": 1752596439,
-      "delta": 1663
+      "lastActivity": 1752598968,
+      "delta": 1665
     },
     {
       "username": "kudism",
@@ -106,12 +106,12 @@
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
       "displayName": "FoscoBurrows",
-      "racesPlayed": 12608,
+      "racesPlayed": 12617,
       "role": "member",
       "title": "Potaytoes",
       "joinStamp": 1751395286,
-      "lastActivity": 1752596176,
-      "delta": 916
+      "lastActivity": 1752598509,
+      "delta": 925
     },
     {
       "username": "timmytimmy213",
