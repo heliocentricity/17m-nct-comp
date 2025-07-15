@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 15, 2025 at 11:40 AM PDT",
+  "last_updated": "July 15, 2025 at 12:23 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -16,22 +16,22 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 144055,
+      "racesPlayed": 144070,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1752604737,
-      "delta": 4859
+      "lastActivity": 1752605915,
+      "delta": 4874
     },
     {
       "username": "neiletsky",
       "displayName": "PinoyLegend",
-      "racesPlayed": 15141,
+      "racesPlayed": 15144,
       "role": "vicecaptain",
       "title": "League Champion",
       "joinStamp": 1744741826,
-      "lastActivity": 1752563743,
-      "delta": 4651
+      "lastActivity": 1752606244,
+      "delta": 4654
     },
     {
       "username": "thecretor145",
@@ -66,12 +66,12 @@
     {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
       "displayName": "xRaider",
-      "racesPlayed": 18873,
+      "racesPlayed": 18878,
       "role": "officer",
       "title": "Overdrive",
       "joinStamp": 1751996582,
-      "lastActivity": 1752598968,
-      "delta": 1665
+      "lastActivity": 1752606681,
+      "delta": 1670
     },
     {
       "username": "kudism",
@@ -106,12 +106,12 @@
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
       "displayName": "FoscoBurrows",
-      "racesPlayed": 12627,
+      "racesPlayed": 12629,
       "role": "member",
       "title": "Potaytoes",
       "joinStamp": 1751395286,
-      "lastActivity": 1752604296,
-      "delta": 935
+      "lastActivity": 1752606081,
+      "delta": 937
     },
     {
       "username": "timmytimmy213",
@@ -264,6 +264,16 @@
       "delta": 193
     },
     {
+      "username": "sumimyangel",
+      "displayName": "stephenJoester",
+      "racesPlayed": 21798,
+      "role": "member",
+      "title": "Champion Chaser",
+      "joinStamp": 1748965989,
+      "lastActivity": 1752607159,
+      "delta": 190
+    },
+    {
       "username": "4399e7a571cf827be64b714c30c899ef",
       "displayName": "FuchsiaAzureCougar",
       "racesPlayed": 542,
@@ -292,16 +302,6 @@
       "joinStamp": 1752349203,
       "lastActivity": 1752604643,
       "delta": 154
-    },
-    {
-      "username": "sumimyangel",
-      "displayName": "stephenJoester",
-      "racesPlayed": 21754,
-      "role": "member",
-      "title": "Champion Chaser",
-      "joinStamp": 1748965989,
-      "lastActivity": 1752411528,
-      "delta": 146
     },
     {
       "username": "galaxymasterpro",
