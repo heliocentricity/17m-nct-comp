@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 15, 2025 at 8:29 AM PDT",
+  "last_updated": "July 15, 2025 at 9:36 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -66,22 +66,22 @@
     {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
       "displayName": "xRaider",
-      "racesPlayed": 18856,
+      "racesPlayed": 18871,
       "role": "officer",
       "title": "Overdrive",
       "joinStamp": 1751996582,
-      "lastActivity": 1752591886,
-      "delta": 1648
+      "lastActivity": 1752596439,
+      "delta": 1663
     },
     {
       "username": "kudism",
       "displayName": "rosaline",
-      "racesPlayed": 3019,
+      "racesPlayed": 3021,
       "role": "member",
       "title": "Top Tier",
       "joinStamp": 1750606113,
-      "lastActivity": 1752550170,
-      "delta": 1479
+      "lastActivity": 1752596654,
+      "delta": 1481
     },
     {
       "username": "aiy_infection",
@@ -106,12 +106,12 @@
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
       "displayName": "FoscoBurrows",
-      "racesPlayed": 12599,
+      "racesPlayed": 12608,
       "role": "member",
       "title": "Potaytoes",
       "joinStamp": 1751395286,
-      "lastActivity": 1752592762,
-      "delta": 907
+      "lastActivity": 1752596176,
+      "delta": 916
     },
     {
       "username": "timmytimmy213",
@@ -126,12 +126,12 @@
     {
       "username": "f2dc26df1555a912f4f3ad24bd6f635d",
       "displayName": "Can i get Gold pls",
-      "racesPlayed": 1717,
+      "racesPlayed": 1718,
       "role": "member",
       "title": "Endurance Racer",
       "joinStamp": 1751976064,
-      "lastActivity": 1752592370,
-      "delta": 643
+      "lastActivity": 1752595775,
+      "delta": 644
     },
     {
       "username": "persionde",
@@ -166,12 +166,12 @@
     {
       "username": "a_normal_snake",
       "displayName": "-Snake-",
-      "racesPlayed": 3470,
+      "racesPlayed": 3479,
       "role": "member",
       "title": "I Love Dogs",
       "joinStamp": 1751144117,
-      "lastActivity": 1752428208,
-      "delta": 534
+      "lastActivity": 1752594318,
+      "delta": 543
     },
     {
       "username": "i_dont_eat_stuff",
@@ -224,6 +224,16 @@
       "delta": 303
     },
     {
+      "username": "4978dd1c73bd50b93b895f4299eed6b8",
+      "displayName": "Mystic",
+      "racesPlayed": 495,
+      "role": "member",
+      "title": "Millionaire",
+      "joinStamp": 1750712571,
+      "lastActivity": 1752596832,
+      "delta": 294
+    },
+    {
       "username": "viper_shot",
       "displayName": "v1per_sh0t",
       "racesPlayed": 5901,
@@ -231,16 +241,6 @@
       "title": "Legendary Lapper",
       "joinStamp": 1747355208,
       "lastActivity": 1752388613,
-      "delta": 289
-    },
-    {
-      "username": "4978dd1c73bd50b93b895f4299eed6b8",
-      "displayName": "Mystic",
-      "racesPlayed": 490,
-      "role": "member",
-      "title": "Millionaire",
-      "joinStamp": 1750712571,
-      "lastActivity": 1752592173,
       "delta": 289
     },
     {
@@ -290,7 +290,7 @@
       "role": "member",
       "title": "[SKIPWRD]",
       "joinStamp": 1752349203,
-      "lastActivity": 1752592547,
+      "lastActivity": 1752592815,
       "delta": 153
     },
     {
