@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 15, 2025 at 10:26 AM PDT",
+  "last_updated": "July 15, 2025 at 11:40 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -16,12 +16,12 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 144040,
+      "racesPlayed": 144055,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1752579328,
-      "delta": 4844
+      "lastActivity": 1752604737,
+      "delta": 4859
     },
     {
       "username": "neiletsky",
@@ -106,12 +106,12 @@
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
       "displayName": "FoscoBurrows",
-      "racesPlayed": 12617,
+      "racesPlayed": 12627,
       "role": "member",
       "title": "Potaytoes",
       "joinStamp": 1751395286,
-      "lastActivity": 1752598509,
-      "delta": 925
+      "lastActivity": 1752604296,
+      "delta": 935
     },
     {
       "username": "timmytimmy213",
@@ -184,6 +184,16 @@
       "delta": 522
     },
     {
+      "username": "8b81d3996ac92d37dd96fca816ef5a5d",
+      "displayName": "-tzalexn-",
+      "racesPlayed": 591,
+      "role": "member",
+      "title": "Top Tier",
+      "joinStamp": 1751674449,
+      "lastActivity": 1752604586,
+      "delta": 341
+    },
+    {
       "username": "aphoenix888",
       "displayName": "",
       "racesPlayed": 2572,
@@ -194,14 +204,14 @@
       "delta": 334
     },
     {
-      "username": "8b81d3996ac92d37dd96fca816ef5a5d",
-      "displayName": "-tzalexn-",
-      "racesPlayed": 582,
+      "username": "cat_hiding_in_couch",
+      "displayName": "Royal0",
+      "racesPlayed": 1517,
       "role": "member",
-      "title": "Top Tier",
-      "joinStamp": 1751674449,
-      "lastActivity": 1752549225,
-      "delta": 332
+      "title": "Qwerty Quester",
+      "joinStamp": 1751811398,
+      "lastActivity": 1752604374,
+      "delta": 316
     },
     {
       "username": "defnotairborne",
@@ -214,24 +224,14 @@
       "delta": 306
     },
     {
-      "username": "cat_hiding_in_couch",
-      "displayName": "Royal0",
-      "racesPlayed": 1504,
-      "role": "member",
-      "title": "Qwerty Quester",
-      "joinStamp": 1751811398,
-      "lastActivity": 1752514191,
-      "delta": 303
-    },
-    {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
-      "racesPlayed": 495,
+      "racesPlayed": 500,
       "role": "member",
       "title": "Millionaire",
       "joinStamp": 1750712571,
-      "lastActivity": 1752596832,
-      "delta": 294
+      "lastActivity": 1752604072,
+      "delta": 299
     },
     {
       "username": "viper_shot",
@@ -286,12 +286,12 @@
     {
       "username": "2f34c5734382332ea20053296a6d22d7",
       "displayName": "SplendidBlushHoverfly",
-      "racesPlayed": 7849,
+      "racesPlayed": 7850,
       "role": "member",
       "title": "[SKIPWRD]",
       "joinStamp": 1752349203,
-      "lastActivity": 1752592815,
-      "delta": 153
+      "lastActivity": 1752604643,
+      "delta": 154
     },
     {
       "username": "sumimyangel",
