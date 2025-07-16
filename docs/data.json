@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 16, 2025 at 3:32 AM PDT",
+  "last_updated": "July 16, 2025 at 4:25 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -196,12 +196,22 @@
     {
       "username": "aphoenix888",
       "displayName": "",
-      "racesPlayed": 2582,
+      "racesPlayed": 2588,
       "role": "member",
       "title": "Colemak Conqueror",
       "joinStamp": 1751730598,
       "lastActivity": 1752625078,
-      "delta": 344
+      "delta": 350
+    },
+    {
+      "username": "viper_shot",
+      "displayName": "v1per_sh0t",
+      "racesPlayed": 5931,
+      "role": "member",
+      "title": "Legendary Lapper",
+      "joinStamp": 1747355208,
+      "lastActivity": 1752662413,
+      "delta": 319
     },
     {
       "username": "cat_hiding_in_couch",
@@ -222,16 +232,6 @@
       "joinStamp": 1750712571,
       "lastActivity": 1752612865,
       "delta": 311
-    },
-    {
-      "username": "viper_shot",
-      "displayName": "v1per_sh0t",
-      "racesPlayed": 5918,
-      "role": "member",
-      "title": "Legendary Lapper",
-      "joinStamp": 1747355208,
-      "lastActivity": 1752661680,
-      "delta": 306
     },
     {
       "username": "taylor9191",
@@ -286,12 +286,12 @@
     {
       "username": "2f34c5734382332ea20053296a6d22d7",
       "displayName": "SplendidBlushHoverfly",
-      "racesPlayed": 7850,
+      "racesPlayed": 7851,
       "role": "member",
       "title": "[SKIPWRD]",
       "joinStamp": 1752349203,
-      "lastActivity": 1752604643,
-      "delta": 154
+      "lastActivity": 1752662022,
+      "delta": 155
     },
     {
       "username": "galaxymasterpro",
