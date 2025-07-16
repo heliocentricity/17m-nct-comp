@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 16, 2025 at 7:27 AM PDT",
+  "last_updated": "July 16, 2025 at 8:31 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -106,12 +106,12 @@
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
       "displayName": "FoscoBurrows",
-      "racesPlayed": 12646,
+      "racesPlayed": 12651,
       "role": "member",
       "title": "Potaytoes",
       "joinStamp": 1751395286,
-      "lastActivity": 1752675584,
-      "delta": 954
+      "lastActivity": 1752676255,
+      "delta": 959
     },
     {
       "username": "timmytimmy213",
@@ -264,6 +264,16 @@
       "delta": 193
     },
     {
+      "username": "2f34c5734382332ea20053296a6d22d7",
+      "displayName": "SplendidBlushHoverfly",
+      "racesPlayed": 7886,
+      "role": "member",
+      "title": "[SKIPWRD]",
+      "joinStamp": 1752349203,
+      "lastActivity": 1752679765,
+      "delta": 190
+    },
+    {
       "username": "insanity12354",
       "displayName": "insanity12354",
       "racesPlayed": 8445,
@@ -282,16 +292,6 @@
       "joinStamp": 1748723201,
       "lastActivity": 1751784826,
       "delta": 160
-    },
-    {
-      "username": "2f34c5734382332ea20053296a6d22d7",
-      "displayName": "SplendidBlushHoverfly",
-      "racesPlayed": 7851,
-      "role": "member",
-      "title": "[SKIPWRD]",
-      "joinStamp": 1752349203,
-      "lastActivity": 1752662022,
-      "delta": 155
     },
     {
       "username": "galaxymasterpro",
