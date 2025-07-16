@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 16, 2025 at 4:25 AM PDT",
+  "last_updated": "July 16, 2025 at 5:59 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -196,12 +196,12 @@
     {
       "username": "aphoenix888",
       "displayName": "",
-      "racesPlayed": 2588,
+      "racesPlayed": 2592,
       "role": "member",
       "title": "Colemak Conqueror",
       "joinStamp": 1751730598,
-      "lastActivity": 1752625078,
-      "delta": 350
+      "lastActivity": 1752665672,
+      "delta": 354
     },
     {
       "username": "viper_shot",
