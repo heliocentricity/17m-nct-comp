@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 16, 2025 at 2:27 PM PDT",
+  "last_updated": "July 16, 2025 at 3:28 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -30,7 +30,7 @@
       "role": "officer",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1752700771,
+      "lastActivity": 1752701057,
       "delta": 4768
     },
     {
@@ -56,12 +56,12 @@
     {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
       "displayName": "xRaider",
-      "racesPlayed": 18995,
+      "racesPlayed": 19004,
       "role": "officer",
       "title": "Overdrive",
       "joinStamp": 1751996582,
-      "lastActivity": 1752684059,
-      "delta": 1787
+      "lastActivity": 1752704313,
+      "delta": 1796
     },
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
@@ -80,7 +80,7 @@
       "role": "member",
       "title": "Top Tier",
       "joinStamp": 1750606113,
-      "lastActivity": 1752596654,
+      "lastActivity": 1752700902,
       "delta": 1482
     },
     {
@@ -106,12 +106,12 @@
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
       "displayName": "FoscoBurrows",
-      "racesPlayed": 12692,
+      "racesPlayed": 12696,
       "role": "member",
       "title": "Potaytoes",
       "joinStamp": 1751395286,
       "lastActivity": 1752694908,
-      "delta": 1000
+      "delta": 1004
     },
     {
       "username": "timmytimmy213",
@@ -184,6 +184,16 @@
       "delta": 522
     },
     {
+      "username": "8b81d3996ac92d37dd96fca816ef5a5d",
+      "displayName": "-tzalexn-",
+      "racesPlayed": 627,
+      "role": "member",
+      "title": "Top Tier",
+      "joinStamp": 1751674449,
+      "lastActivity": 1752703018,
+      "delta": 377
+    },
+    {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
       "racesPlayed": 574,
@@ -192,16 +202,6 @@
       "joinStamp": 1750712571,
       "lastActivity": 1752699454,
       "delta": 373
-    },
-    {
-      "username": "8b81d3996ac92d37dd96fca816ef5a5d",
-      "displayName": "-tzalexn-",
-      "racesPlayed": 615,
-      "role": "member",
-      "title": "Top Tier",
-      "joinStamp": 1751674449,
-      "lastActivity": 1752638663,
-      "delta": 365
     },
     {
       "username": "aphoenix888",
@@ -404,6 +404,16 @@
       "delta": 3
     },
     {
+      "username": "hungryshark101",
+      "displayName": "hungryshark101",
+      "racesPlayed": 664,
+      "role": "member",
+      "title": "[SKIPWRD]",
+      "joinStamp": 1752697905,
+      "lastActivity": 1752703524,
+      "delta": 3
+    },
+    {
       "username": "superdavidj",
       "displayName": "FIood",
       "racesPlayed": 10539,
@@ -461,16 +471,6 @@
       "title": "Raw Racing Recruit",
       "joinStamp": 1752390910,
       "lastActivity": 0,
-      "delta": 0
-    },
-    {
-      "username": "hungryshark101",
-      "displayName": "hungryshark101",
-      "racesPlayed": 661,
-      "role": "member",
-      "title": "[SKIPWRD]",
-      "joinStamp": 1752697905,
-      "lastActivity": 1752700305,
       "delta": 0
     }
   ]
