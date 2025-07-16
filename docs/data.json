@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 16, 2025 at 8:31 AM PDT",
+  "last_updated": "July 16, 2025 at 9:36 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -56,12 +56,12 @@
     {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
       "displayName": "xRaider",
-      "racesPlayed": 18971,
+      "racesPlayed": 18990,
       "role": "officer",
       "title": "Overdrive",
       "joinStamp": 1751996582,
-      "lastActivity": 1752674186,
-      "delta": 1763
+      "lastActivity": 1752683369,
+      "delta": 1782
     },
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
@@ -106,12 +106,12 @@
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
       "displayName": "FoscoBurrows",
-      "racesPlayed": 12651,
+      "racesPlayed": 12655,
       "role": "member",
       "title": "Potaytoes",
       "joinStamp": 1751395286,
-      "lastActivity": 1752676255,
-      "delta": 959
+      "lastActivity": 1752683191,
+      "delta": 963
     },
     {
       "username": "timmytimmy213",
@@ -204,6 +204,16 @@
       "delta": 354
     },
     {
+      "username": "4978dd1c73bd50b93b895f4299eed6b8",
+      "displayName": "Mystic",
+      "racesPlayed": 527,
+      "role": "member",
+      "title": "Millionaire",
+      "joinStamp": 1750712571,
+      "lastActivity": 1752683318,
+      "delta": 326
+    },
+    {
       "username": "viper_shot",
       "displayName": "v1per_sh0t",
       "racesPlayed": 5931,
@@ -224,14 +234,14 @@
       "delta": 316
     },
     {
-      "username": "4978dd1c73bd50b93b895f4299eed6b8",
-      "displayName": "Mystic",
-      "racesPlayed": 512,
+      "username": "2f34c5734382332ea20053296a6d22d7",
+      "displayName": "SplendidBlushHoverfly",
+      "racesPlayed": 7961,
       "role": "member",
-      "title": "Millionaire",
-      "joinStamp": 1750712571,
-      "lastActivity": 1752612865,
-      "delta": 311
+      "title": "[SKIPWRD]",
+      "joinStamp": 1752349203,
+      "lastActivity": 1752683386,
+      "delta": 265
     },
     {
       "username": "taylor9191",
@@ -262,16 +272,6 @@
       "joinStamp": 1750448154,
       "lastActivity": 1751583212,
       "delta": 193
-    },
-    {
-      "username": "2f34c5734382332ea20053296a6d22d7",
-      "displayName": "SplendidBlushHoverfly",
-      "racesPlayed": 7886,
-      "role": "member",
-      "title": "[SKIPWRD]",
-      "joinStamp": 1752349203,
-      "lastActivity": 1752679765,
-      "delta": 190
     },
     {
       "username": "insanity12354",
@@ -306,12 +306,12 @@
     {
       "username": "vdgyertikopzefrgh",
       "displayName": "vdgyertikopzefrgh",
-      "racesPlayed": 10750,
+      "racesPlayed": 10760,
       "role": "member",
       "title": ":D",
       "joinStamp": 1742927144,
-      "lastActivity": 1752502895,
-      "delta": 118
+      "lastActivity": 1752680960,
+      "delta": 128
     },
     {
       "username": "conquerer11k",
