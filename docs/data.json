@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 16, 2025 at 6:47 AM PDT",
+  "last_updated": "July 16, 2025 at 7:27 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -56,12 +56,12 @@
     {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
       "displayName": "xRaider",
-      "racesPlayed": 18962,
+      "racesPlayed": 18971,
       "role": "officer",
       "title": "Overdrive",
       "joinStamp": 1751996582,
-      "lastActivity": 1752672614,
-      "delta": 1754
+      "lastActivity": 1752674186,
+      "delta": 1763
     },
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
@@ -106,12 +106,12 @@
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
       "displayName": "FoscoBurrows",
-      "racesPlayed": 12629,
+      "racesPlayed": 12646,
       "role": "member",
       "title": "Potaytoes",
       "joinStamp": 1751395286,
-      "lastActivity": 1752606081,
-      "delta": 937
+      "lastActivity": 1752675584,
+      "delta": 954
     },
     {
       "username": "timmytimmy213",
@@ -126,12 +126,12 @@
     {
       "username": "f2dc26df1555a912f4f3ad24bd6f635d",
       "displayName": "Can i get Gold pls",
-      "racesPlayed": 1736,
+      "racesPlayed": 1747,
       "role": "member",
       "title": "Endurance Racer",
       "joinStamp": 1751976064,
-      "lastActivity": 1752673170,
-      "delta": 662
+      "lastActivity": 1752674298,
+      "delta": 673
     },
     {
       "username": "persionde",
@@ -411,6 +411,16 @@
       "title": "Green Streak",
       "joinStamp": 1744382527,
       "lastActivity": 1749863144,
+      "delta": 0
+    },
+    {
+      "username": "savage5414",
+      "displayName": "DreamyMagentaBear",
+      "racesPlayed": 2378,
+      "role": "member",
+      "title": "Ace Accelerator",
+      "joinStamp": 1752673960,
+      "lastActivity": 0,
       "delta": 0
     },
     {
