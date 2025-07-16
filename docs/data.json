@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 16, 2025 at 1:31 PM PDT",
+  "last_updated": "July 16, 2025 at 2:27 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -26,12 +26,12 @@
     {
       "username": "thecretor145",
       "displayName": "Trickster illusoire",
-      "racesPlayed": 9122,
+      "racesPlayed": 9128,
       "role": "officer",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1752642473,
-      "delta": 4762
+      "lastActivity": 1752700771,
+      "delta": 4768
     },
     {
       "username": "neiletsky",
@@ -66,22 +66,22 @@
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
       "displayName": "Scyphozoa64",
-      "racesPlayed": 1801,
+      "racesPlayed": 1804,
       "role": "officer",
       "title": "Raw Racing Recruit",
       "joinStamp": 1751297409,
-      "lastActivity": 1752697776,
-      "delta": 1713
+      "lastActivity": 1752697998,
+      "delta": 1716
     },
     {
       "username": "kudism",
       "displayName": "rosaline",
-      "racesPlayed": 3021,
+      "racesPlayed": 3022,
       "role": "member",
       "title": "Top Tier",
       "joinStamp": 1750606113,
       "lastActivity": 1752596654,
-      "delta": 1481
+      "delta": 1482
     },
     {
       "username": "aiy_infection",
@@ -186,12 +186,12 @@
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
-      "racesPlayed": 571,
+      "racesPlayed": 574,
       "role": "member",
       "title": "Millionaire",
       "joinStamp": 1750712571,
-      "lastActivity": 1752695390,
-      "delta": 370
+      "lastActivity": 1752699454,
+      "delta": 373
     },
     {
       "username": "8b81d3996ac92d37dd96fca816ef5a5d",
@@ -216,12 +216,12 @@
     {
       "username": "cat_hiding_in_couch",
       "displayName": "Royal0",
-      "racesPlayed": 1525,
+      "racesPlayed": 1528,
       "role": "member",
       "title": "Qwerty Quester",
       "joinStamp": 1751811398,
-      "lastActivity": 1752697760,
-      "delta": 324
+      "lastActivity": 1752698001,
+      "delta": 327
     },
     {
       "username": "viper_shot",
@@ -461,6 +461,16 @@
       "title": "Raw Racing Recruit",
       "joinStamp": 1752390910,
       "lastActivity": 0,
+      "delta": 0
+    },
+    {
+      "username": "hungryshark101",
+      "displayName": "hungryshark101",
+      "racesPlayed": 661,
+      "role": "member",
+      "title": "[SKIPWRD]",
+      "joinStamp": 1752697905,
+      "lastActivity": 1752700305,
       "delta": 0
     }
   ]
