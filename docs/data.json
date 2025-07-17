@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 17, 2025 at 10:26 AM PDT",
+  "last_updated": "July 17, 2025 at 11:41 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
       "displayName": "Mah Zu",
-      "racesPlayed": 34311,
+      "racesPlayed": 34335,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1752772494,
-      "delta": 5536
+      "lastActivity": 1752774515,
+      "delta": 5560
     },
     {
       "username": "aharama",
@@ -56,12 +56,12 @@
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
       "displayName": "Scyphozoa64",
-      "racesPlayed": 1961,
+      "racesPlayed": 1977,
       "role": "officer",
       "title": "Raw Racing Recruit",
       "joinStamp": 1751297409,
-      "lastActivity": 1752768376,
-      "delta": 1873
+      "lastActivity": 1752774344,
+      "delta": 1889
     },
     {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
@@ -70,7 +70,7 @@
       "role": "officer",
       "title": "Overdrive",
       "joinStamp": 1751996582,
-      "lastActivity": 1752772671,
+      "lastActivity": 1752773124,
       "delta": 1823
     },
     {
@@ -96,12 +96,12 @@
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
       "displayName": "FoscoBurrows",
-      "racesPlayed": 12787,
+      "racesPlayed": 12818,
       "role": "member",
       "title": "Potaytoes",
       "joinStamp": 1751395286,
-      "lastActivity": 1752759730,
-      "delta": 1095
+      "lastActivity": 1752776766,
+      "delta": 1126
     },
     {
       "username": "ryyedawg7",
@@ -116,22 +116,22 @@
     {
       "username": "timmytimmy213",
       "displayName": "timmytimmy213",
-      "racesPlayed": 5053,
+      "racesPlayed": 5071,
       "role": "member",
       "title": "Olde School",
       "joinStamp": 1743005762,
-      "lastActivity": 1752647514,
-      "delta": 841
+      "lastActivity": 1752776825,
+      "delta": 859
     },
     {
       "username": "f2dc26df1555a912f4f3ad24bd6f635d",
       "displayName": "Can i get Gold pls",
-      "racesPlayed": 1837,
+      "racesPlayed": 1857,
       "role": "member",
       "title": "Spring Speedster",
       "joinStamp": 1751976064,
-      "lastActivity": 1752772754,
-      "delta": 763
+      "lastActivity": 1752775884,
+      "delta": 783
     },
     {
       "username": "persionde",
@@ -386,12 +386,12 @@
     {
       "username": "savage5414",
       "displayName": "DreamyMagentaBear",
-      "racesPlayed": 2395,
+      "racesPlayed": 2400,
       "role": "member",
       "title": "Ace Accelerator",
       "joinStamp": 1752673960,
-      "lastActivity": 1752707041,
-      "delta": 17
+      "lastActivity": 1752774423,
+      "delta": 22
     },
     {
       "username": "01dda282fb97c0a298a6a18e8eac8d8d",
