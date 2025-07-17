@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 17, 2025 at 12:23 PM PDT",
+  "last_updated": "July 17, 2025 at 1:30 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -66,12 +66,12 @@
     {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
       "displayName": "xRaider",
-      "racesPlayed": 19031,
+      "racesPlayed": 19046,
       "role": "officer",
       "title": "Overdrive",
       "joinStamp": 1751996582,
-      "lastActivity": 1752773124,
-      "delta": 1823
+      "lastActivity": 1752784185,
+      "delta": 1838
     },
     {
       "username": "kudism",
@@ -86,22 +86,22 @@
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
       "displayName": "FoscoBurrows",
-      "racesPlayed": 12823,
+      "racesPlayed": 12827,
       "role": "member",
       "title": "Potaytoes",
       "joinStamp": 1751395286,
-      "lastActivity": 1752779855,
-      "delta": 1131
+      "lastActivity": 1752783055,
+      "delta": 1135
     },
     {
       "username": "aiy_infection",
       "displayName": "icarus",
-      "racesPlayed": 11140,
+      "racesPlayed": 11143,
       "role": "captain",
       "title": "Drift Queen",
       "joinStamp": 1742486554,
-      "lastActivity": 1752719187,
-      "delta": 1130
+      "lastActivity": 1752784108,
+      "delta": 1133
     },
     {
       "username": "ryyedawg7",
@@ -126,12 +126,12 @@
     {
       "username": "f2dc26df1555a912f4f3ad24bd6f635d",
       "displayName": "Can i get Gold pls",
-      "racesPlayed": 1857,
+      "racesPlayed": 1883,
       "role": "member",
       "title": "Spring Speedster",
       "joinStamp": 1751976064,
-      "lastActivity": 1752775884,
-      "delta": 783
+      "lastActivity": 1752782571,
+      "delta": 809
     },
     {
       "username": "persionde",
