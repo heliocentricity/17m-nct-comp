@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 16, 2025 at 3:28 PM PDT",
+  "last_updated": "July 17, 2025 at 1:37 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -16,22 +16,22 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 144280,
+      "racesPlayed": 144455,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1752650813,
-      "delta": 5084
+      "lastActivity": 1752740973,
+      "delta": 5259
     },
     {
       "username": "thecretor145",
       "displayName": "Trickster illusoire",
-      "racesPlayed": 9128,
+      "racesPlayed": 9205,
       "role": "officer",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1752701057,
-      "delta": 4768
+      "lastActivity": 1752738874,
+      "delta": 4845
     },
     {
       "username": "neiletsky",
@@ -56,22 +56,22 @@
     {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
       "displayName": "xRaider",
-      "racesPlayed": 19004,
+      "racesPlayed": 19013,
       "role": "officer",
       "title": "Overdrive",
       "joinStamp": 1751996582,
-      "lastActivity": 1752704313,
-      "delta": 1796
+      "lastActivity": 1752705410,
+      "delta": 1805
     },
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
       "displayName": "Scyphozoa64",
-      "racesPlayed": 1804,
+      "racesPlayed": 1850,
       "role": "officer",
       "title": "Raw Racing Recruit",
       "joinStamp": 1751297409,
-      "lastActivity": 1752697998,
-      "delta": 1716
+      "lastActivity": 1752724896,
+      "delta": 1762
     },
     {
       "username": "kudism",
@@ -86,32 +86,32 @@
     {
       "username": "aiy_infection",
       "displayName": "icarus",
-      "racesPlayed": 11113,
+      "racesPlayed": 11140,
       "role": "captain",
       "title": "Drift Queen",
       "joinStamp": 1742486554,
-      "lastActivity": 1751895350,
-      "delta": 1103
+      "lastActivity": 1752719187,
+      "delta": 1130
     },
     {
       "username": "ryyedawg7",
       "displayName": "R Y Y E",
-      "racesPlayed": 1927,
+      "racesPlayed": 1929,
       "role": "member",
       "title": "Top Tier",
       "joinStamp": 1751926592,
-      "lastActivity": 1752632991,
-      "delta": 1090
+      "lastActivity": 1752720001,
+      "delta": 1092
     },
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
       "displayName": "FoscoBurrows",
-      "racesPlayed": 12696,
+      "racesPlayed": 12723,
       "role": "member",
       "title": "Potaytoes",
       "joinStamp": 1751395286,
-      "lastActivity": 1752694908,
-      "delta": 1004
+      "lastActivity": 1752705986,
+      "delta": 1031
     },
     {
       "username": "timmytimmy213",
@@ -186,12 +186,12 @@
     {
       "username": "8b81d3996ac92d37dd96fca816ef5a5d",
       "displayName": "-tzalexn-",
-      "racesPlayed": 627,
+      "racesPlayed": 635,
       "role": "member",
       "title": "Top Tier",
       "joinStamp": 1751674449,
-      "lastActivity": 1752703018,
-      "delta": 377
+      "lastActivity": 1752708852,
+      "delta": 385
     },
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
@@ -214,6 +214,16 @@
       "delta": 354
     },
     {
+      "username": "2f34c5734382332ea20053296a6d22d7",
+      "displayName": "SplendidBlushHoverfly",
+      "racesPlayed": 8025,
+      "role": "member",
+      "title": "[SKIPWRD]",
+      "joinStamp": 1752349203,
+      "lastActivity": 1752730310,
+      "delta": 329
+    },
+    {
       "username": "cat_hiding_in_couch",
       "displayName": "Royal0",
       "racesPlayed": 1528,
@@ -232,16 +242,6 @@
       "joinStamp": 1747355208,
       "lastActivity": 1752662413,
       "delta": 319
-    },
-    {
-      "username": "2f34c5734382332ea20053296a6d22d7",
-      "displayName": "SplendidBlushHoverfly",
-      "racesPlayed": 7968,
-      "role": "member",
-      "title": "[SKIPWRD]",
-      "joinStamp": 1752349203,
-      "lastActivity": 1752684046,
-      "delta": 272
     },
     {
       "username": "taylor9191",
@@ -364,6 +364,16 @@
       "delta": 47
     },
     {
+      "username": "bd2ec43a38126f5bb6cadb806a27005e",
+      "displayName": "ExcitingAmethystDamselfly",
+      "racesPlayed": 323,
+      "role": "member",
+      "title": "I Love Frogs",
+      "joinStamp": 1752021482,
+      "lastActivity": 1752712773,
+      "delta": 39
+    },
+    {
       "username": "1400dgloo",
       "displayName": "1400dgloo",
       "racesPlayed": 635,
@@ -374,24 +384,14 @@
       "delta": 29
     },
     {
-      "username": "bd2ec43a38126f5bb6cadb806a27005e",
-      "displayName": "ExcitingAmethystDamselfly",
-      "racesPlayed": 311,
-      "role": "member",
-      "title": "I Love Frogs",
-      "joinStamp": 1752021482,
-      "lastActivity": 1752249496,
-      "delta": 27
-    },
-    {
       "username": "savage5414",
       "displayName": "DreamyMagentaBear",
-      "racesPlayed": 2386,
+      "racesPlayed": 2395,
       "role": "member",
       "title": "Ace Accelerator",
       "joinStamp": 1752673960,
-      "lastActivity": 1752685759,
-      "delta": 8
+      "lastActivity": 1752707041,
+      "delta": 17
     },
     {
       "username": "01dda282fb97c0a298a6a18e8eac8d8d",
@@ -401,16 +401,6 @@
       "title": "Original Gangster",
       "joinStamp": 1744391071,
       "lastActivity": 1751699729,
-      "delta": 3
-    },
-    {
-      "username": "hungryshark101",
-      "displayName": "hungryshark101",
-      "racesPlayed": 664,
-      "role": "member",
-      "title": "[SKIPWRD]",
-      "joinStamp": 1752697905,
-      "lastActivity": 1752703524,
       "delta": 3
     },
     {
@@ -441,6 +431,16 @@
       "title": "Eternal Spring",
       "joinStamp": 1745209661,
       "lastActivity": 1750738904,
+      "delta": 0
+    },
+    {
+      "username": "15d0b88fc9c984ecc02be42c2587d47d",
+      "displayName": "DHtheKing",
+      "racesPlayed": 1219,
+      "role": "member",
+      "title": "Novice Navigator",
+      "joinStamp": 1752724598,
+      "lastActivity": 1752724891,
       "delta": 0
     },
     {
