@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 17, 2025 at 2:27 PM PDT",
+  "last_updated": "July 17, 2025 at 3:27 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -66,12 +66,12 @@
     {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
       "displayName": "xRaider",
-      "racesPlayed": 19051,
+      "racesPlayed": 19082,
       "role": "officer",
       "title": "Overdrive",
       "joinStamp": 1751996582,
-      "lastActivity": 1752784516,
-      "delta": 1843
+      "lastActivity": 1752789857,
+      "delta": 1874
     },
     {
       "username": "kudism",
@@ -86,12 +86,12 @@
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
       "displayName": "FoscoBurrows",
-      "racesPlayed": 12836,
+      "racesPlayed": 12860,
       "role": "member",
       "title": "Potaytoes",
       "joinStamp": 1751395286,
-      "lastActivity": 1752787072,
-      "delta": 1144
+      "lastActivity": 1752789292,
+      "delta": 1168
     },
     {
       "username": "aiy_infection",
@@ -186,12 +186,12 @@
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
-      "racesPlayed": 596,
+      "racesPlayed": 600,
       "role": "member",
       "title": "Millionaire",
       "joinStamp": 1750712571,
       "lastActivity": 1752771110,
-      "delta": 395
+      "delta": 399
     },
     {
       "username": "8b81d3996ac92d37dd96fca816ef5a5d",
@@ -206,12 +206,12 @@
     {
       "username": "aphoenix888",
       "displayName": "",
-      "racesPlayed": 2599,
+      "racesPlayed": 2612,
       "role": "member",
       "title": "Colemak Conqueror",
       "joinStamp": 1751730598,
-      "lastActivity": 1752747718,
-      "delta": 361
+      "lastActivity": 1752789084,
+      "delta": 374
     },
     {
       "username": "cat_hiding_in_couch",
