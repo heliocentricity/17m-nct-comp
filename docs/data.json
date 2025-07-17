@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 17, 2025 at 5:58 AM PDT",
+  "last_updated": "July 17, 2025 at 6:45 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -56,12 +56,12 @@
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
       "displayName": "Scyphozoa64",
-      "racesPlayed": 1915,
+      "racesPlayed": 1933,
       "role": "officer",
       "title": "Raw Racing Recruit",
       "joinStamp": 1751297409,
-      "lastActivity": 1752756066,
-      "delta": 1827
+      "lastActivity": 1752758118,
+      "delta": 1845
     },
     {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
@@ -94,6 +94,16 @@
       "delta": 1130
     },
     {
+      "username": "8d225e93c28002e8f8a3d489a8b14bf9",
+      "displayName": "FoscoBurrows",
+      "racesPlayed": 12785,
+      "role": "member",
+      "title": "Potaytoes",
+      "joinStamp": 1751395286,
+      "lastActivity": 1752759570,
+      "delta": 1093
+    },
+    {
       "username": "ryyedawg7",
       "displayName": "R Y Y E",
       "racesPlayed": 1929,
@@ -102,16 +112,6 @@
       "joinStamp": 1751926592,
       "lastActivity": 1752720001,
       "delta": 1092
-    },
-    {
-      "username": "8d225e93c28002e8f8a3d489a8b14bf9",
-      "displayName": "FoscoBurrows",
-      "racesPlayed": 12732,
-      "role": "member",
-      "title": "Potaytoes",
-      "joinStamp": 1751395286,
-      "lastActivity": 1752705986,
-      "delta": 1040
     },
     {
       "username": "timmytimmy213",
@@ -126,12 +126,12 @@
     {
       "username": "f2dc26df1555a912f4f3ad24bd6f635d",
       "displayName": "Can i get Gold pls",
-      "racesPlayed": 1747,
+      "racesPlayed": 1763,
       "role": "member",
       "title": "Endurance Racer",
       "joinStamp": 1751976064,
-      "lastActivity": 1752674298,
-      "delta": 673
+      "lastActivity": 1752759580,
+      "delta": 689
     },
     {
       "username": "persionde",
@@ -186,12 +186,12 @@
     {
       "username": "viper_shot",
       "displayName": "v1per_sh0t",
-      "racesPlayed": 6016,
+      "racesPlayed": 6049,
       "role": "member",
       "title": "Legendary Lapper",
       "joinStamp": 1747355208,
-      "lastActivity": 1752756559,
-      "delta": 404
+      "lastActivity": 1752759585,
+      "delta": 437
     },
     {
       "username": "8b81d3996ac92d37dd96fca816ef5a5d",
@@ -354,6 +354,16 @@
       "delta": 77
     },
     {
+      "username": "bd2ec43a38126f5bb6cadb806a27005e",
+      "displayName": "ExcitingAmethystDamselfly",
+      "racesPlayed": 333,
+      "role": "member",
+      "title": "I Love Frogs",
+      "joinStamp": 1752021482,
+      "lastActivity": 1752759263,
+      "delta": 49
+    },
+    {
       "username": "dianac128",
       "displayName": "ryiichu",
       "racesPlayed": 1817,
@@ -362,16 +372,6 @@
       "joinStamp": 1750468101,
       "lastActivity": 1752454830,
       "delta": 47
-    },
-    {
-      "username": "bd2ec43a38126f5bb6cadb806a27005e",
-      "displayName": "ExcitingAmethystDamselfly",
-      "racesPlayed": 323,
-      "role": "member",
-      "title": "I Love Frogs",
-      "joinStamp": 1752021482,
-      "lastActivity": 1752712773,
-      "delta": 39
     },
     {
       "username": "1400dgloo",
