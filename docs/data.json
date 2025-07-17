@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 17, 2025 at 3:27 PM PDT",
+  "last_updated": "July 17, 2025 at 4:27 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
       "displayName": "Mah Zu",
-      "racesPlayed": 34335,
+      "racesPlayed": 34350,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1752774515,
-      "delta": 5560
+      "lastActivity": 1752793465,
+      "delta": 5575
     },
     {
       "username": "aharama",
@@ -26,12 +26,12 @@
     {
       "username": "thecretor145",
       "displayName": "Trickster illusoire",
-      "racesPlayed": 9206,
+      "racesPlayed": 9224,
       "role": "officer",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1752760456,
-      "delta": 4846
+      "lastActivity": 1752794359,
+      "delta": 4864
     },
     {
       "username": "neiletsky",
@@ -66,12 +66,12 @@
     {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
       "displayName": "xRaider",
-      "racesPlayed": 19082,
+      "racesPlayed": 19089,
       "role": "officer",
       "title": "Overdrive",
       "joinStamp": 1751996582,
-      "lastActivity": 1752789857,
-      "delta": 1874
+      "lastActivity": 1752794389,
+      "delta": 1881
     },
     {
       "username": "kudism",
@@ -96,12 +96,12 @@
     {
       "username": "aiy_infection",
       "displayName": "icarus",
-      "racesPlayed": 11150,
+      "racesPlayed": 11155,
       "role": "captain",
       "title": "Drift Queen",
       "joinStamp": 1742486554,
       "lastActivity": 1752785972,
-      "delta": 1140
+      "delta": 1145
     },
     {
       "username": "ryyedawg7",
@@ -186,12 +186,12 @@
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
-      "racesPlayed": 600,
+      "racesPlayed": 604,
       "role": "member",
       "title": "Millionaire",
       "joinStamp": 1750712571,
-      "lastActivity": 1752771110,
-      "delta": 399
+      "lastActivity": 1752791413,
+      "delta": 403
     },
     {
       "username": "8b81d3996ac92d37dd96fca816ef5a5d",
@@ -421,6 +421,26 @@
       "title": "Eternal Spring",
       "joinStamp": 1745209661,
       "lastActivity": 1750738904,
+      "delta": 0
+    },
+    {
+      "username": "sharkbite89",
+      "displayName": "Sxr The pro",
+      "racesPlayed": 492,
+      "role": "member",
+      "title": "Original Gangster",
+      "joinStamp": 1752792515,
+      "lastActivity": 1752794389,
+      "delta": 0
+    },
+    {
+      "username": "958f30ea1886167ca59a5a7c9bd23820",
+      "displayName": "AmirReshid",
+      "racesPlayed": 571,
+      "role": "member",
+      "title": "Epic Word Skippage",
+      "joinStamp": 1752793494,
+      "lastActivity": 0,
       "delta": 0
     },
     {
