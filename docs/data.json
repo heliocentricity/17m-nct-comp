@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 17, 2025 at 4:25 AM PDT",
+  "last_updated": "July 17, 2025 at 5:58 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -54,6 +54,16 @@
       "delta": 2882
     },
     {
+      "username": "be74ffff6b556a68cdccc087a63e6676",
+      "displayName": "Scyphozoa64",
+      "racesPlayed": 1915,
+      "role": "officer",
+      "title": "Raw Racing Recruit",
+      "joinStamp": 1751297409,
+      "lastActivity": 1752756066,
+      "delta": 1827
+    },
+    {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
       "displayName": "xRaider",
       "racesPlayed": 19013,
@@ -62,16 +72,6 @@
       "joinStamp": 1751996582,
       "lastActivity": 1752705410,
       "delta": 1805
-    },
-    {
-      "username": "be74ffff6b556a68cdccc087a63e6676",
-      "displayName": "Scyphozoa64",
-      "racesPlayed": 1850,
-      "role": "officer",
-      "title": "Raw Racing Recruit",
-      "joinStamp": 1751297409,
-      "lastActivity": 1752724896,
-      "delta": 1762
     },
     {
       "username": "kudism",
@@ -106,12 +106,12 @@
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
       "displayName": "FoscoBurrows",
-      "racesPlayed": 12723,
+      "racesPlayed": 12732,
       "role": "member",
       "title": "Potaytoes",
       "joinStamp": 1751395286,
       "lastActivity": 1752705986,
-      "delta": 1031
+      "delta": 1040
     },
     {
       "username": "timmytimmy213",
@@ -184,6 +184,16 @@
       "delta": 522
     },
     {
+      "username": "viper_shot",
+      "displayName": "v1per_sh0t",
+      "racesPlayed": 6016,
+      "role": "member",
+      "title": "Legendary Lapper",
+      "joinStamp": 1747355208,
+      "lastActivity": 1752756559,
+      "delta": 404
+    },
+    {
       "username": "8b81d3996ac92d37dd96fca816ef5a5d",
       "displayName": "-tzalexn-",
       "racesPlayed": 635,
@@ -214,6 +224,16 @@
       "delta": 361
     },
     {
+      "username": "cat_hiding_in_couch",
+      "displayName": "Royal0",
+      "racesPlayed": 1543,
+      "role": "member",
+      "title": "Qwerty Quester",
+      "joinStamp": 1751811398,
+      "lastActivity": 1752756311,
+      "delta": 342
+    },
+    {
       "username": "2f34c5734382332ea20053296a6d22d7",
       "displayName": "SplendidBlushHoverfly",
       "racesPlayed": 8026,
@@ -222,26 +242,6 @@
       "joinStamp": 1752349203,
       "lastActivity": 1752750645,
       "delta": 330
-    },
-    {
-      "username": "cat_hiding_in_couch",
-      "displayName": "Royal0",
-      "racesPlayed": 1528,
-      "role": "member",
-      "title": "Qwerty Quester",
-      "joinStamp": 1751811398,
-      "lastActivity": 1752698001,
-      "delta": 327
-    },
-    {
-      "username": "viper_shot",
-      "displayName": "v1per_sh0t",
-      "racesPlayed": 5931,
-      "role": "member",
-      "title": "Legendary Lapper",
-      "joinStamp": 1747355208,
-      "lastActivity": 1752662413,
-      "delta": 319
     },
     {
       "username": "taylor9191",
