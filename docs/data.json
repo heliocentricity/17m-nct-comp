@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 18, 2025 at 12:22 PM PDT",
+  "last_updated": "July 18, 2025 at 1:30 PM PDT",
   "board": [
     {
       "username": "aharama",
@@ -16,12 +16,12 @@
     {
       "username": "tryhardwillwork",
       "displayName": "Mah Zu",
-      "racesPlayed": 34402,
+      "racesPlayed": 34485,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1752866367,
-      "delta": 5627
+      "lastActivity": 1752870583,
+      "delta": 5710
     },
     {
       "username": "thecretor145",
@@ -116,22 +116,22 @@
     {
       "username": "timmytimmy213",
       "displayName": "timmytimmy213",
-      "racesPlayed": 5204,
+      "racesPlayed": 5224,
       "role": "member",
       "title": "Olde School",
       "joinStamp": 1743005762,
-      "lastActivity": 1752858753,
-      "delta": 992
+      "lastActivity": 1752869672,
+      "delta": 1012
     },
     {
       "username": "sharkbite89",
       "displayName": "Sxr The pro",
-      "racesPlayed": 1241,
+      "racesPlayed": 1306,
       "role": "member",
       "title": "Original Gangster",
       "joinStamp": 1752792515,
-      "lastActivity": 1752866209,
-      "delta": 749
+      "lastActivity": 1752870573,
+      "delta": 814
     },
     {
       "username": "viper_shot",
@@ -364,6 +364,16 @@
       "delta": 77
     },
     {
+      "username": "2cedcf07161f970cbe72fc0fcd8a7ee5",
+      "displayName": "invisible",
+      "racesPlayed": 617,
+      "role": "member",
+      "title": "Top Tier",
+      "joinStamp": 1752864720,
+      "lastActivity": 1752870573,
+      "delta": 53
+    },
+    {
       "username": "bd2ec43a38126f5bb6cadb806a27005e",
       "displayName": "ExcitingAmethystDamselfly",
       "racesPlayed": 337,
@@ -441,16 +451,6 @@
       "title": "Green Streak",
       "joinStamp": 1744382527,
       "lastActivity": 1749863144,
-      "delta": 0
-    },
-    {
-      "username": "2cedcf07161f970cbe72fc0fcd8a7ee5",
-      "displayName": "invisible",
-      "racesPlayed": 564,
-      "role": "member",
-      "title": "Top Tier",
-      "joinStamp": 1752864720,
-      "lastActivity": 1752865001,
       "delta": 0
     },
     {
