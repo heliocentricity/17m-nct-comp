@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 17, 2025 at 7:02 PM PDT",
+  "last_updated": "July 17, 2025 at 7:24 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -56,12 +56,12 @@
     {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
       "displayName": "xRaider",
-      "racesPlayed": 19148,
+      "racesPlayed": 19162,
       "role": "officer",
       "title": "Overdrive",
       "joinStamp": 1751996582,
-      "lastActivity": 1752803879,
-      "delta": 1940
+      "lastActivity": 1752805007,
+      "delta": 1954
     },
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
@@ -86,12 +86,12 @@
     {
       "username": "aiy_infection",
       "displayName": "icarus",
-      "racesPlayed": 11185,
+      "racesPlayed": 11192,
       "role": "captain",
       "title": "Drift Queen",
       "joinStamp": 1742486554,
-      "lastActivity": 1752803923,
-      "delta": 1175
+      "lastActivity": 1752804371,
+      "delta": 1182
     },
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
@@ -122,16 +122,6 @@
       "joinStamp": 1743005762,
       "lastActivity": 1752776825,
       "delta": 859
-    },
-    {
-      "username": "f2dc26df1555a912f4f3ad24bd6f635d",
-      "displayName": "Can i get Gold pls",
-      "racesPlayed": 1883,
-      "role": "member",
-      "title": "Spring Speedster",
-      "joinStamp": 1751976064,
-      "lastActivity": 1752782571,
-      "delta": 809
     },
     {
       "username": "persionde",
@@ -284,6 +274,16 @@
       "delta": 160
     },
     {
+      "username": "sharkbite89",
+      "displayName": "Sxr The pro",
+      "racesPlayed": 640,
+      "role": "member",
+      "title": "Original Gangster",
+      "joinStamp": 1752792515,
+      "lastActivity": 1752805167,
+      "delta": 148
+    },
+    {
       "username": "galaxymasterpro",
       "displayName": "galaxymasterpro",
       "racesPlayed": 2140,
@@ -302,16 +302,6 @@
       "joinStamp": 1742927144,
       "lastActivity": 1752680960,
       "delta": 128
-    },
-    {
-      "username": "sharkbite89",
-      "displayName": "Sxr The pro",
-      "racesPlayed": 618,
-      "role": "member",
-      "title": "Original Gangster",
-      "joinStamp": 1752792515,
-      "lastActivity": 1752803097,
-      "delta": 126
     },
     {
       "username": "conquerer11k",
@@ -374,6 +364,16 @@
       "delta": 47
     },
     {
+      "username": "fluffytech",
+      "displayName": "Tewdy",
+      "racesPlayed": 8967,
+      "role": "member",
+      "title": "Keyboard Cat",
+      "joinStamp": 1752802600,
+      "lastActivity": 1752805184,
+      "delta": 30
+    },
+    {
       "username": "1400dgloo",
       "displayName": "1400dgloo",
       "racesPlayed": 635,
@@ -404,26 +404,6 @@
       "delta": 3
     },
     {
-      "username": "superdavidj",
-      "displayName": "FIood",
-      "racesPlayed": 10539,
-      "role": "member",
-      "title": "Spring Speedster",
-      "joinStamp": 1745202493,
-      "lastActivity": 1748398483,
-      "delta": 0
-    },
-    {
-      "username": "fluffytech",
-      "displayName": "Tewdy",
-      "racesPlayed": 8937,
-      "role": "member",
-      "title": "Keyboard Cat",
-      "joinStamp": 1752802600,
-      "lastActivity": 1752803489,
-      "delta": 0
-    },
-    {
       "username": "opsy07",
       "displayName": "2fingertypist",
       "racesPlayed": 2632,
@@ -434,16 +414,6 @@
       "delta": 0
     },
     {
-      "username": "b2cbc9dfc2058f59bdaf062719776245",
-      "displayName": "Hypersound",
-      "racesPlayed": 1056,
-      "role": "member",
-      "title": "Eternal Spring",
-      "joinStamp": 1745209661,
-      "lastActivity": 1750738904,
-      "delta": 0
-    },
-    {
       "username": "15d0b88fc9c984ecc02be42c2587d47d",
       "displayName": "DHtheKing",
       "racesPlayed": 1219,
@@ -451,36 +421,6 @@
       "title": "Novice Navigator",
       "joinStamp": 1752724598,
       "lastActivity": 1752724891,
-      "delta": 0
-    },
-    {
-      "username": "f0dca54e9b8d6f1aa97d5bb4c608a50a",
-      "displayName": "Vintagium",
-      "racesPlayed": 1660,
-      "role": "member",
-      "title": "Green Streak",
-      "joinStamp": 1743434481,
-      "lastActivity": 1747658119,
-      "delta": 0
-    },
-    {
-      "username": "catman223s",
-      "displayName": "catman223s",
-      "racesPlayed": 780,
-      "role": "member",
-      "title": "Millionaire",
-      "joinStamp": 1747978481,
-      "lastActivity": 1750423100,
-      "delta": 0
-    },
-    {
-      "username": "ytytytututototo",
-      "displayName": "ytytytututototo",
-      "racesPlayed": 15,
-      "role": "member",
-      "title": "Raw Racing Recruit",
-      "joinStamp": 1752390910,
-      "lastActivity": 0,
       "delta": 0
     }
   ]
