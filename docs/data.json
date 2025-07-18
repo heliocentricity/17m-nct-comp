@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 17, 2025 at 4:27 PM PDT",
+  "last_updated": "July 17, 2025 at 7:02 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -26,12 +26,12 @@
     {
       "username": "thecretor145",
       "displayName": "Trickster illusoire",
-      "racesPlayed": 9224,
+      "racesPlayed": 9253,
       "role": "officer",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1752794359,
-      "delta": 4864
+      "lastActivity": 1752796728,
+      "delta": 4893
     },
     {
       "username": "neiletsky",
@@ -54,24 +54,24 @@
       "delta": 2882
     },
     {
-      "username": "be74ffff6b556a68cdccc087a63e6676",
-      "displayName": "Scyphozoa64",
-      "racesPlayed": 1977,
-      "role": "officer",
-      "title": "Raw Racing Recruit",
-      "joinStamp": 1751297409,
-      "lastActivity": 1752774344,
-      "delta": 1889
-    },
-    {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
       "displayName": "xRaider",
-      "racesPlayed": 19089,
+      "racesPlayed": 19148,
       "role": "officer",
       "title": "Overdrive",
       "joinStamp": 1751996582,
-      "lastActivity": 1752794389,
-      "delta": 1881
+      "lastActivity": 1752803879,
+      "delta": 1940
+    },
+    {
+      "username": "be74ffff6b556a68cdccc087a63e6676",
+      "displayName": "Scyphozoa64",
+      "racesPlayed": 2013,
+      "role": "officer",
+      "title": "Raw Racing Recruit",
+      "joinStamp": 1751297409,
+      "lastActivity": 1752801717,
+      "delta": 1925
     },
     {
       "username": "kudism",
@@ -84,6 +84,16 @@
       "delta": 1482
     },
     {
+      "username": "aiy_infection",
+      "displayName": "icarus",
+      "racesPlayed": 11185,
+      "role": "captain",
+      "title": "Drift Queen",
+      "joinStamp": 1742486554,
+      "lastActivity": 1752803923,
+      "delta": 1175
+    },
+    {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
       "displayName": "FoscoBurrows",
       "racesPlayed": 12860,
@@ -92,16 +102,6 @@
       "joinStamp": 1751395286,
       "lastActivity": 1752789292,
       "delta": 1168
-    },
-    {
-      "username": "aiy_infection",
-      "displayName": "icarus",
-      "racesPlayed": 11155,
-      "role": "captain",
-      "title": "Drift Queen",
-      "joinStamp": 1742486554,
-      "lastActivity": 1752785972,
-      "delta": 1145
     },
     {
       "username": "ryyedawg7",
@@ -304,6 +304,16 @@
       "delta": 128
     },
     {
+      "username": "sharkbite89",
+      "displayName": "Sxr The pro",
+      "racesPlayed": 618,
+      "role": "member",
+      "title": "Original Gangster",
+      "joinStamp": 1752792515,
+      "lastActivity": 1752803097,
+      "delta": 126
+    },
+    {
       "username": "conquerer11k",
       "displayName": "ResilientRedDonkey",
       "racesPlayed": 13689,
@@ -404,6 +414,16 @@
       "delta": 0
     },
     {
+      "username": "fluffytech",
+      "displayName": "Tewdy",
+      "racesPlayed": 8937,
+      "role": "member",
+      "title": "Keyboard Cat",
+      "joinStamp": 1752802600,
+      "lastActivity": 1752803489,
+      "delta": 0
+    },
+    {
       "username": "opsy07",
       "displayName": "2fingertypist",
       "racesPlayed": 2632,
@@ -421,26 +441,6 @@
       "title": "Eternal Spring",
       "joinStamp": 1745209661,
       "lastActivity": 1750738904,
-      "delta": 0
-    },
-    {
-      "username": "sharkbite89",
-      "displayName": "Sxr The pro",
-      "racesPlayed": 492,
-      "role": "member",
-      "title": "Original Gangster",
-      "joinStamp": 1752792515,
-      "lastActivity": 1752794389,
-      "delta": 0
-    },
-    {
-      "username": "958f30ea1886167ca59a5a7c9bd23820",
-      "displayName": "AmirReshid",
-      "racesPlayed": 571,
-      "role": "member",
-      "title": "Epic Word Skippage",
-      "joinStamp": 1752793494,
-      "lastActivity": 0,
       "delta": 0
     },
     {
