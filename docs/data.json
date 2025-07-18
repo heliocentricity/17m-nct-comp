@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 18, 2025 at 3:31 AM PDT",
+  "last_updated": "July 18, 2025 at 4:24 AM PDT",
   "board": [
     {
       "username": "aharama",
@@ -126,12 +126,12 @@
     {
       "username": "viper_shot",
       "displayName": "v1per_sh0t",
-      "racesPlayed": 6265,
+      "racesPlayed": 6298,
       "role": "member",
       "title": "Legendary Lapper",
       "joinStamp": 1747355208,
-      "lastActivity": 1752834563,
-      "delta": 653
+      "lastActivity": 1752836068,
+      "delta": 686
     },
     {
       "username": "persionde",
