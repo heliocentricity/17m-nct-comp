@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 18, 2025 at 7:28 AM PDT",
+  "last_updated": "July 18, 2025 at 8:29 AM PDT",
   "board": [
     {
       "username": "aharama",
@@ -96,12 +96,12 @@
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
       "displayName": "FoscoBurrows",
-      "racesPlayed": 12860,
+      "racesPlayed": 12885,
       "role": "member",
       "title": "Potaytoes",
       "joinStamp": 1751395286,
-      "lastActivity": 1752789292,
-      "delta": 1168
+      "lastActivity": 1752851789,
+      "delta": 1193
     },
     {
       "username": "ryyedawg7",
@@ -206,12 +206,12 @@
     {
       "username": "aphoenix888",
       "displayName": "",
-      "racesPlayed": 2612,
+      "racesPlayed": 2619,
       "role": "member",
       "title": "Colemak Conqueror",
       "joinStamp": 1751730598,
-      "lastActivity": 1752789084,
-      "delta": 374
+      "lastActivity": 1752849684,
+      "delta": 381
     },
     {
       "username": "cat_hiding_in_couch",
@@ -421,6 +421,16 @@
       "title": "Green Streak",
       "joinStamp": 1744382527,
       "lastActivity": 1749863144,
+      "delta": 0
+    },
+    {
+      "username": "t3qb7yrfe27",
+      "displayName": "OrangeTyper",
+      "racesPlayed": 5805,
+      "role": "member",
+      "title": "First Trimester",
+      "joinStamp": 1752849095,
+      "lastActivity": 1752849420,
       "delta": 0
     },
     {
