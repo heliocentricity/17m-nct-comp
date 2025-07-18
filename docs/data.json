@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 17, 2025 at 11:41 PM PDT",
+  "last_updated": "July 18, 2025 at 12:29 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -16,12 +16,12 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 144626,
+      "racesPlayed": 144676,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1752820790,
-      "delta": 5430
+      "lastActivity": 1752823177,
+      "delta": 5480
     },
     {
       "username": "thecretor145",
@@ -116,12 +116,12 @@
     {
       "username": "timmytimmy213",
       "displayName": "timmytimmy213",
-      "racesPlayed": 5113,
+      "racesPlayed": 5125,
       "role": "member",
       "title": "Olde School",
       "joinStamp": 1743005762,
-      "lastActivity": 1752813944,
-      "delta": 901
+      "lastActivity": 1752823146,
+      "delta": 913
     },
     {
       "username": "persionde",
@@ -146,12 +146,12 @@
     {
       "username": "viper_shot",
       "displayName": "v1per_sh0t",
-      "racesPlayed": 6189,
+      "racesPlayed": 6194,
       "role": "member",
       "title": "Legendary Lapper",
       "joinStamp": 1747355208,
       "lastActivity": 1752765837,
-      "delta": 577
+      "delta": 582
     },
     {
       "username": "vioiynx",
@@ -176,12 +176,12 @@
     {
       "username": "sharkbite89",
       "displayName": "Sxr The pro",
-      "racesPlayed": 908,
+      "racesPlayed": 942,
       "role": "member",
       "title": "Original Gangster",
       "joinStamp": 1752792515,
-      "lastActivity": 1752820692,
-      "delta": 416
+      "lastActivity": 1752822532,
+      "delta": 450
     },
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
@@ -394,6 +394,16 @@
       "delta": 22
     },
     {
+      "username": "15d0b88fc9c984ecc02be42c2587d47d",
+      "displayName": "DHtheKing",
+      "racesPlayed": 1227,
+      "role": "member",
+      "title": "Novice Navigator",
+      "joinStamp": 1752724598,
+      "lastActivity": 1752821258,
+      "delta": 8
+    },
+    {
       "username": "01dda282fb97c0a298a6a18e8eac8d8d",
       "displayName": "Juris Doctor",
       "racesPlayed": 3646,
@@ -411,16 +421,6 @@
       "title": "Green Streak",
       "joinStamp": 1744382527,
       "lastActivity": 1749863144,
-      "delta": 0
-    },
-    {
-      "username": "15d0b88fc9c984ecc02be42c2587d47d",
-      "displayName": "DHtheKing",
-      "racesPlayed": 1219,
-      "role": "member",
-      "title": "Novice Navigator",
-      "joinStamp": 1752724598,
-      "lastActivity": 1752724891,
       "delta": 0
     },
     {
