@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 18, 2025 at 12:29 AM PDT",
+  "last_updated": "July 18, 2025 at 1:37 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -16,12 +16,12 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 144676,
+      "racesPlayed": 144751,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1752823177,
-      "delta": 5480
+      "lastActivity": 1752827367,
+      "delta": 5555
     },
     {
       "username": "thecretor145",
@@ -116,12 +116,22 @@
     {
       "username": "timmytimmy213",
       "displayName": "timmytimmy213",
-      "racesPlayed": 5125,
+      "racesPlayed": 5150,
       "role": "member",
       "title": "Olde School",
       "joinStamp": 1743005762,
-      "lastActivity": 1752823146,
-      "delta": 913
+      "lastActivity": 1752826406,
+      "delta": 938
+    },
+    {
+      "username": "viper_shot",
+      "displayName": "v1per_sh0t",
+      "racesPlayed": 6227,
+      "role": "member",
+      "title": "Legendary Lapper",
+      "joinStamp": 1747355208,
+      "lastActivity": 1752825759,
+      "delta": 615
     },
     {
       "username": "persionde",
@@ -142,16 +152,6 @@
       "joinStamp": 1751870479,
       "lastActivity": 1752286204,
       "delta": 605
-    },
-    {
-      "username": "viper_shot",
-      "displayName": "v1per_sh0t",
-      "racesPlayed": 6194,
-      "role": "member",
-      "title": "Legendary Lapper",
-      "joinStamp": 1747355208,
-      "lastActivity": 1752765837,
-      "delta": 582
     },
     {
       "username": "vioiynx",
@@ -176,12 +176,12 @@
     {
       "username": "sharkbite89",
       "displayName": "Sxr The pro",
-      "racesPlayed": 942,
+      "racesPlayed": 1011,
       "role": "member",
       "title": "Original Gangster",
       "joinStamp": 1752792515,
-      "lastActivity": 1752822532,
-      "delta": 450
+      "lastActivity": 1752827364,
+      "delta": 519
     },
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
