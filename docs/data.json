@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 18, 2025 at 3:27 PM PDT",
+  "last_updated": "July 18, 2025 at 4:26 PM PDT",
   "board": [
     {
       "username": "aharama",
@@ -16,12 +16,12 @@
     {
       "username": "tryhardwillwork",
       "displayName": "Mah Zu",
-      "racesPlayed": 34500,
+      "racesPlayed": 34509,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1752871252,
-      "delta": 5725
+      "lastActivity": 1752878014,
+      "delta": 5734
     },
     {
       "username": "thecretor145",
@@ -56,12 +56,12 @@
     {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
       "displayName": "xRaider",
-      "racesPlayed": 19256,
+      "racesPlayed": 19266,
       "role": "officer",
       "title": "Overdrive",
       "joinStamp": 1751996582,
-      "lastActivity": 1752862957,
-      "delta": 2048
+      "lastActivity": 1752880694,
+      "delta": 2058
     },
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
@@ -110,7 +110,7 @@
       "role": "member",
       "title": "Top Tier",
       "joinStamp": 1751926592,
-      "lastActivity": 1752876883,
+      "lastActivity": 1752877366,
       "delta": 1101
     },
     {
@@ -126,22 +126,22 @@
     {
       "username": "sharkbite89",
       "displayName": "Sxr The pro",
-      "racesPlayed": 1416,
+      "racesPlayed": 1474,
       "role": "member",
       "title": "Original Gangster",
       "joinStamp": 1752792515,
-      "lastActivity": 1752876496,
-      "delta": 924
+      "lastActivity": 1752880775,
+      "delta": 982
     },
     {
       "username": "viper_shot",
       "displayName": "v1per_sh0t",
-      "racesPlayed": 6336,
+      "racesPlayed": 6384,
       "role": "member",
       "title": "Legendary Lapper",
       "joinStamp": 1747355208,
-      "lastActivity": 1752877176,
-      "delta": 724
+      "lastActivity": 1752880759,
+      "delta": 772
     },
     {
       "username": "persionde",
@@ -196,12 +196,12 @@
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
-      "racesPlayed": 615,
+      "racesPlayed": 616,
       "role": "member",
       "title": "Millionaire",
       "joinStamp": 1750712571,
-      "lastActivity": 1752865832,
-      "delta": 414
+      "lastActivity": 1752877683,
+      "delta": 415
     },
     {
       "username": "8b81d3996ac92d37dd96fca816ef5a5d",
@@ -366,12 +366,12 @@
     {
       "username": "2cedcf07161f970cbe72fc0fcd8a7ee5",
       "displayName": "invisible",
-      "racesPlayed": 623,
+      "racesPlayed": 632,
       "role": "member",
       "title": "Top Tier",
       "joinStamp": 1752864720,
-      "lastActivity": 1752872459,
-      "delta": 59
+      "lastActivity": 1752880746,
+      "delta": 68
     },
     {
       "username": "bd2ec43a38126f5bb6cadb806a27005e",
