@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 19, 2025 at 1:34 AM PDT",
+  "last_updated": "July 19, 2025 at 2:27 AM PDT",
   "board": [
     {
       "username": "aharama",
@@ -84,6 +84,16 @@
       "delta": 1482
     },
     {
+      "username": "sharkbite89",
+      "displayName": "Sxr The pro",
+      "racesPlayed": 1880,
+      "role": "member",
+      "title": "Sweaty Typer",
+      "joinStamp": 1752792515,
+      "lastActivity": 1752916434,
+      "delta": 1388
+    },
+    {
       "username": "aiy_infection",
       "displayName": "icarus",
       "racesPlayed": 11377,
@@ -92,16 +102,6 @@
       "joinStamp": 1742486554,
       "lastActivity": 1752906365,
       "delta": 1367
-    },
-    {
-      "username": "sharkbite89",
-      "displayName": "Sxr The pro",
-      "racesPlayed": 1831,
-      "role": "member",
-      "title": "Sweaty Typer",
-      "joinStamp": 1752792515,
-      "lastActivity": 1752913537,
-      "delta": 1339
     },
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
