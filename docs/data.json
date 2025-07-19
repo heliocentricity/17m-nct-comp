@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 19, 2025 at 7:25 AM PDT",
+  "last_updated": "July 19, 2025 at 8:27 AM PDT",
   "board": [
     {
       "username": "aharama",
@@ -126,12 +126,12 @@
     {
       "username": "timmytimmy213",
       "displayName": "timmytimmy213",
-      "racesPlayed": 5224,
+      "racesPlayed": 5231,
       "role": "member",
       "title": "Olde School",
       "joinStamp": 1743005762,
-      "lastActivity": 1752869672,
-      "delta": 1012
+      "lastActivity": 1752936614,
+      "delta": 1019
     },
     {
       "username": "viper_shot",
