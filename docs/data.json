@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 18, 2025 at 4:26 PM PDT",
+  "last_updated": "July 18, 2025 at 7:18 PM PDT",
   "board": [
     {
       "username": "aharama",
@@ -16,12 +16,12 @@
     {
       "username": "tryhardwillwork",
       "displayName": "Mah Zu",
-      "racesPlayed": 34509,
+      "racesPlayed": 34510,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1752878014,
-      "delta": 5734
+      "lastActivity": 1752881234,
+      "delta": 5735
     },
     {
       "username": "thecretor145",
@@ -56,12 +56,12 @@
     {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
       "displayName": "xRaider",
-      "racesPlayed": 19266,
+      "racesPlayed": 19312,
       "role": "officer",
       "title": "Overdrive",
       "joinStamp": 1751996582,
-      "lastActivity": 1752880694,
-      "delta": 2058
+      "lastActivity": 1752890967,
+      "delta": 2104
     },
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
@@ -86,12 +86,12 @@
     {
       "username": "aiy_infection",
       "displayName": "icarus",
-      "racesPlayed": 11355,
+      "racesPlayed": 11372,
       "role": "captain",
       "title": "Drift Queen",
       "joinStamp": 1742486554,
-      "lastActivity": 1752865469,
-      "delta": 1345
+      "lastActivity": 1752890629,
+      "delta": 1362
     },
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
@@ -106,12 +106,22 @@
     {
       "username": "ryyedawg7",
       "displayName": "R Y Y E",
-      "racesPlayed": 1938,
+      "racesPlayed": 1982,
       "role": "member",
       "title": "Top Tier",
       "joinStamp": 1751926592,
-      "lastActivity": 1752877366,
-      "delta": 1101
+      "lastActivity": 1752890970,
+      "delta": 1145
+    },
+    {
+      "username": "sharkbite89",
+      "displayName": "Sxr The pro",
+      "racesPlayed": 1533,
+      "role": "member",
+      "title": "Original Gangster",
+      "joinStamp": 1752792515,
+      "lastActivity": 1752885245,
+      "delta": 1041
     },
     {
       "username": "timmytimmy213",
@@ -124,24 +134,14 @@
       "delta": 1012
     },
     {
-      "username": "sharkbite89",
-      "displayName": "Sxr The pro",
-      "racesPlayed": 1474,
-      "role": "member",
-      "title": "Original Gangster",
-      "joinStamp": 1752792515,
-      "lastActivity": 1752880775,
-      "delta": 982
-    },
-    {
       "username": "viper_shot",
       "displayName": "v1per_sh0t",
-      "racesPlayed": 6384,
+      "racesPlayed": 6400,
       "role": "member",
       "title": "Legendary Lapper",
       "joinStamp": 1747355208,
-      "lastActivity": 1752880759,
-      "delta": 772
+      "lastActivity": 1752882076,
+      "delta": 788
     },
     {
       "username": "persionde",
@@ -304,6 +304,16 @@
       "delta": 160
     },
     {
+      "username": "2cedcf07161f970cbe72fc0fcd8a7ee5",
+      "displayName": "invisible",
+      "racesPlayed": 716,
+      "role": "member",
+      "title": "Top Tier",
+      "joinStamp": 1752864720,
+      "lastActivity": 1752889514,
+      "delta": 152
+    },
+    {
       "username": "galaxymasterpro",
       "displayName": "galaxymasterpro",
       "racesPlayed": 2151,
@@ -364,16 +374,6 @@
       "delta": 77
     },
     {
-      "username": "2cedcf07161f970cbe72fc0fcd8a7ee5",
-      "displayName": "invisible",
-      "racesPlayed": 632,
-      "role": "member",
-      "title": "Top Tier",
-      "joinStamp": 1752864720,
-      "lastActivity": 1752880746,
-      "delta": 68
-    },
-    {
       "username": "bd2ec43a38126f5bb6cadb806a27005e",
       "displayName": "ExcitingAmethystDamselfly",
       "racesPlayed": 337,
@@ -424,6 +424,16 @@
       "delta": 9
     },
     {
+      "username": "21157de8567c7a7fe06dfc22f392c254",
+      "displayName": "callie",
+      "racesPlayed": 170,
+      "role": "member",
+      "title": "Crazy About Typing",
+      "joinStamp": 1752815360,
+      "lastActivity": 1752882068,
+      "delta": 5
+    },
+    {
       "username": "01dda282fb97c0a298a6a18e8eac8d8d",
       "displayName": "Juris Doctor",
       "racesPlayed": 3646,
@@ -431,16 +441,6 @@
       "title": "Original Gangster",
       "joinStamp": 1744391071,
       "lastActivity": 1751699729,
-      "delta": 3
-    },
-    {
-      "username": "21157de8567c7a7fe06dfc22f392c254",
-      "displayName": "callie",
-      "racesPlayed": 168,
-      "role": "member",
-      "title": "Crazy About Typing",
-      "joinStamp": 1752815360,
-      "lastActivity": 1752858453,
       "delta": 3
     },
     {
