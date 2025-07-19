@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 19, 2025 at 3:29 AM PDT",
+  "last_updated": "July 19, 2025 at 4:22 AM PDT",
   "board": [
     {
       "username": "aharama",
@@ -74,6 +74,16 @@
       "delta": 1940
     },
     {
+      "username": "sharkbite89",
+      "displayName": "Sxr The pro",
+      "racesPlayed": 2013,
+      "role": "member",
+      "title": "Sweaty Typer",
+      "joinStamp": 1752792515,
+      "lastActivity": 1752923945,
+      "delta": 1521
+    },
+    {
       "username": "kudism",
       "displayName": "rosaline",
       "racesPlayed": 3022,
@@ -82,16 +92,6 @@
       "joinStamp": 1750606113,
       "lastActivity": 1752700902,
       "delta": 1482
-    },
-    {
-      "username": "sharkbite89",
-      "displayName": "Sxr The pro",
-      "racesPlayed": 1946,
-      "role": "member",
-      "title": "Sweaty Typer",
-      "joinStamp": 1752792515,
-      "lastActivity": 1752919651,
-      "delta": 1454
     },
     {
       "username": "aiy_infection",
@@ -136,12 +136,12 @@
     {
       "username": "viper_shot",
       "displayName": "v1per_sh0t",
-      "racesPlayed": 6407,
+      "racesPlayed": 6449,
       "role": "member",
       "title": "Legendary Lapper",
       "joinStamp": 1747355208,
-      "lastActivity": 1752882076,
-      "delta": 795
+      "lastActivity": 1752923976,
+      "delta": 837
     },
     {
       "username": "persionde",
@@ -206,12 +206,12 @@
     {
       "username": "aphoenix888",
       "displayName": "",
-      "racesPlayed": 2619,
+      "racesPlayed": 2623,
       "role": "member",
       "title": "Colemak Conqueror",
       "joinStamp": 1751730598,
       "lastActivity": 1752849684,
-      "delta": 381
+      "delta": 385
     },
     {
       "username": "cat_hiding_in_couch",
