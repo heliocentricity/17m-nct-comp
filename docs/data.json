@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 19, 2025 at 3:26 PM PDT",
+  "last_updated": "July 19, 2025 at 4:29 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
       "displayName": "ahappyking",
-      "racesPlayed": 34809,
+      "racesPlayed": 34844,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1752963506,
-      "delta": 6034
+      "lastActivity": 1752966845,
+      "delta": 6069
     },
     {
       "username": "aharama",
@@ -26,12 +26,12 @@
     {
       "username": "thecretor145",
       "displayName": "Trickster illusoire",
-      "racesPlayed": 9422,
+      "racesPlayed": 9475,
       "role": "officer",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1752963234,
-      "delta": 5062
+      "lastActivity": 1752967170,
+      "delta": 5115
     },
     {
       "username": "neiletsky",
@@ -56,42 +56,42 @@
     {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
       "displayName": "xRaider",
-      "racesPlayed": 19419,
+      "racesPlayed": 19485,
       "role": "officer",
       "title": "Overdrive",
       "joinStamp": 1751996582,
-      "lastActivity": 1752958244,
-      "delta": 2211
+      "lastActivity": 1752967109,
+      "delta": 2277
     },
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
       "displayName": "Scyphozoa64",
-      "racesPlayed": 2028,
+      "racesPlayed": 2030,
       "role": "officer",
       "title": "Raw Racing Recruit",
       "joinStamp": 1751297409,
-      "lastActivity": 1752842297,
-      "delta": 1940
+      "lastActivity": 1752965443,
+      "delta": 1942
     },
     {
       "username": "sharkbite89",
       "displayName": "Sxr The pro",
-      "racesPlayed": 2335,
+      "racesPlayed": 2427,
       "role": "member",
       "title": "Sweaty Typer",
       "joinStamp": 1752792515,
-      "lastActivity": 1752963576,
-      "delta": 1843
+      "lastActivity": 1752967173,
+      "delta": 1935
     },
     {
       "username": "kudism",
       "displayName": "rosaline",
-      "racesPlayed": 3197,
+      "racesPlayed": 3209,
       "role": "member",
       "title": "Top Tier",
       "joinStamp": 1750606113,
-      "lastActivity": 1752963586,
-      "delta": 1657
+      "lastActivity": 1752964810,
+      "delta": 1669
     },
     {
       "username": "aiy_infection",
@@ -104,6 +104,16 @@
       "delta": 1477
     },
     {
+      "username": "ryyedawg7",
+      "displayName": "R Y Y E",
+      "racesPlayed": 2042,
+      "role": "member",
+      "title": "Top Tier",
+      "joinStamp": 1751926592,
+      "lastActivity": 1752967161,
+      "delta": 1205
+    },
+    {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
       "displayName": "FoscoBurrows",
       "racesPlayed": 12889,
@@ -112,16 +122,6 @@
       "joinStamp": 1751395286,
       "lastActivity": 1752854424,
       "delta": 1197
-    },
-    {
-      "username": "ryyedawg7",
-      "displayName": "R Y Y E",
-      "racesPlayed": 2032,
-      "role": "member",
-      "title": "Top Tier",
-      "joinStamp": 1751926592,
-      "lastActivity": 1752961761,
-      "delta": 1195
     },
     {
       "username": "timmytimmy213",
@@ -206,12 +206,12 @@
     {
       "username": "8b81d3996ac92d37dd96fca816ef5a5d",
       "displayName": "-tzalexn-",
-      "racesPlayed": 670,
+      "racesPlayed": 672,
       "role": "member",
       "title": "Rookie Racer",
       "joinStamp": 1751674449,
-      "lastActivity": 1752963121,
-      "delta": 420
+      "lastActivity": 1752965068,
+      "delta": 422
     },
     {
       "username": "aphoenix888",
@@ -246,12 +246,12 @@
     {
       "username": "2cedcf07161f970cbe72fc0fcd8a7ee5",
       "displayName": "invisible",
-      "racesPlayed": 776,
+      "racesPlayed": 786,
       "role": "member",
       "title": "Top Tier",
       "joinStamp": 1752864720,
-      "lastActivity": 1752956078,
-      "delta": 212
+      "lastActivity": 1752966595,
+      "delta": 222
     },
     {
       "username": "taylor9191",
@@ -314,6 +314,26 @@
       "delta": 144
     },
     {
+      "username": "4836c7be718ef99f2bb32d2da04bcf4f",
+      "displayName": "YT KMT Kentrell",
+      "racesPlayed": 12610,
+      "role": "member",
+      "title": "A E S T H E T I C",
+      "joinStamp": 1752956950,
+      "lastActivity": 1752967142,
+      "delta": 128
+    },
+    {
+      "username": "t3qb7yrfe27",
+      "displayName": "StarTyper",
+      "racesPlayed": 5902,
+      "role": "member",
+      "title": "First Trimester",
+      "joinStamp": 1752960663,
+      "lastActivity": 1752965647,
+      "delta": 97
+    },
+    {
       "username": "conquerer11k",
       "displayName": "ResilientRedDonkey",
       "racesPlayed": 13689,
@@ -334,24 +354,14 @@
       "delta": 88
     },
     {
-      "username": "t3qb7yrfe27",
-      "displayName": "StarTyper",
-      "racesPlayed": 5890,
+      "username": "f20a687ffedd647b731ee911a658f540",
+      "displayName": "Ivy2Sassy",
+      "racesPlayed": 245,
       "role": "member",
-      "title": "First Trimester",
-      "joinStamp": 1752960663,
-      "lastActivity": 1752963553,
-      "delta": 85
-    },
-    {
-      "username": "4836c7be718ef99f2bb32d2da04bcf4f",
-      "displayName": "YT KMT Kentrell",
-      "racesPlayed": 12561,
-      "role": "member",
-      "title": "A E S T H E T I C",
-      "joinStamp": 1752956950,
-      "lastActivity": 1752963544,
-      "delta": 79
+      "title": "Filthy Rich",
+      "joinStamp": 1752954069,
+      "lastActivity": 1752967168,
+      "delta": 60
     },
     {
       "username": "bd2ec43a38126f5bb6cadb806a27005e",
@@ -372,16 +382,6 @@
       "joinStamp": 1750468101,
       "lastActivity": 1752454830,
       "delta": 47
-    },
-    {
-      "username": "f20a687ffedd647b731ee911a658f540",
-      "displayName": "Ivy2Sassy",
-      "racesPlayed": 229,
-      "role": "member",
-      "title": "Filthy Rich",
-      "joinStamp": 1752954069,
-      "lastActivity": 1752963189,
-      "delta": 44
     },
     {
       "username": "1400dgloo",
