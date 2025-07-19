@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 18, 2025 at 10:28 PM PDT",
+  "last_updated": "July 18, 2025 at 11:38 PM PDT",
   "board": [
     {
       "username": "aharama",
@@ -86,12 +86,22 @@
     {
       "username": "aiy_infection",
       "displayName": "icarus",
-      "racesPlayed": 11375,
+      "racesPlayed": 11377,
       "role": "captain",
       "title": "Drift Queen",
       "joinStamp": 1742486554,
-      "lastActivity": 1752902304,
-      "delta": 1365
+      "lastActivity": 1752906365,
+      "delta": 1367
+    },
+    {
+      "username": "sharkbite89",
+      "displayName": "Sxr The pro",
+      "racesPlayed": 1705,
+      "role": "member",
+      "title": "Sweaty Typer",
+      "joinStamp": 1752792515,
+      "lastActivity": 1752906586,
+      "delta": 1213
     },
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
@@ -112,16 +122,6 @@
       "joinStamp": 1751926592,
       "lastActivity": 1752898281,
       "delta": 1191
-    },
-    {
-      "username": "sharkbite89",
-      "displayName": "Sxr The pro",
-      "racesPlayed": 1610,
-      "role": "member",
-      "title": "Sweaty Typer",
-      "joinStamp": 1752792515,
-      "lastActivity": 1752902018,
-      "delta": 1118
     },
     {
       "username": "timmytimmy213",
@@ -254,6 +254,16 @@
       "delta": 199
     },
     {
+      "username": "fluffytech",
+      "displayName": "Tewdy",
+      "racesPlayed": 9133,
+      "role": "member",
+      "title": "Keyboard Cat",
+      "joinStamp": 1752802600,
+      "lastActivity": 1752906583,
+      "delta": 196
+    },
+    {
       "username": "gw2iscoollol",
       "displayName": "Leqlerc",
       "racesPlayed": 6398,
@@ -262,16 +272,6 @@
       "joinStamp": 1750448154,
       "lastActivity": 1751583212,
       "delta": 193
-    },
-    {
-      "username": "fluffytech",
-      "displayName": "Tewdy",
-      "racesPlayed": 9112,
-      "role": "member",
-      "title": "Keyboard Cat",
-      "joinStamp": 1752802600,
-      "lastActivity": 1752813932,
-      "delta": 175
     },
     {
       "username": "insanity12354",
