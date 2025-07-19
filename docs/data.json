@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 18, 2025 at 11:38 PM PDT",
+  "last_updated": "July 19, 2025 at 12:25 AM PDT",
   "board": [
     {
       "username": "aharama",
@@ -96,12 +96,12 @@
     {
       "username": "sharkbite89",
       "displayName": "Sxr The pro",
-      "racesPlayed": 1705,
+      "racesPlayed": 1750,
       "role": "member",
       "title": "Sweaty Typer",
       "joinStamp": 1752792515,
-      "lastActivity": 1752906586,
-      "delta": 1213
+      "lastActivity": 1752909550,
+      "delta": 1258
     },
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
@@ -234,6 +234,16 @@
       "delta": 338
     },
     {
+      "username": "fluffytech",
+      "displayName": "Tewdy",
+      "racesPlayed": 9203,
+      "role": "member",
+      "title": "Keyboard Cat",
+      "joinStamp": 1752802600,
+      "lastActivity": 1752909576,
+      "delta": 266
+    },
+    {
       "username": "taylor9191",
       "displayName": "Tay on Summer Break",
       "racesPlayed": 3802,
@@ -252,16 +262,6 @@
       "joinStamp": 1748965989,
       "lastActivity": 1752607884,
       "delta": 199
-    },
-    {
-      "username": "fluffytech",
-      "displayName": "Tewdy",
-      "racesPlayed": 9133,
-      "role": "member",
-      "title": "Keyboard Cat",
-      "joinStamp": 1752802600,
-      "lastActivity": 1752906583,
-      "delta": 196
     },
     {
       "username": "gw2iscoollol",
