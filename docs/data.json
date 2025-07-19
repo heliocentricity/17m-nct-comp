@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 19, 2025 at 9:32 AM PDT",
+  "last_updated": "July 19, 2025 at 10:25 AM PDT",
   "board": [
     {
       "username": "aharama",
@@ -15,13 +15,13 @@
     },
     {
       "username": "tryhardwillwork",
-      "displayName": "Mah Zu",
-      "racesPlayed": 34515,
+      "displayName": "ahappyking",
+      "racesPlayed": 34522,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
       "lastActivity": 1752894314,
-      "delta": 5740
+      "delta": 5747
     },
     {
       "username": "thecretor145",
@@ -254,16 +254,6 @@
       "delta": 205
     },
     {
-      "username": "sumimyangel",
-      "displayName": "stephenJoester",
-      "racesPlayed": 21807,
-      "role": "member",
-      "title": "Champion Chaser",
-      "joinStamp": 1748965989,
-      "lastActivity": 1752607884,
-      "delta": 199
-    },
-    {
       "username": "gw2iscoollol",
       "displayName": "Leqlerc",
       "racesPlayed": 6398,
@@ -296,12 +286,12 @@
     {
       "username": "2cedcf07161f970cbe72fc0fcd8a7ee5",
       "displayName": "invisible",
-      "racesPlayed": 716,
+      "racesPlayed": 717,
       "role": "member",
       "title": "Top Tier",
       "joinStamp": 1752864720,
-      "lastActivity": 1752889514,
-      "delta": 152
+      "lastActivity": 1752944985,
+      "delta": 153
     },
     {
       "username": "galaxymasterpro",
@@ -344,26 +334,6 @@
       "delta": 88
     },
     {
-      "username": "74c2ce95032f247a79afc98fcccdcea2",
-      "displayName": "UnderstandingRedApe",
-      "racesPlayed": 213,
-      "role": "member",
-      "title": "Millionaire",
-      "joinStamp": 1752257956,
-      "lastActivity": 1752354346,
-      "delta": 85
-    },
-    {
-      "username": "e91a12732e6934f1497a87273a05f395",
-      "displayName": "Hannah Banana",
-      "racesPlayed": 4878,
-      "role": "member",
-      "title": "I Love Frogs",
-      "joinStamp": 1751308294,
-      "lastActivity": 1752097390,
-      "delta": 77
-    },
-    {
       "username": "bd2ec43a38126f5bb6cadb806a27005e",
       "displayName": "ExcitingAmethystDamselfly",
       "racesPlayed": 337,
@@ -394,6 +364,16 @@
       "delta": 29
     },
     {
+      "username": "21157de8567c7a7fe06dfc22f392c254",
+      "displayName": "callie",
+      "racesPlayed": 188,
+      "role": "member",
+      "title": "Crazy About Typing",
+      "joinStamp": 1752815360,
+      "lastActivity": 1752943967,
+      "delta": 23
+    },
+    {
       "username": "savage5414",
       "displayName": "DreamyMagentaBear",
       "racesPlayed": 2400,
@@ -402,16 +382,6 @@
       "joinStamp": 1752673960,
       "lastActivity": 1752774423,
       "delta": 22
-    },
-    {
-      "username": "21157de8567c7a7fe06dfc22f392c254",
-      "displayName": "callie",
-      "racesPlayed": 175,
-      "role": "member",
-      "title": "Crazy About Typing",
-      "joinStamp": 1752815360,
-      "lastActivity": 1752893987,
-      "delta": 10
     },
     {
       "username": "15d0b88fc9c984ecc02be42c2587d47d",
