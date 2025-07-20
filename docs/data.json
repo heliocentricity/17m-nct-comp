@@ -1,27 +1,27 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 20, 2025 at 1:29 PM PDT",
+  "last_updated": "July 20, 2025 at 2:25 PM PDT",
   "board": [
     {
       "username": "soccer791",
-      "displayName": "Kaiser of Flyght",
-      "racesPlayed": 22341,
+      "displayName": "Airborne",
+      "racesPlayed": 22403,
       "role": "member",
       "title": "Acute Tinselitis",
       "joinStamp": 1753038627,
-      "lastActivity": 0,
-      "delta": 8804
+      "lastActivity": 1753046334,
+      "delta": 8866
     },
     {
       "username": "tryhardwillwork",
       "displayName": "ahappyking",
-      "racesPlayed": 35062,
+      "racesPlayed": 35094,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1753042722,
-      "delta": 6287
+      "lastActivity": 1753046255,
+      "delta": 6319
     },
     {
       "username": "aharama",
@@ -274,6 +274,16 @@
       "delta": 227
     },
     {
+      "username": "f20a687ffedd647b731ee911a658f540",
+      "displayName": "Ivy2Sassy",
+      "racesPlayed": 412,
+      "role": "member",
+      "title": "Filthy Rich",
+      "joinStamp": 1752954069,
+      "lastActivity": 1753045118,
+      "delta": 227
+    },
+    {
       "username": "taylor9191",
       "displayName": "Tay on Summer Break",
       "racesPlayed": 3802,
@@ -282,16 +292,6 @@
       "joinStamp": 1752195695,
       "lastActivity": 1752269423,
       "delta": 205
-    },
-    {
-      "username": "f20a687ffedd647b731ee911a658f540",
-      "displayName": "Ivy2Sassy",
-      "racesPlayed": 379,
-      "role": "member",
-      "title": "Filthy Rich",
-      "joinStamp": 1752954069,
-      "lastActivity": 1753042778,
-      "delta": 194
     },
     {
       "username": "gw2iscoollol",
