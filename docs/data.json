@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 20, 2025 at 3:26 PM PDT",
+  "last_updated": "July 20, 2025 at 4:27 PM PDT",
   "board": [
     {
       "username": "soccer791",
@@ -16,12 +16,12 @@
     {
       "username": "tryhardwillwork",
       "displayName": "ahappyking",
-      "racesPlayed": 35110,
+      "racesPlayed": 35140,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1753048271,
-      "delta": 6335
+      "lastActivity": 1753053571,
+      "delta": 6365
     },
     {
       "username": "aharama",
@@ -36,12 +36,12 @@
     {
       "username": "thecretor145",
       "displayName": "Trickster illusoire",
-      "racesPlayed": 9702,
+      "racesPlayed": 9705,
       "role": "officer",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1753049968,
-      "delta": 5342
+      "lastActivity": 1753051028,
+      "delta": 5345
     },
     {
       "username": "neiletsky",
@@ -146,12 +146,12 @@
     {
       "username": "fluffytech",
       "displayName": "Tewdy",
-      "racesPlayed": 9676,
+      "racesPlayed": 9703,
       "role": "member",
       "title": "Keyboard Cat",
       "joinStamp": 1752802600,
-      "lastActivity": 1753049979,
-      "delta": 739
+      "lastActivity": 1753053572,
+      "delta": 766
     },
     {
       "username": "persionde",
@@ -216,12 +216,12 @@
     {
       "username": "8b81d3996ac92d37dd96fca816ef5a5d",
       "displayName": "-tzalexn-",
-      "racesPlayed": 672,
+      "racesPlayed": 681,
       "role": "member",
       "title": "Rookie Racer",
       "joinStamp": 1751674449,
-      "lastActivity": 1752965068,
-      "delta": 422
+      "lastActivity": 1753052845,
+      "delta": 431
     },
     {
       "username": "cat_hiding_in_couch",
@@ -264,6 +264,16 @@
       "delta": 276
     },
     {
+      "username": "2cedcf07161f970cbe72fc0fcd8a7ee5",
+      "displayName": "invisible",
+      "racesPlayed": 824,
+      "role": "member",
+      "title": "Top Tier",
+      "joinStamp": 1752864720,
+      "lastActivity": 1753052919,
+      "delta": 260
+    },
+    {
       "username": "f20a687ffedd647b731ee911a658f540",
       "displayName": "Ivy2Sassy",
       "racesPlayed": 445,
@@ -272,16 +282,6 @@
       "joinStamp": 1752954069,
       "lastActivity": 1753049288,
       "delta": 260
-    },
-    {
-      "username": "2cedcf07161f970cbe72fc0fcd8a7ee5",
-      "displayName": "invisible",
-      "racesPlayed": 819,
-      "role": "member",
-      "title": "Top Tier",
-      "joinStamp": 1752864720,
-      "lastActivity": 1753049950,
-      "delta": 255
     },
     {
       "username": "taylor9191",
