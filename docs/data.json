@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 19, 2025 at 11:38 PM PDT",
+  "last_updated": "July 20, 2025 at 12:25 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -16,12 +16,12 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 145065,
+      "racesPlayed": 145070,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1752992986,
-      "delta": 5869
+      "lastActivity": 1752994380,
+      "delta": 5874
     },
     {
       "username": "thecretor145",
