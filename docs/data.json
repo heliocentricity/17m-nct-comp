@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 20, 2025 at 6:36 AM PDT",
+  "last_updated": "July 20, 2025 at 7:25 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -16,12 +16,12 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 145099,
+      "racesPlayed": 145125,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1753018175,
-      "delta": 5903
+      "lastActivity": 1753020271,
+      "delta": 5929
     },
     {
       "username": "thecretor145",
@@ -226,12 +226,12 @@
     {
       "username": "2f34c5734382332ea20053296a6d22d7",
       "displayName": "SplendidBlushHoverfly",
-      "racesPlayed": 8034,
+      "racesPlayed": 8036,
       "role": "member",
       "title": "[SKIPWRD]",
       "joinStamp": 1752349203,
-      "lastActivity": 1752855966,
-      "delta": 338
+      "lastActivity": 1753019686,
+      "delta": 340
     },
     {
       "username": "2cedcf07161f970cbe72fc0fcd8a7ee5",
@@ -262,6 +262,16 @@
       "joinStamp": 1750448154,
       "lastActivity": 1751583212,
       "delta": 193
+    },
+    {
+      "username": "t3qb7yrfe27",
+      "displayName": "StarTyper",
+      "racesPlayed": 5969,
+      "role": "member",
+      "title": "First Trimester",
+      "joinStamp": 1752960663,
+      "lastActivity": 1753020865,
+      "delta": 164
     },
     {
       "username": "4836c7be718ef99f2bb32d2da04bcf4f",
@@ -314,24 +324,14 @@
       "delta": 150
     },
     {
-      "username": "t3qb7yrfe27",
-      "displayName": "StarTyper",
-      "racesPlayed": 5938,
-      "role": "member",
-      "title": "First Trimester",
-      "joinStamp": 1752960663,
-      "lastActivity": 1753016979,
-      "delta": 133
-    },
-    {
       "username": "f20a687ffedd647b731ee911a658f540",
       "displayName": "Ivy2Sassy",
-      "racesPlayed": 282,
+      "racesPlayed": 297,
       "role": "member",
       "title": "Filthy Rich",
       "joinStamp": 1752954069,
-      "lastActivity": 1752981204,
-      "delta": 97
+      "lastActivity": 1753019889,
+      "delta": 112
     },
     {
       "username": "ipayforyou",
