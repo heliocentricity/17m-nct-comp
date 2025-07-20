@@ -1,27 +1,27 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 20, 2025 at 2:25 PM PDT",
+  "last_updated": "July 20, 2025 at 3:26 PM PDT",
   "board": [
     {
       "username": "soccer791",
       "displayName": "Airborne",
-      "racesPlayed": 22403,
+      "racesPlayed": 22451,
       "role": "member",
       "title": "Acute Tinselitis",
       "joinStamp": 1753038627,
-      "lastActivity": 1753046334,
-      "delta": 8866
+      "lastActivity": 1753049472,
+      "delta": 8914
     },
     {
       "username": "tryhardwillwork",
       "displayName": "ahappyking",
-      "racesPlayed": 35094,
+      "racesPlayed": 35110,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1753046255,
-      "delta": 6319
+      "lastActivity": 1753048271,
+      "delta": 6335
     },
     {
       "username": "aharama",
@@ -36,12 +36,12 @@
     {
       "username": "thecretor145",
       "displayName": "Trickster illusoire",
-      "racesPlayed": 9693,
+      "racesPlayed": 9702,
       "role": "officer",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1753036388,
-      "delta": 5333
+      "lastActivity": 1753049968,
+      "delta": 5342
     },
     {
       "username": "neiletsky",
@@ -146,12 +146,12 @@
     {
       "username": "fluffytech",
       "displayName": "Tewdy",
-      "racesPlayed": 9650,
+      "racesPlayed": 9676,
       "role": "member",
       "title": "Keyboard Cat",
       "joinStamp": 1752802600,
-      "lastActivity": 1753031040,
-      "delta": 713
+      "lastActivity": 1753049979,
+      "delta": 739
     },
     {
       "username": "persionde",
@@ -196,12 +196,12 @@
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
-      "racesPlayed": 697,
+      "racesPlayed": 702,
       "role": "member",
       "title": "Millionaire",
       "joinStamp": 1750712571,
-      "lastActivity": 1753016600,
-      "delta": 496
+      "lastActivity": 1753049109,
+      "delta": 501
     },
     {
       "username": "aphoenix888",
@@ -226,12 +226,12 @@
     {
       "username": "cat_hiding_in_couch",
       "displayName": "Royal0",
-      "racesPlayed": 1598,
+      "racesPlayed": 1614,
       "role": "member",
       "title": "Qwerty Quester",
       "joinStamp": 1751811398,
-      "lastActivity": 1752941924,
-      "delta": 397
+      "lastActivity": 1753049067,
+      "delta": 413
     },
     {
       "username": "2f34c5734382332ea20053296a6d22d7",
@@ -264,24 +264,24 @@
       "delta": 276
     },
     {
-      "username": "2cedcf07161f970cbe72fc0fcd8a7ee5",
-      "displayName": "invisible",
-      "racesPlayed": 791,
-      "role": "member",
-      "title": "Top Tier",
-      "joinStamp": 1752864720,
-      "lastActivity": 1753016623,
-      "delta": 227
-    },
-    {
       "username": "f20a687ffedd647b731ee911a658f540",
       "displayName": "Ivy2Sassy",
-      "racesPlayed": 412,
+      "racesPlayed": 445,
       "role": "member",
       "title": "Filthy Rich",
       "joinStamp": 1752954069,
-      "lastActivity": 1753045118,
-      "delta": 227
+      "lastActivity": 1753049288,
+      "delta": 260
+    },
+    {
+      "username": "2cedcf07161f970cbe72fc0fcd8a7ee5",
+      "displayName": "invisible",
+      "racesPlayed": 819,
+      "role": "member",
+      "title": "Top Tier",
+      "joinStamp": 1752864720,
+      "lastActivity": 1753049950,
+      "delta": 255
     },
     {
       "username": "taylor9191",
