@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 20, 2025 at 12:25 AM PDT",
+  "last_updated": "July 20, 2025 at 1:33 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -36,12 +36,12 @@
     {
       "username": "neiletsky",
       "displayName": "PinoyLegend",
-      "racesPlayed": 15166,
+      "racesPlayed": 15168,
       "role": "vicecaptain",
       "title": "League Champion",
       "joinStamp": 1744741826,
-      "lastActivity": 1752645882,
-      "delta": 4676
+      "lastActivity": 1752999773,
+      "delta": 4678
     },
     {
       "username": "abot8",
