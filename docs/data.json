@@ -1,17 +1,27 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 20, 2025 at 11:36 AM PDT",
+  "last_updated": "July 20, 2025 at 12:21 PM PDT",
   "board": [
+    {
+      "username": "soccer791",
+      "displayName": "Kaiser of Flyght",
+      "racesPlayed": 22341,
+      "role": "member",
+      "title": "Acute Tinselitis",
+      "joinStamp": 1753038627,
+      "lastActivity": 0,
+      "delta": 8804
+    },
     {
       "username": "tryhardwillwork",
       "displayName": "ahappyking",
-      "racesPlayed": 35023,
+      "racesPlayed": 35035,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1753036139,
-      "delta": 6248
+      "lastActivity": 1753038719,
+      "delta": 6260
     },
     {
       "username": "aharama",
@@ -30,7 +40,7 @@
       "role": "officer",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1753031324,
+      "lastActivity": 1753036388,
       "delta": 5333
     },
     {
@@ -54,14 +64,24 @@
       "delta": 2882
     },
     {
+      "username": "sharkbite89",
+      "displayName": "Sxr The pro",
+      "racesPlayed": 3349,
+      "role": "member",
+      "title": "Sweaty Typer",
+      "joinStamp": 1753038504,
+      "lastActivity": 1753039191,
+      "delta": 2857
+    },
+    {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
       "displayName": "xRaider",
-      "racesPlayed": 19624,
+      "racesPlayed": 19664,
       "role": "officer",
       "title": "Overdrive",
       "joinStamp": 1751996582,
-      "lastActivity": 1753034219,
-      "delta": 2416
+      "lastActivity": 1753038961,
+      "delta": 2456
     },
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
@@ -86,12 +106,12 @@
     {
       "username": "aiy_infection",
       "displayName": "icarus",
-      "racesPlayed": 11620,
+      "racesPlayed": 11624,
       "role": "captain",
       "title": "Drift Queen",
       "joinStamp": 1742486554,
-      "lastActivity": 1753034395,
-      "delta": 1610
+      "lastActivity": 1753039076,
+      "delta": 1614
     },
     {
       "username": "ryyedawg7",
@@ -236,22 +256,22 @@
     {
       "username": "4836c7be718ef99f2bb32d2da04bcf4f",
       "displayName": "YT KMT Kentrell",
-      "racesPlayed": 12786,
+      "racesPlayed": 12792,
       "role": "member",
       "title": "A E S T H E T I C",
       "joinStamp": 1752956950,
-      "lastActivity": 1753034396,
-      "delta": 304
+      "lastActivity": 1753038066,
+      "delta": 310
     },
     {
       "username": "t3qb7yrfe27",
       "displayName": "StarTyper",
-      "racesPlayed": 6058,
+      "racesPlayed": 6076,
       "role": "member",
       "title": "First Trimester",
       "joinStamp": 1752960663,
-      "lastActivity": 1753028855,
-      "delta": 253
+      "lastActivity": 1753038888,
+      "delta": 271
     },
     {
       "username": "2cedcf07161f970cbe72fc0fcd8a7ee5",
@@ -326,12 +346,12 @@
     {
       "username": "f20a687ffedd647b731ee911a658f540",
       "displayName": "Ivy2Sassy",
-      "racesPlayed": 323,
+      "racesPlayed": 334,
       "role": "member",
       "title": "Filthy Rich",
       "joinStamp": 1752954069,
-      "lastActivity": 1753024442,
-      "delta": 138
+      "lastActivity": 1753039157,
+      "delta": 149
     },
     {
       "username": "ipayforyou",
@@ -374,6 +394,16 @@
       "delta": 47
     },
     {
+      "username": "21157de8567c7a7fe06dfc22f392c254",
+      "displayName": "callie",
+      "racesPlayed": 199,
+      "role": "member",
+      "title": "Crazy About Typing",
+      "joinStamp": 1752815360,
+      "lastActivity": 1753039190,
+      "delta": 34
+    },
+    {
       "username": "1400dgloo",
       "displayName": "1400dgloo",
       "racesPlayed": 635,
@@ -382,16 +412,6 @@
       "joinStamp": 1750796497,
       "lastActivity": 1752173235,
       "delta": 29
-    },
-    {
-      "username": "21157de8567c7a7fe06dfc22f392c254",
-      "displayName": "callie",
-      "racesPlayed": 188,
-      "role": "member",
-      "title": "Crazy About Typing",
-      "joinStamp": 1752815360,
-      "lastActivity": 1752943967,
-      "delta": 23
     },
     {
       "username": "savage5414",
