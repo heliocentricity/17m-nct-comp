@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 19, 2025 at 9:09 PM PDT",
+  "last_updated": "July 19, 2025 at 10:32 PM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -26,12 +26,12 @@
     {
       "username": "thecretor145",
       "displayName": "Trickster illusoire",
-      "racesPlayed": 9577,
+      "racesPlayed": 9612,
       "role": "officer",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1752982240,
-      "delta": 5217
+      "lastActivity": 1752989073,
+      "delta": 5252
     },
     {
       "username": "neiletsky",
@@ -52,16 +52,6 @@
       "joinStamp": 1750805902,
       "lastActivity": 1751320548,
       "delta": 2882
-    },
-    {
-      "username": "sharkbite89",
-      "displayName": "Sxr The pro",
-      "racesPlayed": 2817,
-      "role": "member",
-      "title": "Sweaty Typer",
-      "joinStamp": 1752792515,
-      "lastActivity": 1752983964,
-      "delta": 2325
     },
     {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
@@ -96,12 +86,12 @@
     {
       "username": "aiy_infection",
       "displayName": "icarus",
-      "racesPlayed": 11491,
+      "racesPlayed": 11509,
       "role": "captain",
       "title": "Drift Queen",
       "joinStamp": 1742486554,
-      "lastActivity": 1752979590,
-      "delta": 1481
+      "lastActivity": 1752988766,
+      "delta": 1499
     },
     {
       "username": "ryyedawg7",
@@ -137,7 +127,7 @@
       "username": "viper_shot",
       "displayName": "v1per_sh0t",
       "racesPlayed": 6503,
-      "role": "officer",
+      "role": "member",
       "title": "Legendary Lapper",
       "joinStamp": 1747355208,
       "lastActivity": 1752930457,
@@ -146,12 +136,12 @@
     {
       "username": "fluffytech",
       "displayName": "Tewdy",
-      "racesPlayed": 9611,
+      "racesPlayed": 9630,
       "role": "member",
       "title": "Keyboard Cat",
       "joinStamp": 1752802600,
-      "lastActivity": 1752980305,
-      "delta": 674
+      "lastActivity": 1752986811,
+      "delta": 693
     },
     {
       "username": "persionde",
@@ -432,6 +422,16 @@
       "joinStamp": 1744391071,
       "lastActivity": 1751699729,
       "delta": 3
+    },
+    {
+      "username": "ezsmoked",
+      "displayName": "Combat",
+      "racesPlayed": 5246,
+      "role": "member",
+      "title": "Titan of the Track",
+      "joinStamp": 1752986970,
+      "lastActivity": 1752989229,
+      "delta": 0
     },
     {
       "username": "opsy07",
