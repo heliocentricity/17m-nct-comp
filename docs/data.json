@@ -1,27 +1,27 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 20, 2025 at 7:25 AM PDT",
+  "last_updated": "July 20, 2025 at 8:27 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
       "displayName": "ahappyking",
-      "racesPlayed": 34860,
+      "racesPlayed": 34865,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1752974167,
-      "delta": 6085
+      "lastActivity": 1753024698,
+      "delta": 6090
     },
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 145125,
+      "racesPlayed": 145199,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1753020271,
-      "delta": 5929
+      "lastActivity": 1753024764,
+      "delta": 6003
     },
     {
       "username": "thecretor145",
@@ -56,12 +56,12 @@
     {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
       "displayName": "xRaider",
-      "racesPlayed": 19500,
+      "racesPlayed": 19521,
       "role": "officer",
       "title": "Overdrive",
       "joinStamp": 1751996582,
-      "lastActivity": 1752968738,
-      "delta": 2292
+      "lastActivity": 1753024789,
+      "delta": 2313
     },
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
@@ -226,12 +226,12 @@
     {
       "username": "2f34c5734382332ea20053296a6d22d7",
       "displayName": "SplendidBlushHoverfly",
-      "racesPlayed": 8036,
+      "racesPlayed": 8037,
       "role": "member",
       "title": "[SKIPWRD]",
       "joinStamp": 1752349203,
-      "lastActivity": 1753019686,
-      "delta": 340
+      "lastActivity": 1753022938,
+      "delta": 341
     },
     {
       "username": "2cedcf07161f970cbe72fc0fcd8a7ee5",
@@ -254,6 +254,16 @@
       "delta": 205
     },
     {
+      "username": "t3qb7yrfe27",
+      "displayName": "StarTyper",
+      "racesPlayed": 6004,
+      "role": "member",
+      "title": "First Trimester",
+      "joinStamp": 1752960663,
+      "lastActivity": 1753023894,
+      "delta": 199
+    },
+    {
       "username": "gw2iscoollol",
       "displayName": "Leqlerc",
       "racesPlayed": 6398,
@@ -264,24 +274,14 @@
       "delta": 193
     },
     {
-      "username": "t3qb7yrfe27",
-      "displayName": "StarTyper",
-      "racesPlayed": 5969,
-      "role": "member",
-      "title": "First Trimester",
-      "joinStamp": 1752960663,
-      "lastActivity": 1753020865,
-      "delta": 164
-    },
-    {
       "username": "4836c7be718ef99f2bb32d2da04bcf4f",
       "displayName": "YT KMT Kentrell",
-      "racesPlayed": 12644,
+      "racesPlayed": 12669,
       "role": "member",
       "title": "A E S T H E T I C",
       "joinStamp": 1752956950,
-      "lastActivity": 1752969675,
-      "delta": 162
+      "lastActivity": 1753024783,
+      "delta": 187
     },
     {
       "username": "insanity12354",
@@ -326,12 +326,12 @@
     {
       "username": "f20a687ffedd647b731ee911a658f540",
       "displayName": "Ivy2Sassy",
-      "racesPlayed": 297,
+      "racesPlayed": 323,
       "role": "member",
       "title": "Filthy Rich",
       "joinStamp": 1752954069,
-      "lastActivity": 1753019889,
-      "delta": 112
+      "lastActivity": 1753024442,
+      "delta": 138
     },
     {
       "username": "ipayforyou",
