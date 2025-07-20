@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 20, 2025 at 4:22 AM PDT",
+  "last_updated": "July 20, 2025 at 5:54 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
@@ -186,22 +186,22 @@
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
-      "racesPlayed": 673,
+      "racesPlayed": 693,
       "role": "member",
       "title": "Millionaire",
       "joinStamp": 1750712571,
-      "lastActivity": 1752979325,
-      "delta": 472
+      "lastActivity": 1753015791,
+      "delta": 492
     },
     {
       "username": "aphoenix888",
       "displayName": "",
-      "racesPlayed": 2667,
+      "racesPlayed": 2722,
       "role": "member",
       "title": "Colemak Conqueror",
       "joinStamp": 1751730598,
-      "lastActivity": 1753010312,
-      "delta": 429
+      "lastActivity": 1753013006,
+      "delta": 484
     },
     {
       "username": "8b81d3996ac92d37dd96fca816ef5a5d",
@@ -236,12 +236,12 @@
     {
       "username": "2cedcf07161f970cbe72fc0fcd8a7ee5",
       "displayName": "invisible",
-      "racesPlayed": 786,
+      "racesPlayed": 787,
       "role": "member",
       "title": "Top Tier",
       "joinStamp": 1752864720,
       "lastActivity": 1752966595,
-      "delta": 222
+      "delta": 223
     },
     {
       "username": "taylor9191",
@@ -294,6 +294,16 @@
       "delta": 160
     },
     {
+      "username": "vdgyertikopzefrgh",
+      "displayName": "vdgyertikopzefrgh",
+      "racesPlayed": 10787,
+      "role": "member",
+      "title": ":D",
+      "joinStamp": 1742927144,
+      "lastActivity": 1753015791,
+      "delta": 155
+    },
+    {
       "username": "galaxymasterpro",
       "displayName": "galaxymasterpro",
       "racesPlayed": 2151,
@@ -304,24 +314,14 @@
       "delta": 150
     },
     {
-      "username": "vdgyertikopzefrgh",
-      "displayName": "vdgyertikopzefrgh",
-      "racesPlayed": 10776,
-      "role": "member",
-      "title": ":D",
-      "joinStamp": 1742927144,
-      "lastActivity": 1752948117,
-      "delta": 144
-    },
-    {
       "username": "t3qb7yrfe27",
       "displayName": "StarTyper",
-      "racesPlayed": 5908,
+      "racesPlayed": 5925,
       "role": "member",
       "title": "First Trimester",
       "joinStamp": 1752960663,
-      "lastActivity": 1752970077,
-      "delta": 103
+      "lastActivity": 1753015594,
+      "delta": 120
     },
     {
       "username": "f20a687ffedd647b731ee911a658f540",
