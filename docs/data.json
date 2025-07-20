@@ -1,37 +1,37 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 20, 2025 at 9:32 AM PDT",
+  "last_updated": "July 20, 2025 at 10:24 AM PDT",
   "board": [
     {
       "username": "tryhardwillwork",
       "displayName": "ahappyking",
-      "racesPlayed": 34922,
+      "racesPlayed": 34974,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1753028862,
-      "delta": 6147
+      "lastActivity": 1753031972,
+      "delta": 6199
     },
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 145239,
+      "racesPlayed": 145280,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1753028993,
-      "delta": 6043
+      "lastActivity": 1753031042,
+      "delta": 6084
     },
     {
       "username": "thecretor145",
       "displayName": "Trickster illusoire",
-      "racesPlayed": 9666,
+      "racesPlayed": 9692,
       "role": "officer",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1753028924,
-      "delta": 5306
+      "lastActivity": 1753031324,
+      "delta": 5332
     },
     {
       "username": "neiletsky",
@@ -56,12 +56,12 @@
     {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
       "displayName": "xRaider",
-      "racesPlayed": 19558,
+      "racesPlayed": 19590,
       "role": "officer",
       "title": "Overdrive",
       "joinStamp": 1751996582,
-      "lastActivity": 1753028872,
-      "delta": 2350
+      "lastActivity": 1753031971,
+      "delta": 2382
     },
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
@@ -76,22 +76,22 @@
     {
       "username": "kudism",
       "displayName": "rosaline",
-      "racesPlayed": 3209,
+      "racesPlayed": 3227,
       "role": "member",
       "title": "Top Tier",
       "joinStamp": 1750606113,
-      "lastActivity": 1752964810,
-      "delta": 1669
+      "lastActivity": 1753031428,
+      "delta": 1687
     },
     {
       "username": "aiy_infection",
       "displayName": "icarus",
-      "racesPlayed": 11519,
+      "racesPlayed": 11582,
       "role": "captain",
       "title": "Drift Queen",
       "joinStamp": 1742486554,
-      "lastActivity": 1753028971,
-      "delta": 1509
+      "lastActivity": 1753031972,
+      "delta": 1572
     },
     {
       "username": "ryyedawg7",
@@ -116,12 +116,12 @@
     {
       "username": "timmytimmy213",
       "displayName": "timmytimmy213",
-      "racesPlayed": 5287,
+      "racesPlayed": 5313,
       "role": "member",
       "title": "Olde School",
       "joinStamp": 1743005762,
-      "lastActivity": 1753008444,
-      "delta": 1075
+      "lastActivity": 1753030512,
+      "delta": 1101
     },
     {
       "username": "viper_shot",
@@ -136,12 +136,12 @@
     {
       "username": "fluffytech",
       "displayName": "Tewdy",
-      "racesPlayed": 9631,
+      "racesPlayed": 9650,
       "role": "member",
       "title": "Keyboard Cat",
       "joinStamp": 1752802600,
-      "lastActivity": 1752992240,
-      "delta": 694
+      "lastActivity": 1753031040,
+      "delta": 713
     },
     {
       "username": "persionde",
@@ -234,6 +234,16 @@
       "delta": 341
     },
     {
+      "username": "4836c7be718ef99f2bb32d2da04bcf4f",
+      "displayName": "YT KMT Kentrell",
+      "racesPlayed": 12747,
+      "role": "member",
+      "title": "A E S T H E T I C",
+      "joinStamp": 1752956950,
+      "lastActivity": 1753031972,
+      "delta": 265
+    },
+    {
       "username": "t3qb7yrfe27",
       "displayName": "StarTyper",
       "racesPlayed": 6058,
@@ -252,16 +262,6 @@
       "joinStamp": 1752864720,
       "lastActivity": 1753016623,
       "delta": 227
-    },
-    {
-      "username": "4836c7be718ef99f2bb32d2da04bcf4f",
-      "displayName": "YT KMT Kentrell",
-      "racesPlayed": 12697,
-      "role": "member",
-      "title": "A E S T H E T I C",
-      "joinStamp": 1752956950,
-      "lastActivity": 1753027872,
-      "delta": 215
     },
     {
       "username": "taylor9191",
