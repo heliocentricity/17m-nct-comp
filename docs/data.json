@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 21, 2025 at 4:25 AM PDT",
+  "last_updated": "July 21, 2025 at 6:00 AM PDT",
   "board": [
     {
       "username": "soccer791",
@@ -16,12 +16,12 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 145637,
+      "racesPlayed": 145706,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1753096224,
-      "delta": 6441
+      "lastActivity": 1753102776,
+      "delta": 6510
     },
     {
       "username": "tryhardwillwork",
@@ -256,12 +256,12 @@
     {
       "username": "t3qb7yrfe27",
       "displayName": "StarTyper",
-      "racesPlayed": 6091,
+      "racesPlayed": 6092,
       "role": "member",
       "title": "First Trimester",
       "joinStamp": 1752960663,
-      "lastActivity": 1753058937,
-      "delta": 286
+      "lastActivity": 1753102792,
+      "delta": 287
     },
     {
       "username": "2cedcf07161f970cbe72fc0fcd8a7ee5",
@@ -304,6 +304,16 @@
       "delta": 193
     },
     {
+      "username": "vdgyertikopzefrgh",
+      "displayName": "vdgyertikopzefrgh",
+      "racesPlayed": 10808,
+      "role": "member",
+      "title": ":D",
+      "joinStamp": 1742927144,
+      "lastActivity": 1753097919,
+      "delta": 176
+    },
+    {
       "username": "insanity12354",
       "displayName": "insanity12354",
       "racesPlayed": 8445,
@@ -312,16 +322,6 @@
       "joinStamp": 1751588612,
       "lastActivity": 1752656233,
       "delta": 161
-    },
-    {
-      "username": "vdgyertikopzefrgh",
-      "displayName": "vdgyertikopzefrgh",
-      "racesPlayed": 10792,
-      "role": "member",
-      "title": ":D",
-      "joinStamp": 1742927144,
-      "lastActivity": 1753016242,
-      "delta": 160
     },
     {
       "username": "4399e7a571cf827be64b714c30c899ef",
