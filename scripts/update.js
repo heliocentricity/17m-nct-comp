@@ -29,7 +29,7 @@ async function fetchLeaderboard() {
   let role = m.role;
   if (m.username === 'aiy_infection') role = 'captain';
   if (m.username === 'vioiynx' || m.username === 'neiletsky') role = 'vicecaptain';
-  if (m.username === '4ffff6b556a68cdccc087a63e6676') role = 'officer';
+  if (m.username === 'be74ffff6b556a68cdccc087a63e6676') role = 'officer';
   return {
     username:     m.username,
     displayName:  m.displayName,
