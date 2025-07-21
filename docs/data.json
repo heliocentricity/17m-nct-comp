@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 21, 2025 at 9:36 AM PDT",
+  "last_updated": "July 21, 2025 at 10:27 AM PDT",
   "board": [
     {
       "username": "soccer791",
       "displayName": "Airborne",
-      "racesPlayed": 22582,
+      "racesPlayed": 22655,
       "role": "member",
       "title": "Acute Tinselitis",
       "joinStamp": 1753038627,
-      "lastActivity": 1753115380,
-      "delta": 9045
+      "lastActivity": 1753118360,
+      "delta": 9118
     },
     {
       "username": "aharama",
@@ -66,12 +66,12 @@
     {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
       "displayName": "xRaider",
-      "racesPlayed": 19815,
+      "racesPlayed": 19819,
       "role": "officer",
       "title": "Overdrive",
       "joinStamp": 1751996582,
-      "lastActivity": 1753115378,
-      "delta": 2607
+      "lastActivity": 1753118380,
+      "delta": 2611
     },
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
@@ -86,12 +86,12 @@
     {
       "username": "aiy_infection",
       "displayName": "icarus",
-      "racesPlayed": 11838,
+      "racesPlayed": 11911,
       "role": "captain",
       "title": "Drift Queen",
       "joinStamp": 1742486554,
-      "lastActivity": 1753115340,
-      "delta": 1828
+      "lastActivity": 1753118363,
+      "delta": 1901
     },
     {
       "username": "kudism",
@@ -224,6 +224,16 @@
       "delta": 453
     },
     {
+      "username": "t3qb7yrfe27",
+      "displayName": "StarTyper",
+      "racesPlayed": 6247,
+      "role": "member",
+      "title": "First Trimester",
+      "joinStamp": 1752960663,
+      "lastActivity": 1753118343,
+      "delta": 442
+    },
+    {
       "username": "cat_hiding_in_couch",
       "displayName": "Royal0",
       "racesPlayed": 1629,
@@ -232,16 +242,6 @@
       "joinStamp": 1751811398,
       "lastActivity": 1753113412,
       "delta": 428
-    },
-    {
-      "username": "t3qb7yrfe27",
-      "displayName": "StarTyper",
-      "racesPlayed": 6222,
-      "role": "member",
-      "title": "First Trimester",
-      "joinStamp": 1752960663,
-      "lastActivity": 1753115376,
-      "delta": 417
     },
     {
       "username": "2f34c5734382332ea20053296a6d22d7",
@@ -396,12 +396,12 @@
     {
       "username": "savage5414",
       "displayName": "DreamyMagentaBear",
-      "racesPlayed": 2400,
+      "racesPlayed": 2401,
       "role": "member",
       "title": "Ace Accelerator",
       "joinStamp": 1752673960,
-      "lastActivity": 1752774423,
-      "delta": 22
+      "lastActivity": 1753116481,
+      "delta": 23
     },
     {
       "username": "thatonedude125",
@@ -461,6 +461,16 @@
       "title": "Green Streak",
       "joinStamp": 1744382527,
       "lastActivity": 1749863144,
+      "delta": 0
+    },
+    {
+      "username": "42a2d246d804e462e42b55665c426d51",
+      "displayName": "RyanW7",
+      "racesPlayed": 47,
+      "role": "member",
+      "title": "The ATM Machine",
+      "joinStamp": 1753116397,
+      "lastActivity": 1753116525,
       "delta": 0
     }
   ]
