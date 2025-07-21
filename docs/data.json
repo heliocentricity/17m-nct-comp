@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 20, 2025 at 10:34 PM PDT",
+  "last_updated": "July 20, 2025 at 11:42 PM PDT",
   "board": [
     {
       "username": "soccer791",
@@ -26,32 +26,32 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 145405,
+      "racesPlayed": 145460,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1753075787,
-      "delta": 6209
+      "lastActivity": 1753079915,
+      "delta": 6264
     },
     {
       "username": "thecretor145",
       "displayName": "Emperor Trickster",
-      "racesPlayed": 9788,
+      "racesPlayed": 9840,
       "role": "officer",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1753075783,
-      "delta": 5428
+      "lastActivity": 1753079969,
+      "delta": 5480
     },
     {
       "username": "neiletsky",
       "displayName": "PinoyLegend",
-      "racesPlayed": 15168,
+      "racesPlayed": 15184,
       "role": "vicecaptain",
       "title": "League Champion",
       "joinStamp": 1744741826,
-      "lastActivity": 1752999773,
-      "delta": 4678
+      "lastActivity": 1753078108,
+      "delta": 4694
     },
     {
       "username": "abot8",
@@ -136,12 +136,12 @@
     {
       "username": "viper_shot",
       "displayName": "v1per_sh0t",
-      "racesPlayed": 6561,
+      "racesPlayed": 6572,
       "role": "member",
       "title": "Legendary Lapper",
       "joinStamp": 1747355208,
-      "lastActivity": 1753006839,
-      "delta": 949
+      "lastActivity": 1753079989,
+      "delta": 960
     },
     {
       "username": "fluffytech",
@@ -414,6 +414,16 @@
       "delta": 22
     },
     {
+      "username": "thatonedude125",
+      "displayName": "thatonedude125",
+      "racesPlayed": 293,
+      "role": "member",
+      "title": "Sweaty Typer",
+      "joinStamp": 1753075411,
+      "lastActivity": 1753078490,
+      "delta": 15
+    },
+    {
       "username": "15d0b88fc9c984ecc02be42c2587d47d",
       "displayName": "DHtheKing",
       "racesPlayed": 1228,
@@ -451,16 +461,6 @@
       "title": "Green Streak",
       "joinStamp": 1744382527,
       "lastActivity": 1749863144,
-      "delta": 0
-    },
-    {
-      "username": "thatonedude125",
-      "displayName": "thatonedude125",
-      "racesPlayed": 278,
-      "role": "member",
-      "title": "Sweaty Typer",
-      "joinStamp": 1753075411,
-      "lastActivity": 0,
       "delta": 0
     }
   ]
