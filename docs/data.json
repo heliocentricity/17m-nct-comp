@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 21, 2025 at 1:24 PM PDT",
+  "last_updated": "July 21, 2025 at 1:28 PM PDT",
   "board": [
     {
       "username": "thecretor145",
@@ -11,7 +11,7 @@
       "title": "The Prankster",
       "joinStamp": 1751390680,
       "lastActivity": 1753127563,
-      "delta": 7713
+      "delta": 7683
     },
     {
       "username": "aharama",
@@ -56,22 +56,22 @@
     {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
       "displayName": "xRaider",
-      "racesPlayed": 19862,
+      "racesPlayed": 19863,
       "role": "officer",
       "title": "Overdrive",
       "joinStamp": 1751996582,
       "lastActivity": 1753129100,
-      "delta": 2654
+      "delta": 2655
     },
     {
       "username": "aiy_infection",
       "displayName": "icarus",
-      "racesPlayed": 12066,
+      "racesPlayed": 12072,
       "role": "captain",
       "title": "Drift Queen",
       "joinStamp": 1742486554,
       "lastActivity": 1753128841,
-      "delta": 2056
+      "delta": 2062
     },
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
@@ -394,6 +394,16 @@
       "delta": 27
     },
     {
+      "username": "champagnezozi",
+      "displayName": "SplendidCyanGoat",
+      "racesPlayed": 2770,
+      "role": "member",
+      "title": "What's Cookin'?",
+      "joinStamp": 1753124252,
+      "lastActivity": 1753129165,
+      "delta": 22
+    },
+    {
       "username": "thatonedude125",
       "displayName": "thatonedude125",
       "racesPlayed": 299,
@@ -402,16 +412,6 @@
       "joinStamp": 1753075411,
       "lastActivity": 1753105351,
       "delta": 21
-    },
-    {
-      "username": "champagnezozi",
-      "displayName": "SplendidCyanGoat",
-      "racesPlayed": 2766,
-      "role": "member",
-      "title": "What's Cookin'?",
-      "joinStamp": 1753124252,
-      "lastActivity": 1753129165,
-      "delta": 18
     },
     {
       "username": "15d0b88fc9c984ecc02be42c2587d47d",
