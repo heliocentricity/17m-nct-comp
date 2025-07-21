@@ -1,27 +1,27 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 21, 2025 at 3:28 PM PDT",
+  "last_updated": "July 21, 2025 at 4:27 PM PDT",
   "board": [
     {
       "username": "thecretor145",
       "displayName": "Emperor Trickster",
-      "racesPlayed": 9900,
+      "racesPlayed": 9933,
       "role": "officer",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1753135123,
-      "delta": 7696
+      "lastActivity": 1753139960,
+      "delta": 7729
     },
     {
       "username": "tryhardwillwork",
       "displayName": "ahappyking",
-      "racesPlayed": 35460,
+      "racesPlayed": 35530,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1753136347,
-      "delta": 6685
+      "lastActivity": 1753139971,
+      "delta": 6755
     },
     {
       "username": "aharama",
@@ -45,7 +45,7 @@
     },
     {
       "username": "soccer791",
-      "displayName": "Ernobria",
+      "displayName": "Kaizer Airborne",
       "racesPlayed": 22784,
       "role": "member",
       "title": "Acute Tinselitis",
@@ -56,22 +56,22 @@
     {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
       "displayName": "xRaider",
-      "racesPlayed": 19929,
+      "racesPlayed": 19935,
       "role": "officer",
       "title": "Overdrive",
       "joinStamp": 1751996582,
-      "lastActivity": 1753135806,
-      "delta": 2721
+      "lastActivity": 1753137748,
+      "delta": 2727
     },
     {
       "username": "aiy_infection",
       "displayName": "icarus",
-      "racesPlayed": 12204,
+      "racesPlayed": 12261,
       "role": "captain",
       "title": "Drift Queen",
       "joinStamp": 1742486554,
-      "lastActivity": 1753136386,
-      "delta": 2194
+      "lastActivity": 1753139961,
+      "delta": 2251
     },
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
@@ -96,12 +96,12 @@
     {
       "username": "ryyedawg7",
       "displayName": "R Y Y E",
-      "racesPlayed": 2140,
+      "racesPlayed": 2174,
       "role": "member",
       "title": "Top Tier",
       "joinStamp": 1751926592,
-      "lastActivity": 1753136382,
-      "delta": 1303
+      "lastActivity": 1753139961,
+      "delta": 1337
     },
     {
       "username": "timmytimmy213",
@@ -126,12 +126,12 @@
     {
       "username": "fluffytech",
       "displayName": "Tewdy",
-      "racesPlayed": 9999,
+      "racesPlayed": 10000,
       "role": "member",
       "title": "Keyboard Cat",
       "joinStamp": 1752802600,
-      "lastActivity": 1753136365,
-      "delta": 1062
+      "lastActivity": 1753137052,
+      "delta": 1063
     },
     {
       "username": "viper_shot",
@@ -354,6 +354,16 @@
       "delta": 53
     },
     {
+      "username": "21157de8567c7a7fe06dfc22f392c254",
+      "displayName": "callie",
+      "racesPlayed": 218,
+      "role": "member",
+      "title": "Crazy About Typing",
+      "joinStamp": 1752815360,
+      "lastActivity": 1753137369,
+      "delta": 53
+    },
+    {
       "username": "dianac128",
       "displayName": "ryiichu",
       "racesPlayed": 1822,
@@ -362,16 +372,6 @@
       "joinStamp": 1750468101,
       "lastActivity": 1753063606,
       "delta": 52
-    },
-    {
-      "username": "21157de8567c7a7fe06dfc22f392c254",
-      "displayName": "callie",
-      "racesPlayed": 207,
-      "role": "member",
-      "title": "Crazy About Typing",
-      "joinStamp": 1752815360,
-      "lastActivity": 1753039629,
-      "delta": 42
     },
     {
       "username": "1400dgloo",
@@ -402,6 +402,16 @@
       "joinStamp": 1753075411,
       "lastActivity": 1753105351,
       "delta": 21
+    },
+    {
+      "username": "7d6d39dce8ae2e4fc73b00dd5d7c025b",
+      "displayName": "DuckyTypes",
+      "racesPlayed": 1341,
+      "role": "member",
+      "title": "I Hate Words",
+      "joinStamp": 1753135003,
+      "lastActivity": 1753139591,
+      "delta": 15
     },
     {
       "username": "15d0b88fc9c984ecc02be42c2587d47d",
@@ -484,13 +494,13 @@
       "delta": 0
     },
     {
-      "username": "7d6d39dce8ae2e4fc73b00dd5d7c025b",
-      "displayName": "DuckyTypes",
-      "racesPlayed": 1326,
+      "username": "e5d484b5686558b0d36143af0fbc18ce",
+      "displayName": "Gamblemarbles",
+      "racesPlayed": 3652,
       "role": "member",
-      "title": "I Hate Words",
-      "joinStamp": 1753135003,
-      "lastActivity": 1753136380,
+      "title": "No Nitros Needed",
+      "joinStamp": 1753137212,
+      "lastActivity": 1753137313,
       "delta": 0
     }
   ]
