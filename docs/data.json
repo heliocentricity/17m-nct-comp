@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 21, 2025 at 10:27 AM PDT",
+  "last_updated": "July 21, 2025 at 11:41 AM PDT",
   "board": [
     {
       "username": "soccer791",
       "displayName": "Airborne",
-      "racesPlayed": 22655,
+      "racesPlayed": 22760,
       "role": "member",
       "title": "Acute Tinselitis",
       "joinStamp": 1753038627,
-      "lastActivity": 1753118360,
-      "delta": 9118
+      "lastActivity": 1753123188,
+      "delta": 9223
     },
     {
       "username": "aharama",
@@ -26,12 +26,12 @@
     {
       "username": "tryhardwillwork",
       "displayName": "ahappyking",
-      "racesPlayed": 35215,
+      "racesPlayed": 35273,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1753070345,
-      "delta": 6440
+      "lastActivity": 1753123131,
+      "delta": 6498
     },
     {
       "username": "thecretor145",
@@ -66,12 +66,22 @@
     {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
       "displayName": "xRaider",
-      "racesPlayed": 19819,
+      "racesPlayed": 19827,
       "role": "officer",
       "title": "Overdrive",
       "joinStamp": 1751996582,
-      "lastActivity": 1753118380,
-      "delta": 2611
+      "lastActivity": 1753122261,
+      "delta": 2619
+    },
+    {
+      "username": "aiy_infection",
+      "displayName": "icarus",
+      "racesPlayed": 12018,
+      "role": "captain",
+      "title": "Drift Queen",
+      "joinStamp": 1742486554,
+      "lastActivity": 1753123145,
+      "delta": 2008
     },
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
@@ -82,16 +92,6 @@
       "joinStamp": 1751297409,
       "lastActivity": 1752965443,
       "delta": 1942
-    },
-    {
-      "username": "aiy_infection",
-      "displayName": "icarus",
-      "racesPlayed": 11911,
-      "role": "captain",
-      "title": "Drift Queen",
-      "joinStamp": 1742486554,
-      "lastActivity": 1753118363,
-      "delta": 1901
     },
     {
       "username": "kudism",
@@ -196,12 +196,12 @@
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
-      "racesPlayed": 708,
+      "racesPlayed": 713,
       "role": "member",
       "title": "Millionaire",
       "joinStamp": 1750712571,
-      "lastActivity": 1753066460,
-      "delta": 507
+      "lastActivity": 1753123191,
+      "delta": 512
     },
     {
       "username": "aphoenix888",
@@ -214,6 +214,16 @@
       "delta": 497
     },
     {
+      "username": "t3qb7yrfe27",
+      "displayName": "StarTyper",
+      "racesPlayed": 6271,
+      "role": "member",
+      "title": "First Trimester",
+      "joinStamp": 1752960663,
+      "lastActivity": 1753120916,
+      "delta": 466
+    },
+    {
       "username": "8b81d3996ac92d37dd96fca816ef5a5d",
       "displayName": "-tzalexn-",
       "racesPlayed": 703,
@@ -222,16 +232,6 @@
       "joinStamp": 1751674449,
       "lastActivity": 1753062055,
       "delta": 453
-    },
-    {
-      "username": "t3qb7yrfe27",
-      "displayName": "StarTyper",
-      "racesPlayed": 6247,
-      "role": "member",
-      "title": "First Trimester",
-      "joinStamp": 1752960663,
-      "lastActivity": 1753118343,
-      "delta": 442
     },
     {
       "username": "cat_hiding_in_couch",
@@ -266,12 +266,12 @@
     {
       "username": "2cedcf07161f970cbe72fc0fcd8a7ee5",
       "displayName": "invisible",
-      "racesPlayed": 840,
+      "racesPlayed": 859,
       "role": "member",
       "title": "Top Tier",
       "joinStamp": 1752864720,
-      "lastActivity": 1753059770,
-      "delta": 276
+      "lastActivity": 1753121872,
+      "delta": 295
     },
     {
       "username": "taylor9191",
@@ -396,12 +396,12 @@
     {
       "username": "savage5414",
       "displayName": "DreamyMagentaBear",
-      "racesPlayed": 2401,
+      "racesPlayed": 2405,
       "role": "member",
       "title": "Ace Accelerator",
       "joinStamp": 1752673960,
-      "lastActivity": 1753116481,
-      "delta": 23
+      "lastActivity": 1753120987,
+      "delta": 27
     },
     {
       "username": "thatonedude125",
