@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 21, 2025 at 12:24 PM PDT",
+  "last_updated": "July 21, 2025 at 1:24 PM PDT",
   "board": [
     {
-      "username": "soccer791",
-      "displayName": "Airborne",
-      "racesPlayed": 22784,
-      "role": "member",
-      "title": "Acute Tinselitis",
-      "joinStamp": 1753038627,
-      "lastActivity": 1753124208,
-      "delta": 9247
+      "username": "thecretor145",
+      "displayName": "Emperor Trickster",
+      "racesPlayed": 9887,
+      "role": "officer",
+      "title": "The Prankster",
+      "joinStamp": 1751390680,
+      "lastActivity": 1753127563,
+      "delta": 7713
     },
     {
       "username": "aharama",
@@ -26,22 +26,12 @@
     {
       "username": "tryhardwillwork",
       "displayName": "ahappyking",
-      "racesPlayed": 35307,
+      "racesPlayed": 35328,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1753125574,
-      "delta": 6532
-    },
-    {
-      "username": "thecretor145",
-      "displayName": "Emperor Trickster",
-      "racesPlayed": 9857,
-      "role": "officer",
-      "title": "The Prankster",
-      "joinStamp": 1751390680,
-      "lastActivity": 1753081298,
-      "delta": 5497
+      "lastActivity": 1753128718,
+      "delta": 6553
     },
     {
       "username": "neiletsky",
@@ -54,24 +44,34 @@
       "delta": 4699
     },
     {
+      "username": "soccer791",
+      "displayName": "Airborne",
+      "racesPlayed": 22784,
+      "role": "member",
+      "title": "Acute Tinselitis",
+      "joinStamp": 1753038627,
+      "lastActivity": 1753124208,
+      "delta": 4190
+    },
+    {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
       "displayName": "xRaider",
-      "racesPlayed": 19836,
+      "racesPlayed": 19862,
       "role": "officer",
       "title": "Overdrive",
       "joinStamp": 1751996582,
-      "lastActivity": 1753125591,
-      "delta": 2628
+      "lastActivity": 1753129100,
+      "delta": 2654
     },
     {
       "username": "aiy_infection",
       "displayName": "icarus",
-      "racesPlayed": 12044,
+      "racesPlayed": 12066,
       "role": "captain",
       "title": "Drift Queen",
       "joinStamp": 1742486554,
-      "lastActivity": 1753125007,
-      "delta": 2034
+      "lastActivity": 1753128841,
+      "delta": 2056
     },
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
@@ -186,12 +186,12 @@
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
-      "racesPlayed": 727,
+      "racesPlayed": 731,
       "role": "member",
       "title": "Millionaire",
       "joinStamp": 1750712571,
-      "lastActivity": 1753124968,
-      "delta": 526
+      "lastActivity": 1753128777,
+      "delta": 530
     },
     {
       "username": "aphoenix888",
@@ -404,6 +404,16 @@
       "delta": 21
     },
     {
+      "username": "champagnezozi",
+      "displayName": "SplendidCyanGoat",
+      "racesPlayed": 2766,
+      "role": "member",
+      "title": "What's Cookin'?",
+      "joinStamp": 1753124252,
+      "lastActivity": 1753129165,
+      "delta": 18
+    },
+    {
       "username": "15d0b88fc9c984ecc02be42c2587d47d",
       "displayName": "DHtheKing",
       "racesPlayed": 1228,
@@ -454,13 +464,13 @@
       "delta": 0
     },
     {
-      "username": "champagnezozi",
-      "displayName": "SplendidCyanGoat",
-      "racesPlayed": 2748,
+      "username": "hudsondev",
+      "displayName": "PositiveScarletDuck",
+      "racesPlayed": 4139,
       "role": "member",
-      "title": "What's Cookin'?",
-      "joinStamp": 1753124252,
-      "lastActivity": 1753124609,
+      "title": "Pro Pacer",
+      "joinStamp": 1753127685,
+      "lastActivity": 1753129156,
       "delta": 0
     },
     {
