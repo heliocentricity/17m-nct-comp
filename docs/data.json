@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 21, 2025 at 1:33 PM PDT",
+  "last_updated": "July 21, 2025 at 1:52 PM PDT",
   "board": [
     {
       "username": "thecretor145",
@@ -26,12 +26,12 @@
     {
       "username": "tryhardwillwork",
       "displayName": "ahappyking",
-      "racesPlayed": 35328,
+      "racesPlayed": 35332,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1753128718,
-      "delta": 6553
+      "lastActivity": 1753130984,
+      "delta": 6557
     },
     {
       "username": "neiletsky",
@@ -56,28 +56,28 @@
     {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
       "displayName": "xRaider",
-      "racesPlayed": 19864,
+      "racesPlayed": 19869,
       "role": "officer",
       "title": "Overdrive",
       "joinStamp": 1751996582,
-      "lastActivity": 1753129742,
-      "delta": 2656
+      "lastActivity": 1753130955,
+      "delta": 2661
     },
     {
       "username": "aiy_infection",
       "displayName": "icarus",
-      "racesPlayed": 12076,
+      "racesPlayed": 12087,
       "role": "captain",
       "title": "Drift Queen",
       "joinStamp": 1742486554,
-      "lastActivity": 1753129791,
-      "delta": 2066
+      "lastActivity": 1753130981,
+      "delta": 2077
     },
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
       "displayName": "Scyphozoa64",
       "racesPlayed": 2030,
-      "role": "member",
+      "role": "officer",
       "title": "Raw Racing Recruit",
       "joinStamp": 1751297409,
       "lastActivity": 1752965443,
@@ -86,12 +86,12 @@
     {
       "username": "kudism",
       "displayName": "rosaline",
-      "racesPlayed": 3273,
+      "racesPlayed": 3303,
       "role": "officer",
       "title": "Top Tier",
       "joinStamp": 1750606113,
-      "lastActivity": 1753123566,
-      "delta": 1733
+      "lastActivity": 1753130963,
+      "delta": 1763
     },
     {
       "username": "ryyedawg7",
@@ -136,12 +136,12 @@
     {
       "username": "fluffytech",
       "displayName": "Tewdy",
-      "racesPlayed": 9855,
+      "racesPlayed": 9860,
       "role": "member",
       "title": "Keyboard Cat",
       "joinStamp": 1752802600,
-      "lastActivity": 1753072009,
-      "delta": 918
+      "lastActivity": 1753130965,
+      "delta": 923
     },
     {
       "username": "persionde",
@@ -186,12 +186,22 @@
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
-      "racesPlayed": 731,
+      "racesPlayed": 740,
       "role": "member",
       "title": "Millionaire",
       "joinStamp": 1750712571,
-      "lastActivity": 1753128777,
-      "delta": 530
+      "lastActivity": 1753130967,
+      "delta": 539
+    },
+    {
+      "username": "t3qb7yrfe27",
+      "displayName": "StarTyper",
+      "racesPlayed": 6305,
+      "role": "member",
+      "title": "First Trimester",
+      "joinStamp": 1752960663,
+      "lastActivity": 1753130965,
+      "delta": 500
     },
     {
       "username": "aphoenix888",
@@ -202,16 +212,6 @@
       "joinStamp": 1751730598,
       "lastActivity": 1753094017,
       "delta": 497
-    },
-    {
-      "username": "t3qb7yrfe27",
-      "displayName": "StarTyper",
-      "racesPlayed": 6273,
-      "role": "member",
-      "title": "First Trimester",
-      "joinStamp": 1752960663,
-      "lastActivity": 1753120916,
-      "delta": 468
     },
     {
       "username": "8b81d3996ac92d37dd96fca816ef5a5d",
@@ -364,6 +364,16 @@
       "delta": 52
     },
     {
+      "username": "champagnezozi",
+      "displayName": "SplendidCyanGoat",
+      "racesPlayed": 2797,
+      "role": "member",
+      "title": "What's Cookin'?",
+      "joinStamp": 1753124252,
+      "lastActivity": 1753130976,
+      "delta": 49
+    },
+    {
       "username": "21157de8567c7a7fe06dfc22f392c254",
       "displayName": "callie",
       "racesPlayed": 205,
@@ -372,16 +382,6 @@
       "joinStamp": 1752815360,
       "lastActivity": 1753039629,
       "delta": 40
-    },
-    {
-      "username": "champagnezozi",
-      "displayName": "SplendidCyanGoat",
-      "racesPlayed": 2777,
-      "role": "member",
-      "title": "What's Cookin'?",
-      "joinStamp": 1753124252,
-      "lastActivity": 1753129764,
-      "delta": 29
     },
     {
       "username": "1400dgloo",
