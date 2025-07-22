@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 22, 2025 at 2:27 PM PDT",
+  "last_updated": "July 22, 2025 at 3:28 PM PDT",
   "board": [
     {
       "username": "thecretor145",
       "displayName": "Emperor Trickster",
-      "racesPlayed": 10073,
+      "racesPlayed": 10145,
       "role": "officer",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1753216139,
-      "delta": 7869
+      "lastActivity": 1753222762,
+      "delta": 7941
     },
     {
       "username": "aharama",
@@ -36,12 +36,12 @@
     {
       "username": "neiletsky",
       "displayName": "PinoyLegend",
-      "racesPlayed": 15251,
+      "racesPlayed": 15256,
       "role": "vicecaptain",
       "title": "League Champion",
       "joinStamp": 1744741826,
       "lastActivity": 1753172943,
-      "delta": 4761
+      "delta": 4766
     },
     {
       "username": "soccer791",
@@ -96,12 +96,12 @@
     {
       "username": "ryyedawg7",
       "displayName": "R Y Y E",
-      "racesPlayed": 2211,
+      "racesPlayed": 2229,
       "role": "member",
       "title": "Top Tier",
       "joinStamp": 1751926592,
-      "lastActivity": 1753148534,
-      "delta": 1374
+      "lastActivity": 1753222083,
+      "delta": 1392
     },
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
@@ -136,12 +136,12 @@
     {
       "username": "fluffytech",
       "displayName": "Tewdy",
-      "racesPlayed": 10030,
+      "racesPlayed": 10033,
       "role": "member",
       "title": "Keyboard Cat",
       "joinStamp": 1752802600,
       "lastActivity": 1753153563,
-      "delta": 1093
+      "delta": 1096
     },
     {
       "username": "persionde",
@@ -166,12 +166,12 @@
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
-      "racesPlayed": 784,
+      "racesPlayed": 790,
       "role": "member",
       "title": "Millionaire",
       "joinStamp": 1750712571,
-      "lastActivity": 1753215819,
-      "delta": 583
+      "lastActivity": 1753219911,
+      "delta": 589
     },
     {
       "username": "vioiynx",
@@ -184,6 +184,16 @@
       "delta": 552
     },
     {
+      "username": "aphoenix888",
+      "displayName": "",
+      "racesPlayed": 2785,
+      "role": "member",
+      "title": "Colemak Conqueror",
+      "joinStamp": 1751730598,
+      "lastActivity": 1753220540,
+      "delta": 547
+    },
+    {
       "username": "a_normal_snake",
       "displayName": "-Snake-",
       "racesPlayed": 3480,
@@ -192,16 +202,6 @@
       "joinStamp": 1751144117,
       "lastActivity": 1752991210,
       "delta": 544
-    },
-    {
-      "username": "aphoenix888",
-      "displayName": "",
-      "racesPlayed": 2762,
-      "role": "member",
-      "title": "Colemak Conqueror",
-      "joinStamp": 1751730598,
-      "lastActivity": 1753198723,
-      "delta": 524
     },
     {
       "username": "8b81d3996ac92d37dd96fca816ef5a5d",
@@ -216,12 +216,12 @@
     {
       "username": "cat_hiding_in_couch",
       "displayName": "Royal0",
-      "racesPlayed": 1629,
+      "racesPlayed": 1645,
       "role": "member",
       "title": "Qwerty Quester",
       "joinStamp": 1751811398,
-      "lastActivity": 1753113412,
-      "delta": 428
+      "lastActivity": 1753220402,
+      "delta": 444
     },
     {
       "username": "2f34c5734382332ea20053296a6d22d7",
@@ -284,6 +284,16 @@
       "delta": 187
     },
     {
+      "username": "champagnezozi",
+      "displayName": "SplendidCyanGoat",
+      "racesPlayed": 2908,
+      "role": "member",
+      "title": "What's Cookin'?",
+      "joinStamp": 1753124252,
+      "lastActivity": 1753220340,
+      "delta": 160
+    },
+    {
       "username": "4399e7a571cf827be64b714c30c899ef",
       "displayName": "FuchsiaAzureCougar",
       "racesPlayed": 542,
@@ -292,16 +302,6 @@
       "joinStamp": 1748723201,
       "lastActivity": 1751784826,
       "delta": 160
-    },
-    {
-      "username": "champagnezozi",
-      "displayName": "SplendidCyanGoat",
-      "racesPlayed": 2907,
-      "role": "member",
-      "title": "What's Cookin'?",
-      "joinStamp": 1753124252,
-      "lastActivity": 1753218714,
-      "delta": 159
     },
     {
       "username": "galaxymasterpro",
@@ -324,14 +324,24 @@
       "delta": 90
     },
     {
+      "username": "21157de8567c7a7fe06dfc22f392c254",
+      "displayName": "callie",
+      "racesPlayed": 231,
+      "role": "member",
+      "title": "Crazy About Typing",
+      "joinStamp": 1752815360,
+      "lastActivity": 1753221275,
+      "delta": 66
+    },
+    {
       "username": "7d6d39dce8ae2e4fc73b00dd5d7c025b",
       "displayName": "DuckyTypes",
-      "racesPlayed": 1380,
+      "racesPlayed": 1382,
       "role": "member",
       "title": "I Hate Words",
       "joinStamp": 1753135003,
-      "lastActivity": 1753219129,
-      "delta": 54
+      "lastActivity": 1753220204,
+      "delta": 56
     },
     {
       "username": "bd2ec43a38126f5bb6cadb806a27005e",
@@ -341,16 +351,6 @@
       "title": "I Love Frogs",
       "joinStamp": 1752021482,
       "lastActivity": 1752855032,
-      "delta": 53
-    },
-    {
-      "username": "21157de8567c7a7fe06dfc22f392c254",
-      "displayName": "callie",
-      "racesPlayed": 218,
-      "role": "member",
-      "title": "Crazy About Typing",
-      "joinStamp": 1752815360,
-      "lastActivity": 1753137369,
       "delta": 53
     },
     {
@@ -366,12 +366,12 @@
     {
       "username": "savage5414",
       "displayName": "DreamyMagentaBear",
-      "racesPlayed": 2419,
+      "racesPlayed": 2424,
       "role": "member",
       "title": "Ace Accelerator",
       "joinStamp": 1752673960,
-      "lastActivity": 1753203362,
-      "delta": 41
+      "lastActivity": 1753219843,
+      "delta": 46
     },
     {
       "username": "lebonbonthegoat",
@@ -385,13 +385,13 @@
     },
     {
       "username": "triggered000",
-      "displayName": "33MV_Trrrusova",
-      "racesPlayed": 8010,
+      "displayName": "33MV_TRRRUSOVA",
+      "racesPlayed": 8017,
       "role": "member",
       "title": "Original Gangster",
       "joinStamp": 1753152881,
-      "lastActivity": 1753208154,
-      "delta": 16
+      "lastActivity": 1753222614,
+      "delta": 23
     },
     {
       "username": "hudsondev",
