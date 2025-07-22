@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 21, 2025 at 10:32 PM PDT",
+  "last_updated": "July 21, 2025 at 11:41 PM PDT",
   "board": [
     {
       "username": "thecretor145",
       "displayName": "Emperor Trickster",
-      "racesPlayed": 10057,
+      "racesPlayed": 10070,
       "role": "officer",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1753161965,
-      "delta": 7853
+      "lastActivity": 1753163321,
+      "delta": 7866
     },
     {
       "username": "tryhardwillwork",
@@ -26,12 +26,12 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 145955,
+      "racesPlayed": 146020,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1753162183,
-      "delta": 6759
+      "lastActivity": 1753166329,
+      "delta": 6824
     },
     {
       "username": "neiletsky",
@@ -66,12 +66,12 @@
     {
       "username": "aiy_infection",
       "displayName": "icarus",
-      "racesPlayed": 12572,
+      "racesPlayed": 12597,
       "role": "captain",
       "title": "Drift Queen",
       "joinStamp": 1742486554,
-      "lastActivity": 1753162188,
-      "delta": 2562
+      "lastActivity": 1753166378,
+      "delta": 2587
     },
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
@@ -304,6 +304,16 @@
       "delta": 150
     },
     {
+      "username": "thatonedude125",
+      "displayName": "thatonedude125",
+      "racesPlayed": 371,
+      "role": "member",
+      "title": "Sweaty Typer",
+      "joinStamp": 1753075411,
+      "lastActivity": 1753166095,
+      "delta": 93
+    },
+    {
       "username": "ipayforyou",
       "displayName": "JoshoverYou",
       "racesPlayed": 5770,
@@ -352,16 +362,6 @@
       "joinStamp": 1750468101,
       "lastActivity": 1753063606,
       "delta": 52
-    },
-    {
-      "username": "thatonedude125",
-      "displayName": "thatonedude125",
-      "racesPlayed": 327,
-      "role": "member",
-      "title": "Sweaty Typer",
-      "joinStamp": 1753075411,
-      "lastActivity": 1753155154,
-      "delta": 49
     },
     {
       "username": "savage5414",
