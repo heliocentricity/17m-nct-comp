@@ -1,17 +1,17 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 22, 2025 at 12:23 PM PDT",
+  "last_updated": "July 22, 2025 at 1:31 PM PDT",
   "board": [
     {
       "username": "thecretor145",
       "displayName": "Emperor Trickster",
-      "racesPlayed": 10070,
+      "racesPlayed": 10072,
       "role": "officer",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1753163321,
-      "delta": 7866
+      "lastActivity": 1753216139,
+      "delta": 7868
     },
     {
       "username": "aharama",
@@ -106,12 +106,12 @@
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
       "displayName": "FoscoBurrows",
-      "racesPlayed": 12919,
+      "racesPlayed": 12958,
       "role": "member",
       "title": "Potaytoes",
       "joinStamp": 1751395286,
-      "lastActivity": 1753211958,
-      "delta": 1227
+      "lastActivity": 1753216163,
+      "delta": 1266
     },
     {
       "username": "timmytimmy213",
@@ -166,12 +166,12 @@
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
-      "racesPlayed": 777,
+      "racesPlayed": 780,
       "role": "member",
       "title": "Millionaire",
       "joinStamp": 1750712571,
-      "lastActivity": 1753210857,
-      "delta": 576
+      "lastActivity": 1753215819,
+      "delta": 579
     },
     {
       "username": "vioiynx",
@@ -296,12 +296,12 @@
     {
       "username": "champagnezozi",
       "displayName": "SplendidCyanGoat",
-      "racesPlayed": 2899,
+      "racesPlayed": 2900,
       "role": "member",
       "title": "What's Cookin'?",
       "joinStamp": 1753124252,
-      "lastActivity": 1753210167,
-      "delta": 151
+      "lastActivity": 1753215588,
+      "delta": 152
     },
     {
       "username": "galaxymasterpro",
@@ -354,6 +354,16 @@
       "delta": 52
     },
     {
+      "username": "7d6d39dce8ae2e4fc73b00dd5d7c025b",
+      "displayName": "DuckyTypes",
+      "racesPlayed": 1374,
+      "role": "member",
+      "title": "I Hate Words",
+      "joinStamp": 1753135003,
+      "lastActivity": 1753215147,
+      "delta": 48
+    },
+    {
       "username": "savage5414",
       "displayName": "DreamyMagentaBear",
       "racesPlayed": 2418,
@@ -362,16 +372,6 @@
       "joinStamp": 1752673960,
       "lastActivity": 1753203362,
       "delta": 40
-    },
-    {
-      "username": "7d6d39dce8ae2e4fc73b00dd5d7c025b",
-      "displayName": "DuckyTypes",
-      "racesPlayed": 1365,
-      "role": "member",
-      "title": "I Hate Words",
-      "joinStamp": 1753135003,
-      "lastActivity": 1753211852,
-      "delta": 39
     },
     {
       "username": "lebonbonthegoat",
@@ -392,6 +392,16 @@
       "joinStamp": 1753152881,
       "lastActivity": 1753208154,
       "delta": 16
+    },
+    {
+      "username": "hudsondev",
+      "displayName": "PositiveScarletDuck",
+      "racesPlayed": 4153,
+      "role": "member",
+      "title": "Pro Pacer",
+      "joinStamp": 1753127685,
+      "lastActivity": 1753215135,
+      "delta": 14
     },
     {
       "username": "zachmo",
@@ -451,16 +461,6 @@
       "title": "#NitroFurze",
       "joinStamp": 1753152672,
       "lastActivity": 1753152816,
-      "delta": 0
-    },
-    {
-      "username": "hudsondev",
-      "displayName": "PositiveScarletDuck",
-      "racesPlayed": 4139,
-      "role": "member",
-      "title": "Pro Pacer",
-      "joinStamp": 1753127685,
-      "lastActivity": 1753129269,
       "delta": 0
     },
     {
