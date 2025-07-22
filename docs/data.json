@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 22, 2025 at 3:31 AM PDT",
+  "last_updated": "July 22, 2025 at 4:25 AM PDT",
   "board": [
     {
       "username": "thecretor145",
@@ -16,22 +16,22 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 146221,
+      "racesPlayed": 146255,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1753180186,
-      "delta": 7025
+      "lastActivity": 1753182643,
+      "delta": 7059
     },
     {
       "username": "tryhardwillwork",
       "displayName": "ahappyking",
-      "racesPlayed": 35676,
+      "racesPlayed": 35680,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
       "lastActivity": 1753158500,
-      "delta": 6901
+      "delta": 6905
     },
     {
       "username": "neiletsky",
@@ -126,12 +126,12 @@
     {
       "username": "viper_shot",
       "displayName": "v1per_sh0t",
-      "racesPlayed": 6733,
+      "racesPlayed": 6776,
       "role": "member",
       "title": "Legendary Lapper",
       "joinStamp": 1747355208,
-      "lastActivity": 1753180155,
-      "delta": 1121
+      "lastActivity": 1753183176,
+      "delta": 1164
     },
     {
       "username": "fluffytech",
@@ -206,12 +206,12 @@
     {
       "username": "aphoenix888",
       "displayName": "",
-      "racesPlayed": 2735,
+      "racesPlayed": 2747,
       "role": "member",
       "title": "Colemak Conqueror",
       "joinStamp": 1751730598,
-      "lastActivity": 1753094017,
-      "delta": 497
+      "lastActivity": 1753182948,
+      "delta": 509
     },
     {
       "username": "8b81d3996ac92d37dd96fca816ef5a5d",
