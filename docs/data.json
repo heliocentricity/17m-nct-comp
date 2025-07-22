@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 22, 2025 at 10:28 AM PDT",
+  "last_updated": "July 22, 2025 at 11:41 AM PDT",
   "board": [
     {
       "username": "thecretor145",
@@ -56,22 +56,22 @@
     {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
       "displayName": "xRaider",
-      "racesPlayed": 20000,
+      "racesPlayed": 20002,
       "role": "officer",
       "title": "Overdrive",
       "joinStamp": 1751996582,
-      "lastActivity": 1753198195,
-      "delta": 2792
+      "lastActivity": 1753206685,
+      "delta": 2794
     },
     {
       "username": "aiy_infection",
       "displayName": "icarus",
-      "racesPlayed": 12662,
+      "racesPlayed": 12665,
       "role": "captain",
       "title": "Drift Queen",
       "joinStamp": 1742486554,
-      "lastActivity": 1753170197,
-      "delta": 2652
+      "lastActivity": 1753206979,
+      "delta": 2655
     },
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
@@ -86,12 +86,12 @@
     {
       "username": "kudism",
       "displayName": "rosaline",
-      "racesPlayed": 3383,
+      "racesPlayed": 3385,
       "role": "officer",
       "title": "Top Tier",
       "joinStamp": 1750606113,
-      "lastActivity": 1753161321,
-      "delta": 1843
+      "lastActivity": 1753209364,
+      "delta": 1845
     },
     {
       "username": "ryyedawg7",
@@ -104,6 +104,16 @@
       "delta": 1374
     },
     {
+      "username": "8d225e93c28002e8f8a3d489a8b14bf9",
+      "displayName": "FoscoBurrows",
+      "racesPlayed": 12905,
+      "role": "member",
+      "title": "Potaytoes",
+      "joinStamp": 1751395286,
+      "lastActivity": 1753208218,
+      "delta": 1213
+    },
+    {
       "username": "timmytimmy213",
       "displayName": "timmytimmy213",
       "racesPlayed": 5422,
@@ -112,16 +122,6 @@
       "joinStamp": 1743005762,
       "lastActivity": 1753108156,
       "delta": 1210
-    },
-    {
-      "username": "8d225e93c28002e8f8a3d489a8b14bf9",
-      "displayName": "FoscoBurrows",
-      "racesPlayed": 12896,
-      "role": "member",
-      "title": "Potaytoes",
-      "joinStamp": 1751395286,
-      "lastActivity": 1753191215,
-      "delta": 1204
     },
     {
       "username": "viper_shot",
@@ -166,12 +166,12 @@
     {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
-      "racesPlayed": 756,
+      "racesPlayed": 769,
       "role": "member",
       "title": "Millionaire",
       "joinStamp": 1750712571,
-      "lastActivity": 1753157697,
-      "delta": 555
+      "lastActivity": 1753208444,
+      "delta": 568
     },
     {
       "username": "vioiynx",
@@ -246,12 +246,12 @@
     {
       "username": "2cedcf07161f970cbe72fc0fcd8a7ee5",
       "displayName": "invisible",
-      "racesPlayed": 859,
+      "racesPlayed": 862,
       "role": "member",
       "title": "Top Tier",
       "joinStamp": 1752864720,
-      "lastActivity": 1753121872,
-      "delta": 295
+      "lastActivity": 1753208825,
+      "delta": 298
     },
     {
       "username": "gw2iscoollol",
@@ -306,12 +306,12 @@
     {
       "username": "champagnezozi",
       "displayName": "SplendidCyanGoat",
-      "racesPlayed": 2866,
+      "racesPlayed": 2892,
       "role": "member",
       "title": "What's Cookin'?",
       "joinStamp": 1753124252,
-      "lastActivity": 1753203964,
-      "delta": 118
+      "lastActivity": 1753209534,
+      "delta": 144
     },
     {
       "username": "ipayforyou",
@@ -376,12 +376,32 @@
     {
       "username": "7d6d39dce8ae2e4fc73b00dd5d7c025b",
       "displayName": "DuckyTypes",
-      "racesPlayed": 1341,
+      "racesPlayed": 1352,
       "role": "member",
       "title": "I Hate Words",
       "joinStamp": 1753135003,
-      "lastActivity": 1753139591,
-      "delta": 15
+      "lastActivity": 1753209503,
+      "delta": 26
+    },
+    {
+      "username": "triggered000",
+      "displayName": "33MV_Trrrusova",
+      "racesPlayed": 8010,
+      "role": "member",
+      "title": "Original Gangster",
+      "joinStamp": 1753152881,
+      "lastActivity": 1753208154,
+      "delta": 16
+    },
+    {
+      "username": "zachmo",
+      "displayName": "Caped Crusader",
+      "racesPlayed": 1994,
+      "role": "member",
+      "title": "The Caped Crusader",
+      "joinStamp": 1753134693,
+      "lastActivity": 1753209582,
+      "delta": 10
     },
     {
       "username": "01dda282fb97c0a298a6a18e8eac8d8d",
@@ -392,16 +412,6 @@
       "joinStamp": 1744391071,
       "lastActivity": 1751699729,
       "delta": 3
-    },
-    {
-      "username": "zachmo",
-      "displayName": "Caped Crusader",
-      "racesPlayed": 1984,
-      "role": "member",
-      "title": "The Caped Crusader",
-      "joinStamp": 1753134693,
-      "lastActivity": 1753136093,
-      "delta": 0
     },
     {
       "username": "ezsmoked",
@@ -441,16 +451,6 @@
       "title": "#NitroFurze",
       "joinStamp": 1753152672,
       "lastActivity": 1753152816,
-      "delta": 0
-    },
-    {
-      "username": "triggered000",
-      "displayName": "33MV_Trrrusova",
-      "racesPlayed": 7994,
-      "role": "member",
-      "title": "Original Gangster",
-      "joinStamp": 1753152881,
-      "lastActivity": 1753153351,
       "delta": 0
     },
     {
