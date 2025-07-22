@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 22, 2025 at 7:28 AM PDT",
+  "last_updated": "July 22, 2025 at 8:32 AM PDT",
   "board": [
     {
       "username": "thecretor145",
@@ -26,12 +26,12 @@
     {
       "username": "tryhardwillwork",
       "displayName": "ahappyking",
-      "racesPlayed": 35710,
+      "racesPlayed": 35778,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1753193679,
-      "delta": 6935
+      "lastActivity": 1753198163,
+      "delta": 7003
     },
     {
       "username": "neiletsky",
@@ -56,12 +56,12 @@
     {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
       "displayName": "xRaider",
-      "racesPlayed": 19954,
+      "racesPlayed": 20000,
       "role": "officer",
       "title": "Overdrive",
       "joinStamp": 1751996582,
-      "lastActivity": 1753160788,
-      "delta": 2746
+      "lastActivity": 1753198111,
+      "delta": 2792
     },
     {
       "username": "aiy_infection",
@@ -164,6 +164,16 @@
       "delta": 605
     },
     {
+      "username": "t3qb7yrfe27",
+      "displayName": "StarTyper",
+      "racesPlayed": 6361,
+      "role": "member",
+      "title": "First Trimester",
+      "joinStamp": 1752960663,
+      "lastActivity": 1753195219,
+      "delta": 556
+    },
+    {
       "username": "4978dd1c73bd50b93b895f4299eed6b8",
       "displayName": "Mystic",
       "racesPlayed": 756,
@@ -182,16 +192,6 @@
       "joinStamp": 1742509283,
       "lastActivity": 1751507157,
       "delta": 552
-    },
-    {
-      "username": "t3qb7yrfe27",
-      "displayName": "StarTyper",
-      "racesPlayed": 6351,
-      "role": "member",
-      "title": "First Trimester",
-      "joinStamp": 1752960663,
-      "lastActivity": 1753193970,
-      "delta": 546
     },
     {
       "username": "a_normal_snake",
@@ -286,12 +286,12 @@
     {
       "username": "thatonedude125",
       "displayName": "thatonedude125",
-      "racesPlayed": 454,
+      "racesPlayed": 455,
       "role": "member",
       "title": "Sweaty Typer",
       "joinStamp": 1753075411,
-      "lastActivity": 1753184403,
-      "delta": 176
+      "lastActivity": 1753194777,
+      "delta": 177
     },
     {
       "username": "4399e7a571cf827be64b714c30c899ef",
@@ -314,6 +314,16 @@
       "delta": 150
     },
     {
+      "username": "champagnezozi",
+      "displayName": "SplendidCyanGoat",
+      "racesPlayed": 2840,
+      "role": "member",
+      "title": "What's Cookin'?",
+      "joinStamp": 1753124252,
+      "lastActivity": 1753196011,
+      "delta": 92
+    },
+    {
       "username": "ipayforyou",
       "displayName": "JoshoverYou",
       "racesPlayed": 5770,
@@ -321,16 +331,6 @@
       "title": "I Have Fans!",
       "joinStamp": 1751073187,
       "lastActivity": 1752982306,
-      "delta": 90
-    },
-    {
-      "username": "champagnezozi",
-      "displayName": "SplendidCyanGoat",
-      "racesPlayed": 2838,
-      "role": "member",
-      "title": "What's Cookin'?",
-      "joinStamp": 1753124252,
-      "lastActivity": 1753193545,
       "delta": 90
     },
     {
@@ -392,6 +392,16 @@
       "joinStamp": 1744391071,
       "lastActivity": 1751699729,
       "delta": 3
+    },
+    {
+      "username": "lebonbonthegoat",
+      "displayName": "",
+      "racesPlayed": 14440,
+      "role": "member",
+      "title": "Green Streak",
+      "joinStamp": 1753192850,
+      "lastActivity": 1753196760,
+      "delta": 1
     },
     {
       "username": "zachmo",
@@ -461,16 +471,6 @@
       "title": "Pro Pacer",
       "joinStamp": 1753127685,
       "lastActivity": 1753129269,
-      "delta": 0
-    },
-    {
-      "username": "lebonbonthegoat",
-      "displayName": "",
-      "racesPlayed": 14439,
-      "role": "member",
-      "title": "Green Streak",
-      "joinStamp": 1753192850,
-      "lastActivity": 0,
       "delta": 0
     },
     {
