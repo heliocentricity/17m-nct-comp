@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 22, 2025 at 6:47 AM PDT",
+  "last_updated": "July 22, 2025 at 7:28 AM PDT",
   "board": [
     {
       "username": "thecretor145",
@@ -26,12 +26,12 @@
     {
       "username": "tryhardwillwork",
       "displayName": "ahappyking",
-      "racesPlayed": 35709,
+      "racesPlayed": 35710,
       "role": "officer",
       "title": "Imperator",
       "joinStamp": 1751048108,
-      "lastActivity": 1753186634,
-      "delta": 6934
+      "lastActivity": 1753193679,
+      "delta": 6935
     },
     {
       "username": "neiletsky",
@@ -184,6 +184,16 @@
       "delta": 552
     },
     {
+      "username": "t3qb7yrfe27",
+      "displayName": "StarTyper",
+      "racesPlayed": 6351,
+      "role": "member",
+      "title": "First Trimester",
+      "joinStamp": 1752960663,
+      "lastActivity": 1753193970,
+      "delta": 546
+    },
+    {
       "username": "a_normal_snake",
       "displayName": "-Snake-",
       "racesPlayed": 3480,
@@ -192,16 +202,6 @@
       "joinStamp": 1751144117,
       "lastActivity": 1752991210,
       "delta": 544
-    },
-    {
-      "username": "t3qb7yrfe27",
-      "displayName": "StarTyper",
-      "racesPlayed": 6339,
-      "role": "member",
-      "title": "First Trimester",
-      "joinStamp": 1752960663,
-      "lastActivity": 1753191561,
-      "delta": 534
     },
     {
       "username": "aphoenix888",
@@ -326,12 +326,12 @@
     {
       "username": "champagnezozi",
       "displayName": "SplendidCyanGoat",
-      "racesPlayed": 2834,
+      "racesPlayed": 2838,
       "role": "member",
       "title": "What's Cookin'?",
       "joinStamp": 1753124252,
-      "lastActivity": 1753191282,
-      "delta": 86
+      "lastActivity": 1753193545,
+      "delta": 90
     },
     {
       "username": "bd2ec43a38126f5bb6cadb806a27005e",
@@ -461,6 +461,16 @@
       "title": "Pro Pacer",
       "joinStamp": 1753127685,
       "lastActivity": 1753129269,
+      "delta": 0
+    },
+    {
+      "username": "lebonbonthegoat",
+      "displayName": "",
+      "racesPlayed": 14439,
+      "role": "member",
+      "title": "Green Streak",
+      "joinStamp": 1753192850,
+      "lastActivity": 0,
       "delta": 0
     },
     {
