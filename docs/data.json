@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 22, 2025 at 2:33 AM PDT",
+  "last_updated": "July 22, 2025 at 3:31 AM PDT",
   "board": [
     {
       "username": "thecretor145",
@@ -16,12 +16,12 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 146170,
+      "racesPlayed": 146221,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1753176570,
-      "delta": 6974
+      "lastActivity": 1753180186,
+      "delta": 7025
     },
     {
       "username": "tryhardwillwork",
@@ -124,6 +124,16 @@
       "delta": 1197
     },
     {
+      "username": "viper_shot",
+      "displayName": "v1per_sh0t",
+      "racesPlayed": 6733,
+      "role": "member",
+      "title": "Legendary Lapper",
+      "joinStamp": 1747355208,
+      "lastActivity": 1753180155,
+      "delta": 1121
+    },
+    {
       "username": "fluffytech",
       "displayName": "Tewdy",
       "racesPlayed": 10030,
@@ -132,16 +142,6 @@
       "joinStamp": 1752802600,
       "lastActivity": 1753153563,
       "delta": 1093
-    },
-    {
-      "username": "viper_shot",
-      "displayName": "v1per_sh0t",
-      "racesPlayed": 6678,
-      "role": "member",
-      "title": "Legendary Lapper",
-      "joinStamp": 1747355208,
-      "lastActivity": 1753176576,
-      "delta": 1066
     },
     {
       "username": "persionde",
@@ -276,12 +276,22 @@
     {
       "username": "vdgyertikopzefrgh",
       "displayName": "vdgyertikopzefrgh",
-      "racesPlayed": 10808,
+      "racesPlayed": 10824,
       "role": "member",
       "title": ":D",
       "joinStamp": 1742927144,
-      "lastActivity": 1753097919,
-      "delta": 176
+      "lastActivity": 1753180066,
+      "delta": 192
+    },
+    {
+      "username": "thatonedude125",
+      "displayName": "thatonedude125",
+      "racesPlayed": 451,
+      "role": "member",
+      "title": "Sweaty Typer",
+      "joinStamp": 1753075411,
+      "lastActivity": 1753179477,
+      "delta": 173
     },
     {
       "username": "4399e7a571cf827be64b714c30c899ef",
@@ -292,16 +302,6 @@
       "joinStamp": 1748723201,
       "lastActivity": 1751784826,
       "delta": 160
-    },
-    {
-      "username": "thatonedude125",
-      "displayName": "thatonedude125",
-      "racesPlayed": 436,
-      "role": "member",
-      "title": "Sweaty Typer",
-      "joinStamp": 1753075411,
-      "lastActivity": 1753175795,
-      "delta": 158
     },
     {
       "username": "galaxymasterpro",
