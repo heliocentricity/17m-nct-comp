@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 23, 2025 at 1:39 AM PDT",
+  "last_updated": "July 23, 2025 at 2:34 AM PDT",
   "board": [
     {
       "username": "thecretor145",
@@ -36,12 +36,12 @@
     {
       "username": "neiletsky",
       "displayName": "PinoyLegend",
-      "racesPlayed": 15272,
+      "racesPlayed": 15282,
       "role": "vicecaptain",
       "title": "League Champion",
       "joinStamp": 1744741826,
-      "lastActivity": 1753254441,
-      "delta": 4782
+      "lastActivity": 1753261835,
+      "delta": 4792
     },
     {
       "username": "soccer791",
@@ -124,6 +124,16 @@
       "delta": 1248
     },
     {
+      "username": "viper_shot",
+      "displayName": "v1per_sh0t",
+      "racesPlayed": 6833,
+      "role": "member",
+      "title": "Legendary Lapper",
+      "joinStamp": 1747355208,
+      "lastActivity": 1753262966,
+      "delta": 1221
+    },
+    {
       "username": "timmytimmy213",
       "displayName": "timmytimmy213",
       "racesPlayed": 5422,
@@ -132,16 +142,6 @@
       "joinStamp": 1743005762,
       "lastActivity": 1753108156,
       "delta": 1210
-    },
-    {
-      "username": "viper_shot",
-      "displayName": "v1per_sh0t",
-      "racesPlayed": 6789,
-      "role": "member",
-      "title": "Legendary Lapper",
-      "joinStamp": 1747355208,
-      "lastActivity": 1753184445,
-      "delta": 1177
     },
     {
       "username": "persionde",
