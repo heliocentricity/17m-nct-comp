@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 22, 2025 at 10:35 PM PDT",
+  "last_updated": "July 22, 2025 at 11:42 PM PDT",
   "board": [
     {
       "username": "thecretor145",
@@ -16,12 +16,12 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 146405,
+      "racesPlayed": 146430,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1753248285,
-      "delta": 7209
+      "lastActivity": 1753250716,
+      "delta": 7234
     },
     {
       "username": "tryhardwillwork",
@@ -86,12 +86,12 @@
     {
       "username": "kudism",
       "displayName": "rosaline",
-      "racesPlayed": 3386,
+      "racesPlayed": 3409,
       "role": "officer",
       "title": "Top Tier",
       "joinStamp": 1750606113,
-      "lastActivity": 1753210826,
-      "delta": 1846
+      "lastActivity": 1753252678,
+      "delta": 1869
     },
     {
       "username": "ryyedawg7",
@@ -226,12 +226,12 @@
     {
       "username": "2f34c5734382332ea20053296a6d22d7",
       "displayName": "SplendidBlushHoverfly",
-      "racesPlayed": 8095,
+      "racesPlayed": 8107,
       "role": "member",
       "title": "[SKIPWRD]",
       "joinStamp": 1752349203,
-      "lastActivity": 1753169570,
-      "delta": 399
+      "lastActivity": 1753252767,
+      "delta": 411
     },
     {
       "username": "2cedcf07161f970cbe72fc0fcd8a7ee5",
@@ -366,12 +366,12 @@
     {
       "username": "lebonbonthegoat",
       "displayName": "",
-      "racesPlayed": 14483,
+      "racesPlayed": 14487,
       "role": "member",
       "title": "Green Streak",
       "joinStamp": 1753192850,
-      "lastActivity": 1753246871,
-      "delta": 44
+      "lastActivity": 1753252206,
+      "delta": 48
     },
     {
       "username": "triggered000",
@@ -441,6 +441,16 @@
       "title": "#NitroFurze",
       "joinStamp": 1753152672,
       "lastActivity": 1753152816,
+      "delta": 0
+    },
+    {
+      "username": "leranm",
+      "displayName": "Incognito",
+      "racesPlayed": 9378,
+      "role": "member",
+      "title": "Ice Road Racer",
+      "joinStamp": 1753250484,
+      "lastActivity": 1753250740,
       "delta": 0
     },
     {
