@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 23, 2025 at 12:30 AM PDT",
+  "last_updated": "July 23, 2025 at 1:39 AM PDT",
   "board": [
     {
       "username": "thecretor145",
@@ -16,12 +16,12 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 146445,
+      "racesPlayed": 146455,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1753255658,
-      "delta": 7249
+      "lastActivity": 1753256976,
+      "delta": 7259
     },
     {
       "username": "tryhardwillwork",
@@ -314,6 +314,16 @@
       "delta": 90
     },
     {
+      "username": "lebonbonthegoat",
+      "displayName": "",
+      "racesPlayed": 14514,
+      "role": "member",
+      "title": "Green Streak",
+      "joinStamp": 1753192850,
+      "lastActivity": 1753257931,
+      "delta": 75
+    },
+    {
       "username": "21157de8567c7a7fe06dfc22f392c254",
       "displayName": "callie",
       "racesPlayed": 231,
@@ -362,16 +372,6 @@
       "joinStamp": 1750468101,
       "lastActivity": 1753063606,
       "delta": 52
-    },
-    {
-      "username": "lebonbonthegoat",
-      "displayName": "",
-      "racesPlayed": 14487,
-      "role": "member",
-      "title": "Green Streak",
-      "joinStamp": 1753192850,
-      "lastActivity": 1753252206,
-      "delta": 48
     },
     {
       "username": "triggered000",
