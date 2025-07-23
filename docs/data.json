@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 22, 2025 at 11:42 PM PDT",
+  "last_updated": "July 23, 2025 at 12:30 AM PDT",
   "board": [
     {
       "username": "thecretor145",
@@ -16,12 +16,12 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 146430,
+      "racesPlayed": 146445,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1753250716,
-      "delta": 7234
+      "lastActivity": 1753255658,
+      "delta": 7249
     },
     {
       "username": "tryhardwillwork",
@@ -36,12 +36,12 @@
     {
       "username": "neiletsky",
       "displayName": "PinoyLegend",
-      "racesPlayed": 15261,
+      "racesPlayed": 15272,
       "role": "vicecaptain",
       "title": "League Champion",
       "joinStamp": 1744741826,
-      "lastActivity": 1753223690,
-      "delta": 4771
+      "lastActivity": 1753254441,
+      "delta": 4782
     },
     {
       "username": "soccer791",
@@ -204,6 +204,16 @@
       "delta": 474
     },
     {
+      "username": "2f34c5734382332ea20053296a6d22d7",
+      "displayName": "SplendidBlushHoverfly",
+      "racesPlayed": 8151,
+      "role": "member",
+      "title": "[SKIPWRD]",
+      "joinStamp": 1752349203,
+      "lastActivity": 1753255349,
+      "delta": 455
+    },
+    {
       "username": "4836c7be718ef99f2bb32d2da04bcf4f",
       "displayName": "YT KMT Kentrell",
       "racesPlayed": 12933,
@@ -222,16 +232,6 @@
       "joinStamp": 1751811398,
       "lastActivity": 1753220402,
       "delta": 444
-    },
-    {
-      "username": "2f34c5734382332ea20053296a6d22d7",
-      "displayName": "SplendidBlushHoverfly",
-      "racesPlayed": 8107,
-      "role": "member",
-      "title": "[SKIPWRD]",
-      "joinStamp": 1752349203,
-      "lastActivity": 1753252767,
-      "delta": 411
     },
     {
       "username": "2cedcf07161f970cbe72fc0fcd8a7ee5",
