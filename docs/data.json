@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 22, 2025 at 7:25 PM PDT",
+  "last_updated": "July 22, 2025 at 9:05 PM PDT",
   "board": [
     {
       "username": "thecretor145",
@@ -16,12 +16,12 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 146355,
+      "racesPlayed": 146369,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1753189807,
-      "delta": 7159
+      "lastActivity": 1753243169,
+      "delta": 7173
     },
     {
       "username": "tryhardwillwork",
@@ -114,6 +114,16 @@
       "delta": 1266
     },
     {
+      "username": "fluffytech",
+      "displayName": "Tewdy",
+      "racesPlayed": 10150,
+      "role": "member",
+      "title": "Keyboard Cat",
+      "joinStamp": 1752802600,
+      "lastActivity": 1753243057,
+      "delta": 1213
+    },
+    {
       "username": "timmytimmy213",
       "displayName": "timmytimmy213",
       "racesPlayed": 5422,
@@ -122,16 +132,6 @@
       "joinStamp": 1743005762,
       "lastActivity": 1753108156,
       "delta": 1210
-    },
-    {
-      "username": "fluffytech",
-      "displayName": "Tewdy",
-      "racesPlayed": 10116,
-      "role": "member",
-      "title": "Keyboard Cat",
-      "joinStamp": 1752802600,
-      "lastActivity": 1753234261,
-      "delta": 1179
     },
     {
       "username": "viper_shot",
@@ -266,12 +266,12 @@
     {
       "username": "thatonedude125",
       "displayName": "thatonedude125",
-      "racesPlayed": 465,
+      "racesPlayed": 466,
       "role": "member",
       "title": "Sweaty Typer",
       "joinStamp": 1753075411,
-      "lastActivity": 1753200338,
-      "delta": 187
+      "lastActivity": 1753241696,
+      "delta": 188
     },
     {
       "username": "champagnezozi",
