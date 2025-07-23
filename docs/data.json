@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 23, 2025 at 6:00 AM PDT",
+  "last_updated": "July 23, 2025 at 6:46 AM PDT",
   "board": [
     {
       "username": "thecretor145",
@@ -16,12 +16,12 @@
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 146455,
+      "racesPlayed": 146474,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1753256976,
-      "delta": 7259
+      "lastActivity": 1753277977,
+      "delta": 7278
     },
     {
       "username": "tryhardwillwork",
@@ -46,12 +46,12 @@
     {
       "username": "soccer791",
       "displayName": "Kaizer Airborne",
-      "racesPlayed": 22785,
+      "racesPlayed": 22792,
       "role": "member",
       "title": "Acute Tinselitis",
       "joinStamp": 1753038627,
       "lastActivity": 1753216553,
-      "delta": 4191
+      "delta": 4198
     },
     {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
@@ -66,12 +66,12 @@
     {
       "username": "aiy_infection",
       "displayName": "icarus",
-      "racesPlayed": 12668,
+      "racesPlayed": 12681,
       "role": "captain",
       "title": "Drift Queen",
       "joinStamp": 1742486554,
-      "lastActivity": 1753231414,
-      "delta": 2658
+      "lastActivity": 1753277981,
+      "delta": 2671
     },
     {
       "username": "be74ffff6b556a68cdccc087a63e6676",
@@ -106,12 +106,12 @@
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
       "displayName": "FoscoBurrows",
-      "racesPlayed": 12975,
+      "racesPlayed": 12976,
       "role": "member",
       "title": "Potaytoes",
       "joinStamp": 1751395286,
-      "lastActivity": 1753275448,
-      "delta": 1283
+      "lastActivity": 1753276331,
+      "delta": 1284
     },
     {
       "username": "fluffytech",
@@ -164,6 +164,16 @@
       "delta": 589
     },
     {
+      "username": "aphoenix888",
+      "displayName": "",
+      "racesPlayed": 2800,
+      "role": "member",
+      "title": "Colemak Conqueror",
+      "joinStamp": 1751730598,
+      "lastActivity": 1753276312,
+      "delta": 562
+    },
+    {
       "username": "vioiynx",
       "displayName": "vioiynx",
       "racesPlayed": 3701,
@@ -182,16 +192,6 @@
       "joinStamp": 1751144117,
       "lastActivity": 1753248294,
       "delta": 549
-    },
-    {
-      "username": "aphoenix888",
-      "displayName": "",
-      "racesPlayed": 2785,
-      "role": "member",
-      "title": "Colemak Conqueror",
-      "joinStamp": 1751730598,
-      "lastActivity": 1753220540,
-      "delta": 547
     },
     {
       "username": "8b81d3996ac92d37dd96fca816ef5a5d",
@@ -264,6 +264,16 @@
       "delta": 192
     },
     {
+      "username": "champagnezozi",
+      "displayName": "SplendidCyanGoat",
+      "racesPlayed": 2938,
+      "role": "member",
+      "title": "What's Cookin'?",
+      "joinStamp": 1753124252,
+      "lastActivity": 1753277452,
+      "delta": 190
+    },
+    {
       "username": "thatonedude125",
       "displayName": "thatonedude125",
       "racesPlayed": 466,
@@ -272,16 +282,6 @@
       "joinStamp": 1753075411,
       "lastActivity": 1753241696,
       "delta": 188
-    },
-    {
-      "username": "champagnezozi",
-      "displayName": "SplendidCyanGoat",
-      "racesPlayed": 2928,
-      "role": "member",
-      "title": "What's Cookin'?",
-      "joinStamp": 1753124252,
-      "lastActivity": 1753271148,
-      "delta": 180
     },
     {
       "username": "4399e7a571cf827be64b714c30c899ef",
