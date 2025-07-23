@@ -1,7 +1,7 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 23, 2025 at 4:25 AM PDT",
+  "last_updated": "July 23, 2025 at 6:00 AM PDT",
   "board": [
     {
       "username": "thecretor145",
@@ -106,12 +106,12 @@
     {
       "username": "8d225e93c28002e8f8a3d489a8b14bf9",
       "displayName": "FoscoBurrows",
-      "racesPlayed": 12958,
+      "racesPlayed": 12975,
       "role": "member",
       "title": "Potaytoes",
       "joinStamp": 1751395286,
-      "lastActivity": 1753216208,
-      "delta": 1266
+      "lastActivity": 1753275448,
+      "delta": 1283
     },
     {
       "username": "fluffytech",
@@ -276,12 +276,12 @@
     {
       "username": "champagnezozi",
       "displayName": "SplendidCyanGoat",
-      "racesPlayed": 2908,
+      "racesPlayed": 2928,
       "role": "member",
       "title": "What's Cookin'?",
       "joinStamp": 1753124252,
-      "lastActivity": 1753220340,
-      "delta": 160
+      "lastActivity": 1753271148,
+      "delta": 180
     },
     {
       "username": "4399e7a571cf827be64b714c30c899ef",
@@ -404,6 +404,16 @@
       "delta": 12
     },
     {
+      "username": "6708bbd8ed99bf0ccc5891bf12155a2c",
+      "displayName": "Jasper",
+      "racesPlayed": 285,
+      "role": "member",
+      "title": "Mystery Man",
+      "joinStamp": 1753225333,
+      "lastActivity": 1753273302,
+      "delta": 7
+    },
+    {
       "username": "01dda282fb97c0a298a6a18e8eac8d8d",
       "displayName": "Juris Doctor",
       "racesPlayed": 3646,
@@ -461,16 +471,6 @@
       "title": "No Nitros Needed",
       "joinStamp": 1753137212,
       "lastActivity": 1753137313,
-      "delta": 0
-    },
-    {
-      "username": "6708bbd8ed99bf0ccc5891bf12155a2c",
-      "displayName": "Jasper",
-      "racesPlayed": 278,
-      "role": "member",
-      "title": "Mystery Man",
-      "joinStamp": 1753225333,
-      "lastActivity": 1753225976,
       "delta": 0
     }
   ]
