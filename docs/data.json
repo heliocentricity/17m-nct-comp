@@ -1,27 +1,27 @@
 {
   "TEAM_NAME": "HELIOS",
   "START_DATE": "2025-06-24",
-  "last_updated": "July 22, 2025 at 9:05 PM PDT",
+  "last_updated": "July 22, 2025 at 10:35 PM PDT",
   "board": [
     {
       "username": "thecretor145",
       "displayName": "Emperor Trickster",
-      "racesPlayed": 10190,
+      "racesPlayed": 10233,
       "role": "officer",
       "title": "The Prankster",
       "joinStamp": 1751390680,
-      "lastActivity": 1753226213,
-      "delta": 7986
+      "lastActivity": 1753246261,
+      "delta": 8029
     },
     {
       "username": "aharama",
       "displayName": "Aharama",
-      "racesPlayed": 146369,
+      "racesPlayed": 146405,
       "role": "member",
       "title": "Emperor",
       "joinStamp": 1751010739,
-      "lastActivity": 1753243169,
-      "delta": 7173
+      "lastActivity": 1753248285,
+      "delta": 7209
     },
     {
       "username": "tryhardwillwork",
@@ -56,12 +56,12 @@
     {
       "username": "627aecdf7610fc6de50ed0e535eb9577",
       "displayName": "xRaider",
-      "racesPlayed": 20003,
+      "racesPlayed": 20035,
       "role": "officer",
       "title": "Overdrive",
       "joinStamp": 1751996582,
-      "lastActivity": 1753235122,
-      "delta": 2795
+      "lastActivity": 1753246557,
+      "delta": 2827
     },
     {
       "username": "aiy_infection",
@@ -116,12 +116,12 @@
     {
       "username": "fluffytech",
       "displayName": "Tewdy",
-      "racesPlayed": 10150,
+      "racesPlayed": 10185,
       "role": "member",
       "title": "Keyboard Cat",
       "joinStamp": 1752802600,
-      "lastActivity": 1753243057,
-      "delta": 1213
+      "lastActivity": 1753247226,
+      "delta": 1248
     },
     {
       "username": "timmytimmy213",
@@ -174,6 +174,16 @@
       "delta": 552
     },
     {
+      "username": "a_normal_snake",
+      "displayName": "-Snake-",
+      "racesPlayed": 3485,
+      "role": "member",
+      "title": "I Love Dogs",
+      "joinStamp": 1751144117,
+      "lastActivity": 1753248294,
+      "delta": 549
+    },
+    {
       "username": "aphoenix888",
       "displayName": "",
       "racesPlayed": 2785,
@@ -182,16 +192,6 @@
       "joinStamp": 1751730598,
       "lastActivity": 1753220540,
       "delta": 547
-    },
-    {
-      "username": "a_normal_snake",
-      "displayName": "-Snake-",
-      "racesPlayed": 3480,
-      "role": "member",
-      "title": "I Love Dogs",
-      "joinStamp": 1751144117,
-      "lastActivity": 1752991210,
-      "delta": 544
     },
     {
       "username": "8b81d3996ac92d37dd96fca816ef5a5d",
@@ -364,6 +364,16 @@
       "delta": 52
     },
     {
+      "username": "lebonbonthegoat",
+      "displayName": "",
+      "racesPlayed": 14483,
+      "role": "member",
+      "title": "Green Streak",
+      "joinStamp": 1753192850,
+      "lastActivity": 1753246871,
+      "delta": 44
+    },
+    {
       "username": "triggered000",
       "displayName": "33MV_TRRRUSOVA",
       "racesPlayed": 8023,
@@ -372,16 +382,6 @@
       "joinStamp": 1753152881,
       "lastActivity": 1753224436,
       "delta": 29
-    },
-    {
-      "username": "lebonbonthegoat",
-      "displayName": "",
-      "racesPlayed": 14465,
-      "role": "member",
-      "title": "Green Streak",
-      "joinStamp": 1753192850,
-      "lastActivity": 1753199847,
-      "delta": 26
     },
     {
       "username": "hudsondev",
